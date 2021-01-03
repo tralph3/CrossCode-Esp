@@ -3674,5 +3674,2437 @@
         "database.json/commonEvents/apollo-fish/event/0/message": {
                 "orig": "The atrocious \\c[3]\\v[combat.name.jungle/fish]\\c[0] is preparing to attack, shooting and screaming at their victim!",
                 "text": "¡El atróz \\c[3]\\v[combat.name.jungle/fish]\\c[0] se prepara para atacar, disparando y gritándole a su víctima!"
+        },
+        "database.json/commonEvents/apollo-heat-samurai/event/0/message": {
+                "orig": "The honorable \\c[3]\\v[combat.name.forest/bug-samurai-heat]\\c[0] unsheathed its blade! Beware its flaming sweeps!",
+                "text": "¡El honorable \\c[3]\\v[combat.name.forest/bug-samurai-heat]\\c[0] desenvaina su hoja! ¡Atento a sus llameantes barridos!"
+        },
+        "database.json/commonEvents/apollo-shock-samurai/event/0/message": {
+                "orig": "The honorable \\c[3]\\v[combat.name.forest/bug-samurai-shock]\\c[0] unsheathed its blade! Beware its lightning fast reflexes!",
+                "text": "¡El honorable \\c[3]\\v[combat.name.forest/bug-samurai-heat]\\c[0] desenvaina su hoja! ¡Atento a sus increíbles reflejos!"
+        },
+        "database.json/commonEvents/apollo-panda/event/0/message": {
+                "orig": "The monstrous \\c[3]\\v[combat.name.forest/panda]\\c[0] goes in attack mode, preparing its missiles!",
+                "text": "¡El monstruoso \\c[3]\\v[combat.name.forest/panda]\\c[0] se pone en modo de ataque, preparando sus misiles!"
+        },
+        "database.json/commonEvents/apollo-spider/event/0/message": {
+                "orig": "The horrifying \\c[3]\\v[combat.name.forest/spider]\\c[0] is crawling our way! Watch out for its sticking webs!",
+                "text": "¡La horrible \\c[3]\\v[combat.name.forest/spider]\\c[0] se arrastra hacia nosotros! ¡Atento a sus redes pegajosas!"
+        },
+        "database.json/commonEvents/test-hedgehog/event/0/message": {
+                "orig": "HEDGEHOG!",
+                "text": "¡ERIZO!"
+        },
+        "database.json/commonEvents/test-enemy-defeated/event/0/thenStep/0/message": {
+                "orig": "Enemy Defeated 1",
+                "text": "Enemigo Derrotado 1"
+        },
+        "database.json/commonEvents/test-enemy-defeated/event/1/thenStep/0/message": {
+                "orig": "Enemy Defeated 2",
+                "text": "Enemigo Derrotado 2"
+        },
+        "database.json/commonEvents/test-enemy-defeated/event/2/thenStep/0/message": {
+                "orig": "Enemy Defeated 3",
+                "text": "Enemigo Derrotado 3"
+        },
+        "database.json/commonEvents/lea-post-battle/event/0/thenStep/0/message": {
+                "orig": "Battle End 1",
+                "text": "Fin de la Batalla 1"
+        },
+        "database.json/commonEvents/lea-post-battle/event/1/thenStep/0/message": {
+                "orig": "Battle End 2",
+                "text": "Fin de la Batalla 2"
+        },
+        "database.json/commonEvents/lea-post-battle/event/2/thenStep/0/message": {
+                "orig": "Battle End 3",
+                "text": "Fin de la Batalla 3"
+        },
+        "database.json/commonEvents/emilie-battle-over-S/event/0/0_0/0/message": {
+                "orig": "Phew. What a rampage.",
+                "text": "Uf. Que locura."
+        },
+        "database.json/commonEvents/emilie-battle-over-S/event/0/0_1/0/message": {
+                "orig": "Would you be the type to run marathons in your spare time, Lea?",
+                "text": "¿No serás de esas que corren maratones en su tiempo libre, Lea?"
+        },
+        "database.json/commonEvents/emilie-battle-over-S/event/0/0_1/1/message": {
+                "orig": "Just wondering...",
+                "text": "Sólo preguntaba..."
+        },
+        "database.json/commonEvents/emilie-battle-over-S/event/0/0_2/0/message": {
+                "orig": "Phew... Small break? Maybe?",
+                "text": "Uf... ¿Un descansito? ¿Quizá?"
+        },
+        "database.json/commonEvents/ctron-battle-over-S/event/0/0_0/0/message": {
+                "orig": "Are...\\. are we done?\\. Gosh...",
+                "text": "¿Ya...\\. terminamos?\\. Dios..."
+        },
+        "database.json/commonEvents/ctron-battle-over-S/event/0/0_1/0/message": {
+                "orig": "Lea...\\. that was both impressive and...\\. frightening.",
+                "text": "Lea...\\. eso fue impresionante y...\\. aterrador."
+        },
+        "database.json/commonEvents/ctron-battle-over-S/event/0/0_2/0/message": {
+                "orig": "Didn't even break a sweat.",
+                "text": "Ni siquiera me esforcé."
+        },
+        "database.json/commonEvents/ctron-battle-over-S/event/0/0_2/1/message": {
+                "orig": "I'm kidding!\\. I broke all the sweats!\\. What the heck, Lea...",
+                "text": "¡Bromeo!\\. ¡Estoy exhausto!\\. Que demonios, Lea..."
+        },
+        "database.json/commonEvents/apollo-battle-over-S/event/0/0_0/0/message": {
+                "orig": "Spheromancer Lea...\\. that was quite an impressive run.",
+                "text": "Spheromance Lea...\\. eso fue impresionante."
+        },
+        "database.json/commonEvents/apollo-battle-over-S/event/0/0_1/0/message": {
+                "orig": "Phew...\\. we left quite the trail in the...\\. Trail.",
+                "text": "Uf...\\. dejamos un lindo sendero en el...\\. Sendero."
+        },
+        "database.json/commonEvents/apollo-battle-over-S/event/0/0_2/0/message": {
+                "orig": "J-Justice has been served!",
+                "text": "¡S-Se ha hecho justicia!"
+        },
+        "database.json/commonEvents/apollo-battle-over-S/event/0/0_2/1/message": {
+                "orig": "Yes, this amount of havoc was...\\. justified.\\. It's our duty as Seekers.",
+                "text": "Si, todo este descontrol esta...\\. justificado.\\. Es nuestro deber como Buscadores."
+        },
+        "database.json/commonEvents/apollo-battle-over-S/event/0/0_2/2/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/joern-battle-over-S/event/0/0_0/0/message": {
+                "orig": "Please...\\. take it easy, little girl.",
+                "text": "Por favor...\\. relájate, niña."
+        },
+        "database.json/commonEvents/joern-battle-over-S/event/0/0_1/0/message": {
+                "orig": "So much... destruction...",
+                "text": "Tanta... destrucción..."
+        },
+        "database.json/commonEvents/joern-battle-over-S/event/0/0_2/0/message": {
+                "orig": "Aren't games supposed to be...\\. like...\\. recreational?\\. Was this recreational to you?",
+                "text": "¿No son los juegos supuestamente...\\. como...\\. recreativos?. ¿Esto fue recreativo para tí?"
+        },
+        "database.json/commonEvents/test-cooldown-start/event/0/thenStep/0/message": {
+                "orig": "Cool Down 1",
+                "text": "Enfriamiento 1"
+        },
+        "database.json/commonEvents/test-cooldown-start/event/1/thenStep/0/message": {
+                "orig": "Cool Down 2",
+                "text": "Enfriamiento 2"
+        },
+        "database.json/commonEvents/test-cooldown-start/event/2/thenStep/0/message": {
+                "orig": "Cool Down 3",
+                "text": "Enfriamiento 3"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/0_0/0/0_0/0/message": {
+                "orig": "...Lea?\\. I think I need a break.",
+                "text": "¿...Lea?\\. Creo que necesito un descanso."
+        },
+        "database.json/commonEvents/cooldown-S/event/0/0_0/0/0_1/0/message": {
+                "orig": "Do you ever plan to stop, Lea?",
+                "text": "¿Alguna vez planeas parar, Lea?"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/0_0/0/0_2/0/message": {
+                "orig": "How about some live and let live, Lea?",
+                "text": "¿Que tal un poco de vivir y dejar vivir, Lea?"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/1_0/0/0_0/0/message": {
+                "orig": "L-Lea...? There is no need to keep fighting, right?",
+                "text": "¿L-Lea...? No hay necesidad de seguir peleando, ¿verdad?"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/1_0/0/0_1/0/message": {
+                "orig": "Corpses... everywhere...",
+                "text": "Cuerpos... por todos lados..."
+        },
+        "database.json/commonEvents/cooldown-S/event/0/1_0/0/0_2/0/message": {
+                "orig": "Y-You don't plan to stop anytime soon, do you?",
+                "text": "N-No planeas detenerte pronto, ¿no?"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/1_0/0/0_2/1/message": {
+                "orig": "...!!",
+                "text": "¡¡...!!"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/2_0/0/0_0/0/message": {
+                "orig": "Spheromancer Lea, you are surprisingly bloodthirsty!",
+                "text": "Spheromancer Lea, ¡eres sorprendentemente sanguinaria!"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/2_0/0/0_0/1/message": {
+                "orig": "...!!",
+                "text": "¡¡...!!"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/2_0/0/0_1/0/message": {
+                "orig": "I see you're pushing your Spheromancer skills to the limit!",
+                "text": "Ya veo, ¡estas llevando las habilidades de Spheromancer al límite!"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/2_0/0/0_2/0/message": {
+                "orig": "Spheromancer Lea, your stamina is quite impressive indeed!",
+                "text": "Spheromancer Lea, ¡tu resistencia es realmente impresionante!"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/3_0/0/0_0/0/message": {
+                "orig": "Boy, what a massacre.",
+                "text": "Dios, que masacre."
+        },
+        "database.json/commonEvents/cooldown-S/event/0/3_0/0/0_1/0/message": {
+                "orig": "I didn't expect to be playing with such a fierce little devil.",
+                "text": "No esperaba estar jugando un este bravo diablillo."
+        },
+        "database.json/commonEvents/cooldown-S/event/0/3_0/0/0_1/1/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/cooldown-S/event/0/3_0/0/0_2/0/message": {
+                "orig": "So much killing...\\. Are you trying to make a case for violence in video games, Lea?",
+                "text": "Tanta matanza...\\. ¿Estás intentando empezar un caso por la violencia en los videojuegos, Lea?"
+        },
+        "database.json/commonEvents/cooldown-A/event/0/0_0/0/message": {
+                "orig": "Mon dieu! You just keep going!",
+                "text": "¡Mon dieu! ¡No paras!"
+        },
+        "database.json/commonEvents/cooldown-A/event/0/1_0/0/message": {
+                "orig": "Uhm... anyone up for a break?",
+                "text": "Uhm... ¿alguien quiere tomar un descanso?"
+        },
+        "database.json/commonEvents/cooldown-A/event/0/2_0/0/message": {
+                "orig": "You seem to be in the flow of the Trail, Spheromancer Lea!",
+                "text": "¡Pareces ser una con el Sendero, Spheromancer Lea!"
+        },
+        "database.json/commonEvents/cooldown-A/event/0/3_0/0/message": {
+                "orig": "Are we done yet?",
+                "text": "¿Terminamos?"
+        },
+        "database.json/commonEvents/cooldown-B/event/0/0_0/0/message": {
+                "orig": "Yeah! We're on a roll!",
+                "text": "Jeje, ¡estamos en racha!"
+        },
+        "database.json/commonEvents/cooldown-B/event/0/1_0/0/message": {
+                "orig": "You're pretty into fighting, aren't you?",
+                "text": "Te gusta mucho pelear, ¿no?"
+        },
+        "database.json/commonEvents/cooldown-B/event/0/2_0/0/message": {
+                "orig": "I see you're up for a challenge today!",
+                "text": "¡Veo que buscas un desafío!"
+        },
+        "database.json/commonEvents/cooldown-B/event/0/3_0/0/message": {
+                "orig": "Those were a lot of enemies at once.",
+                "text": "Esos fueron demasiados enemigos a la vez."
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/0/thenStep/0/message": {
+                "orig": "ARE THEY GONE?! PLEASE TELL ME THEY'RE GONE.",
+                "text": "¡¿YA SE FUERON?! POR FAVOR DIME QUE SE FUERON."
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/1/thenStep/0/message": {
+                "orig": "IS IT OVER?! PLEASE LET IT BE OVER.",
+                "text": "¡¿SE ACABÓ?! POR FAVOR HAZ QUE PARE."
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/2/thenStep/0/message": {
+                "orig": "So much...\\. jumping...\\. and swords...",
+                "text": "Demasiado...\\. saltar...\\. y espadas..."
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/3/thenStep/0/message": {
+                "orig": "Are those things supposed to be... Samurai or something? THEY'RE STILL BUGS, THOUGH!",
+                "text": "¿Esas cosas se suponen que son... Samurai o algo así? ¡NO DEJAN DE SER BICHOS!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/4/thenStep/0/message": {
+                "orig": "You won't stop fighting them anytime soon, will you?",
+                "text": "No dejarás de pelear contra ellos pronto, ¿no?"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/4/thenStep/1/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/4/thenStep/2/message": {
+                "orig": "What is this? Some kind of shock therapy?",
+                "text": "¿Qué es esto? ¿Algún tipo de terapia de choque?"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/5/thenStep/0/message": {
+                "orig": "Alright... it's over.",
+                "text": "Bueno... se acabó."
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/6/thenStep/0/message": {
+                "orig": "Stupid bugs...",
+                "text": "Estúpidos bichos..."
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/7/thenStep/0/message": {
+                "orig": "Let's fight something else next, d'accord?",
+                "text": "Peleemos contra otra cosa la próxima, ¿d'accord?"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/7/thenStep/1/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/7/thenStep/2/message": {
+                "orig": "Lea, please!",
+                "text": "¡Lea, por favor!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/8/thenStep/0/message": {
+                "orig": "Did we fight enough bugs already?",
+                "text": "¿No peleamos contra suficientes bichos ya?"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/9/thenStep/0/message": {
+                "orig": "Wow, I think I'm healed. It's all good, Lea. We can now stop fighting them!",
+                "text": "Wow, creo que estoy curada. Esta todo bien, Lea. ¡Ya podemos dejar de pelearles!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/9/thenStep/1/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/9/thenStep/2/message": {
+                "orig": "Please...",
+                "text": "Por favor..."
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/10/thenStep/0/message": {
+                "orig": "Bugs dead. Whatever.",
+                "text": "Los bichos están muertos. Da igual."
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/11/thenStep/0/message": {
+                "orig": "Samurai bugs.",
+                "text": "Bichos Samurai."
+        },
+        "database.json/commonEvents/emilie-samurai-bug-end/event/11/thenStep/1/message": {
+                "orig": "Not sure if awesome \nor just creepy.",
+                "text": "No estoy segura de si es asombroso\no simplemente da miedo."
+        },
+        "database.json/commonEvents/emilie-hedgehog-end/event/0/thenStep/0/message": {
+                "orig": "Voilà! Simple enough!",
+                "text": "¡Voilà! ¡Eso fue fácil!"
+        },
+        "database.json/commonEvents/emilie-hedgehog-end/event/0/elseStep/0/message": {
+                "orig": "And that was our first hedgehag. Simple enough!",
+                "text": "Y ese fue nuestro primer erizo. ¡Bastante fácil!"
+        },
+        "database.json/commonEvents/emilie-meerkats-end/event/0/thenStep/0/message": {
+                "orig": "Do you ever wonder what kind of music those things are listening to?",
+                "text": "¿Alguna vez te preguntaste que tipo de música escuchan esas cosas?"
+        },
+        "database.json/commonEvents/emilie-meerkats-end/event/0/thenStep/1/message": {
+                "orig": "They do seem very much into it, non?",
+                "text": "Parece que les gusta bastante, ¿non?"
+        },
+        "database.json/commonEvents/emilie-meerkats-end/event/1/thenStep/0/message": {
+                "orig": "Pesky things!",
+                "text": "¡Que molesto!"
+        },
+        "database.json/commonEvents/emilie-meerkats-end/event/1/thenStep/1/message": {
+                "orig": "They were cute at first, now they're just annoying.",
+                "text": "Era tiernos al principio, ahora son irritantes."
+        },
+        "database.json/commonEvents/emilie-snowman-end/event/0/thenStep/0/message": {
+                "orig": "No, I won't accept this. Snowmen are great.",
+                "text": "No, no aceptaré esto. Los muñecos de nieve son geniales."
+        },
+        "database.json/commonEvents/emilie-snowman-end/event/0/thenStep/1/message": {
+                "orig": "I love building snowmen. Peaceful snowmen.",
+                "text": "Amo construir muñecos de nieve... pacíficos."
+        },
+        "database.json/commonEvents/emilie-snowman-end/event/1/thenStep/0/message": {
+                "orig": "Bunnies, hedgehogs and now snowmen of all things.",
+                "text": "Conejitos, erizos, y ahora muñecos de nieve de todas las cosas."
+        },
+        "database.json/commonEvents/emilie-snowman-end/event/1/thenStep/1/message": {
+                "orig": "Everything tries to kill you. The Track of the Ancients is messed up.",
+                "text": "Todo trata de matarte. El Camino de los Ancianos está hecho un desastre."
+        },
+        "database.json/commonEvents/emilie-seahorses-end/event/0/thenStep/0/message": {
+                "orig": "Aaaand that was a flying seahorse shooting bubbles. D'accord.",
+                "text": "Yyyyy eso fue un caballito de mar volador que dispara burbujas. D'accord."
+        },
+        "database.json/commonEvents/emilie-penguins-end/event/0/thenStep/0/message": {
+                "orig": "Oui. Penguins on mountains. That's a thing in CrossWorlds.",
+                "text": "Oui. Pingüinos en montañas. Sólo podría existir en CrossWorlds."
+        },
+        "database.json/commonEvents/emilie-penguins-end/event/0/thenStep/1/message": {
+                "orig": "Well, at least they have some water around here.",
+                "text": "Bueno, al menos tienen algo de agua alrededor."
+        },
+        "database.json/commonEvents/emilie-goats-end/event/0/thenStep/0/message": {
+                "orig": "Heh. Goats. Goats are funny.",
+                "text": "Je. Cabras. Las cabras son divertidas."
+        },
+        "database.json/commonEvents/emilie-goats-end/event/0/thenStep/1/message": {
+                "orig": "They just defy gravity and climb wherever they please.",
+                "text": "Simplemente desafían la gravedad y trepan donde quieran."
+        },
+        "database.json/commonEvents/emilie-goats-end/event/0/thenStep/2/message": {
+                "orig": "Well.. at least regular goats won't shoot horns at you.",
+                "text": "Bueno... al menos las cabras normales no te disparan cuernos."
+        },
+        "database.json/commonEvents/emilie-goats-end/event/1/thenStep/0/message": {
+                "orig": "We used to have a zoo with goats at my place, you know?",
+                "text": "Solíamos tener un zoológico con cabras en casa, ¿sabes?"
+        },
+        "database.json/commonEvents/emilie-goats-end/event/1/thenStep/1/message": {
+                "orig": "And they kept escaping their compound. Simply climbed over that fence. Pas de problème!",
+                "text": "Y constántemente escapaban de su celda. Trepaban la cerca. ¡Pas de problème!"
+        },
+        "database.json/commonEvents/emilie-goats-end/event/1/thenStep/2/message": {
+                "orig": "So you had goats all over the zoo, that was awesome!",
+                "text": "Así que habían cabras por todo el zoológico, ¡era asombroso!"
+        },
+        "database.json/commonEvents/emilie-goats-end/event/1/thenStep/3/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/emilie-goats-end/event/2/thenStep/0/message": {
+                "orig": "So yeah, that zoo, right? The one where the goats escaped.",
+                "text": "Asi que, ese zoológico, ¿recuerdas? Del que se escapaban todas las cabras."
+        },
+        "database.json/commonEvents/emilie-goats-end/event/2/thenStep/1/message": {
+                "orig": "Of course, they tried to change the fence so the goats couldn't escape.",
+                "text": "Por supuesto, intentaron cambiar la cerca para que no se escapen."
+        },
+        "database.json/commonEvents/emilie-goats-end/event/2/thenStep/2/message": {
+                "orig": "Made it higher and more difficult to climb over.",
+                "text": "La hicieron más alta y más dificil de trepar."
+        },
+        "database.json/commonEvents/emilie-goats-end/event/2/thenStep/3/message": {
+                "orig": "Guess what? The goats still managed to escape using a small building next to the fence.",
+                "text": "¿Adivina qué? Las cabras consiguieron escapar de todos modos usando un pequeño edificio al lado de la cerca."
+        },
+        "database.json/commonEvents/emilie-goats-end/event/2/thenStep/4/message": {
+                "orig": "So crafty!",
+                "text": "¡Tan astutas!"
+        },
+        "database.json/commonEvents/emilie-goats-end/event/2/thenStep/5/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/emilie-frobbits-end/event/0/thenStep/0/thenStep/0/message": {
+                "orig": "Oui, I take that back. Those bunnies are not cute.",
+                "text": "Oui, retiro lo dicho. Esos conejos no son tiernos."
+        },
+        "database.json/commonEvents/emilie-frobbits-end/event/0/thenStep/0/elseStep/0/message": {
+                "orig": "Those bunnies are not cute. Non.",
+                "text": "Esos conejos no son tiernos. Non."
+        },
+        "database.json/commonEvents/emilie-frobbits-end/event/0/thenStep/1/message": {
+                "orig": "Small fluffy fighting machines...",
+                "text": "Pequeñas bolitas de pelo luchadoras..."
+        },
+        "database.json/commonEvents/emilie-frobbits-end/event/1/thenStep/0/message": {
+                "orig": "Those bunnies have quite the kick!",
+                "text": "¡Esos conejos pegan fuerte!"
+        },
+        "database.json/commonEvents/emilie-frobbits-end/event/1/thenStep/1/message": {
+                "orig": "But it's nothing compared to the Pentafist's punch, am I right Lea?",
+                "text": "Pero no es nada comparado con el golpe de un Pentafist, ¿no es cierto Lea?"
+        },
+        "database.json/commonEvents/emilie-frobbits-end/event/1/thenStep/2/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/emilie-frobbits-end/event/2/thenStep/0/message": {
+                "orig": "I think we can safely rename Bergen Trail to \"Bunny Mountain\", non?",
+                "text": "Creo que podríamos renombrar el Sendero de Bergen a \"Montaña Conejito\", ¿non?"
+        },
+        "database.json/commonEvents/emilie-frobbits-end/event/2/thenStep/1/message": {
+                "orig": "Those things are everywhere.",
+                "text": "Esas cosas están por todos lados."
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/0/thenStep/0/message": {
+                "orig": "Huh. Did we just beat up a cow wearing some kind of iron mask?",
+                "text": "Eh. ¿Acabamos de pelear contra una vaca vistiendo algún tipo de mascara de hierro?"
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/0/thenStep/1/message": {
+                "orig": "We used to have cows in the neighborhood when I was a child.",
+                "text": "Solíamos tener vacas en el vecindario cuando era niña."
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/1/thenStep/0/message": {
+                "orig": "And another cow gone.",
+                "text": "Y otra vaca que se va."
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/1/thenStep/1/message": {
+                "orig": "I kinda liked the cows in our neighborhood.\\. They were cute.",
+                "text": "Me gustaban las vacas del vecindario.\\. Eran tiernas."
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/1/thenStep/2/message": {
+                "orig": "Oui, these buffalos are rough in comparison, but still.\\. Feeling sorta bad about this.",
+                "text": "Oui, estos búfalos son duros en comparación, pero aún así.\\. Me siento algo mal por esto."
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/2/thenStep/0/message": {
+                "orig": "I used to see cows every day on my way to school.",
+                "text": "Solía ver vacas todos los días camino al colegio."
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/2/thenStep/1/message": {
+                "orig": "After some time I think they even started recognizing me!",
+                "text": "¡Después de un tiempo creo que empezaron a reconocerme!"
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/3/thenStep/0/message": {
+                "orig": "Did you ever drink fresh cow milk? It's délicieux!",
+                "text": "¿Alguna vez tomaste leche de vaca fresca? ¡Es délicieux!"
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/3/thenStep/1/message": {
+                "orig": "I actually once milked a cow myself! Sorta weird feeling at the beginning.",
+                "text": "¡Una vez ordeñé una vaca yo misma! Es una sensación rara al principio."
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/4/thenStep/0/message": {
+                "orig": "And another bites the dust.",
+                "text": "Otro que muerde el polvo."
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/4/thenStep/1/message": {
+                "orig": "Hey, you're not doing this to mess with me, oui?",
+                "text": "Ey, no estás haciendo esto para jugar conmigo, ¿oui?"
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/4/thenStep/2/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/emilie-buffalos-end/event/4/thenStep/3/message": {
+                "orig": "Wait...\\. Yes.\\. What do you mean by that?",
+                "text": "Espera...\\. Si.\\. ¿Qué quieres decir con eso?"
+        },
+        "database.json/commonEvents/emilie-buffalos2-end/event/0/thenStep/0/message": {
+                "orig": "Oui, oui, they brought back the cows!",
+                "text": "Oui, oui, ¡las vacas están de vuelta!"
+        },
+        "database.json/commonEvents/emilie-buffalos2-end/event/0/thenStep/1/message": {
+                "orig": "Still feeling bad for punching them.",
+                "text": "Aún me siento mal por golpearlas."
+        },
+        "database.json/commonEvents/emilie-buffalos2-end/event/0/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-hedgehags2-end/event/0/thenStep/0/message": {
+                "orig": "The hedgehags have returned, sharper and edgier than ever!",
+                "text": "Los erizos han vuelto, ¡más peligrosos que nunca!"
+        },
+        "database.json/commonEvents/emilie-volturbines/event/0/thenStep/0/message": {
+                "orig": "We finally got birds in CrossWorlds. Très bien.",
+                "text": "Finalmente tenemos aves en CrossWorlds. Très bien."
+        },
+        "database.json/commonEvents/emilie-volturbines/event/0/thenStep/1/message": {
+                "orig": "Other than those space birds, that is.",
+                "text": "Sin contar esas aves espaciales, por supuesto."
+        },
+        "database.json/commonEvents/emilie-blob-end/event/0/thenStep/0/message": {
+                "orig": "Oui, you gotta have blobs.",
+                "text": "Oui, nunca faltan las babas."
+        },
+        "database.json/commonEvents/emilie-blob-end/event/0/thenStep/1/message": {
+                "orig": "They are pretty fun to punch.\\. Maybe a little bit nasty.",
+                "text": "Son divertidas de pegar.\\. Quizá un poco asqueroso."
+        },
+        "database.json/commonEvents/emilie-shokat-end/event/0/thenStep/0/message": {
+                "orig": "This place really is filled with those purple kitties.",
+                "text": "Este lugar está lleno de esos gatitos violeta."
+        },
+        "database.json/commonEvents/emilie-shokat-end/event/0/thenStep/1/message": {
+                "orig": "But damn, they sure are fast once you make them angry.",
+                "text": "Pero... son bastante rápidos una vez que los enojas."
+        },
+        "database.json/commonEvents/emilie-shokat-end/event/1/thenStep/0/message": {
+                "orig": "Those kitties are surprisingly hard to punch.",
+                "text": "Esos gatitos son sorprendentemente difíciles de pegar."
+        },
+        "database.json/commonEvents/emilie-shokat-end/event/1/thenStep/1/message": {
+                "orig": "It's probably better to fight them from a distance, even if that isn't exactly my style.",
+                "text": "Quizá sea mejor pelear con un poco de distancia, aunque ese no es precisamente mi estilo."
+        },
+        "database.json/commonEvents/emilie-sloth-end/event/0/thenStep/0/message": {
+                "orig": "Those sloths are probably the most chill enemy of the game.",
+                "text": "Esos perezosos son probablemente el enemigo más tranquilo del juego."
+        },
+        "database.json/commonEvents/emilie-sloth-end/event/0/thenStep/1/message": {
+                "orig": "Until they do their spinning wheel attack of doom.",
+                "text": "Hasta que hacen su super ataque giratorio."
+        },
+        "database.json/commonEvents/emilie-parrot-end/event/0/thenStep/0/message": {
+                "orig": "Seriously, what is it with birds holding guns in this game?!",
+                "text": "En serio, ¡¿qué pasa con las aves con armas en este juego?!"
+        },
+        "database.json/commonEvents/emilie-parrot-end/event/0/thenStep/1/message": {
+                "orig": "Is there a weapon manufacturer so desperate they started delivering to the Track?",
+                "text": "¿Hay algún fabricante de armas tan desesperado que empezó a darle armas al Camino?"
+        },
+        "database.json/commonEvents/emilie-spiders-end/event/0/thenStep/0/message": {
+                "orig": "Mon dieu.\\. Quite a lot of spiders here, don't you agree?",
+                "text": "Mon dieu.\\. Hay bastantes arañas por aquí, ¿no crees?"
+        },
+        "database.json/commonEvents/emilie-spiders-end/event/0/thenStep/1/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/emilie-spiders-end/event/0/thenStep/2/message": {
+                "orig": "...??",
+                "text": "¿¿...??"
+        },
+        "database.json/commonEvents/ctron-meerkat-end/event/0/thenStep/0/message": {
+                "orig": "Have you ever seen one of these Hillkats digging...\\. over a \\c[3]laser bridge\\c[0]?\\. Yes, they do that.",
+                "text": "¿Alguna vez viste a uno de esos Hillkats excavando...\\. sobre un \\c[3]puente de luz\\c[0]?\\. Si, hacen eso."
+        },
+        "database.json/commonEvents/ctron-meerkat-end/event/0/thenStep/1/message": {
+                "orig": "This whole digging is really just simulated. They don't want to mess up the structure of the ground too much, obviously.",
+                "text": "Toda la excavación en realidad es simulada. No quieren destruír la estructura del suelo demasiado, obviamente."
+        },
+        "database.json/commonEvents/ctron-meerkat-end/event/0/thenStep/2/message": {
+                "orig": "Still, I wish they would have made them stop in front of the laser bridges.\\. It does break the illusion.",
+                "text": "Aún así, me gustaría que paren en frente de los puentes de luz.\\. Rompe la ilusión."
+        },
+        "database.json/commonEvents/ctron-seahorses-end/event/0/thenStep/0/message": {
+                "orig": "Those seahorses... why would they do this?",
+                "text": "Esos caballos de mar... ¿por qué hacen esto?"
+        },
+        "database.json/commonEvents/ctron-seahorses-end/event/0/thenStep/1/message": {
+                "orig": "Taking a perfectly fine marine creature and...\\. crossing it with a fly?\\. Or a mosquito?\\. I don't know.",
+                "text": "Toman un criatura de mar que no tiene problemas y...\\. ¿lo cruzan con una mosca?\\. ¿O un mosquito?\\. No sé."
+        },
+        "database.json/commonEvents/ctron-seahorses-end/event/1/thenStep/0/message": {
+                "orig": "What are these seahorses shooting exactly anyway?\\. Water bubbles?",
+                "text": "¿Qué se supone que disparan de todos modos?\\. ¿Burbujas de agua?"
+        },
+        "database.json/commonEvents/ctron-seahorses-end/event/1/thenStep/1/message": {
+                "orig": "Where do they get all the excess water from?\\. You never see them in the water.",
+                "text": "¿De dónde sacan todo ese agua de más?\\. Nunca se los ve en el agua."
+        },
+        "database.json/commonEvents/ctron-seahorses-end/event/2/thenStep/0/message": {
+                "orig": "I'm sorry, I have to talk about the seahorses again.\\. Did you notice they sound like actual horses?",
+                "text": "Lo siento, tengo que hablar de los caballos de mar otra vez.\\. ¿Notaste que suenan como caballos de verdad?"
+        },
+        "database.json/commonEvents/ctron-seahorses-end/event/2/thenStep/1/message": {
+                "orig": "Seahorses are not related to horses.\\. I repeat.\\. Not related.\\. They just look similar, but that's it.",
+                "text": "Los caballos de mar no se relacionan con los caballos.\\. Repito.\\. No hay relación.\\. Sólo se ven similares pero no más."
+        },
+        "database.json/commonEvents/ctron-snowman-end/event/0/thenStep/0/message": {
+                "orig": "Hm...Snowman... reminds me of ice cream~",
+                "text": "Hm...Muñecos de Nieve... me recuerda a helado~"
+        },
+        "database.json/commonEvents/ctron-snowman-end/event/0/thenStep/1/message": {
+                "orig": "You... like ice cream a lot, don't you?",
+                "text": "Te... te gusta mucho el helado, ¿no?"
+        },
+        "database.json/commonEvents/ctron-snowman-end/event/0/thenStep/2/message": {
+                "orig": "I do!",
+                "text": "¡Si!"
+        },
+        "database.json/commonEvents/ctron-snowman-end/event/1/thenStep/0/message": {
+                "orig": "Ice cream~",
+                "text": "Helado~"
+        },
+        "database.json/commonEvents/ctron-snowman-end/event/1/thenStep/1/message": {
+                "orig": "Don't even think about licking those Snowmen, Tronny!",
+                "text": "¡Ni se te ocurra lamer esos Muñecos de Nieve, Tronny!"
+        },
+        "database.json/commonEvents/ctron-snowman-end/event/1/thenStep/2/message": {
+                "orig": "W-What? No! I'm sure they won't even taste like anything.",
+                "text": "¿Q-Qué? ¡No! Estoy seguro de que no saben a nada."
+        },
+        "database.json/commonEvents/ctron-snowman-end/event/1/thenStep/3/message": {
+                "orig": "Well, you don't know that.",
+                "text": "Bueno, no lo sabes."
+        },
+        "database.json/commonEvents/ctron-snowman-end/event/1/thenStep/4/message": {
+                "orig": "...\\. ...\\. That's a good point. Now I'm curious.",
+                "text": "...\\. ...\\. Es un buen punto. Ahora tengo curiosidad."
+        },
+        "database.json/commonEvents/ctron-snowman-end/event/1/thenStep/5/message": {
+                "orig": "DON'T LICK THE SNOWMAN, TRONNY!",
+                "text": "¡NO LAMAS LOS MUÑECOS DE NIEVE, TRONNY!"
+        },
+        "database.json/commonEvents/ctron-penguin-end/event/0/thenStep/0/message": {
+                "orig": "Did you know? Penguins like to live in temperate areas too.",
+                "text": "¿Sabías que a los Pingüinos les gusta vivir en climas templados también?"
+        },
+        "database.json/commonEvents/ctron-penguin-end/event/0/thenStep/1/message": {
+                "orig": "In fact, only few of them live in colder climates.",
+                "text": "De hecho, sólo unos pocos viven en climas fríos."
+        },
+        "database.json/commonEvents/ctron-penguin-end/event/0/thenStep/2/thenStep/0/message": {
+                "orig": "And none of them live on mountains, right?",
+                "text": "Y ninguno en montañas, ¿no?"
+        },
+        "database.json/commonEvents/ctron-penguin-end/event/0/thenStep/2/thenStep/1/message": {
+                "orig": "...Right.",
+                "text": "...Cierto."
+        },
+        "database.json/commonEvents/ctron-scorpions-end/event/0/thenStep/0/message": {
+                "orig": "Of course we can't have a desert without scorpions...",
+                "text": "Por supuesto, no puede haber desierto sin escorpiones..."
+        },
+        "database.json/commonEvents/ctron-scorpions-end/event/0/thenStep/1/message": {
+                "orig": "At least I think these are scorpions.. with 4 legs instead of 8.",
+                "text": "Al menos creo que son escorpiones... con 4 patas en vez de 8."
+        },
+        "database.json/commonEvents/ctron-scorpions-end/event/1/thenStep/0/message": {
+                "orig": "They say smaller scorpions are more dangerous... Doesn't quite apply to those.",
+                "text": "Dicen que los escorpiones más pequeños son más peligrosos... No se aplica a estos."
+        },
+        "database.json/commonEvents/ctron-scorpions-end/event/1/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/ctron-scorpions-end/event/2/thenStep/0/message": {
+                "orig": "Scorpions are actually pretty amazing.\\. They can survive up to one year with just one meal.",
+                "text": "Los escorpiones son bastante asombrosos.\\. Pueden sobrevivir hasta un año con una sola comida."
+        },
+        "database.json/commonEvents/ctron-scorpions-end/event/2/thenStep/1/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/ctron-sandshark-end/event/0/thenStep/0/message": {
+                "orig": "Are those shark skeletons? That's funny.",
+                "text": "¿Esos son esqueletos de tiburón? Que gracioso."
+        },
+        "database.json/commonEvents/ctron-sandshark-end/event/0/thenStep/1/message": {
+                "orig": "Sharks don't even have proper bones. It's all cartilage.",
+                "text": "Los tiburones no tienen huesos. Es todo cartílago."
+        },
+        "database.json/commonEvents/ctron-sandshark-end/event/0/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/ctron-sandshark-end/event/1/thenStep/0/message": {
+                "orig": "These sharksters can be tricky to hit. Good thing I have homing VRPs!",
+                "text": "Estos tiburones pueden ser difíciles de pegar. ¡Menos mal que tengo VRPs teledirigidos!"
+        },
+        "database.json/commonEvents/ctron-sandshark-end/event/1/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/ctron-volturbine-end/event/0/thenStep/0/message": {
+                "orig": "Vulturbines, huh? Must be inspired by vultures.",
+                "text": "¿Buiturbinas, eh? Deben estar inspirados por los buitres."
+        },
+        "database.json/commonEvents/ctron-volturbine-end/event/0/thenStep/1/message": {
+                "orig": "Vultures with... guns? Makes you wonder how they can still fly.",
+                "text": "Buitres con... ¿armas? Te hace pensar como es que aún pueden volar."
+        },
+        "database.json/commonEvents/ctron-volturbine-end/event/1/thenStep/0/message": {
+                "orig": "There are a lot of interesting facts about vultures.",
+                "text": "Hay muchos datos interesantes sobre los buitres."
+        },
+        "database.json/commonEvents/ctron-volturbine-end/event/1/thenStep/1/message": {
+                "orig": "Though a lot of them involve bodily fluids. I'd rather not mention those.",
+                "text": "Aunque muchos de ellos incluyen fluídos corporales. Prefiero no mencionar esos."
+        },
+        "database.json/commonEvents/ctron-volturbine-end/event/1/thenStep/2/thenStep/0/message": {
+                "orig": "Oui, please don't. Merci.",
+                "text": "Oui, por favor no. Merci."
+        },
+        "database.json/commonEvents/ctron-volturbine-end/event/1/thenStep/2/elseStep/0/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/ctron-drillertoise-end/event/0/thenStep/0/message": {
+                "orig": "Drillertoise? I honestly have no idea what those are supposed to be.",
+                "text": "¿Taladrortuga? Honestamente no tengo idea de que se supone que sea eso."
+        },
+        "database.json/commonEvents/ctron-drillertoise-end/event/0/thenStep/1/message": {
+                "orig": "Earth digging tortoise?",
+                "text": "¿Una tortuga que excava?"
+        },
+        "database.json/commonEvents/ctron-blob-end/event/0/thenStep/0/message": {
+                "orig": "Nope...\\. I got nothing. No scientific facts about blobs from me.",
+                "text": "No...\\. Ni idea. No hay datos científicos sobre las babas."
+        },
+        "database.json/commonEvents/ctron-blob-end/event/0/thenStep/1/message": {
+                "orig": "They aren't exactly real...\\. fortunately.",
+                "text": "No son reales...\\. por suerte."
+        },
+        "database.json/commonEvents/ctron-blob-end/event/0/thenStep/2/thenStep/0/message": {
+                "orig": "Sure.\\. I know you'd have loved to share another disgusting fact about them.",
+                "text": "Seguro.\\. Sé que te habría encantado compartir algún otro asqueroso dato sobre ellos."
+        },
+        "database.json/commonEvents/ctron-blob-end/event/1/thenStep/0/message": {
+                "orig": "Hm...\\. some people argue that \\c[3]algae\\c[0] is the \"slime\" of real life, but it's still a stretch.",
+                "text": "Hm...\\. alguna gente dice que las \\c[3]algas\\c[0] son las \"babas\" de la vida real, pero aún así me parece una exageración."
+        },
+        "database.json/commonEvents/ctron-blob-end/event/1/thenStep/1/message": {
+                "orig": "They certainly lack the bounciness of the blobs.",
+                "text": "No rebotan como las babas."
+        },
+        "database.json/commonEvents/ctron-blob-end/event/1/thenStep/2/thenStep/0/message": {
+                "orig": "Oui.\\. Please no science facts about algae, merci.",
+                "text": "Oui.\\. Por favor, ningún dato científico sobre las algas, merci."
+        },
+        "database.json/commonEvents/ctron-shokats-end/event/0/thenStep/0/message": {
+                "orig": "Shokats...\\. they are surprisingly active for cats, that's for sure.",
+                "text": "Electrogatos...\\. son sorprendentemente activos para un gato, eso seguro."
+        },
+        "database.json/commonEvents/ctron-shokats-end/event/1/thenStep/0/message": {
+                "orig": "Did you know that on average cats spend two thirds of the day sleeping?",
+                "text": "¿Sabías que en promedio los gatos están dos tercios del día durmiendo?"
+        },
+        "database.json/commonEvents/ctron-shokats-end/event/1/thenStep/1/message": {
+                "orig": "You certainly don't ever see a shokat sleeping.",
+                "text": "Nunca vi un electrogato dormir."
+        },
+        "database.json/commonEvents/ctron-shokats-end/event/2/thenStep/0/message": {
+                "orig": "You know...\\. cats were domesticated a long time ago, just like dogs.",
+                "text": "Sabes...\\. los gatos fueron domesticados hace mucho, como los perros."
+        },
+        "database.json/commonEvents/ctron-shokats-end/event/2/thenStep/1/message": {
+                "orig": "Though in contrast to dogs they didn't really go through any major change during domestication.",
+                "text": "Aunque, en contraste a los perros, no tuvieron mucho cambio tras la domesticación."
+        },
+        "database.json/commonEvents/ctron-shokats-end/event/2/thenStep/2/thenStep/0/message": {
+                "orig": "That's because they've never been domesticated.\\. They just chose to live with us humans.",
+                "text": "Eso es porque nunca fueron domesticados.\\. Sólo eligieron vivir con nosotros los humanos."
+        },
+        "database.json/commonEvents/ctron-plants-end/event/0/thenStep/0/message": {
+                "orig": "Hm...\\. I suppose those plants are loosely inspired by the Venus Flytrap?",
+                "text": "Hm...\\. ¿Supongo que esas plantas están ligeramente inspiradas por la Dionaea Muscipula?"
+        },
+        "database.json/commonEvents/ctron-plants-end/event/0/thenStep/1/message": {
+                "orig": "They're obviously way more hostile...",
+                "text": "Son obviamente mucho más hostiles..."
+        },
+        "database.json/commonEvents/ctron-plants-end/event/1/thenStep/0/message": {
+                "orig": "People tend to make a big deal out of the Venus Flytrap.",
+                "text": "La gente suele hacer demasiado alboroto por la Dionaea Muscipula."
+        },
+        "database.json/commonEvents/ctron-plants-end/event/1/thenStep/1/message": {
+                "orig": "But did you know it can only bite about a half-dozen times in its lifespan?\\. After that the trap is kept shut forever.",
+                "text": "¿Pero sabías que sólo pueden morder alrededor de media docena de veces en su vida?\\. Después de eso, la trampa queda cerrada para siempre."
+        },
+        "database.json/commonEvents/ctron-plants-end/event/2/thenStep/0/message": {
+                "orig": "Venus Flytraps mostly eat insects, you know?\\. They can't just eat any kind of meat.",
+                "text": "Dionaea Muscipula comen insectos en su mayoría, ¿sabes?\\. No pueden comer ningún tipo de carne."
+        },
+        "database.json/commonEvents/ctron-plants-end/event/2/thenStep/1/message": {
+                "orig": "Somebody actually tried to feed a hamburger to a flytrap.\\. The poor thing quickly withered.",
+                "text": "Alguien intentó darle una hamburguesa a una Dionaea Muscipula.\\. La pobre planta se deterioró rápidamente."
+        },
+        "database.json/commonEvents/ctron-plants-end/event/2/thenStep/2/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/ctron-plants-end/event/2/thenStep/3/thenStep/0/message": {
+                "orig": "Well those plants here certainly have a taste for human flesh.",
+                "text": "Bueno, estas plantas de aquí ciertamente tienen un gusto por la carne humana."
+        },
+        "database.json/commonEvents/ctron-sloth-end/event/0/thenStep/0/message": {
+                "orig": "Huh...\\. sloth enemies.\\. I think those are actually inspired by the prehistoric variant...\\. the Megatherium.",
+                "text": "Eh...\\. perezosos enemigos.\\. Creo que estos están inspirados por su variante prehistórico...\\. el Megatherium."
+        },
+        "database.json/commonEvents/ctron-sloth-end/event/0/thenStep/1/message": {
+                "orig": "Also known as the giant ground sloth.\\. They used to be the size of an elephant.",
+                "text": "También conocido como el gran perezoso de tierra.\\. Solían tener el tamaño de un elefante."
+        },
+        "database.json/commonEvents/ctron-sloth-end/event/1/thenStep/0/message": {
+                "orig": "This Behesloth can be surprisingly fast...\\. Real sloths are known to be very slow animals.",
+                "text": "Este Gran Perezoso pueden ser sorprendentemente rápido...\\. Los perezosos de verdad son animales muy lentos."
+        },
+        "database.json/commonEvents/ctron-sloth-end/event/1/thenStep/1/message": {
+                "orig": "They have a four-part stomach that can digest very tough leaves...\\. very, very slowly.",
+                "text": "Tienen un estómago dividido en cuatro partes que puede digerir plantas muy duras...\\. muy, muy lentamente."
+        },
+        "database.json/commonEvents/ctron-sloth-end/event/1/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/ctron-sloth-end/event/1/thenStep/3/thenStep/0/message": {
+                "orig": "Tronny is back with those science facts no one asked for...",
+                "text": "Tronny otra vez con esos datos científicos que nadie preguntó..."
+        },
+        "database.json/commonEvents/ctron-fish-end/event/0/thenStep/0/message": {
+                "orig": "Floating fishes, alright.\\. Pretty much the first marine enemy in the game.",
+                "text": "Pescados voladores, ok.\\. Básicamente el primer enemigo marino del juego."
+        },
+        "database.json/commonEvents/ctron-fish-end/event/0/thenStep/1/message": {
+                "orig": "Unless you count those jellyfish enemies of the Faj'ro Temple.",
+                "text": "A no ser que cuentes esas medusas en el Templo Faj'ro."
+        },
+        "database.json/commonEvents/ctron-fish-end/event/0/thenStep/2/thenStep/0/message": {
+                "orig": "What about those seahorses?",
+                "text": "¿Qué hay de los caballos de mar?"
+        },
+        "database.json/commonEvents/ctron-fish-end/event/0/thenStep/2/thenStep/1/message": {
+                "orig": "No please...\\. let's ignore the seahorses.\\. They aren't...\\. fish.\\. They are nothing.\\. They don't make sense.",
+                "text": "No, por favor...\\. ignoremos los caballos de mar.\\. No son...\\. peces.\\. No son nada.\\. No tienen sentido."
+        },
+        "database.json/commonEvents/ctron-parrot-end/event/0/thenStep/0/message": {
+                "orig": "Parrots...\\. they are among the most intelligent birds we know.",
+                "text": "Loros...\\. están entre las aves más inteligentes que conocemos."
+        },
+        "database.json/commonEvents/ctron-parrot-end/event/0/thenStep/1/message": {
+                "orig": "Yet all they could come up with is yet another dumb, gun-wielding foe.",
+                "text": "Y aún así, todo lo que se pudieron imaginar es otro tonto enemigo con armas."
+        },
+        "database.json/commonEvents/ctron-pandas-end/event/0/thenStep/0/message": {
+                "orig": "Pandas...\\. Pandas are interesting.\\. Originally carnivores, they essentially evolved into bamboo eating machines.",
+                "text": "Pandas...\\. Los pandas son interesantes.\\. Originalmente carnívoros, esencialmente evolucionaron en máquinas de comer bamboo."
+        },
+        "database.json/commonEvents/ctron-pandas-end/event/0/thenStep/1/message": {
+                "orig": "Really, everything about them is evolved to consume bamboo. A false-thumb, a good sense of smell, and an incredibly strong bite.",
+                "text": "En serio, todo en ellos evolucionó para consumir bamboo. Un pulgar falso, un buen sentido del olfato, y una mordida increíblemente fuerte."
+        },
+        "database.json/commonEvents/ctron-pandas-end/event/1/thenStep/0/message": {
+                "orig": "Ironically, Pandas only absorb a small part of the bamboo's nutrition. That's why they have to eat all day long.",
+                "text": "Irónicamente, los Pandas sólo absorben una pequeña parte de la nutrición del bamboo. Por eso tienen que comer todo el día."
+        },
+        "database.json/commonEvents/ctron-pandas-end/event/1/thenStep/1/message": {
+                "orig": "They barely have spare energy to struggle with fellow pandas...\\. let alone firing homing missiles.",
+                "text": "Apenas tienen un poco de energía extra pelear contra otros pandas...\\. mucho menos disparar misiles teledirigidos."
+        },
+        "database.json/commonEvents/ctr-emil-fish-end/event/0/thenStep/0/message": {
+                "orig": "You know, I've not once seen those fishes dive into the water.\\. Suspicious.",
+                "text": "Sabes, nunca vi a esos peces meterse al agua.\\. Sospechoso."
+        },
+        "database.json/commonEvents/ctr-emil-fish-end/event/0/thenStep/1/message": {
+                "orig": "Yeah...\\. good luck fighting those thingies underwater.",
+                "text": "Jeje...\\. buena suerte peleando contra esas cosas abajo del agua."
+        },
+        "database.json/commonEvents/ctr-emil-fish-end/event/0/thenStep/2/message": {
+                "orig": "That might not even be possible...\\. given the water is in fact simulated!",
+                "text": "¡Puede que ni siquiera sea posible...\\. ya que el agua es simulada!"
+        },
+        "database.json/commonEvents/ctr-emil-fish-end/event/0/thenStep/3/message": {
+                "orig": "Oh no.\\. Back to that theory.",
+                "text": "Oh no.\\. Otra vez con esa teoría."
+        },
+        "database.json/commonEvents/ctr-emil-generic/event/0/thenStep/0/message": {
+                "orig": "Tronny, you like to keep your distance in battle, don't you?",
+                "text": "Tronny, te gusta mantener la distancia en batalla, ¿no?"
+        },
+        "database.json/commonEvents/ctr-emil-generic/event/0/thenStep/1/message": {
+                "orig": "Well... I'm a Hexacast. I specialize in ranged attacks.",
+                "text": "Bueno... soy un Hexacast. Me especializo en ataques a distancia."
+        },
+        "database.json/commonEvents/ctr-emil-generic/event/0/thenStep/2/message": {
+                "orig": "You should join me in punching the enemies up close! It's more fun!",
+                "text": "¡Deberías unirte a mí en pegarle a los enemigos de cerca! ¡Es más divertido!"
+        },
+        "database.json/commonEvents/ctr-emil-generic/event/0/thenStep/3/message": {
+                "orig": "Punching? We Hexacast don't punch. We use a close-proximity magical impact.",
+                "text": "¿Pegar? Los Hexacast no pegamos. Usamos un impacto mágico de corto alcance."
+        },
+        "database.json/commonEvents/ctr-emil-generic/event/0/thenStep/4/message": {
+                "orig": "So what? I can call my fist magical too, if you like.",
+                "text": "¿Y qué? Puedo llamar a mi puño \"mágico\" también, si quieres."
+        },
+        "database.json/commonEvents/ctr-emil-generic/event/0/thenStep/5/message": {
+                "orig": "Oh bother...",
+                "text": "Oh Dios..."
+        },
+        "database.json/commonEvents/ctr-emil-drillertoise-end/event/0/thenStep/0/message": {
+                "orig": "I don't like those earth turtles. They are hard to punch.",
+                "text": "No me gustan esas tortugas de mar. Es difícil pegarles."
+        },
+        "database.json/commonEvents/ctr-emil-drillertoise-end/event/0/thenStep/1/message": {
+                "orig": "Very true. Also Emilie, those are tortoises. Turtles would mostly be in water.",
+                "text": "Muy cierto. Por cierto Emilie, esas son tortugas de tierra. Las tortugas de mar estaría en el agua."
+        },
+        "database.json/commonEvents/ctr-emil-drillertoise-end/event/0/thenStep/2/message": {
+                "orig": "Are you sure? They do dive into the earth like it's water, non?",
+                "text": "¿Estás seguro? Se meten en la tierra como si fuera agua, ¿non?"
+        },
+        "database.json/commonEvents/ctr-emil-drillertoise-end/event/0/thenStep/3/message": {
+                "orig": "They are called Driller\\c[3]toise\\c[0]...",
+                "text": "Se llaman Taladr\\c[3]ortugas\\c[0]..."
+        },
+        "database.json/commonEvents/ctr-emil-drillertoise-end/event/0/thenStep/4/message": {
+                "orig": "Oui, oui. Whatever.",
+                "text": "Oui, oui. Lo que sea."
+        },
+        "database.json/commonEvents/ctr-emil-spiders-end/event/0/thenStep/0/message": {
+                "orig": "Uhm...\\. Emilie?\\. I'm just wondering...\\. it seems like you don't mind the spiders.",
+                "text": "Uhm...\\. ¿Emilie?\\. Me preguntaba...\\. parece que no te importan las arañas."
+        },
+        "database.json/commonEvents/ctr-emil-spiders-end/event/0/thenStep/1/message": {
+                "orig": "Oui?\\. Why would I?\\. They're just spiders.",
+                "text": "¿Oui?\\. ¿Por qué me importarían?\\. Son sólo arañas."
+        },
+        "database.json/commonEvents/ctr-emil-spiders-end/event/0/thenStep/2/message": {
+                "orig": "But...\\. haven't you been afraid of bugs?\\. Like those samurai bugs drive you crazy.",
+                "text": "Pero...\\. ¿no le tenías miedo a los bichos?\\. Como esos bichos samurai que te volvían loca."
+        },
+        "database.json/commonEvents/ctr-emil-spiders-end/event/0/thenStep/3/message": {
+                "orig": "Non non, Tronny.\\. Spiders are fine, they aren't insects.\\. You should know that...",
+                "text": "Non non, Tronny.\\. Las arañas están bien, no son insectos.\\. Deberías saber eso..."
+        },
+        "database.json/commonEvents/ctr-emil-spiders-end/event/0/thenStep/4/message": {
+                "orig": "I do...\\. But still...\\. I don't get it.",
+                "text": "Lo sé...\\. Pero igual...\\. No lo entiendo."
+        },
+        "database.json/commonEvents/ctr-emil-spiders-end/event/0/thenStep/5/message": {
+                "orig": "Why...",
+                "text": "Por qué..."
+        },
+        "database.json/commonEvents/ctr-emil-spiders-end/event/0/thenStep/6/message": {
+                "orig": "You guys think too much.\\. Come on, let's punch more spiders!",
+                "text": "Piensan demasiado.\\. Vamos, ¡golpeemos más arañas!"
+        },
+        "database.json/commonEvents/joern-blobs-end/event/0/thenStep/0/message": {
+                "orig": "I was waiting for enemies like these to show up.",
+                "text": "Ya esperaba enemigos como estos a aparecer."
+        },
+        "database.json/commonEvents/joern-blobs-end/event/0/thenStep/1/message": {
+                "orig": "You can't have an RPG without good-old blobs.",
+                "text": "No se puede tener un RPG sin las clásicas babas."
+        },
+        "database.json/commonEvents/joern-blobs-end/event/1/thenStep/0/message": {
+                "orig": "Green blobs hidden between the grass and plants. They blend in pretty well.",
+                "text": "Las babas verdes se esconden entre el pasto y las plantas. Se camuflan bastante bien."
+        },
+        "database.json/commonEvents/joern-blobs-end/event/1/thenStep/1/message": {
+                "orig": "Not unlike a certain somebody I know...",
+                "text": "No muy distinto a alguien que conozco..."
+        },
+        "database.json/commonEvents/joern-blobs-end/event/1/thenStep/2/thenStep/0/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/joern-behesloth-end/event/0/thenStep/0/message": {
+                "orig": "Poor sloth. I don't see why they can't just relax for a while.",
+                "text": "Pobre perezoso. No veo por qué no se pueden relajar un momento."
+        },
+        "database.json/commonEvents/joern-behesloth-end/event/1/thenStep/0/message": {
+                "orig": "Man, these sloths are surprisingly fast for their size when angered.",
+                "text": "Um, estos perezosos son sorprendentemente rápidos para su tamaño cuando se enojan."
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/0/thenStep/0/message": {
+                "orig": "See this, Polly?\\. This is what happens when you forget to water your plants.",
+                "text": "¿Ves esto, Polly?\\. Esto es lo que pasa cuando te olvidas de regar las plantas."
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/0/thenStep/1/message": {
+                "orig": "They jump out of their pot, float on water bubbles, and bite you?",
+                "text": "¿Salen de su maceta, flotan en burbujas de agua y te muerden?"
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/0/thenStep/2/message": {
+                "orig": "Exactly.\\. Don't forget to water the plants.",
+                "text": "Exactamente.\\. No te olvides de regar las plantas."
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/0/thenStep/3/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/1/thenStep/0/message": {
+                "orig": "Remember Polly, water the plants.",
+                "text": "Recuerda Polly, riega las plantas."
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/1/thenStep/1/message": {
+                "orig": "I get it!\\. I just forgot it like...\\. that one time.",
+                "text": "¡Lo sé!\\. Sólo me olvidé...\\. esa única vez."
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/1/thenStep/2/message": {
+                "orig": "One time...\\. about every month.",
+                "text": "Una vez...\\. cada mes."
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/1/thenStep/3/message": {
+                "orig": "How?",
+                "text": "¿Cómo?"
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/1/thenStep/4/message": {
+                "orig": "I know, right?",
+                "text": "Lo sé, ¿no?"
+        },
+        "database.json/commonEvents/joe-apo-plants-end/event/1/thenStep/5/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/joe-apo-shokats-end/event/0/thenStep/0/message": {
+                "orig": "Do we really have to fight the poor kittens?\\. I feel so sorry for them.",
+                "text": "¿Realmente tenemos que pelear contra los pobres gatitos?\\. Me dan pena."
+        },
+        "database.json/commonEvents/joe-apo-shokats-end/event/0/thenStep/1/message": {
+                "orig": "Joern, don't be swayed by their cute appearance!\\. They're fierce opponents!",
+                "text": "Joern, ¡que no te engañe su tierna apariencia!\\. ¡Son fieros oponentes!"
+        },
+        "database.json/commonEvents/joe-apo-shokats-end/event/0/thenStep/2/message": {
+                "orig": "But they just wanted to have them cuddles...",
+                "text": "Pero sólo quieren ser acariciados..."
+        },
+        "database.json/commonEvents/joe-apo-shokats-end/event/1/thenStep/0/message": {
+                "orig": "Hm...\\. this reminds me.\\. We still have to feed the cats later.",
+                "text": "Hm...\\. esto me recuerda.\\. Aún tenemos que dar de comer a los gatos más tarde."
+        },
+        "database.json/commonEvents/joe-apo-shokats-end/event/1/thenStep/1/message": {
+                "orig": "Feeding cats?\\. What do you mean?\\. You can't feed the shokats.",
+                "text": "¿Alimentar gatos?\\. ¿A qué te refieres?\\. No puedes alimentar a los electrogatos."
+        },
+        "database.json/commonEvents/joe-apo-shokats-end/event/1/thenStep/2/message": {
+                "orig": "Our cats, Polly.",
+                "text": "Nuestros gatos, Polly."
+        },
+        "database.json/commonEvents/joe-apo-shokats-end/event/1/thenStep/3/message": {
+                "orig": "Oh!\\. Right.",
+                "text": "¡Ah!\\. Cierto."
+        },
+        "database.json/commonEvents/joe-apo-papagun-end/event/0/thenStep/0/message": {
+                "orig": "So we have parrots in the jungle.\\. Neat.",
+                "text": "Así que tenemos loros en la jungla.\\. Bien."
+        },
+        "database.json/commonEvents/joe-apo-papagun-end/event/0/thenStep/1/message": {
+                "orig": "Indeed!\\. Gun-wielding parrots that are up to no good!",
+                "text": "¡En efecto!\\. ¡Loros con armas sin buenas intenciones!"
+        },
+        "database.json/commonEvents/joe-apo-papagun-end/event/1/thenStep/0/message": {
+                "orig": "More Parrots.\\. I think I will call them \\c[3]Polly\\c[0].",
+                "text": "Más Loros.\\. Creo que les voy a llamar \\c[3]Polly\\c[0]."
+        },
+        "database.json/commonEvents/joe-apo-papagun-end/event/1/thenStep/1/message": {
+                "orig": "What?\\. Why?",
+                "text": "¿Qué?\\. ¿Por qué?"
+        },
+        "database.json/commonEvents/joe-apo-papagun-end/event/1/thenStep/2/message": {
+                "orig": "Polly is a common name for parrots. Don't you know, Polly?",
+                "text": "Polly es un nombre común para loros. ¿No lo sabías, Polly?"
+        },
+        "database.json/commonEvents/joe-apo-papagun-end/event/1/thenStep/3/message": {
+                "orig": "I'm not a parrot, Joern!",
+                "text": "¡No soy un loro, Joern!"
+        },
+        "database.json/commonEvents/joe-apo-papagun-end/event/2/thenStep/0/message": {
+                "orig": "Polly keeps fighting them Pollies.",
+                "text": "Polly sigue peleando contra los Pollies."
+        },
+        "database.json/commonEvents/joe-apo-papagun-end/event/2/thenStep/1/message": {
+                "orig": "Not this again...",
+                "text": "No otra vez..."
+        },
+        "database.json/commonEvents/test-level-up/event/0/thenStep/0/message": {
+                "orig": "Level Up 1",
+                "text": "Sube de Nivel 1"
+        },
+        "database.json/commonEvents/test-level-up/event/1/thenStep/0/message": {
+                "orig": "Level Up 2",
+                "text": "Sube de Nivel 2"
+        },
+        "database.json/commonEvents/test-level-up/event/2/thenStep/0/message": {
+                "orig": "Level Up 3",
+                "text": "Sube de Nivel 3"
+        },
+        "database.json/commonEvents/tutorial-melee-art/event/1/title": {
+                "orig": "Melee Arts",
+                "text": "Artes Cuerpo a Cuerpo"
+        },
+        "database.json/commonEvents/tutorial-melee-art/event/1/content": {
+                "orig": "Learn how to use \\c[3]Melee Arts\\c[0] in combat.",
+                "text": "Aprende a usar las \\c[3]Artes Cuerpo a Cuerpo\\c[0] en combate."
+        },
+        "database.json/commonEvents/tutorial-melee-art/event/1/acceptStep/6/text": {
+                "orig": "Press and hold \\i[special] to charge the attack.",
+                "text": "Presiona y mantén \\i[special] para cargar el ataque."
+        },
+        "database.json/commonEvents/tutorial-melee-art/event/1/acceptStep/9/text": {
+                "orig": "You can change your \\c[3]direction\\c[0] while charging.\nRelease \\i[special] again to execute the attack.",
+                "text": "Suelta \\i[special] para ejecutar el ataque."
+        },
+        "database.json/commonEvents/tutorial-melee-art/event/1/acceptStep/18/text": {
+                "orig": "Repeat?",
+                "text": "¿Repetir?"
+        },
+        "database.json/commonEvents/tutorial-melee-art/event/1/acceptStep/18/options/0/label": {
+                "orig": "Yes",
+                "text": "Si"
+        },
+        "database.json/commonEvents/tutorial-melee-art/event/1/acceptStep/18/options/1/label": {
+                "orig": "No",
+                "text": "No"
+        },
+        "database.json/commonEvents/tutorial-throw-art/event/1/title": {
+                "orig": "Throw Arts",
+                "text": "Artes a Distancia"
+        },
+        "database.json/commonEvents/tutorial-throw-art/event/1/content": {
+                "orig": "Learn how to use \\c[3]Throw Arts\\c[0] in combat.",
+                "text": "Aprende a usar las \\c[3]Artes a Distancia\\c[0] en combate."
+        },
+        "database.json/commonEvents/tutorial-throw-art/event/1/acceptStep/6/text": {
+                "orig": "Start by \\c[0]aiming\\c[0] at your enemy.",
+                "text": "Empieza por \\c[0]apuntar\\c[0] a tu enemigo."
+        },
+        "database.json/commonEvents/tutorial-throw-art/event/1/acceptStep/12/text": {
+                "orig": "While aiming press and hold \\i[special] to charge the attack.",
+                "text": "Mientras apuntas, presiona y mantén \\i[special] para cargar el ataque."
+        },
+        "database.json/commonEvents/tutorial-throw-art/event/1/acceptStep/15/text": {
+                "orig": "You can change the direction while charging.",
+                "text": "Puedes cambiar la dirección mientras cargas."
+        },
+        "database.json/commonEvents/tutorial-throw-art/event/1/acceptStep/19/text": {
+                "orig": "Release \\i[special] again to execute the attack.",
+                "text": "Suelta \\i[special] para ejecutar el ataque."
+        },
+        "database.json/commonEvents/tutorial-throw-art/event/1/acceptStep/26/text": {
+                "orig": "Repeat?",
+                "text": "¿Repetir?"
+        },
+        "database.json/commonEvents/tutorial-throw-art/event/1/acceptStep/26/options/0/label": {
+                "orig": "Yes",
+                "text": "Si"
+        },
+        "database.json/commonEvents/tutorial-throw-art/event/1/acceptStep/26/options/1/label": {
+                "orig": "No",
+                "text": "No"
+        },
+        "database.json/commonEvents/tutorial-dash-art/event/1/title": {
+                "orig": "Dash Arts",
+                "text": "Artes de Esquive"
+        },
+        "database.json/commonEvents/tutorial-dash-art/event/1/content": {
+                "orig": "Learn how to use \\c[3]Dash Arts\\c[0] in combat.",
+                "text": "Aprende a usar las \\c[3]Artes de Esquive\\c[0] en combate."
+        },
+        "database.json/commonEvents/tutorial-dash-art/event/1/acceptStep/6/text": {
+                "orig": "\\c[0]Dash\\c[0] into a direction and press \\i[special] at the \\c[3]same time\\c[0] to charge a Dash Art.",
+                "text": "\\c[0]Esquiva\\c[0] en una dirección y presiona \\i[special] al \\c[3]mismo tiempo\\c[0] para cargar un Arte de Esquive."
+        },
+        "database.json/commonEvents/tutorial-dash-art/event/1/acceptStep/15/text": {
+                "orig": "Release \\i[special] again to execute the attack.",
+                "text": "Suelta \\i[special] para ejecutar el ataque."
+        },
+        "database.json/commonEvents/tutorial-dash-art/event/1/acceptStep/22/text": {
+                "orig": "Repeat?",
+                "text": "¿Repetir?"
+        },
+        "database.json/commonEvents/tutorial-dash-art/event/1/acceptStep/22/options/0/label": {
+                "orig": "Yes",
+                "text": "Si"
+        },
+        "database.json/commonEvents/tutorial-dash-art/event/1/acceptStep/22/options/1/label": {
+                "orig": "No",
+                "text": "No"
+        },
+        "database.json/commonEvents/tutorial-guard-art/event/1/title": {
+                "orig": "Guard Arts",
+                "text": "Artes de Bloqueo"
+        },
+        "database.json/commonEvents/tutorial-guard-art/event/1/content": {
+                "orig": "Learn how to use \\c[3]Guard Arts\\c[0] in combat.",
+                "text": "Aprende a usar las \\c[3]Artes de Bloqueo\\c[0] en combate."
+        },
+        "database.json/commonEvents/tutorial-guard-art/event/1/acceptStep/6/text": {
+                "orig": "Start by \\c[0]guarding\\c[0].",
+                "text": "Empieza por \\c[0]bloquear\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-guard-art/event/1/acceptStep/10/text": {
+                "orig": "While you guard, press and hold \\i[special] to charge the Guard Art.",
+                "text": "Mientras bloqueas, presiona y mantén \\i[special] para cargar el Arte de Bloqueo."
+        },
+        "database.json/commonEvents/tutorial-guard-art/event/1/acceptStep/13/text": {
+                "orig": "Release \\i[special] again to execute the attack.",
+                "text": "Suelta \\i[special] para ejecutar el ataque."
+        },
+        "database.json/commonEvents/tutorial-guard-art/event/1/acceptStep/20/text": {
+                "orig": "Repeat?",
+                "text": "¿Repetir?"
+        },
+        "database.json/commonEvents/tutorial-guard-art/event/1/acceptStep/20/options/0/label": {
+                "orig": "Yes",
+                "text": "Si"
+        },
+        "database.json/commonEvents/tutorial-guard-art/event/1/acceptStep/20/options/1/label": {
+                "orig": "No",
+                "text": "No"
+        },
+        "database.json/commonEvents/tutorial-lvl2/event/1/title": {
+                "orig": "Level 2 Arts",
+                "text": "Artes de Nivel 2"
+        },
+        "database.json/commonEvents/tutorial-lvl2/event/1/content": {
+                "orig": "Learn how to use \\c[3]Level 2 Combat Arts\\c[0] in combat.",
+                "text": "Aprende a usar las \\c[3]Artes de Combate de Nivel 2\\c[0] en combate."
+        },
+        "database.json/commonEvents/tutorial-lvl2/event/1/acceptStep/7/text": {
+                "orig": "To execute a \\c[3]level 2\\c[0] combat art need at least \\c[3]3 SP\\c[0].",
+                "text": "Para ejecutar un arte de combate de \\c[3]nivel 2\\c[0] se necesita al menos \\c[3]3 PE\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-lvl2/event/1/acceptStep/9/text": {
+                "orig": "Perform the combat art according to the type as usual.",
+                "text": "Haz el arte de combate correspondiente al tipo como siempre."
+        },
+        "database.json/commonEvents/tutorial-lvl2/event/1/acceptStep/15/text": {
+                "orig": "Charge for a \\c[3]longer time\\c[0] until you notice a second \\c[3]burst\\c[0].",
+                "text": "Carga el Arte por \\c[3]más tiempo\\c[0] hasta que haya un segundo \\c[3]impulso\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-lvl2/event/1/acceptStep/17/text": {
+                "orig": "Release \\i[special] again to execute the attack.",
+                "text": "Suelta \\i[special] para ejecutar el ataque."
+        },
+        "database.json/commonEvents/tutorial-lvl2/event/1/acceptStep/23/text": {
+                "orig": "Repeat?",
+                "text": "¿Repetir?"
+        },
+        "database.json/commonEvents/tutorial-lvl2/event/1/acceptStep/23/options/0/label": {
+                "orig": "Yes",
+                "text": "Si"
+        },
+        "database.json/commonEvents/tutorial-lvl2/event/1/acceptStep/23/options/1/label": {
+                "orig": "No",
+                "text": "No"
+        },
+        "database.json/commonEvents/tutorial-lvl3/event/1/title": {
+                "orig": "Level 3 Arts",
+                "text": "Artes de Nivel 3"
+        },
+        "database.json/commonEvents/tutorial-lvl3/event/1/content": {
+                "orig": "Learn how to use \\c[3]Level 3 Combat Arts\\c[0] in combat.",
+                "text": "Aprende a usar las \\c[3]Artes de Combate de Nivel 3\\c[0] en combate."
+        },
+        "database.json/commonEvents/tutorial-lvl3/event/1/acceptStep/7/text": {
+                "orig": "To execute a \\c[3]level 3\\c[0] combat art need at least \\c[3]6 SP\\c[0].",
+                "text": "Para ejecutar un arte de combate de \\c[3]nivel 3\\c[0] se necesita al menos \\c[3]6 PE\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-lvl3/event/1/acceptStep/9/text": {
+                "orig": "Perform the combat art according to the type as usual.",
+                "text": "Haz el arte de combate correspondiente al tipo como siempre."
+        },
+        "database.json/commonEvents/tutorial-lvl3/event/1/acceptStep/15/text": {
+                "orig": "Charge for a \\c[3]longer time\\c[0] until you notice a total of \\c[3]3 bursts\\c[0].",
+                "text": "Carga el Arte por \\c[3]más tiempo\\c[0] hasta que haya un total de \\c[3]3 impulsos\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-lvl3/event/1/acceptStep/17/text": {
+                "orig": "Release \\i[special] again to execute the attack.",
+                "text": "Suelta \\i[special] para ejecutar el ataque."
+        },
+        "database.json/commonEvents/tutorial-lvl3/event/1/acceptStep/23/text": {
+                "orig": "Repeat?",
+                "text": "¿Repetir?"
+        },
+        "database.json/commonEvents/tutorial-lvl3/event/1/acceptStep/23/options/0/label": {
+                "orig": "Yes",
+                "text": "Si"
+        },
+        "database.json/commonEvents/tutorial-lvl3/event/1/acceptStep/23/options/1/label": {
+                "orig": "No",
+                "text": "No"
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/title": {
+                "orig": "Quests",
+                "text": "Misiones"
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/content": {
+                "orig": "Learn how to view and track your \\c[3]Quests\\c[0].",
+                "text": "Aprende a ver y seguir tus \\c[3]Misiones\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/acceptStep/6/text": {
+                "orig": "You can see all your quests within the \\c[3]quest menu\\c[0].",
+                "text": "Puedes ver todas tus misiones en el \\c[3]menú de misiones\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/acceptStep/12/text": {
+                "orig": "Focus a quest to see details on the left.",
+                "text": "Presiona una misión para ver detalles en la izquierda."
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/acceptStep/16/text": {
+                "orig": "You can see more details by selecting a quest.",
+                "text": "Puedes ver más detalles seleccionando una misión."
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/acceptStep/20/text": {
+                "orig": "Press \\i[help2] to \\c[3]mark\\c[0] a quest as favorite. You can mark any number of quests!",
+                "text": "Presiona \\i[help2] para \\c[3]marcar\\c[0] una misión como favorita. ¡Puedes marcar cualquier número de misiones!"
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/acceptStep/30/thenStep/0/text": {
+                "orig": "You can circle through the tasks of marked quests outside the menu by \\c[3]pressing\\c[0] \\i[left-stick] and \\i[right-stick].",
+                "text": "Puedes rotar a través de las tareas de las misiones marcadas fuera del menú \\c[3]presionando\\c[0] \\i[left-stick] y \\i[right-stick]."
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/acceptStep/30/elseStep/0/text": {
+                "orig": "You can circle through the tasks of marked quests outside the menu with \\i[circle-left] and \\i[circle-right].",
+                "text": "Puedes rotar a través de las tareas de las misiones marcadas fuera del menú \\c[3]presionando\\c[0] \\i[circle-left] y \\i[circle-right]."
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/acceptStep/35/text": {
+                "orig": "Repeat?",
+                "text": "¿Repetir?"
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/acceptStep/35/options/0/label": {
+                "orig": "Yes",
+                "text": "Si"
+        },
+        "database.json/commonEvents/tutorial-quests/event/1/acceptStep/35/options/1/label": {
+                "orig": "No",
+                "text": "No"
+        },
+        "database.json/commonEvents/tutorial-botanics/event/1/title": {
+                "orig": "Botanics",
+                "text": "Botánica"
+        },
+        "database.json/commonEvents/tutorial-botanics/event/1/content": {
+                "orig": "Learn how to view and track your progress in the\n\\c[3]Botanics Menu\\c[0].",
+                "text": "\\c[3]Menú de Botánica\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-botanics/event/1/acceptStep/14/text": {
+                "orig": "You can find the \\c[3]Botanics Menu\\c[0] within the \\c[3]Records Menu\\c[0].",
+                "text": "Puedes encontrar el \\c[3]Menú de Botánica\\c[0] dentro del \\c[3]Menú de Anotaciones\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-botanics/event/1/acceptStep/22/text": {
+                "orig": "See how many drops you need to complete the entry.",
+                "text": "Ver cuantos objetos necesitas para completar la entrada."
+        },
+        "database.json/commonEvents/tutorial-botanics/event/1/acceptStep/24/text": {
+                "orig": "Once progress reaches 50% you can find a more detailed location here.",
+                "text": "Cuando el progreso llegue al 50% podrás ver información mas detallada aquí."
+        },
+        "database.json/commonEvents/tutorial-botanics/event/1/acceptStep/35/text": {
+                "orig": "Repeat?",
+                "text": "¿Repetir?"
+        },
+        "database.json/commonEvents/tutorial-botanics/event/1/acceptStep/35/options/0/label": {
+                "orig": "Yes",
+                "text": "Si"
+        },
+        "database.json/commonEvents/tutorial-botanics/event/1/acceptStep/35/options/1/label": {
+                "orig": "No",
+                "text": "No"
+        },
+        "database.json/commonEvents/tutorial-elite/event/1/title": {
+                "orig": "Elite Quests",
+                "text": "Misiones de Élite"
+        },
+        "database.json/commonEvents/tutorial-elite/event/1/content": {
+                "orig": "Learn more about \\c[3]Elite Quests\\c[0].",
+                "text": "Aprende más sobre las \\c[3]Misiones de Élite\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-elite/event/1/acceptStep/10/text": {
+                "orig": "\\c[3]Elite Quests\\c[0] are difficult quests marked with an \\c[3]exclamation mark and red outlines\\c[0].",
+                "text": "Las \\c[3]Misiones de Élite\\c[0] son misiones difíciles maracadas con \\c[3]un signo de exclamación y un marco rojo\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-elite/event/1/acceptStep/12/text": {
+                "orig": "Even on the same levels, these quest can be \\c[3]very challenging\\c[0]. However, they often offer \\c[3]better loot as reward\\c[0].",
+                "text": "Incluso al mismo nivel, estas misiones puede ser \\c[3]muy desafiantes\\c[0]. Sin embargo, ofrecen \\c[3]mejor loot como recompensa\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-elite/event/1/acceptStep/21/text": {
+                "orig": "Repeat?",
+                "text": "¿Repetir?"
+        },
+        "database.json/commonEvents/tutorial-elite/event/1/acceptStep/21/options/0/label": {
+                "orig": "Yes",
+                "text": "Si"
+        },
+        "database.json/commonEvents/tutorial-elite/event/1/acceptStep/21/options/1/label": {
+                "orig": "No",
+                "text": "No"
+        },
+        "database.json/commonEvents/emilie-dies/event/0/0_0/0/message": {
+                "orig": "...Urgh, I couldn't handle this!",
+                "text": "...Ugh, ¡No pude con esto!"
+        },
+        "database.json/commonEvents/emilie-dies/event/0/0_1/0/message": {
+                "orig": "Sacrebleu! I'm out, Lea!",
+                "text": "¡Sacrebleu! ¡Estoy fuera, Lea!"
+        },
+        "database.json/commonEvents/emilie-dies/event/0/0_2/0/message": {
+                "orig": "I'll be back.",
+                "text": "Volveré."
+        },
+        "database.json/commonEvents/emilie-dies/event/0/1_0/0/message": {
+                "orig": "Wha...What just happened?",
+                "text": "Qu...¿Qué acaba de pasar?"
+        },
+        "database.json/commonEvents/emilie-dies/event/0/1_1/0/message": {
+                "orig": "Mon Dieu! What is going on?!",
+                "text": "¡Mon Dieu! ¡¿Qué está pasando?!"
+        },
+        "database.json/commonEvents/emilie-revived/event/0/0_0/0/message": {
+                "orig": "I'm back to kick some derrière!",
+                "text": "¡He vuelto a patear algunos derrière!"
+        },
+        "database.json/commonEvents/emilie-revived/event/0/0_1/0/message": {
+                "orig": "I see there are still enemies left for me!",
+                "text": "¡Veo que aún quedan enemigos para mí!"
+        },
+        "database.json/commonEvents/emilie-revived/event/0/1_0/0/message": {
+                "orig": "...Pardon. That was just too much for me to handle.",
+                "text": "...Pardon. Eso fue demasiado para mí."
+        },
+        "database.json/commonEvents/emilie-revived/event/0/1_1/0/message": {
+                "orig": "Hmpf... I gotta practice more.",
+                "text": "Hmpf... Tengo que practicar más."
+        },
+        "database.json/commonEvents/emilie-equip-update/event/0/0_0/0/message": {
+                "orig": "Excellent! Got new gear to punch enemies even harder!",
+                "text": "¡Excelente! ¡Tengo nuevo equipamiento para golpear a los enemigos incluso mas fuerte!"
+        },
+        "database.json/commonEvents/emilie-equip-update/event/0/0_1/0/message": {
+                "orig": "Lea, look at the new stuff I just bought!",
+                "text": "¡Lea, mira las nuevas cosas que me acabo de comprar!"
+        },
+        "database.json/commonEvents/emilie-equip-update/event/0/0_2/0/message": {
+                "orig": "Getting closer to the ultimate punching machine, one step at a time!",
+                "text": "¡Cada vez estoy más cerca de ser la suprema máquina golpeadora!"
+        },
+        "database.json/commonEvents/emilie-equip-update/event/0/0_3/0/message": {
+                "orig": "I got new gear! Too bad your appearance doesn't change, non?",
+                "text": "¡Tengo nuevo equipamiento! Que pena que tu apariencia no cambia, ¿non?"
+        },
+        "database.json/commonEvents/glasses-dies/event/0/0_0/0/message": {
+                "orig": "Dang-it! That attack came out of nowhere!",
+                "text": "¡Demonios! ¡Ese ataque vino de la nada!"
+        },
+        "database.json/commonEvents/glasses-dies/event/0/0_1/0/message": {
+                "orig": "Gosh...\\. I messed up, sorry!",
+                "text": "Dios...\\. Metí la pata, ¡perdón!"
+        },
+        "database.json/commonEvents/glasses-dies/event/0/0_2/0/message": {
+                "orig": "Drat! I'm out, Lea!",
+                "text": "¡Uf! ¡Estoy fuera, Lea!"
+        },
+        "database.json/commonEvents/glasses-dies/event/0/1_0/0/message": {
+                "orig": "Th... That was strange.",
+                "text": "Es... Eso fue raro."
+        },
+        "database.json/commonEvents/glasses-dies/event/0/1_1/0/message": {
+                "orig": "...You know that water can have 3 states. And this is the only deadly one.",
+                "text": "...Sabes que el agua tiene 3 estados. Y ese es el único que es mortal."
+        },
+        "database.json/commonEvents/glasses-revived/event/0/0_0/0/message": {
+                "orig": "Your mage is back!",
+                "text": "¡Tu mago ha vuelto!"
+        },
+        "database.json/commonEvents/glasses-revived/event/0/0_1/0/message": {
+                "orig": "I'm back! I see you're still going strong... right?",
+                "text": "¡He vuelto! Veo que sigues viva... ¿no?"
+        },
+        "database.json/commonEvents/glasses-revived/event/0/1_0/0/message": {
+                "orig": "Looks like I wasn't quite up to the challenge, sorry.",
+                "text": "Parece que no pude con el desafío, lo siento."
+        },
+        "database.json/commonEvents/glasses-revived/event/0/1_1/0/message": {
+                "orig": "Gosh... That didn't go too well... sorry.",
+                "text": "Dios... Eso no salió bien... perdón."
+        },
+        "database.json/commonEvents/glasses-equip/event/0/0_0/0/message": {
+                "orig": "I got some new gear. Yes, mages have gear, too.",
+                "text": "Tengo nuevo equipamiento. Si, los magos tienen equipamiento también."
+        },
+        "database.json/commonEvents/glasses-equip/event/0/0_1/0/message": {
+                "orig": "I got my gear up-to-date now. It was about time.",
+                "text": "Acabo de actualizar mi equipamiento. Ya era hora."
+        },
+        "database.json/commonEvents/glasses-equip/event/0/0_2/0/message": {
+                "orig": "I got some really cool gear this time!",
+                "text": "¡Conseguí muy buen equipamiento esta vez!"
+        },
+        "database.json/commonEvents/glasses-equip/event/0/0_3/0/message": {
+                "orig": "Got new gear. Though I wonder how those edges and triggers are supposed to improve my magic...",
+                "text": "Tengo nuevo equipamiento. Aunque me pregunto como esos bordes y gatillos se suponen que mejoran mi magia..."
+        },
+        "database.json/commonEvents/apollo-dies/event/0/0_0/0/message": {
+                "orig": "I'm out!\\. Keep fighting for justice in my place!",
+                "text": "¡Estoy fuera!\\. ¡Sigue peleando por la justicia en mi lugar!"
+        },
+        "database.json/commonEvents/apollo-dies/event/0/0_1/0/message": {
+                "orig": "I suffered defeat!\\. Keep fighting!\\. For the honor of Spheromancers!",
+                "text": "¡He sufrido una derroa!\\. ¡Sigue peleando!\\. ¡Por el honor de los Spheromancers!"
+        },
+        "database.json/commonEvents/apollo-dies/event/0/0_2/0/message": {
+                "orig": "I'm out, but don't give up!\\. One Spheromancer can handle any challenge!",
+                "text": "¡Estoy fuera, pero no te rindas!\\. ¡Un Spheromances puede manejar cualquier problema!"
+        },
+        "database.json/commonEvents/apollo-dies/event/0/1_0/0/message": {
+                "orig": "This wasn't right!\\. Why was I defeated?!\\. This smells like cheating!!",
+                "text": "¡Esto no está bien!\\. ¡¿Por qué he sido derrotado?!\\. ¡¡Esto me huele a trampa!!"
+        },
+        "database.json/commonEvents/apollo-dies/event/0/1_1/0/message": {
+                "orig": "Something is wrong here.\\. Suspicious!",
+                "text": "Algo está mal aquí.\\. ¡Sospechoso!"
+        },
+        "database.json/commonEvents/apollo-revived/event/0/0_0/0/message": {
+                "orig": "A Spheromancer returns to the battlefield, all foes beware!",
+                "text": "Un Spheromancer vuelve al campo de batalla, ¡enemigos temed!"
+        },
+        "database.json/commonEvents/apollo-revived/event/0/0_1/0/message": {
+                "orig": "Justice still needs to be served!",
+                "text": "¡La justicia aún debe ser servida!"
+        },
+        "database.json/commonEvents/apollo-revived/event/0/0_2/0/message": {
+                "orig": "In the name of Justice, I have returned!!",
+                "text": "¡¡En el nombre de la Justicia, he vuelto!!"
+        },
+        "database.json/commonEvents/apollo-revived/event/0/1_0/0/message": {
+                "orig": "I see you handled this conflict without my help.\\. Well done, Spheromancer Lea.",
+                "text": "Veo que manejaste este conflicto sin mi ayuda.\\. Bien hecho, Spheromancer Lea."
+        },
+        "database.json/commonEvents/apollo-revived/event/0/1_1/0/message": {
+                "orig": "Your fellow Spheromancer returned! Alas, a bit too late!",
+                "text": "¡Tu compañero Spheromancer ha vuelto! Aunque, ¡un poco tarde!"
+        },
+        "database.json/commonEvents/apollo-equip/event/0/message": {
+                "orig": "I just updated my gear, you should do so as well, Spheromancer Lea!",
+                "text": "Acabo de actualizar mi equipamiento, ¡deberías hacer lo mismo, Spheromancer Lea!"
+        },
+        "database.json/commonEvents/joern-dies/event/0/0_0/0/message": {
+                "orig": "Whoops, I'm out.",
+                "text": "Oops, estoy fuera."
+        },
+        "database.json/commonEvents/joern-dies/event/0/0_1/0/message": {
+                "orig": "Aaand I'm dead.\\. Sorry, your tank has fallen.",
+                "text": "Yyyy estoy muerto.\\. Lo siento, tu tanque ha caído."
+        },
+        "database.json/commonEvents/joern-dies/event/0/0_2/0/message": {
+                "orig": "Oh...\\. I'm dead.\\. Curses.",
+                "text": "Oh...\\. Estoy muerto.\\. Maldita sea."
+        },
+        "database.json/commonEvents/joern-dies/event/0/1_0/0/message": {
+                "orig": "Slippery edges...",
+                "text": "Bordes resbaladizos..."
+        },
+        "database.json/commonEvents/joern-dies/event/0/1_1/0/message": {
+                "orig": "What.",
+                "text": "Qué."
+        },
+        "database.json/commonEvents/joern-revived/event/0/0_0/0/message": {
+                "orig": "I'm back.",
+                "text": "He vuelto."
+        },
+        "database.json/commonEvents/joern-revived/event/0/0_1/0/message": {
+                "orig": "Back.\\. Still fighting?",
+                "text": "He vuelto.\\. ¿Siguen peleando?"
+        },
+        "database.json/commonEvents/joern-revived/event/0/1_0/0/message": {
+                "orig": "Your tank returns.\\. Aaand it's already over.",
+                "text": "Tu tanque ha vuelto.\\. Yyyy ya se ha acabado."
+        },
+        "database.json/commonEvents/joern-revived/event/0/1_1/0/message": {
+                "orig": "It looks like you handled things without me just fine.",
+                "text": "Parece que manejaste la situación sin mi sin mucho problema."
+        },
+        "database.json/commonEvents/joern-equip/event/0/message": {
+                "orig": "Got new gear, whoop whoop.",
+                "text": "Tengo nuevo equipamiento, ¡whopp whoop!"
+        },
+        "database.json/commonEvents/all-dng-enter/event/1/thenStep/1/0_0/0/message": {
+                "orig": "Lea? Where did you go? Did you just teleport into a dungeon or something?",
+                "text": "¿Lea? ¿Adónde fuiste? ¿Te acabas de teleportar a una mazmorra o algo?"
+        },
+        "database.json/commonEvents/all-dng-enter/event/1/thenStep/1/1_0/0/message": {
+                "orig": "Lea? This is strange. You just teleported away but we couldn't follow you. Where are you?",
+                "text": "¿Lea? Esto es raro. Te acabas de teleportar pero no te pudimos seguir. ¿Dónde estás?"
+        },
+        "database.json/commonEvents/all-dng-enter/event/1/thenStep/1/2_0/0/message": {
+                "orig": "Spheromancer Lea! Where did you teleport to and why can't I follow?! Is this a cheat?!",
+                "text": "¡Spheromancer Lea! ¡¿Dónde te teleportaste y por qué no te puedo seguir?! ¡¿Has hecho trampa?!"
+        },
+        "database.json/commonEvents/all-dng-enter/event/1/thenStep/1/3_0/0/message": {
+                "orig": "This is strange...\\. It seems I can't follow you to your new location.\\. Where are you, Lea?",
+                "text": "Esto es raro...\\. Parece que no te puedo seguir a tu nueva localización.\\. ¿Dónde estás, Lea?"
+        },
+        "database.json/commonEvents/all-dng-enter/event/2/thenStep/0/message": {
+                "orig": "Let the race...\\. continue!",
+                "text": "¡Que la carrera...\\. continúe!"
+        },
+        "database.json/commonEvents/all-dng-enter/event/3/thenStep/0/thenStep/0/message": {
+                "orig": "Hm... I think we have to enter the dungeon somewhere else to continue.",
+                "text": "Hm... creo que tenemos que entrar a la mazmorra por otro lado para continuar."
+        },
+        "database.json/commonEvents/all-dng-enter/event/3/thenStep/0/thenStep/1/message": {
+                "orig": "Lea, Lea. Taking your time to revisit previous dungeon rooms while the race is on hold, non?",
+                "text": "Lea, Lea. Tomándote tu tiempo para revisitar salas previas de la mazmorra mientras la carrera está en pausa, ¿non?"
+        },
+        "database.json/commonEvents/all-dng-enter/event/3/thenStep/0/thenStep/2/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/all-dng-enter/event/3/thenStep/0/elseStep/0/0_0/0/message": {
+                "orig": "Let the race...\\. continue!",
+                "text": "¡Que la carrera...\\. continúe!"
+        },
+        "database.json/commonEvents/all-dng-enter/event/3/thenStep/0/elseStep/0/0_1/0/message": {
+                "orig": "And back to the race! Gee, where did I leave off again?",
+                "text": "¡Y volvemos a la carrera! Hm, ¿dónde me había quedado?"
+        },
+        "database.json/commonEvents/all-dng-enter/event/4/0_0/0/message": {
+                "orig": "Dungeon time, it is! See you again, soon!",
+                "text": "¡Hora de mazmorras! ¡Nos vemos pronto!"
+        },
+        "database.json/commonEvents/all-dng-enter/event/4/1_0/0/message": {
+                "orig": "Back in the dungeon? See you later!",
+                "text": "¿De vuelta a la mazmorra? ¡Nos vemos luego!"
+        },
+        "database.json/commonEvents/all-dng-enter/event/4/2_0/0/message": {
+                "orig": "Right! Dungeon crawling is an important part of becoming a true Spheromancer! Good luck!",
+                "text": "¡Cierto! ¡Investigar mazmorras es una parte importante para convertirse en un verdadero Spheromancer! ¡Buena suerte!"
+        },
+        "database.json/commonEvents/all-dng-enter/event/4/3_0/0/message": {
+                "orig": "Dungeon time. So we're split up, I suppose?",
+                "text": "Hora de mazmorras. ¿Así que estamos todos separados, asumo?"
+        },
+        "database.json/commonEvents/all-dng-leave/event/0/thenStep/1/0_0/0/message": {
+                "orig": "Huh...\\. back again.\\. What was up with that, Lea?",
+                "text": "Eh...\\. de vuelta otra vez.\\. ¿Qué hay con eso, Lea?"
+        },
+        "database.json/commonEvents/all-dng-leave/event/0/thenStep/1/1_0/0/message": {
+                "orig": "Ah... there you are.\\. I was almost afraid we lost you.",
+                "text": "Ah... ahí estás.\\. Estaba preocupado, pensé que te habíamos perdido."
+        },
+        "database.json/commonEvents/all-dng-leave/event/0/thenStep/1/2_0/0/message": {
+                "orig": "Spheromancer Lea!\\. This was most suspicious!\\. Explain yourself!!",
+                "text": "¡Spheromancer Lea!\\. ¡Esto fue sospechoso!\\. ¡¡Explícate!!"
+        },
+        "database.json/commonEvents/all-dng-leave/event/0/thenStep/1/2_0/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/all-dng-leave/event/0/thenStep/1/2_0/2/message": {
+                "orig": "Right...",
+                "text": "Claro..."
+        },
+        "database.json/commonEvents/all-dng-leave/event/0/thenStep/1/3_0/0/message": {
+                "orig": "Ah.\\. There you are again.\\. Was this some kind of bug?",
+                "text": "Ah.\\. Ahí estás.\\. ¿Fue eso algún tipo de bug?"
+        },
+        "database.json/commonEvents/all-dng-leave/event/1/thenStep/0/message": {
+                "orig": "So you need a break from that gloomy mine? Alright.",
+                "text": "¿Así que necesitas un respiro de esa sombría mina? De acuerdo."
+        },
+        "database.json/commonEvents/all-dng-leave/event/1/thenStep/1/message": {
+                "orig": "But let's hurry. We still have to finish the race!",
+                "text": "Pero apurémonos. ¡Aún tenemos que terminar la carrera!"
+        },
+        "database.json/commonEvents/all-dng-leave/event/2/thenStep/0/thenStep/0/message": {
+                "orig": "Need a break? Alright!",
+                "text": "¿Necesitas un descanso? ¡De acuerdo!"
+        },
+        "database.json/commonEvents/all-dng-leave/event/2/thenStep/0/thenStep/1/thenStep/1/message": {
+                "orig": "Wait... If anybody needs a break, everybody leaves the dungeon?",
+                "text": "Espera... ¿Si alguien necesita un descanso, todos salen de la mazmorra?"
+        },
+        "database.json/commonEvents/all-dng-leave/event/2/thenStep/0/thenStep/1/thenStep/2/message": {
+                "orig": "Oui! That's how it works.",
+                "text": "¡Oui! Así funciona."
+        },
+        "database.json/commonEvents/all-dng-leave/event/2/thenStep/0/thenStep/1/thenStep/3/message": {
+                "orig": "That is... a very lax kind of race, isn't it?",
+                "text": "Esa es... una carrera muy relajada, ¿no?"
+        },
+        "database.json/commonEvents/all-dng-leave/event/2/thenStep/0/thenStep/1/thenStep/4/message": {
+                "orig": "So? It's still a race!",
+                "text": "¿Y? ¡No deja de ser una carrera!"
+        },
+        "database.json/commonEvents/all-dng-leave/event/2/thenStep/0/thenStep/1/thenStep/5/message": {
+                "orig": "I-I guess....",
+                "text": "S-Supongo..."
+        },
+        "database.json/commonEvents/all-dng-leave/event/2/thenStep/0/thenStep/1/elseStep/0/0_0/0/message": {
+                "orig": "Sure, it's not like I was right in the middle of that one puzzle...",
+                "text": "Seguro, no es como si estuviera justo en el medio de ese puzzle..."
+        },
+        "database.json/commonEvents/all-dng-leave/event/2/thenStep/0/thenStep/1/elseStep/0/0_1/0/message": {
+                "orig": "No problem. I can simply redo that one battle I just had to cancel.",
+                "text": "No hay problema. Simplemente reharé esa batalla que tuve que cancelar."
+        },
+        "database.json/commonEvents/all-dng-leave/event/2/thenStep/0/thenStep/1/elseStep/0/0_2/0/message": {
+                "orig": "And all the immersion is gone.",
+                "text": "Y toda la inmersión se ha ido."
+        },
+        "database.json/commonEvents/all-dng-leave/event/3/0_0/0/message": {
+                "orig": "Ahh, finally outside! It's just way too gloomy in those dungeons.",
+                "text": "¡Ahh, finalmente afuera! Es demasiado sombrío en esas mazmorras."
+        },
+        "database.json/commonEvents/all-dng-leave/event/3/1_0/0/message": {
+                "orig": "Welcome back!",
+                "text": "¡Bienvenida de vuelta!"
+        },
+        "database.json/commonEvents/all-dng-leave/event/3/2_0/0/message": {
+                "orig": "I see you left the dungeon! Did you manage to further hone your Spheromancer abilities?",
+                "text": "¡Veo que dejaste la mazmorra! ¿Conseguiste perfeccionar aún más tus habilidades de Spheromancer?"
+        },
+        "database.json/commonEvents/all-dng-leave/event/3/3_0/0/message": {
+                "orig": "Welcome back. It's more fun to run around together.",
+                "text": "Bienvenida de vuelta. Es más divertido pasear juntos."
+        },
+        "database.json/commonEvents/contact-blocked/event/2/text": {
+                "orig": "No Connection",
+                "text": "Sin Conexión"
+        },
+        "database.json/commonEvents/contact-blocked-area/event/0/text": {
+                "orig": "Let's better not contact anyone from here to reduce suspicion.",
+                "text": "Mejor no contactemos a nadie desde aquí para reducir sospechas."
+        },
+        "database.json/commonEvents/join-blocked/event/2/text": {
+                "orig": "No Connection",
+                "text": "Sin Conexión"
+        },
+        "database.json/commonEvents/join-blocked-area/event/0/text": {
+                "orig": "You should not invite any party members now.",
+                "text": "No deberías invitar a ningún amigo ahora."
+        },
+        "database.json/commonEvents/join-blocked-finale/event/0/text": {
+                "orig": "You should not invite any party members now.",
+                "text": "No deberías invitar a ningún amigo ahora."
+        },
+        "database.json/commonEvents/leave-blocked/event/2/text": {
+                "orig": "No Connection",
+                "text": "Sin Conexión"
+        },
+        "database.json/commonEvents/leave-blocked-area/event/0/text": {
+                "orig": "You should not remove any party members now. That would be even more suspicious.",
+                "text": "No deberías quitar a ningún compañero ahora. Eso sería incluso más sospechoso."
+        },
+        "database.json/commonEvents/emilie-contact/event/0/thenStep/0/text": {
+                "orig": "Now is not a good time...",
+                "text": "Ahora no es buen momento..."
+        },
+        "database.json/commonEvents/emilie-contact/event/5/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/5/thenStep/1/message": {
+                "orig": "Uhm, hey Lea. Why the DL? I'm in your party, non?",
+                "text": "Uhm, ey Lea. ¿Por qué el MD? Estoy en tu grupo, ¿non?"
+        },
+        "database.json/commonEvents/emilie-contact/event/5/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-contact/event/6/thenStep/0/text": {
+                "orig": "TODO: Get ready for dungeon!",
+                "text": "¡Prepárense para la mazmorra!"
+        },
+        "database.json/commonEvents/emilie-contact/event/7/thenStep/0/text": {
+                "orig": "TODO: Mention Dungeon Meeting",
+                "text": "TODO: placeholder"
+        },
+        "database.json/commonEvents/emilie-contact/event/8/thenStep/0/text": {
+                "orig": "TODO: Secret Bonus Conversation (Going around with Shizuka)",
+                "text": "TODO: placeholder"
+        },
+        "database.json/commonEvents/emilie-contact/event/9/thenStep/0/text": {
+                "orig": "TODO: Explore the new area!",
+                "text": "TODO: placeholder"
+        },
+        "database.json/commonEvents/emilie-contact/event/10/thenStep/0/text": {
+                "orig": "TODO: Mentioning Meeting for Raid",
+                "text": "TODO: placeholder"
+        },
+        "database.json/commonEvents/emilie-contact/event/11/thenStep/0/text": {
+                "orig": "TODO: Dialog before Raid Meeting",
+                "text": "TODO: placeholder"
+        },
+        "database.json/commonEvents/emilie-contact/event/12/thenStep/0/text": {
+                "orig": "TODO: Dialog during homestedt tour",
+                "text": "TODO: placeholder"
+        },
+        "database.json/commonEvents/emilie-contact/event/13/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/13/thenStep/1/message": {
+                "orig": "Bonjour, chérie!",
+                "text": "¡Bonjour, chérie!"
+        },
+        "database.json/commonEvents/emilie-contact/event/13/thenStep/2/message": {
+                "orig": "I wish you the best of luck with the tower dungeon! Though I'm confident you'll be fine!",
+                "text": "¡Te deseo la mejor suerte con la torre! ¡Aunque estoy segura de que estarás bien!"
+        },
+        "database.json/commonEvents/emilie-contact/event/13/thenStep/3/message": {
+                "orig": "Show that Mr. Fancypants what you're made of!",
+                "text": "¡Muéstrale a ese patán de lo que estás hecha!"
+        },
+        "database.json/commonEvents/emilie-contact/event/13/thenStep/4/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/emilie-contact/event/14/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/14/thenStep/1/message": {
+                "orig": "No time for talking right now, chérie!",
+                "text": "¡No es momento para hablar, chérie!"
+        },
+        "database.json/commonEvents/emilie-contact/event/15/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/15/thenStep/1/message": {
+                "orig": "I'm ready, Lea! Let's go to that \\c[3]Dojo\\c[0] and show that Sidwell guy he's messing with the wrong players!!",
+                "text": "¡Estoy lista, Lea! ¡¡Vayamos a ese \\c[3]Dojo\\c[0] y mostrémosle a Sidwell que está lidiando con los jugadores equivocados!!"
+        },
+        "database.json/commonEvents/emilie-contact/event/16/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/16/thenStep/1/message": {
+                "orig": "Bonjour, chérie!",
+                "text": "¡Bonjour, chérie!"
+        },
+        "database.json/commonEvents/emilie-contact/event/16/thenStep/2/message": {
+                "orig": "Did you already hear the news from Tronny?",
+                "text": "¿Oíste las noticias de Tronny?"
+        },
+        "database.json/commonEvents/emilie-contact/event/16/thenStep/3/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/emilie-contact/event/16/thenStep/4/message": {
+                "orig": "It really is a shame that he won't have time for CrossWorlds.",
+                "text": "Es una pena que no tendrá tiempo para CrossWorlds."
+        },
+        "database.json/commonEvents/emilie-contact/event/16/thenStep/5/message": {
+                "orig": "We should all play the game together while he's still here.",
+                "text": "Deberíamos jugar juntos mientras esté aquí."
+        },
+        "database.json/commonEvents/emilie-contact/event/16/thenStep/6/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-contact/event/17/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/17/thenStep/1/message": {
+                "orig": "Bonjour, chérie!",
+                "text": "¡Bonjour, chérie!"
+        },
+        "database.json/commonEvents/emilie-contact/event/17/thenStep/2/message": {
+                "orig": "Mon dieu, \\c[3]Rhombus Square\\c[0] is quite the city, isn't it?",
+                "text": "Mon dieu, \\c[3]Rhombus Squre\\c[0] es una gran cuidad, ¿no?"
+        },
+        "database.json/commonEvents/emilie-contact/event/17/thenStep/3/message": {
+                "orig": "I love the fact that you can jump on those cars to cross the streets.",
+                "text": "Amo el detalle de que puedas saltar en los autos para cruzar la calle."
+        },
+        "database.json/commonEvents/emilie-contact/event/17/thenStep/4/message": {
+                "orig": "Totally should try that in real life some time...",
+                "text": "Debería intentar eso en la vida real algún día..."
+        },
+        "database.json/commonEvents/emilie-contact/event/17/thenStep/5/message": {
+                "orig": "Wait!!",
+                "text": "¡¡Espera!!"
+        },
+        "database.json/commonEvents/emilie-contact/event/17/thenStep/6/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/emilie-contact/event/17/thenStep/7/message": {
+                "orig": "Hahaha! I'm just joking, chérie! I'd never do that!",
+                "text": "¡Jajaja! ¡Estoy bromeando, chérie! ¡Nunca haría eso!"
+        },
+        "database.json/commonEvents/emilie-contact/event/18/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/18/thenStep/1/message": {
+                "orig": "Lea, we're waiting right at \\c[3]CrossCentral\\c[0]!",
+                "text": "Lea, estamos esperando en la \\c[3]Central Cross\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-contact/event/18/thenStep/2/message": {
+                "orig": "Let's enter \\c[3]Rhombus Square\\c[0] together!",
+                "text": "¡Entremos a \\c[3]Rhombus Square\\c[0] juntas!"
+        },
+        "database.json/commonEvents/emilie-contact/event/19/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/19/thenStep/1/message": {
+                "orig": "Bonjour, chérie!",
+                "text": "¡Bonjour, chérie!"
+        },
+        "database.json/commonEvents/emilie-contact/event/19/thenStep/2/message": {
+                "orig": "Why...\\. Why did they have to bring back the bugs?",
+                "text": "Por qué...\\. ¿Por qué tenían que traer de vuelta a los bichos?"
+        },
+        "database.json/commonEvents/emilie-contact/event/19/thenStep/3/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-contact/event/19/thenStep/4/message": {
+                "orig": "I really enjoyed my time in Gaia's Garden, but this new Sapphire area is the worst.",
+                "text": "Realmente disfruté mi tiempo en el Jardín de Gaia, pero esta nueva área Sapphire es lo peor."
+        },
+        "database.json/commonEvents/emilie-contact/event/19/thenStep/5/message": {
+                "orig": "Please don't let me go through all of this alone, chérie...",
+                "text": "Por favor no me dejes pasar por todo esto sola, chérie..."
+        },
+        "database.json/commonEvents/emilie-contact/event/19/thenStep/6/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/emilie-contact/event/20/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/20/thenStep/1/message": {
+                "orig": "Bonjour.",
+                "text": "Bonjour."
+        },
+        "database.json/commonEvents/emilie-contact/event/20/thenStep/2/message": {
+                "orig": "It really is a shame, that things didn't work out for the raid.",
+                "text": "Es una pena, que las cosas no hayan salido bien en la raid."
+        },
+        "database.json/commonEvents/emilie-contact/event/20/thenStep/3/message": {
+                "orig": "Sorry...",
+                "text": "Perdón..."
+        },
+        "database.json/commonEvents/emilie-contact/event/20/thenStep/4/message": {
+                "orig": "Non, non, it's alright, chérie.",
+                "text": "Non, non, está bien, chérie."
+        },
+        "database.json/commonEvents/emilie-contact/event/20/thenStep/5/message": {
+                "orig": "There will be many more opportunities.",
+                "text": "Habrá muchas más oportunidades."
+        },
+        "database.json/commonEvents/emilie-contact/event/20/thenStep/6/message": {
+                "orig": "For now let's focus on Exploring \\c[3]Sapphire Ridge\\c[0]!",
+                "text": "¡Por ahora, centrémonos en Explorar \\c[3]Sapphire Ridge\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-contact/event/20/thenStep/7/message": {
+                "orig": "Do you mind doing it together? I'm free!",
+                "text": "¿Te importaría hacerlo juntas? ¡Estoy libre!"
+        },
+        "database.json/commonEvents/emilie-contact/event/21/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/21/thenStep/1/message": {
+                "orig": "Bonjour, chérie!",
+                "text": "¡Bonjour, chérie!"
+        },
+        "database.json/commonEvents/emilie-contact/event/21/thenStep/2/message": {
+                "orig": "Tronny told you already, non?\\. We plan to meet at the \\c[3]First Scholar HQ\\c[0]!",
+                "text": "Tronny te dijo ya, ¿non?\\. ¡Planeamos encontrarnos en la \\c[3]Sede de los Primeros Eruditos\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-contact/event/21/thenStep/3/message": {
+                "orig": "We have great news!",
+                "text": "¡Tenemos grandes noticias!"
+        },
+        "database.json/commonEvents/emilie-contact/event/21/thenStep/4/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/emilie-contact/event/22/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/22/thenStep/1/message": {
+                "orig": "Not now, chérie. I really need to focus here.",
+                "text": "Ahora no, chérie. Realmente necesito concentrarme aquí."
+        },
+        "database.json/commonEvents/emilie-contact/event/22/thenStep/2/message": {
+                "orig": "I can't let Grasshead win this one, oui!",
+                "text": "¡No puedo dejar a cabeza de pasto ganar esto, oui!"
+        },
+        "database.json/commonEvents/emilie-contact/event/22/thenStep/3/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-contact/event/23/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/23/thenStep/1/message": {
+                "orig": "Bonjour! Making good progress here on my side!",
+                "text": "¡Bonjour! ¡Estoy haciendo buen progreso de mi lado!"
+        },
+        "database.json/commonEvents/emilie-contact/event/23/thenStep/2/message": {
+                "orig": "I feel like this shock-themed dungeon is right up my alley!",
+                "text": "¡Siento que esta mazmorra electrificada va perfecta para mí!"
+        },
+        "database.json/commonEvents/emilie-contact/event/23/thenStep/3/message": {
+                "orig": "...!!",
+                "text": "¡¡...!!"
+        },
+        "database.json/commonEvents/emilie-contact/event/23/thenStep/4/thenStep/0/message": {
+                "orig": "Though I have to admit that some of those Wave-ball puzzles make my head hurt.",
+                "text": "Aunque debo admitir que algunos de esos puzzles con las pelotas de Pulso me hacen doler la cabeza."
+        },
+        "database.json/commonEvents/emilie-contact/event/24/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/24/thenStep/1/message": {
+                "orig": "Bonjour! Currently busy solving puzzles!",
+                "text": "¡Bonjour! ¡Estoy resolviendo puzzles!"
+        },
+        "database.json/commonEvents/emilie-contact/event/24/thenStep/2/message": {
+                "orig": "Such an interesting place, isn't it?",
+                "text": "Que lugar tan interesante, ¿no?"
+        },
+        "database.json/commonEvents/emilie-contact/event/24/thenStep/3/message": {
+                "orig": "I've always heard horrible stories about water dungeons in games, but this one isn't really.",
+                "text": "Siempre oí horribles historias sobre las mazmorras acuáticas en los juegos, pero esta no está mal."
+        },
+        "database.json/commonEvents/emilie-contact/event/24/thenStep/4/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-contact/event/25/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/25/thenStep/1/message": {
+                "orig": "Bonjour, chérie!",
+                "text": "¡Bonjour, chérie!"
+        },
+        "database.json/commonEvents/emilie-contact/event/25/thenStep/2/message": {
+                "orig": "I'm sooo ready for our next dungeon race!",
+                "text": "¡Estoy taaaan lista para nuestra próxima carrera!"
+        },
+        "database.json/commonEvents/emilie-contact/event/25/thenStep/3/message": {
+                "orig": "...!!",
+                "text": "¡¡...!!"
+        },
+        "database.json/commonEvents/emilie-contact/event/25/thenStep/4/message": {
+                "orig": "Gaia's Garden is pretty neat in general, isn't it?",
+                "text": "El Jardín de Gaia está bastante bien en general, ¿no?"
+        },
+        "database.json/commonEvents/emilie-contact/event/25/thenStep/5/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/emilie-contact/event/25/thenStep/6/message": {
+                "orig": "So colorful and... entirely bug free!",
+                "text": "Tan colorido y... ¡libre de bichos!"
+        },
+        "database.json/commonEvents/emilie-contact/event/25/thenStep/7/message": {
+                "orig": "Guess I really had the wrong idea about this place.",
+                "text": "Supongo que tenía una mala impresión de este lugar."
+        },
+        "database.json/commonEvents/emilie-contact/event/25/thenStep/8/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-contact/event/26/thenStep/1/message": {
+                "orig": "Hi...",
+                "text": "Hola..."
+        },
+        "database.json/commonEvents/emilie-contact/event/26/thenStep/2/message": {
+                "orig": "I'm waiting for you at the \\c[3]First Scholar HQ\\c[0]. Please hurry.",
+                "text": "Te estoy esperando en la \\c[3]Sede de los Primeros Eruditos\\c[0]. Por favor apúrate."
+        },
+        "database.json/commonEvents/emilie-contact/event/27/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/27/thenStep/1/message": {
+                "orig": "Bonjour Lea! Tronny and me are still waiting at the \\c[3]statue\\c[0] in \\c[3]Autumn's Fall - Ancient Center\\c[0]! Let's meet there!",
+                "text": "¡Bonjour Lea! ¡Tronny y yo estamos esperando en la \\c[3]estatua\\c[0] en el \\c[3]Anochecer de Otoño - Centro Antiguo\\c[0]! ¡Encontrémonos ahí!"
+        },
+        "database.json/commonEvents/emilie-contact/event/28/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/28/thenStep/1/message": {
+                "orig": "Lea, just meet me and Tronny at \\c[3]Rookie Harbor Center\\c[0]! We'll be waiting next to the \\c[3]fountain\\c[0]!",
+                "text": "Lea, ¡sólo encuéntrame a mí y a Tronny en el \\c[3]Centro de Rookie Harbor\\c[0]! ¡Estaremos esperando al lado de la \\c[3]fuente\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-contact/event/29/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/29/thenStep/1/message": {
+                "orig": "Bonjour Lea!",
+                "text": "¡Bonjour Lea!"
+        },
+        "database.json/commonEvents/emilie-contact/event/29/thenStep/2/message": {
+                "orig": "Did you explore all of Autumn's Fall, yet?",
+                "text": "¿Exploraste todo el Anochecer del Otoño, ya?"
+        },
+        "database.json/commonEvents/emilie-contact/event/29/thenStep/3/message": {
+                "orig": "It's very much like Autumn's Rise, just ruins everywhere.",
+                "text": "Es muy parecido al Amanecer del Otoño, solo que con ruinas por todos lados."
+        },
+        "database.json/commonEvents/emilie-contact/event/29/thenStep/4/message": {
+                "orig": "Oh, and the cows are back! Yay for cows!",
+                "text": "¡Ah, y las vacas están de vuelta! ¡Vivan la vacas!"
+        },
+        "database.json/commonEvents/emilie-contact/event/29/thenStep/5/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/emilie-contact/event/30/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/30/thenStep/1/message": {
+                "orig": "Bonjour Lea!",
+                "text": "¡Bonjour Lea!"
+        },
+        "database.json/commonEvents/emilie-contact/event/30/thenStep/2/message": {
+                "orig": "This Temple is interesting, non?",
+                "text": "Este Templo es interesante, ¿non?"
+        },
+        "database.json/commonEvents/emilie-contact/event/30/thenStep/3/message": {
+                "orig": "I didn't expect there to be so much water in here.",
+                "text": "No esperaba que hubiera tanta agua aquí."
+        },
+        "database.json/commonEvents/emilie-contact/event/30/thenStep/4/message": {
+                "orig": "You know... for being right within a desert.",
+                "text": "Sabes... para estar justo en el medio de un desierto."
+        },
+        "database.json/commonEvents/emilie-contact/event/30/thenStep/5/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-contact/event/30/thenStep/6/message": {
+                "orig": "Anyway, I will not fall back! Let's go!",
+                "text": "Como sea, ¡no me daré por vencida! ¡Vamos!"
+        },
+        "database.json/commonEvents/emilie-contact/event/31/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/31/thenStep/1/message": {
+                "orig": "Maroon Valley is pretty massive, isn't it?",
+                "text": "El Valle Maroon es bastante grande, ¿no?"
+        },
+        "database.json/commonEvents/emilie-contact/event/31/thenStep/2/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/emilie-contact/event/31/thenStep/3/message": {
+                "orig": "I'm not exactly a huge fan. A desert isn't exactly the most interesting location, non?",
+                "text": "No soy muy fan. Un desierto no es exactamente el lugar más interesante, ¿non?"
+        },
+        "database.json/commonEvents/emilie-contact/event/31/thenStep/4/message": {
+                "orig": "Though the oasis is pretty nice, I suppose.",
+                "text": "Aunque el oasis está bastante bien, supongo."
+        },
+        "database.json/commonEvents/emilie-contact/event/32/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/32/thenStep/1/message": {
+                "orig": "Hey Lea! We should go back to the \\c[3]First Scholars\\c[0] and do that quiz already, non?",
+                "text": "¡Ey Lea! Deberíamos volver a los \\c[3]Primeros Eruditos\\c[0] y hacer esa encuesta, ¿non?"
+        },
+        "database.json/commonEvents/emilie-contact/event/32/thenStep/2/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/emilie-contact/event/33/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/33/thenStep/1/message": {
+                "orig": "What is it Lea?",
+                "text": "¿Qué pasa Lea?"
+        },
+        "database.json/commonEvents/emilie-contact/event/33/thenStep/2/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/emilie-contact/event/33/thenStep/3/message": {
+                "orig": "Sorry, I'm really tense right now. ",
+                "text": "Perdón, estoy muy tensa ahora mismo."
+        },
+        "database.json/commonEvents/emilie-contact/event/33/thenStep/4/message": {
+                "orig": "There could be more of those horrible bugs around every corner, you know?",
+                "text": "Podrían haber más de esos horribles bichos en cada esquina, ¿sabes?"
+        },
+        "database.json/commonEvents/emilie-contact/event/33/thenStep/5/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-contact/event/34/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/34/thenStep/1/message": {
+                "orig": "What is it Lea? Already tired from dungeon crawling?",
+                "text": "¿Qué pasa Lea? ¿Ya te cansaste de investigar mazmorras?"
+        },
+        "database.json/commonEvents/emilie-contact/event/34/thenStep/2/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/emilie-contact/event/34/thenStep/3/message": {
+                "orig": "Good! I sure hope you won't drop out of our race!",
+                "text": "¡Bien! ¡Espero que no abandones nuestra carrera!"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/1/message": {
+                "orig": "Bonjour Lea!",
+                "text": "¡Bonjour Lea!"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/2/message": {
+                "orig": "I'm currently climbing up \\c[3]\\v[area.bergen-trails.name]\\c[0]!",
+                "text": "¡Estoy trepando el \\c[3]\\v[area.bergen-trails.name]\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/3/message": {
+                "orig": "Just now, I saw a group of \\c[3]penguins\\c[0]!",
+                "text": "¡Acabo de ver un grupo de \\c[3]pingüinos\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/4/message": {
+                "orig": "I'm preeeetty sure that penguins are usually not around mountains.",
+                "text": "Estoy bastaaaante segura de que los pingüinos no frecuentan montañas usualmente."
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/5/message": {
+                "orig": "Very suspicious, non?",
+                "text": "Muy sospechoso, ¿non?"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/6/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/7/message": {
+                "orig": "Aaaanyway, just tell me when you want to start a party!",
+                "text": "Como sea... ¡sólo dime cuando quieras que me una a tu grupo!"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/8/message": {
+                "orig": "And don't forget, no entering the next dungeon without me, d'accord?",
+                "text": "Y no te olvides, no entres a la próxima mazmorra sin mí, ¿d'accord?"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/9/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/emilie-contact/event/35/thenStep/10/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/emilie-contact/event/36/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/36/thenStep/1/message": {
+                "orig": "Bonjour! I'm currently in \\c[3]\\v[area.autumn-area.name]\\c[0] enjoying the landscape.",
+                "text": "¡Bonjour! Ahora estoy en el \\c[3]\\v[area.autumn-area.name]\\c[0] disfurtando del paisaje."
+        },
+        "database.json/commonEvents/emilie-contact/event/36/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/emilie-contact/event/37/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/emilie-contact/event/38/message": {
+                "orig": "Hey Lea!",
+                "text": "¡Ey Lea!"
+        },
+        "database.json/commonEvents/emilie-join/event/0/thenStep/0/text": {
+                "orig": "Now is not a good time...",
+                "text": "Ahora no es buen momento..."
+        },
+        "database.json/commonEvents/emilie-join/event/5/thenStep/0/message": {
+                "orig": "Lea, we want to meet in the \\c[3]city hall\\c[0] to talk about running that new dungeon togther.",
+                "text": "Lea, nos queremos encontrar el \\c[3]ayuntamiento\\c[0] para hablar acerca de esa carrera."
+        },
+        "database.json/commonEvents/emilie-join/event/5/thenStep/1/message": {
+                "orig": "You should join us!",
+                "text": "¡Deberías unírtenos!"
+        },
+        "database.json/commonEvents/emilie-join/event/6/thenStep/0/message": {
+                "orig": "Lea, the raid is about to start!",
+                "text": "¡Lea, el raid está a punto de comenzar!"
+        },
+        "database.json/commonEvents/emilie-join/event/6/thenStep/1/message": {
+                "orig": "We're waiting at \\c[3]Para Island\\c[0] in \\c[3]Autumn's Fall\\c[0]!",
+                "text": "¡Estamos esperando en la \\c[3]Isla Para\\c[0] en el \\c[3]Anochecer del Otoño\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-join/event/7/thenStep/0/message": {
+                "orig": "Lea, we're waiting right at \\c[3]Cross Central\\c[0]!",
+                "text": "¡Lea, estamos esperando justo en la \\c[3]Central Cross\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-join/event/7/thenStep/1/message": {
+                "orig": "Let's enter \\c[3]Rhombus Square\\c[0] together!",
+                "text": "¡Entremos a \\c[3]Rhombus Square\\c[0] juntas!"
+        },
+        "database.json/commonEvents/emilie-join/event/8/thenStep/0/message": {
+                "orig": "Bonjour, chérie!",
+                "text": "¡Bonjour, chérie!"
+        },
+        "database.json/commonEvents/emilie-join/event/8/thenStep/1/message": {
+                "orig": "Tronny told you already, non?\\. We plan to meet at the \\c[3]First Scholar HQ\\c[0]!",
+                "text": "Tronny te dijo ya, ¿non?\\. ¡Planeamos encontrarnos en la \\c[3]Sede de los Primeros Eruditos\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-join/event/8/thenStep/2/message": {
+                "orig": "We have great news!",
+                "text": "¡Tenemos grandes noticias!"
+        },
+        "database.json/commonEvents/emilie-join/event/8/thenStep/3/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/emilie-join/event/9/thenStep/0/message": {
+                "orig": "No party yet.",
+                "text": "No hay grupo aún."
+        },
+        "database.json/commonEvents/emilie-join/event/9/thenStep/1/message": {
+                "orig": "I'm waiting for you at the \\c[3]First Scholar HQ\\c[0]. Please hurry.",
+                "text": "Te estoy esperando en la \\c[3]Sede de los Primeros Eruditos\\c[0]. Por favor apúrate."
+        },
+        "database.json/commonEvents/emilie-join/event/10/thenStep/0/message": {
+                "orig": "Hm? It's getting a bit late Lea. I actually think I'll log off soon.",
+                "text": "¿Hm? Se está haciendo un poco tarde Lea. Creo que me convendría desconectarme pronto."
+        },
+        "database.json/commonEvents/emilie-join/event/10/thenStep/1/message": {
+                "orig": "So no more party today, pardon.",
+                "text": "Así que nada de grupos hoy, pardon."
+        },
+        "database.json/commonEvents/emilie-join/event/10/thenStep/2/message": {
+                "orig": "Let's just chill a bit longer here on top of Faj'ro Temple.",
+                "text": "Sólo descansemos un poco más aquí en la cima del Templo Faj'ro."
+        },
+        "database.json/commonEvents/emilie-join/event/11/thenStep/0/message": {
+                "orig": "Bonjour Lea! Tronny and me are still waiting at the \\c[3]statue\\c[0] in \\c[3]Autumn's Fall - Ancient Center\\c[0]! Let's meet there!",
+                "text": "¡Bonjour Lea! ¡Tronny y yo estamos esperando en la \\c[3]estatua\\c[0] en el \\c[3]Anochecer de Otoño - Centro Antiguo\\c[0]! ¡Encontrémonos ahí!"
+        },
+        "database.json/commonEvents/emilie-join/event/12/thenStep/0/message": {
+                "orig": "Lea, just meet me and Tronny at \\c[3]Rookie Harbor Center\\c[0]! We'll be waiting next to the \\c[3]fountain\\c[0]!",
+                "text": "Lea, ¡sólo encuéntrame a mí y a Tronny en el \\c[3]Centro de Rookie Harbor\\c[0]! ¡Estaremos esperando al lado de la \\c[3]fuente\\c[0]!"
+        },
+        "database.json/commonEvents/emilie-join/event/13/thenStep/0/message": {
+                "orig": "Hey Lea! I'll just focus on finishing that quest myself, oui? See you later!",
+                "text": "¡Ey Lea! Me centraré en terminar esa misión por mí misma, ¿oui? ¡Nos vemos!"
+        },
+        "database.json/commonEvents/emilie-join/event/14/0_0/0/message": {
+                "orig": "Yes! Party time! Une seconde, I'll be right there!",
+                "text": "¡Si! ¡Hora de juntarse! Une seconde, ¡ya estoy ahí!"
+        },
+        "database.json/commonEvents/emilie-join/event/14/0_1/0/message": {
+                "orig": "I see you're looking for a formidable punching force. I'm ready!",
+                "text": "Veo que estás buscando a alguien para que golpee formidablemente. ¡Estoy lista!"
+        },
+        "database.json/commonEvents/emilie-join/event/14/0_2/0/message": {
+                "orig": "It's time for chakrams and fists to roll over the field!",
+                "text": "¡Es hora de que los chakras y los puños arrollen el campo!"
+        },
+        "database.json/commonEvents/emilie-remove/event/4/thenStep/0/message": {
+                "orig": "So you want to do the Autumn's Fall Quest by yourself after all? D'accord!",
+                "text": "¿Así que quieres hacer la misión del Anochecer del Otoño tu sola? ¡D'accord!"
+        },
+        "database.json/commonEvents/emilie-remove/event/4/thenStep/1/message": {
+                "orig": "Just make sure to tell me once you collected the Shade!",
+                "text": "¡Sólo asegúrate de avisarme cuando recojas la Sombra!"
+        },
+        "database.json/commonEvents/emilie-remove/event/5/0_0/0/message": {
+                "orig": "D'accord! Until next time, Lea!",
+                "text": "¡D'accord! ¡Hasta la próxima, Lea!"
+        },
+        "database.json/commonEvents/emilie-remove/event/5/0_1/0/message": {
+                "orig": "That was fun! Any time again!",
+                "text": "¡Eso fue divertido! ¡Nos vemos cuando quieras!"
+        },
+        "database.json/commonEvents/emilie-remove/event/5/0_2/0/message": {
+                "orig": "Awww, already? Well...\\. see you soon!",
+                "text": "¿Awww, tan pronto? Bueno...\\. ¡Nos vemos!"
+        },
+        "database.json/commonEvents/glasses-contact/event/4/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/glasses-contact/event/4/thenStep/1/message": {
+                "orig": "Hi, Lea! It's nice running around with you in CrossWorlds!",
+                "text": "¡Hola, Lea! ¡Es lindo pasear contigo en CrossWorlds!"
+        },
+        "database.json/commonEvents/glasses-contact/event/4/thenStep/2/message": {
+                "orig": "Though... I think it's ok if we just talk normally, right? No need to use a Direct Link.",
+                "text": "Aunque... creo que está bien si hablamos normalmente, ¿no? No hay necesidad de usar el Mensaje Directo."
+        },
+        "database.json/commonEvents/glasses-contact/event/4/thenStep/3/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/glasses-contact/event/5/thenStep/0/text": {
+                "orig": "TODO: Get ready for dungeon!",
+                "text": "¡Prepárense para la mazmorra!"
+        },
+        "database.json/commonEvents/glasses-contact/event/6/thenStep/0/text": {
+                "orig": "TODO: Mention Dungeon Meeting (do not want, am at home)",
+                "text": "TODO: placeholder"
+        },
+        "database.json/commonEvents/glasses-contact/event/7/thenStep/0/text": {
+                "orig": "TODO: Taking a break in Homestedt after running the new area",
+                "text": "TODO: placeholder"
+        },
+        "database.json/commonEvents/glasses-contact/event/8/thenStep/0/text": {
+                "orig": "TODO: Explore the new area!",
+                "text": "TODO: placeholder"
+        },
+        "database.json/commonEvents/glasses-contact/event/9/thenStep/0/message": {
+                "orig": "S-Sorry, Lea!\\. I have to check something!\\. I'll be back soon, promised!",
+                "text": "¡P-Perdón, Lea!\\. ¡Tengo que revisar algo!\\. ¡Volveré pronto, lo prometo!"
+        },
+        "database.json/commonEvents/glasses-contact/event/10/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/glasses-contact/event/10/thenStep/1/message": {
+                "orig": "Hello, Lea!",
+                "text": "¡Hola, Lea!"
         }
 }
