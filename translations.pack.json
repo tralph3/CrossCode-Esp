@@ -1,0 +1,3314 @@
+{
+        "database.json/achievements/story-01/name": {
+                "orig": "Chapter 1 Complete",
+                "text": "Capítulo 1 Completado"
+        },
+        "database.json/achievements/story-01/description": {
+                "orig": "Completed Chapter 1.",
+                "text": "Completa el Capítulo 1."
+        },
+        "database.json/achievements/story-02/name": {
+                "orig": "Chapter 2 Complete",
+                "text": "Capítulo 2 Completado"
+        },
+        "database.json/achievements/story-02/description": {
+                "orig": "Completed Chapter 2.",
+                "text": "Completa el Capítulo 2."
+        },
+        "database.json/achievements/story-03/name": {
+                "orig": "Chapter 3 Complete",
+                "text": "Capítulo 3 Completado"
+        },
+        "database.json/achievements/story-03/description": {
+                "orig": "Completed Chapter 3.",
+                "text": "Completa el Capítulo 3."
+        },
+        "database.json/achievements/story-04/name": {
+                "orig": "Chapter 4 Complete",
+                "text": "Capítulo 4 Completado"
+        },
+        "database.json/achievements/story-04/description": {
+                "orig": "Completed Chapter 4.",
+                "text": "Completa el Capítulo 4."
+        },
+        "database.json/achievements/story-05/name": {
+                "orig": "Chapter 5 Complete",
+                "text": "Capítulo 5 Completado"
+        },
+        "database.json/achievements/story-05/description": {
+                "orig": "Completed Chapter 5.",
+                "text": "Completa el Capítulo 5."
+        },
+        "database.json/achievements/story-06/name": {
+                "orig": "Chapter 6 Complete",
+                "text": "Capítulo 6 Completado"
+        },
+        "database.json/achievements/story-06/description": {
+                "orig": "Completed Chapter 6.",
+                "text": "Completa el Capítulo 6."
+        },
+        "database.json/achievements/story-07/name": {
+                "orig": "Chapter 7 Complete",
+                "text": "Capítulo 7 Completado"
+        },
+        "database.json/achievements/story-07/description": {
+                "orig": "Completed Chapter 7.",
+                "text": "Completa el Capítulo 7."
+        },
+        "database.json/achievements/story-08/name": {
+                "orig": "Chapter 8 Complete",
+                "text": "Capítulo 8 Completado"
+        },
+        "database.json/achievements/story-08/description": {
+                "orig": "Completed Chapter 8.",
+                "text": "Completa el Capítulo 8."
+        },
+        "database.json/achievements/story-09/name": {
+                "orig": "Chapter 9 Complete",
+                "text": "Capítulo 9 Completado"
+        },
+        "database.json/achievements/story-09/description": {
+                "orig": "Completed Chapter 9.",
+                "text": "Completa el Capítulo 9."
+        },
+        "database.json/achievements/story-10/name": {
+                "orig": "Chapter 10 Complete",
+                "text": "Capítulo 10 Completado"
+        },
+        "database.json/achievements/story-10/description": {
+                "orig": "Completed Chapter 10.",
+                "text": "Completa el Capítulo 10."
+        },
+        "database.json/achievements/player-level-01/name": {
+                "orig": "Rookie Seeker",
+                "text": "Buscador Novato"
+        },
+        "database.json/achievements/player-level-01/description": {
+                "orig": "Reach \\c[3]Level 25\\c[0].",
+                "text": "Alcanza el \\c[3]Nivel 25\\c[0]."
+        },
+        "database.json/achievements/player-level-02/name": {
+                "orig": "Veteran Seeker",
+                "text": "Buscador Veterano"
+        },
+        "database.json/achievements/player-level-02/description": {
+                "orig": "Reach \\c[3]Level 50\\c[0].",
+                "text": "Alcanza el \\c[3]Nivel 50\\c[0]."
+        },
+        "database.json/achievements/player-level-03/name": {
+                "orig": "Legendary Seeker",
+                "text": "Buscador Legendario"
+        },
+        "database.json/achievements/player-level-03/description": {
+                "orig": "Reach \\c[3]Level 75\\c[0].",
+                "text": "Alcanza el \\c[3]Nivel 75\\c[0]."
+        },
+        "database.json/achievements/player-level-04/name": {
+                "orig": "Ye 'ol Level Cap",
+                "text": "El buen Límite de Nivel"
+        },
+        "database.json/achievements/player-level-04/description": {
+                "orig": "Reach \\c[3]Level 99\\c[0]. Nothing can stop you now.",
+                "text": "Alcanza el \\c[3]Nivel 99\\c[0]. Nada puede detenerte ahora."
+        },
+        "database.json/achievements/player-money-01/name": {
+                "orig": "Rookie Banker",
+                "text": "Banquero Novato"
+        },
+        "database.json/achievements/player-money-01/description": {
+                "orig": "Amass a \\c[3]total of \\v[misc.localNum.250000] Credits\\c[0] throughout your journey.",
+                "text": "Ahorra un \\c[3]total de \\v[misc.localNum.250000] Creditos\\c[0] a lo largo de la aventura."
+        },
+        "database.json/achievements/player-money-02/name": {
+                "orig": "Veteran Banker",
+                "text": "Banquero Veterano"
+        },
+        "database.json/achievements/player-money-02/description": {
+                "orig": "Amass a \\c[3]total of \\v[misc.localNum.500000] Credits\\c[0] throughout your journey.",
+                "text": "Ahorra un \\c[3]total de \\v[misc.localNum.500000] Creditos\\c[0] a lo largo de la aventura."
+        },
+        "database.json/achievements/player-money-03/name": {
+                "orig": "Legendary Banker",
+                "text": "Banquero Legendario"
+        },
+        "database.json/achievements/player-money-03/description": {
+                "orig": "Amass a \\c[3]total of \\v[misc.localNum.750000] Credits\\c[0] throughout your journey.",
+                "text": "Ahorra un \\c[3]total de \\v[misc.localNum.750000] Creditos\\c[0] a lo largo de la aventura."
+        },
+        "database.json/achievements/player-money-04/name": {
+                "orig": "Let's swim in my Vault!",
+                "text": "¡Nademos en mi Bóveda!"
+        },
+        "database.json/achievements/player-money-04/description": {
+                "orig": "Amass a \\c[3]total of \\v[misc.localNum.1000000] Credits\\c[0] throughout your journey.",
+                "text": "Ahorra un \\c[3]total de \\v[misc.localNum.1000000] Creditos\\c[0] a lo largo de la aventura."
+        },
+        "database.json/achievements/playtime-01/name": {
+                "orig": "Time well spent",
+                "text": "Tiempo bien aprovechado"
+        },
+        "database.json/achievements/playtime-01/description": {
+                "orig": "Play the game for a \\c[3]total of 10 hours\\c[0]. Don't worry there's no speedrun version.",
+                "text": "Juega un \\c[3]total de 10 horas\\c[0]. No te preocupes, no hay una versión de speedrun."
+        },
+        "database.json/achievements/steps-taken-01/name": {
+                "orig": "I can run for Miles!",
+                "text": "¡Puedo correr por Kilómetros!"
+        },
+        "database.json/achievements/steps-taken-01/description": {
+                "orig": "Make a \\c[3]total of \\v[misc.localNum.50000] Steps\\c[0].",
+                "text": "Haz un \\c[3]total de \\v[misc.localNum.50000] Pasos\\c[0]."
+        },
+        "database.json/achievements/jumps-done-01/name": {
+                "orig": "I'm also good at Plumbing",
+                "text": "También soy buen Plomero"
+        },
+        "database.json/achievements/jumps-done-01/description": {
+                "orig": "Jump a \\c[3]total of \\v[misc.localNum.1000] times\\c[0].",
+                "text": "Salta un \\c[3]total de \\v[misc.localNum.1000] veces\\c[0]."
+        },
+        "database.json/achievements/items-used-01/name": {
+                "orig": "Rookie Foodie",
+                "text": "Glotón Novato"
+        },
+        "database.json/achievements/items-used-01/description": {
+                "orig": "Use a total of \\c[3]25 Consumables\\c[0].",
+                "text": "Usa un total de \\c[3]25 Consumibles\\c[0]."
+        },
+        "database.json/achievements/items-used-02/name": {
+                "orig": "Veteran Foodie",
+                "text": "Glotón Veterano"
+        },
+        "database.json/achievements/items-used-02/description": {
+                "orig": "Use a total of \\c[3]50 Consumables\\c[0].",
+                "text": "Usa un total de \\c[3]50 Consumibles\\c[0]."
+        },
+        "database.json/achievements/items-used-03/name": {
+                "orig": "Legendary Foodie",
+                "text": "Glotón Legendario"
+        },
+        "database.json/achievements/items-used-03/description": {
+                "orig": "Use a total of \\c[3]100 Consumables\\c[0].",
+                "text": "Usa un total de \\c[3]100 Consumibles\\c[0]."
+        },
+        "database.json/achievements/items-used-04/name": {
+                "orig": "Need more Buffs!",
+                "text": "¡Necesito más Mejoras!"
+        },
+        "database.json/achievements/items-used-04/description": {
+                "orig": "Use a total of \\c[3]200 Consumables\\c[0]. I'm stuffed!",
+                "text": "Usa un total de \\c[3]200 Consumibles\\c[0]. ¡Estoy lleno!"
+        },
+        "database.json/achievements/items-used-total-01/name": {
+                "orig": "Rookie Gourmet",
+                "text": "Degustador Novato"
+        },
+        "database.json/achievements/items-used-total-01/description": {
+                "orig": "\\c[3]Find\\c[0] and use at least \\c[3]25% of all Consumables\\c[0].",
+                "text": "\\c[3]Encuentra\\c[0] y usa al menos \\c[3]25% de todos los Consumibles\\c[0]."
+        },
+        "database.json/achievements/items-used-total-02/name": {
+                "orig": "Veteran Gourmet",
+                "text": "Degustador Veterano"
+        },
+        "database.json/achievements/items-used-total-02/description": {
+                "orig": "\\c[3]Find\\c[0] and use at least \\c[3]50% of all Consumables\\c[0].",
+                "text": "\\c[3]Encuentra\\c[0] y usa al menos \\c[3]50% de todos los Consumibles\\c[0]."
+        },
+        "database.json/achievements/items-used-total-03/name": {
+                "orig": "Legendary Gourmet",
+                "text": "Degustador Legendario"
+        },
+        "database.json/achievements/items-used-total-03/description": {
+                "orig": "\\c[3]Find\\c[0] and use at least \\c[3]75% of all Consumables\\c[0].",
+                "text": "\\c[3]Encuentra\\c[0] y usa al menos \\c[3]75% de todos los Consumibles\\c[0]."
+        },
+        "database.json/achievements/items-used-total-04/name": {
+                "orig": "Culinary Connoisseur",
+                "text": "Conocedor Culinario"
+        },
+        "database.json/achievements/items-used-total-04/description": {
+                "orig": "\\c[3]Find\\c[0] and use \\c[3]100% of all Consumables\\c[0]. Write a book about it!",
+                "text": "\\c[3]Encuentra\\c[0] y usa \\c[3]100% de todos los Consumibles\\c[0]. ¡Escribe un libro al respecto!"
+        },
+        "database.json/achievements/chest-key-01/name": {
+                "orig": "The Key Question",
+                "text": "La Cuestión Clave"
+        },
+        "database.json/achievements/chest-key-01/description": {
+                "orig": "\\c[3]Find the \\v[item.154.name]\\c[0]. Unlock all the bronze chests! ",
+                "text": "\\c[3]Encuentra la \\v[item.154.name]\\c[0]. ¡Desbloquea todos los cofres de bronce!"
+        },
+        "database.json/achievements/chest-key-02/name": {
+                "orig": "That's really Low Key",
+                "text": "La Cuestión Clave"
+        },
+        "database.json/achievements/chest-key-02/description": {
+                "orig": "\\c[3]Find the \\v[item.155.name]\\c[0]. Unlock all the silver chests! ",
+                "text": "\\c[3]Encuentra la \\v[item.155.name]\\c[0]. ¡Desbloquea todos los cofres de plata!"
+        },
+        "database.json/achievements/chest-key-03/name": {
+                "orig": "The Final Key",
+                "text": "La Llave Final"
+        },
+        "database.json/achievements/chest-key-03/description": {
+                "orig": "\\c[3]Find the \\v[item.156.name]\\c[0]. Unlock all the chests! ",
+                "text": "\\c[3]Encuentra la \\v[item.156.name]\\c[0]. ¡Desbloquea todos los cofres!"
+        },
+        "database.json/achievements/expo-sandwich/name": {
+                "orig": "Exponential Sandwiches",
+                "text": "Emparedados Exponenciales"
+        },
+        "database.json/achievements/expo-sandwich/description": {
+                "orig": "Obtain \\c[3]4 Cross\\c[0], \\c[3]8 Mega\\c[0], \\c[3]16 Chef\\c[0], \\c[3]32 Hi\\c[0] and \\c[3]64 Normal Sandwiches\\c[0].",
+                "text": "Obtiene los emparedados \\c[3]4 Cross\\c[0], \\c[3]8 Mega\\c[0], \\c[3]16 Chef\\c[0], \\c[3]32 Super\\c[0] y \\c[3]64 Normal\\c[0]."
+        },
+        "database.json/achievements/metal-gears/name": {
+                "orig": "IT CAN'T BE?",
+                "text": "¿NO PUEDE SER?"
+        },
+        "database.json/achievements/metal-gears/description": {
+                "orig": "Have a \\c[3]total of 99 Metal Gears\\c[0] in your Inventory. Gaming has changed.",
+                "text": "Ten un \\c[3]total de 99 Engranajes de Metal\\c[0] en tu Inventario. El juego ha cambiado."
+        },
+        "database.json/achievements/old-drill/name": {
+                "orig": "Pierce through the Heaven",
+                "text": "Atraviesa el Cielo"
+        },
+        "database.json/achievements/old-drill/description": {
+                "orig": "\\c[3]Obtain the \\v[item.323.name]\\c[0]. Pass it on to the next generation when the time arrives.",
+                "text": "\\c[3]Obtiene el \\v[item.323.name]\\c[0]. Pásalo a la siguiente generación cuando el tiempo llegue."
+        },
+        "database.json/achievements/normal-trees/name": {
+                "orig": "There is no Cow Level",
+                "text": "No hay Nivel de las Vacas"
+        },
+        "database.json/achievements/normal-trees/description": {
+                "orig": "\\c[3]Visit all perfectly normal landmarks\\c[0] in all areas.",
+                "text": "\\c[3]Visita todos los puntos de referencia perfectamente normales\\c[0] en todas las áreas."
+        },
+        "database.json/achievements/monk-trials/name": {
+                "orig": "Peace of Mind",
+                "text": "Tranquilidad de Espíritu"
+        },
+        "database.json/achievements/monk-trials/description": {
+                "orig": "Finish all Trial Caves in Bergen with \\c[3]all handicaps in under 1:45\\c[0].",
+                "text": "Completa todas las Cuevas de Prueba en Bergen con \\c[3]todas las restricciones en menos de 1:45\\c[0]."
+        },
+        "database.json/achievements/spider-cave/name": {
+                "orig": "I hate Spiders!",
+                "text": "¡Odio las Arañas!"
+        },
+        "database.json/achievements/spider-cave/description": {
+                "orig": "Survive \\c[3]5 Minutes\\c[0] in the \\c[3]Ring of Spiders - Endless Mode\\c[0] alone.",
+                "text": "Sobrevive \\c[3]5 Minutos\\c[0] en el \\c[3]Círculo de las Arañas - Modo Infinito[0] solo."
+        },
+        "database.json/achievements/flawless-emilie/name": {
+                "orig": "At the Speed of Sound",
+                "text": "A la velocidad del Sonido"
+        },
+        "database.json/achievements/flawless-emilie/description": {
+                "orig": "Win \\c[3]every dungeon race against Emilie\\c[0]. ",
+                "text": "Gana \\c[3]todas las carreras de mazmorra contra Emilie\\c[0]."
+        },
+        "database.json/achievements/flawless-apollo/name": {
+                "orig": "True Spheromancer",
+                "text": "Verdadero Spheromancer"
+        },
+        "database.json/achievements/flawless-apollo/description": {
+                "orig": "Win \\c[3]every PvP Battle against Apollo without losing a single round\\c[0]. ",
+                "text": "Gana \\c[3]todas las batallas PvP contra Apollo sin perder una sola ronda\\c[0]."
+        },
+        "database.json/achievements/unique-equip/name": {
+                "orig": "One of a Kind",
+                "text": "Único en su Clase"
+        },
+        "database.json/achievements/unique-equip/description": {
+                "orig": "Have a \\c[3]unique equipment piece\\c[0] (violet) equipped into \\c[3]each body-part\\c[0].",
+                "text": "Ten una \\c[3]pieza de equipamiento única\\c[0] (violeta) equipada en \\c[3]cada parte del cuerpo\\c[0]."
+        },
+        "database.json/achievements/enemies-found-01/name": {
+                "orig": "Rookie Zoologists ",
+                "text": "Zoologista Novato"
+        },
+        "database.json/achievements/enemies-found-01/description": {
+                "orig": "\\c[3]Find 25% of all enemies\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 25% de todos los enemigos\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/enemies-found-02/name": {
+                "orig": "Veteran Zoologists ",
+                "text": "Zoologista Veterano"
+        },
+        "database.json/achievements/enemies-found-02/description": {
+                "orig": "\\c[3]Find 50% of all enemies\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 50% de todos los enemigos\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/enemies-found-03/name": {
+                "orig": "Legendary Zoologists ",
+                "text": "Zoologista Legendario"
+        },
+        "database.json/achievements/enemies-found-03/description": {
+                "orig": "\\c[3]Find 75% of all enemies\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 75% de todos los enemigos\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/enemies-found-04/name": {
+                "orig": "The Fauna of the World",
+                "text": "La Fauna del Mundo"
+        },
+        "database.json/achievements/enemies-found-04/description": {
+                "orig": "\\c[3]Find 100% of all enemies\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 100% de todos los enemigos\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/true-avatar/name": {
+                "orig": "The Avatar",
+                "text": "El Avatar"
+        },
+        "database.json/achievements/true-avatar/description": {
+                "orig": "Execute a \\c[3]Level 3 Combat Art with each Element\\c[0]. ",
+                "text": "Ejecuta un \\c[3]Arte de Combate de Nivel 3 con cada Elemento\\c[0]."
+        },
+        "database.json/achievements/perfect-dashes/name": {
+                "orig": "I know all the I-Frames",
+                "text": "Conozco todos los I-Frames"
+        },
+        "database.json/achievements/perfect-dashes/description": {
+                "orig": "\\c[3]Perfect Dodge\\c[0] a total of 100 times. So close.",
+                "text": "\\c[3]Esquiva Perfectamente\\c[0] un total de 100 veces. Tan cerca."
+        },
+        "database.json/achievements/perfect-guard/name": {
+                "orig": "You Can't Touch This",
+                "text": "No Puedes Tocarme"
+        },
+        "database.json/achievements/perfect-guard/description": {
+                "orig": "\\c[3]Perfect Guard\\c[0] a total of 200 times. ",
+                "text": "\\c[3]Bloquea Perfectamente\\c[0] un total de 200 veces."
+        },
+        "database.json/achievements/guard-counter/name": {
+                "orig": "Not today!",
+                "text": "¡Hoy No!"
+        },
+        "database.json/achievements/guard-counter/description": {
+                "orig": "Successfully execute a \\c[3]Guard Counter 200 times\\c[0].",
+                "text": "Exitosamente ejecuta un \\c[3]contraataque 200 veces\\c[0]."
+        },
+        "database.json/achievements/low-health-wins/name": {
+                "orig": "True Survivor",
+                "text": "Verdadero Sobreviviente"
+        },
+        "database.json/achievements/low-health-wins/description": {
+                "orig": "Survive 50 fights with \\c[3]33% or less of your max health\\c[0]. ",
+                "text": "Sobrevive 50 peleas con \\c[3]el 33% o menos de tu vida máxima\\c[0]."
+        },
+        "database.json/achievements/enviro-kills/name": {
+                "orig": "Nature is Scary",
+                "text": "La Naturaleza da Miedo"
+        },
+        "database.json/achievements/enviro-kills/description": {
+                "orig": "Defeat \\c[3]100 enemies by using the environment\\c[0] as the final blow.",
+                "text": "Derrota \\c[3]100 enemigos utilizando el ambiente\\c[0] como el último golpe."
+        },
+        "database.json/achievements/reports-found-01/name": {
+                "orig": "Reporting for Duty",
+                "text": "Reportándose al Deber"
+        },
+        "database.json/achievements/reports-found-01/description": {
+                "orig": "\\c[2]Unlock 76%\\c[0] of all Enemy Reports. We're all Reporters now.",
+                "text": "\\c[2]Desbloquea el 76%\\c[0] de todos los Reportes Enemigos. Somos todos reportadores ahora."
+        },
+        "database.json/achievements/one-punch/name": {
+                "orig": "ONE PUNCH!",
+                "text": "¡UN GOLPE!"
+        },
+        "database.json/achievements/one-punch/description": {
+                "orig": "Deal \\c[3]\\v[misc.localNum.50000] Damage with a single hit\\c[0]. A punch that echoed throughout history.",
+                "text": "Haz \\c[3]\\v[misc.localNum.50000] de daño con un solo golpe\\c[0]. Un golpe que atravesó la historia."
+        },
+        "database.json/achievements/one-hit-kills/name": {
+                "orig": "One Shot, One Kill",
+                "text": "Un Disparo, Una Muerte"
+        },
+        "database.json/achievements/one-hit-kills/description": {
+                "orig": "Defeat \\c[3]500 enemies\\c[0], each with \\c[3]a single attack\\c[0].",
+                "text": "Derrota \\c[3]500 enemigos\\c[0], todos con \\c[3]un solo golpe\\c[0]."
+        },
+        "database.json/achievements/kill-boss-crab/name": {
+                "orig": "Real History",
+                "text": "Historia de Verdad"
+        },
+        "database.json/achievements/kill-boss-crab/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.boss-test]\\c[0] on the Cargo Ship.",
+                "text": "\\c[3]Derrota el \\v[combat.name.boss-test]\\c[0] en el Barco de Carga."
+        },
+        "database.json/achievements/kill-boss-turret/name": {
+                "orig": "Master of Turrets",
+                "text": "Maestro de las Torretas"
+        },
+        "database.json/achievements/kill-boss-turret/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.turret-boss]\\c[0] in the Rhombus Dungeon.",
+                "text": "\\c[3]Derrota el \\v[combat.name.turret-boss]\\c[0] en la Mazmorra Rhombus."
+        },
+        "database.json/achievements/kill-boss-driller/name": {
+                "orig": "The bigger they are...",
+                "text": "Mientras más grandes son..."
+        },
+        "database.json/achievements/kill-boss-driller/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.boss-driller]\\c[0] in the \\v[area.cold-dng.name].",
+                "text": "\\c[3]Derrota el \\v[combat.name.boss-driller]\\c[0] en el \\v[area.cold-dng.name]."
+        },
+        "database.json/achievements/kill-boss-worm/name": {
+                "orig": "They have 5 Hearts",
+                "text": "Tienen 5 corazones"
+        },
+        "database.json/achievements/kill-boss-worm/description": {
+                "orig": "\\c[3]Defeat \\v[combat.name.heat/sandworm-boss]\\c[0] below the Maroon Tree in \\v[area.heat-area.name].",
+                "text": "\\c[3]Derrota a \\v[combat.name.heat/sandworm-boss]\\c[0] debajo del Árbol Maroon en \\v[area.heat-area.name]."
+        },
+        "database.json/achievements/kill-boss-moth/name": {
+                "orig": "Kill it with Fire!",
+                "text": "¡Mátalo con Fuego!"
+        },
+        "database.json/achievements/kill-boss-moth/description": {
+                "orig": "\\c[3]Defeat \\v[combat.name.heat/megamoth]\\c[0] in the \\v[area.heat-dng.name].",
+                "text": "\\c[3]Derrota a \\v[combat.name.heat/megamoth]\\c[0] en \\v[area.heat-dng.name]."
+        },
+        "database.json/achievements/kill-boss-frobbit/name": {
+                "orig": "The Trickster",
+                "text": "El Escurridizo"
+        },
+        "database.json/achievements/kill-boss-frobbit/description": {
+                "orig": "\\c[3]Defeat \\v[combat.name.daft-frobbit]\\c[0] in \\v[area.autumn-fall.name].",
+                "text": "\\c[3]Derrota a \\v[combat.name.daft-frobbit]\\c[0] en \\v[area.autumn-fall.name]."
+        },
+        "database.json/achievements/kill-boss-slug/name": {
+                "orig": "Ultimate Power",
+                "text": "Poder Final"
+        },
+        "database.json/achievements/kill-boss-slug/description": {
+                "orig": "\\c[3]Defeat \\v[combat.name.arid/snail]\\c[0] in \\v[area.arid-dng-1.name].",
+                "text": "\\c[3]Derrota a \\v[combat.name.arid/snail]\\c[0] en \\v[area.arid-dng-1.name]."
+        },
+        "database.json/achievements/kill-boss-phantom/name": {
+                "orig": "A Shadow from the Past",
+                "text": "Una Sombra del Pasado"
+        },
+        "database.json/achievements/kill-boss-phantom/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.jungle/shockboss]\\c[0] in the \\v[area.shock-dng.name].",
+                "text": "\\c[3]Derrota al \\v[combat.name.jungle/shockboss]\\c[0] en el \\v[area.shock-dng.name]."
+        },
+        "database.json/achievements/kill-boss-blob/name": {
+                "orig": "The Canonical Enemy",
+                "text": "El Enemigo Canónico"
+        },
+        "database.json/achievements/kill-boss-blob/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.jungle/waveboss]\\c[0] in the \\v[area.wave-dng.name].",
+                "text": "\\c[3]Derrota al \\v[combat.name.jungle/waveboss]\\c[0] en el \\v[area.wave-dng.name]."
+        },
+        "database.json/achievements/kill-boss-sloth/name": {
+                "orig": "The None-Winged Devil",
+                "text": "El Diablo sin Alas"
+        },
+        "database.json/achievements/kill-boss-sloth/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.minibosses/sloth-black]\\c[0] in \\v[area.jungle.name].",
+                "text": "\\c[3]Derrota al \\v[combat.name.minibosses/sloth-black]\\c[0] en \\v[area.jungle.name]."
+        },
+        "database.json/achievements/kill-boss-ape/name": {
+                "orig": "A Test of Power",
+                "text": "Una Prueba de Poder"
+        },
+        "database.json/achievements/kill-boss-ape/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.jungle/ape-boss]\\c[0] in the \\v[area.tree-dng.name].",
+                "text": "\\c[3]Derrota al \\v[combat.name.jungle/ape-boss]\\c[0] en el \\v[area.tree-dng.name]."
+        },
+        "database.json/achievements/kill-boss-apewhale/name": {
+                "orig": "Battle on the Crown",
+                "text": "Batalla en la Corona"
+        },
+        "database.json/achievements/kill-boss-apewhale/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.jungle/ape-boss] & the \\v[combat.name.jungle/whale-boss]\\c[0] in the \\v[area.tree-dng.name].",
+                "text": "\\c[3]Derrota al \\v[combat.name.jungle/ape-boss] y la \\v[combat.name.jungle/whale-boss]\\c[0] en el \\v[area.tree-dng.name]."
+        },
+        "database.json/achievements/kill-boss-samurai/name": {
+                "orig": "The Dawn's Blade",
+                "text": "La Espada del Amanecer"
+        },
+        "database.json/achievements/kill-boss-samurai/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.forest/samurai-boss]\\c[0] in \\v[area.forest.name].",
+                "text": "\\c[3]Derrota al \\v[combat.name.forest/samurai-boss]\\c[0] en \\v[area.forest.name]."
+        },
+        "database.json/achievements/kill-boss-shizuka/name": {
+                "orig": "Restless Frustration",
+                "text": "Frustración Incesante"
+        },
+        "database.json/achievements/kill-boss-shizuka/description": {
+                "orig": "\\c[3]Defeat \\v[combat.name.avatar/shizuka]\\c[0] in \\v[area.hideout.name] at least once.",
+                "text": "\\c[3]Derrota a \\v[combat.name.avatar/shizuka]\\c[0] en el \\v[area.hideout.name] al menos una vez."
+        },
+        "database.json/achievements/kill-boss-designer/name": {
+                "orig": "The Experience",
+                "text": "La Experiencia"
+        },
+        "database.json/achievements/kill-boss-designer/description": {
+                "orig": "\\c[3]Defeat the \\v[combat.name.boss/designer-2]\\c[0] in \\v[area.arid-dng-2.name].",
+                "text": "\\c[3]Derrota al \\v[combat.name.boss/designer-2]\\c[0] en \\v[area.arid-dng-2.name]."
+        },
+        "database.json/achievements/kill-boss-elephant/name": {
+                "orig": "The Ultimate Experience",
+                "text": "La Experiencia Final"
+        },
+        "database.json/achievements/kill-boss-elephant/description": {
+                "orig": "\\c[3]Defeat \\v[combat.name.boss/elephant]\\c[0] in the \\v[area.arid-dng-2.name].",
+                "text": "\\c[3]Derrota al \\v[combat.name.boss/elephant]\\c[0] en el \\v[area.arid-dng-2.name]."
+        },
+        "database.json/achievements/kill-apollo-01/name": {
+                "orig": "Showdown at Bergen",
+                "text": "Confrontación en Bergen"
+        },
+        "database.json/achievements/kill-apollo-01/description": {
+                "orig": "Win the \\c[3]PvP Battle against Apollo\\c[0]. ",
+                "text": "Gana la \\c[3]Batalla PvP contra Apollo\\c[0]."
+        },
+        "database.json/achievements/kill-apollo-02/name": {
+                "orig": "Showdown at Faj'ro",
+                "text": "Confrontación en Faj'ro"
+        },
+        "database.json/achievements/kill-apollo-02/description": {
+                "orig": "Win the \\c[3]second PvP Battle against Apollo\\c[0]. ",
+                "text": "Gana la \\c[3]segunda Batalla PvP contra Apollo\\c[0]."
+        },
+        "database.json/achievements/kill-apollo-03/name": {
+                "orig": "Showdown at Gaia's Garden",
+                "text": "Confrontación en el Jardín de Gaia"
+        },
+        "database.json/achievements/kill-apollo-03/description": {
+                "orig": "Win the \\c[3]third PvP Battle against Apollo\\c[0]. ",
+                "text": "Gana la \\c[3]tercera Batalla PvP contra Apollo\\c[0]."
+        },
+        "database.json/achievements/kill-special-blue/name": {
+                "orig": "Gotta go Fast",
+                "text": "Debo ir Rápido"
+        },
+        "database.json/achievements/kill-special-blue/description": {
+                "orig": "Find and \\c[3]defeat the \\v[combat.name.minibosses/blue-hedge]\\c[0].",
+                "text": "Encuentra y \\c[3]derrota al \\v[combat.name.minibosses/blue-hedge]\\c[0]."
+        },
+        "database.json/achievements/kill-special-peng/name": {
+                "orig": "Drop the Beat",
+                "text": "Que Empiece la Música"
+        },
+        "database.json/achievements/kill-special-peng/description": {
+                "orig": "Find and \\c[3]defeat \\v[combat.name.minibosses/penguin-rapper]\\c[0].",
+                "text": "Encuentra y \\c[3]derrota al \\v[combat.name.minibosses/penguin-rapper]\\c[0]."
+        },
+        "database.json/achievements/kill-special-shark/name": {
+                "orig": "A cursed Booty",
+                "text": "Un Botín Maldito"
+        },
+        "database.json/achievements/kill-special-shark/description": {
+                "orig": "Find and \\c[3]defeat \\v[combat.name.minibosses/cursed-sandshark]\\c[0].",
+                "text": "Encuentra y \\c[3]derrota al \\v[combat.name.minibosses/cursed-sandshark]\\c[0]."
+        },
+        "database.json/achievements/kill-special-fish/name": {
+                "orig": "Old and Mean",
+                "text": "Viejo y Ruin"
+        },
+        "database.json/achievements/kill-special-fish/description": {
+                "orig": "Find and \\c[3]defeat \\v[combat.name.minibosses/deep-fish]\\c[0].",
+                "text": "Encuentra y \\c[3]derrota al \\v[combat.name.minibosses/deep-fish]\\c[0]."
+        },
+        "database.json/achievements/kill-special-henry/name": {
+                "orig": "That was... Unexpected",
+                "text": "Eso fue... Inesperado"
+        },
+        "database.json/achievements/kill-special-henry/description": {
+                "orig": "Find and \\c[3]defeat \\v[combat.name.minibosses/henry]\\c[0].",
+                "text": "Encuentra y \\c[3]derrota a \\v[combat.name.minibosses/henry]\\c[0]."
+        },
+        "database.json/achievements/element-heat/name": {
+                "orig": "Playing with Fire",
+                "text": "Jugando con Fuego"
+        },
+        "database.json/achievements/element-heat/description": {
+                "orig": "Acquire the \\c[3]Heat Element\\c[0]. It's getting hot in here.",
+                "text": "Adquiere el \\c[3]Elemento de Fuego\\c[0]. Se está poniendo caluroso aquí dentro."
+        },
+        "database.json/achievements/element-cold/name": {
+                "orig": "Feeling Ice-solated",
+                "text": "Me Siento Congelado"
+        },
+        "database.json/achievements/element-cold/description": {
+                "orig": "Acquire the \\c[3]Cold Element\\c[0]. Can anyone else not feel their fingers?",
+                "text": "Adquiere el \\c[3]Elemento de Hielo\\c[0]. ¿Alguien más no siente sus dedos?"
+        },
+        "database.json/achievements/element-shock/name": {
+                "orig": "Lightning Returns",
+                "text": "El Rayo Regresa"
+        },
+        "database.json/achievements/element-shock/description": {
+                "orig": "Acquire the \\c[3]Shock Element\\c[0]. This is Shocking!",
+                "text": "Adquiere el \\c[3]Elemento de Electro\\c[0]. ¡Esto es electrificante!"
+        },
+        "database.json/achievements/element-wave/name": {
+                "orig": "What is that anyway?",
+                "text": "¿Qué es eso de todos modos?"
+        },
+        "database.json/achievements/element-wave/description": {
+                "orig": "Acquire the \\c[3]Wave Element\\c[0]. Groovy.",
+                "text": "Adquiere el \\c[3]Elemento de Pulso\\c[0]. Movido."
+        },
+        "database.json/achievements/combat-arts-01/name": {
+                "orig": "Rookie Artist",
+                "text": "Artista Novato"
+        },
+        "database.json/achievements/combat-arts-01/description": {
+                "orig": "Execute a total of \\c[3]\\v[misc.localNum.100] Combat Arts\\c[0].",
+                "text": "Ejecuta un total de \\c[3]\\v[misc.localNum.100] Artes de Combate\\c[0]."
+        },
+        "database.json/achievements/combat-arts-02/name": {
+                "orig": "Veteran Artist",
+                "text": "Artista Veterano"
+        },
+        "database.json/achievements/combat-arts-02/description": {
+                "orig": "Execute a total of \\c[3]\\v[misc.localNum.250] Combat Arts\\c[0].",
+                "text": "Ejecuta un total de \\c[3]\\v[misc.localNum.250] Artes de Combate\\c[0]."
+        },
+        "database.json/achievements/combat-arts-03/name": {
+                "orig": "Legendary Artist",
+                "text": "Artista Legendario"
+        },
+        "database.json/achievements/combat-arts-03/description": {
+                "orig": "Execute a total of \\c[3]\\v[misc.localNum.500] Combat Arts\\c[0].",
+                "text": "Ejecuta un total de \\c[3]\\v[misc.localNum.500] Artes de Combate\\c[0]."
+        },
+        "database.json/achievements/combat-arts-04/name": {
+                "orig": "Ultimate Combat Artisan",
+                "text": "Supremo Artesano de Combate"
+        },
+        "database.json/achievements/combat-arts-04/description": {
+                "orig": "Execute a total of \\c[3]\\v[misc.localNum.1000] Combat Arts\\c[0].",
+                "text": "Ejecuta un total de \\c[3]\\v[misc.localNum.1000] Artes de Combate\\c[0]."
+        },
+        "database.json/achievements/kill-01/name": {
+                "orig": "Rookie Huntress",
+                "text": "Cazador Novato"
+        },
+        "database.json/achievements/kill-01/description": {
+                "orig": "Defeat a total of \\c[3]1000 enemies\\c[0].",
+                "text": "Derrota un total de \\c[3]1000 enemigos\\c[0]."
+        },
+        "database.json/achievements/kill-02/name": {
+                "orig": "Veteran Huntress",
+                "text": "Cazador Veterano"
+        },
+        "database.json/achievements/kill-02/description": {
+                "orig": "Defeat a total of \\c[3]2000 enemies\\c[0].",
+                "text": "Derrota un total de \\c[3]2000 enemigos\\c[0]."
+        },
+        "database.json/achievements/kill-03/name": {
+                "orig": "Legendary Huntress",
+                "text": "Cazador Legendario"
+        },
+        "database.json/achievements/kill-03/description": {
+                "orig": "Defeat a total of \\c[3]\\v[misc.localNum.4000] Enemies\\c[0].",
+                "text": "Derrota un total de \\c[3]\\v[misc.localNum.4000] Enemigos\\c[0]."
+        },
+        "database.json/achievements/kill-04/name": {
+                "orig": "Daughter of Artemis",
+                "text": "Hija de Artemis"
+        },
+        "database.json/achievements/kill-04/description": {
+                "orig": "Defeat a total of \\c[3]\\v[misc.localNum.8000] Enemies\\c[0]. At this point you know the drill.",
+                "text": "Derrota un total de \\c[3]\\v[misc.localNum.8000] Enemigos\\c[0]. A este punto ya sabes de que va."
+        },
+        "database.json/achievements/dmg-01/name": {
+                "orig": "Rookie Brawler",
+                "text": "Luchador Novato"
+        },
+        "database.json/achievements/dmg-01/description": {
+                "orig": "Deal a total of \\c[3]\\v[misc.localNum.100000] Damage\\c[0].",
+                "text": "Haz un total de \\c[3]\\v[misc.localNum.100000] de Daño\\c[0]."
+        },
+        "database.json/achievements/dmg-02/name": {
+                "orig": "Veteran Brawler",
+                "text": "Luchador Veterano"
+        },
+        "database.json/achievements/dmg-02/description": {
+                "orig": "Deal a total of \\c[3]\\v[misc.localNum.250000] Damage\\c[0].",
+                "text": "Haz un total de \\c[3]\\v[misc.localNum.250000] de Daño\\c[0]."
+        },
+        "database.json/achievements/dmg-03/name": {
+                "orig": "Legendary Brawler",
+                "text": "Luchador Legendario"
+        },
+        "database.json/achievements/dmg-03/description": {
+                "orig": "Deal a total of \\c[3]\\v[misc.localNum.500000] Damage\\c[0].",
+                "text": "Haz un total de \\c[3]\\v[misc.localNum.500000] de Daño\\c[0]."
+        },
+        "database.json/achievements/dmg-04/name": {
+                "orig": "Making Rocky Proud",
+                "text": "El Orgullo de Rocky"
+        },
+        "database.json/achievements/dmg-04/description": {
+                "orig": "Deal a total of \\c[3]\\v[misc.localNum.1000000] Damage\\c[0]. It's time to stop now.",
+                "text": "Haz un total de \\c[3]\\v[misc.localNum1000000] de Daño\\c[0]. Ya tienes que parar."
+        },
+        "database.json/achievements/streak-01/name": {
+                "orig": "Rookie Streaker",
+                "text": "En Racha: Novato"
+        },
+        "database.json/achievements/streak-01/description": {
+                "orig": "Stay in a combo streak for \\c[3]5 minutes\\c[0].",
+                "text": "Haz un combo por \\c[3]5 minutos\\c[0]."
+        },
+        "database.json/achievements/streak-02/name": {
+                "orig": "Veteran Streaker",
+                "text": "En Racha: Veterano"
+        },
+        "database.json/achievements/streak-02/description": {
+                "orig": "Stay in a combo streak for \\c[3]10 minutes\\c[0].",
+                "text": "Haz un combo por \\c[3]10 minutos\\c[0]."
+        },
+        "database.json/achievements/streak-03/name": {
+                "orig": "Legendary Streaker",
+                "text": "En Racha: Legendario"
+        },
+        "database.json/achievements/streak-03/description": {
+                "orig": "Stay in a combo streak for \\c[3]15 minutes\\c[0]. ",
+                "text": "Haz un combo por \\c[3]15 minutos\\c[0]."
+        },
+        "database.json/achievements/streak-04/name": {
+                "orig": "Combo Breaker!",
+                "text": "¡Destructor de Combos!"
+        },
+        "database.json/achievements/streak-04/description": {
+                "orig": "Stay in a combo streak for \\c[3]20 minutes\\c[0]. Come on, this is enough.",
+                "text": "Haz un combo por \\c[3]20 minutos\\c[0]. Vamos, ya es suficiente."
+        },
+        "database.json/achievements/streak-kills-01/name": {
+                "orig": "Rookie Frenzy",
+                "text": "Frenesí Novato"
+        },
+        "database.json/achievements/streak-kills-01/description": {
+                "orig": "Defeat a total of \\c[3]25 enemies doing a combat streak\\c[0].",
+                "text": "Derrota un total de \\c[3]25 enemigos haciendo una racha de combate\\[0]."
+        },
+        "database.json/achievements/streak-kills-02/name": {
+                "orig": "Veteran Frenzy",
+                "text": "Frenesí Veterano"
+        },
+        "database.json/achievements/streak-kills-02/description": {
+                "orig": "Defeat a total of \\c[3]50 enemies doing a combat streak\\c[0].",
+                "text": "Derrota un total de \\c[3]50 enemigos haciendo una racha de combate\\[0]."
+        },
+        "database.json/achievements/streak-kills-03/name": {
+                "orig": "Legendary Frenzy",
+                "text": "Frenesí Legendario"
+        },
+        "database.json/achievements/streak-kills-03/description": {
+                "orig": "Defeat a total of \\c[3]100 enemies doing a combat streak\\c[0].",
+                "text": "Derrota un total de \\c[3]100 enemigos haciendo una racha de combate\\[0]."
+        },
+        "database.json/achievements/streak-kills-04/name": {
+                "orig": "Smokin' Sick Style!!!",
+                "text": "¡¡Demasiado Estilo!!"
+        },
+        "database.json/achievements/streak-kills-04/description": {
+                "orig": "Defeat a total of \\c[3]200 enemies doing a combat streak\\c[0].  Calm down!",
+                "text": "Derrota un total de \\c[3]200 enemigos haciendo una racha de combate\\[0]. ¡Cálmate!"
+        },
+        "database.json/achievements/heal-01/name": {
+                "orig": "Rookie Healer",
+                "text": "Curador Novato"
+        },
+        "database.json/achievements/heal-01/description": {
+                "orig": "Heal a total of \\c[3]\\v[misc.localNum.50000] HP\\c[0].",
+                "text": "Cura un total de \\c[3]\\v[misc.localNum.50000] PV\\c[0]."
+        },
+        "database.json/achievements/heal-02/name": {
+                "orig": "Veteran Healer",
+                "text": "Curador Veterano"
+        },
+        "database.json/achievements/heal-02/description": {
+                "orig": "Heal a total of \\c[3]\\v[misc.localNum.100000] HP\\c[0].",
+                "text": "Cura un total de \\c[3]\\v[misc.localNum.100000] PV\\c[0]."
+        },
+        "database.json/achievements/heal-03/name": {
+                "orig": "Legendary Healer",
+                "text": "Curador Legendario"
+        },
+        "database.json/achievements/heal-03/description": {
+                "orig": "Heal a total of \\c[3]\\v[misc.localNum.200000] HP\\c[0].",
+                "text": "Cura un total de \\c[3]\\v[misc.localNum.200000] PV\\c[0]."
+        },
+        "database.json/achievements/heal-04/name": {
+                "orig": "I need Healing!",
+                "text": "¡Necesito un Médico!"
+        },
+        "database.json/achievements/heal-04/description": {
+                "orig": "Heal a total of \\c[3]\\v[misc.localNum.400000] HP\\c[0]. 0heals!",
+                "text": "Cura un total de \\c[3]\\v[misc.localNum.400000] PV\\c[0]. ¡0 curaciones!"
+        },
+        "database.json/achievements/throw-01/name": {
+                "orig": "Rookie Flinger",
+                "text": "Lanzador Novato"
+        },
+        "database.json/achievements/throw-01/description": {
+                "orig": "Throw and hit a total of \\c[3]\\v[misc.localNum.1000] Balls\\c[0].",
+                "text": "Tira y acierta un total de \\c[3]\\v[misc.localNum.1000] Bolas\\c[0]."
+        },
+        "database.json/achievements/throw-02/name": {
+                "orig": "Veteran Flinger",
+                "text": "Lanzador Veterano"
+        },
+        "database.json/achievements/throw-02/description": {
+                "orig": "Throw and hit a total of \\c[3]\\v[misc.localNum.5000] Balls\\c[0].",
+                "text": "Tira y acierta un total de \\c[3]\\v[misc.localNum.5000] Bolas\\c[0]."
+        },
+        "database.json/achievements/throw-03/name": {
+                "orig": "Legendary Flinger",
+                "text": "Lanzador Legendario"
+        },
+        "database.json/achievements/throw-03/description": {
+                "orig": "Throw and hit a total of \\c[3]\\v[misc.localNum.10000] Balls\\c[0].",
+                "text": "Tira y acierta un total de \\c[3]\\v[misc.localNum.10000] Bolas\\c[0]."
+        },
+        "database.json/achievements/throw-04/name": {
+                "orig": "It's called a VRPit",
+                "text": "Se llama VRPit"
+        },
+        "database.json/achievements/throw-04/description": {
+                "orig": "Throw and hit a total of \\c[3]\\v[misc.localNum.50000] Balls\\c[0]. Your arms must be tired.",
+                "text": "Tira y acierta un total de \\c[3]\\v[misc.localNum.50000] Bolas\\c[0]. Tus brazos deben estar cansados."
+        },
+        "database.json/achievements/melee-01/name": {
+                "orig": "Rookie Assault",
+                "text": "Asaltante Novato"
+        },
+        "database.json/achievements/melee-01/description": {
+                "orig": "Sucessfully land \\c[3]\\v[misc.localNum.1000] close combat attacks\\c[0].",
+                "text": "Exitosamente acierta \\c[3]\\v[misc.localNum.1000] ataques cuerpo a cuerpo\\c[0]."
+        },
+        "database.json/achievements/melee-02/name": {
+                "orig": "Veteran Assault",
+                "text": "Asaltante Veterano"
+        },
+        "database.json/achievements/melee-02/description": {
+                "orig": "Sucessfully land \\c[3]\\v[misc.localNum.5000] close combat attacks\\c[0].",
+                "text": "Exitosamente acierta \\c[3]\\v[misc.localNum.5000] ataques cuerpo a cuerpo\\c[0]."
+        },
+        "database.json/achievements/melee-03/name": {
+                "orig": "Legendary Assault",
+                "text": "Asaltante Legendario"
+        },
+        "database.json/achievements/melee-03/description": {
+                "orig": "Sucessfully land \\c[3]\\v[misc.localNum.10000] close combat attacks\\c[0].",
+                "text": "Exitosamente acierta \\c[3]\\v[misc.localNum.10000] ataques cuerpo a cuerpo\\c[0]."
+        },
+        "database.json/achievements/melee-04/name": {
+                "orig": "The Iron Fist",
+                "text": "El Puño de Hierro"
+        },
+        "database.json/achievements/melee-04/description": {
+                "orig": "Sucessfully land \\c[3]\\v[misc.localNum.50000] close combat attacks\\c[0]. Mashing to victory!",
+                "text": "Exitosamente acierta \\c[3]\\v[misc.localNum.50000] ataques cuerpo a cuerpo\\c[0]. ¡Aplastante Victoria!"
+        },
+        "database.json/achievements/dash-01/name": {
+                "orig": "Rookie Dancer",
+                "text": "Bailarín Novato"
+        },
+        "database.json/achievements/dash-01/description": {
+                "orig": "Dash a total of \\c[3]\\v[misc.localNum.1000] times\\c[0].",
+                "text": "Esquiva un total de \\c[3]\\v[misc.localNum.1000] veces\\c[0]."
+        },
+        "database.json/achievements/dash-02/name": {
+                "orig": "Veteran Dancer",
+                "text": "Bailarín Veterano"
+        },
+        "database.json/achievements/dash-02/description": {
+                "orig": "Dash a total of \\c[3]\\v[misc.localNum.5000] times\\c[0].",
+                "text": "Esquiva un total de \\c[3]\\v[misc.localNum.5000] veces\\c[0]."
+        },
+        "database.json/achievements/dash-03/name": {
+                "orig": "Legendary Dancer",
+                "text": "Bailarín Legendario"
+        },
+        "database.json/achievements/dash-03/description": {
+                "orig": "Dash a total of \\c[3]\\v[misc.localNum.10000] times\\c[0].",
+                "text": "Esquiva un total de \\c[3]\\v[misc.localNum.10000] veces\\c[0]."
+        },
+        "database.json/achievements/dash-04/name": {
+                "orig": "Dashing!",
+                "text": "¡Esquivando!"
+        },
+        "database.json/achievements/dash-04/description": {
+                "orig": "Dash a total of \\c[3]\\v[misc.localNum.20000] times\\c[0]. My head feels dizzy...",
+                "text": "Esquiva un total de \\c[3]\\v[misc.localNum.20000] veces\\c[0]. Me siento mareado..."
+        },
+        "database.json/achievements/guard-01/name": {
+                "orig": "Rookie Defender",
+                "text": "Defensor Novato"
+        },
+        "database.json/achievements/guard-01/description": {
+                "orig": "Successfully guard a \\c[3]total of 250 times\\c[0].",
+                "text": "Bloquea exitosamente un \\c[3]total de 250 veces\\c[0]."
+        },
+        "database.json/achievements/guard-02/name": {
+                "orig": "Veteran Defender",
+                "text": "Defensor Veterano"
+        },
+        "database.json/achievements/guard-02/description": {
+                "orig": "Successfully guard a \\c[3]total of \\v[misc.localNum.500] times\\c[0].",
+                "text": "Bloquea exitosamente un \\c[3]total de \\v[misc.localNum.500] veces\\c[0]."
+        },
+        "database.json/achievements/guard-03/name": {
+                "orig": "Legendary Defender",
+                "text": "Defensor Legendario"
+        },
+        "database.json/achievements/guard-03/description": {
+                "orig": "Successfully guard a \\c[3]total of \\v[misc.localNum.2000] times\\c[0].",
+                "text": "Bloquea exitosamente un \\c[3]total de \\v[misc.localNum.2000] veces\\c[0]."
+        },
+        "database.json/achievements/guard-04/name": {
+                "orig": "You Shall not Pass!",
+                "text": "¡No Puedes Pasar!"
+        },
+        "database.json/achievements/guard-04/description": {
+                "orig": "Successfully guard a \\c[3]total of \\v[misc.localNum.4000] times\\c[0]. Don't touch me!",
+                "text": "Bloquea exitosamente un \\c[3]total de \\v[misc.localNum.4000] veces\\c[0]. ¡No me toques!"
+        },
+        "database.json/achievements/crits-01/name": {
+                "orig": "Rookie Brute",
+                "text": "Bruto: Novato"
+        },
+        "database.json/achievements/crits-01/description": {
+                "orig": "Land a total of \\c[3]\\v[misc.localNum.1000] critical hits\\c[0].",
+                "text": "Acierta un total de \\c[3]\\v[misc.localNum.1000] golpes críticos\\c[0]."
+        },
+        "database.json/achievements/crits-02/name": {
+                "orig": "Veteran Brute",
+                "text": "Bruto: Veterano"
+        },
+        "database.json/achievements/crits-02/description": {
+                "orig": "Land a total of \\c[3]\\v[misc.localNum.5000] critical hits\\c[0].",
+                "text": "Acierta un total de \\c[3]\\v[misc.localNum.5000] golpes críticos\\c[0]."
+        },
+        "database.json/achievements/crits-03/name": {
+                "orig": "Legendary Brute",
+                "text": "Bruto: Legendario"
+        },
+        "database.json/achievements/crits-03/description": {
+                "orig": "Land a total of \\c[3]\\v[misc.localNum.10000] critical hits\\c[0].",
+                "text": "Acierta un total de \\c[3]\\v[misc.localNum.10000] golpes críticos\\c[0]."
+        },
+        "database.json/achievements/crits-04/name": {
+                "orig": "Critical Acclaim",
+                "text": "Reconocimiento Crítico"
+        },
+        "database.json/achievements/crits-04/description": {
+                "orig": "Land a total of \\c[3]\\v[misc.localNum.20000] critical hits\\c[0]. Hit 'em where it hurts.",
+                "text": "Acierta un total de \\c[3]\\v[misc.localNum.10000] golpes críticos\\c[0]. Pégales donde les duele."
+        },
+        "database.json/achievements/trader-found-01/name": {
+                "orig": "Rookie Monger",
+                "text": "Instigador Novato"
+        },
+        "database.json/achievements/trader-found-01/description": {
+                "orig": "\\c[3]Find 25% of all Traders\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 25% de todos los Comerciantes\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/trader-found-02/name": {
+                "orig": "Veteran Monger",
+                "text": "Instigador Veterano"
+        },
+        "database.json/achievements/trader-found-02/description": {
+                "orig": "\\c[3]Find 50% of all Traders\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 50% de todos los Comerciantes\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/trader-found-03/name": {
+                "orig": "Legendary Monger",
+                "text": "Instigador Legendario"
+        },
+        "database.json/achievements/trader-found-03/description": {
+                "orig": "\\c[3]Find 75% of all Traders\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 75% de todos los Comerciantes\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/trader-found-04/name": {
+                "orig": "My Star Sign is Libra",
+                "text": "Mi Signo es Libra"
+        },
+        "database.json/achievements/trader-found-04/description": {
+                "orig": "\\c[3]Find 100% of all Traders\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 100% de todos los Comerciantes\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/botanics-total-01/name": {
+                "orig": "Rookie Botanist",
+                "text": "Botanista Novato"
+        },
+        "database.json/achievements/botanics-total-01/description": {
+                "orig": "Find and analyze \\c[3]25% of all Environmental Objects\\c[0].",
+                "text": "Encuentra y analiza el \\c[3]25% de todas las Plantas\\c[0]."
+        },
+        "database.json/achievements/botanics-total-02/name": {
+                "orig": "Veteran Botanist",
+                "text": "Botanista Veterano"
+        },
+        "database.json/achievements/botanics-total-02/description": {
+                "orig": "Find and analyze \\c[3]50% of all Environmental Objects\\c[0].",
+                "text": "Encuentra y analiza el \\c[3]50% de todas las Plantas\\c[0]."
+        },
+        "database.json/achievements/botanics-total-03/name": {
+                "orig": "Legendary Botanist",
+                "text": "Botanista Legendario"
+        },
+        "database.json/achievements/botanics-total-03/description": {
+                "orig": "Find and analyze \\c[3]75% of all Environmental Objects\\c[0].",
+                "text": "Encuentra y analiza el \\c[3]75% de todas las Plantas\\c[0]."
+        },
+        "database.json/achievements/botanics-total-04/name": {
+                "orig": "The Green Thumb",
+                "text": "El Pulgar Verde"
+        },
+        "database.json/achievements/botanics-total-04/description": {
+                "orig": "Find and analyze \\c[3]100% of all Environmental Objects\\c[0].",
+                "text": "Encuentra y analiza el \\c[3]100% de todas las Plantas\\c[0]."
+        },
+        "database.json/achievements/lore-found-01/name": {
+                "orig": "Rookie Scholar",
+                "text": "Erudito Novato"
+        },
+        "database.json/achievements/lore-found-01/description": {
+                "orig": "\\c[3]Find 25% of all Lore Entries\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 25% de todas las Entradas en la Enciclopedia\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/lore-found-02/name": {
+                "orig": "Veteran  Scholar",
+                "text": "Erudito Veterano"
+        },
+        "database.json/achievements/lore-found-02/description": {
+                "orig": "\\c[3]Find 50% of all Lore Entries\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 50% de todas las Entradas en la Enciclopedia\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/lore-found-03/name": {
+                "orig": "Legendary Scholar",
+                "text": "Erudito Legendario"
+        },
+        "database.json/achievements/lore-found-03/description": {
+                "orig": "\\c[3]Find 75% of all Lore Entries\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 75% de todas las Entradas en la Enciclopedia\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/lore-found-04/name": {
+                "orig": "I know Everything",
+                "text": "Lo sé Todo"
+        },
+        "database.json/achievements/lore-found-04/description": {
+                "orig": "\\c[3]Find 100% of all Lore Entries\\c[0] in CrossWorlds. All mysteries solved?",
+                "text": "\\c[3]Encuentra el 100% de todas las Entradas en la Enciclopedia\\c[0] en CrossWorlds. ¿Están todos los misterios resueltos?"
+        },
+        "database.json/achievements/landmarks-total-01/name": {
+                "orig": "Rookie Explorer",
+                "text": "Explorador Novato"
+        },
+        "database.json/achievements/landmarks-total-01/description": {
+                "orig": "\\c[3]Find 25% of all Landmarks\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 25% de todos los Puntos de Referencia\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/landmarks-total-02/name": {
+                "orig": "Veteran Explorer",
+                "text": "Explorador Veterano"
+        },
+        "database.json/achievements/landmarks-total-02/description": {
+                "orig": "\\c[3]Find 50% of all Landmarks\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 50% de todos los Puntos de Referencia\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/landmarks-total-03/name": {
+                "orig": "Legendary Explorer",
+                "text": "Explorador Legendario"
+        },
+        "database.json/achievements/landmarks-total-03/description": {
+                "orig": "\\c[3]Find 75% of all Landmarks\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 75% de todos los Puntos de Referencia\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/landmarks-total-04/name": {
+                "orig": "Lea the Explorer",
+                "text": "Lea la Exploradora"
+        },
+        "database.json/achievements/landmarks-total-04/description": {
+                "orig": "\\c[3]Find 100% of all Landmarks\\c[0] in CrossWorlds. Did you help?",
+                "text": "\\c[3]Encuentra el 100% de todos los Puntos de Referencia\\c[0] en CrossWorlds. ¿Ayudaste?"
+        },
+        "database.json/achievements/landmarks-autumn/name": {
+                "orig": "Autumn Landmarks",
+                "text": "Referencias de Otoño"
+        },
+        "database.json/achievements/landmarks-autumn/description": {
+                "orig": "\\c[3]Find all Landmarks\\c[0] in Autumn's Rise, Rookie Harbor and Autumn's Fall.",
+                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en el Amanecer del Otoño, Puerto de los Novatos y el Anochecer del Otoño."
+        },
+        "database.json/achievements/landmarks-bergen/name": {
+                "orig": "Bergen Landmarks",
+                "text": "Referencias de Bergen"
+        },
+        "database.json/achievements/landmarks-bergen/description": {
+                "orig": "\\c[3]Find all Landmarks\\c[0] in Bergen Trail and Bergen.",
+                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en el Sendero de Bergen y Bergen."
+        },
+        "database.json/achievements/landmarks-maroon/name": {
+                "orig": "Maroon Landmarks",
+                "text": "Referencias de Maroon"
+        },
+        "database.json/achievements/landmarks-maroon/description": {
+                "orig": "\\c[3]Find all Landmarks\\c[0] in Maroon Valley & Ba'kii Kum.",
+                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en el Valle Maroon y Ba'kii Kum."
+        },
+        "database.json/achievements/landmarks-gaia/name": {
+                "orig": "Gaia Landmarks",
+                "text": "Referencias de Gaia"
+        },
+        "database.json/achievements/landmarks-gaia/description": {
+                "orig": "\\c[3]Find all Landmarks\\c[0] in Gaia's Garden and Basin Keep.",
+                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en el Jardín de Gaia y Basin Keep."
+        },
+        "database.json/achievements/landmarks-forest/name": {
+                "orig": "Sapphire Landmarks",
+                "text": "Referencias de Zafiro"
+        },
+        "database.json/achievements/landmarks-forest/description": {
+                "orig": "\\c[3]Find all Landmarks\\c[0] in Sapphire Ridge.",
+                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en Cresta de Zafiro."
+        },
+        "database.json/achievements/landmarks-rhombus/name": {
+                "orig": "Rhombus Landmarks",
+                "text": "Referencias de Rhombus"
+        },
+        "database.json/achievements/landmarks-rhombus/description": {
+                "orig": "\\c[3]Find all Landmarks\\c[0] in Rhombus Square.",
+                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en Rhombus Square."
+        },
+        "database.json/achievements/chests-total-01/name": {
+                "orig": "Rookie Treasurer",
+                "text": "Tesorero Novato"
+        },
+        "database.json/achievements/chests-total-01/description": {
+                "orig": "\\c[3]Find 25% of all Chests\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 25% de todos los cofres\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/chests-total-02/name": {
+                "orig": "Veteran Treasurer",
+                "text": "Tesorero Veterano"
+        },
+        "database.json/achievements/chests-total-02/description": {
+                "orig": "\\c[3]Find 50% of all Chests\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 50% de todos los cofres\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/chests-total-03/name": {
+                "orig": "Legendary Treasurer",
+                "text": "Tesorero Legendario"
+        },
+        "database.json/achievements/chests-total-03/description": {
+                "orig": "\\c[3]Find 75% of all Chests\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 75% de todos los cofres\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/chests-total-04/name": {
+                "orig": "Chest Nut",
+                "text": "Loco por los Cofres"
+        },
+        "database.json/achievements/chests-total-04/description": {
+                "orig": "\\c[3]Find 100% of all Chests\\c[0] in CrossWorlds.",
+                "text": "\\c[3]Encuentra el 100% de todos los cofres\\c[0] en CrossWorlds."
+        },
+        "database.json/achievements/chests-autumn/name": {
+                "orig": "Autumn's Scavenger",
+                "text": "Carroñero de Otoño"
+        },
+        "database.json/achievements/chests-autumn/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.autumn-area.name], \\v[area.rookie-harbor.name] and \\v[area.autumn-fall.name].",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en \\v[area.autumn-area.name], \\v[area.rookie-harbor.name] y \\v[area.autumn-fall.name]."
+        },
+        "database.json/achievements/chests-bergen/name": {
+                "orig": "Bergen Scavenger",
+                "text": "Carroñero de Bergen"
+        },
+        "database.json/achievements/chests-bergen/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.bergen-trails.name] and \\v[area.bergen.name].",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en \\v[area.bergen-trails.name] y \\v[area.bergen.name]."
+        },
+        "database.json/achievements/chests-maroon/name": {
+                "orig": "Maroon Scavenger",
+                "text": "Carroñero de Maroon"
+        },
+        "database.json/achievements/chests-maroon/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.heat-area.name] and \\v[area.heat-village.name].",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en \\v[area.heat-area.name] y \\v[area.heat-village.name]."
+        },
+        "database.json/achievements/chests-jungle/name": {
+                "orig": "Gaia's Scavenger",
+                "text": "Carroñero de Gaia"
+        },
+        "database.json/achievements/chests-jungle/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.jungle.name] and \\v[area.jungle-city.name].",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en \\v[area.jungle.name] y \\v[area.jungle-city.name]."
+        },
+        "database.json/achievements/chests-forest/name": {
+                "orig": "Sapphire Scavenger",
+                "text": "Carroñero de Zafiro"
+        },
+        "database.json/achievements/chests-forest/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in Sapphire-Ridge.",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en Cresta de Zafiro."
+        },
+        "database.json/achievements/chests-rhombus/name": {
+                "orig": "Rhombus Scavenger",
+                "text": "Carroñero de Rhombus"
+        },
+        "database.json/achievements/chests-rhombus/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.rhombus-sqr.name] and \\v[area.rhombus-dng.name].",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en \\v[area.rhombus-sqr.name] y \\v[area.rhombus-dng.name]."
+        },
+        "database.json/achievements/chests-cold/name": {
+                "orig": "Temple Mine Scavenger",
+                "text": "Carroñero de la Mina del Templo"
+        },
+        "database.json/achievements/chests-cold/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.cold-dng.name].",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en \\v[area.cold-dng.name]."
+        },
+        "database.json/achievements/chests-heat/name": {
+                "orig": "Faj'ro Scavenger",
+                "text": "Carroñero de Faj'ro"
+        },
+        "database.json/achievements/chests-heat/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.heat-dng.name].",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en \\v[area.heat-dng.name]."
+        },
+        "database.json/achievements/chests-shockwave/name": {
+                "orig": "Grand Scavenger",
+                "text": "Gran Carroñero"
+        },
+        "database.json/achievements/chests-shockwave/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.shock-dng.name], \\v[area.wave-dng.name] and \\v[area.tree-dng.name].",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en \\v[area.shock-dng.name], \\v[area.wave-dng.name] y \\v[area.tree-dng.name]."
+        },
+        "database.json/achievements/chests-arid/name": {
+                "orig": "Vermillion Scavenger",
+                "text": "Carroñero Bermellón"
+        },
+        "database.json/achievements/chests-arid/description": {
+                "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.arid.name].",
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en \\v[area.arid.name]."
+        },
+        "database.json/achievements/quests-total-01/name": {
+                "orig": "Rookie Adventurer",
+                "text": "Aventurero Novato"
+        },
+        "database.json/achievements/quests-total-01/description": {
+                "orig": "Complete \\c[3]25% of all Quests\\c[0].",
+                "text": "Completa el \\c[3]25% de todas las Misiones\\c[0]."
+        },
+        "database.json/achievements/quests-total-02/name": {
+                "orig": "Veteran Adventurer",
+                "text": "Aventurero Veterano"
+        },
+        "database.json/achievements/quests-total-02/description": {
+                "orig": "Complete \\c[3]50% of all Quests\\c[0].",
+                "text": "Completa el \\c[3]50% de todas las Misiones\\c[0]."
+        },
+        "database.json/achievements/quests-total-03/name": {
+                "orig": "Legendary Adventurer",
+                "text": "Aventurero Legendario"
+        },
+        "database.json/achievements/quests-total-03/description": {
+                "orig": "Complete \\c[3]75% of all Quests\\c[0].",
+                "text": "Completa el \\c[3]75% de todas las Misiones\\c[0]."
+        },
+        "database.json/achievements/quests-total-04/name": {
+                "orig": "Gotta help 'em all",
+                "text": "Debo Ayudarlos a Todos"
+        },
+        "database.json/achievements/quests-total-04/description": {
+                "orig": "Complete \\c[3]100% of all Quests\\c[0].",
+                "text": "Completa el \\c[3]100% de todas las Misiones\\c[0]."
+        },
+        "database.json/achievements/quests-tasks-01/name": {
+                "orig": "Rookie Solver",
+                "text": "Solucionador Novato"
+        },
+        "database.json/achievements/quests-tasks-01/description": {
+                "orig": "Complete a \\c[3]total of 25 Tasks\\c[0].",
+                "text": "Completa un \\c[3]total de 25 Tareas\\c[0]."
+        },
+        "database.json/achievements/quests-tasks-02/name": {
+                "orig": "Veteran Solver",
+                "text": "Solucionador Veterano"
+        },
+        "database.json/achievements/quests-tasks-02/description": {
+                "orig": "Complete a \\c[3]total of 50 Tasks\\c[0].",
+                "text": "Completa un \\c[3]total de 50 Tareas\\c[0]."
+        },
+        "database.json/achievements/quests-tasks-03/name": {
+                "orig": "Legendary Solver",
+                "text": "Solucionador Legendario"
+        },
+        "database.json/achievements/quests-tasks-03/description": {
+                "orig": "Complete a \\c[3]total of 100 Tasks\\c[0].",
+                "text": "Completa un \\c[3]total de 100 Tareas\\c[0]."
+        },
+        "database.json/achievements/quests-tasks-04/name": {
+                "orig": "Every Task can be Solved!",
+                "text": "¡Todo Puede ser Resuleto!"
+        },
+        "database.json/achievements/quests-tasks-04/description": {
+                "orig": "Complete a \\c[3]total of 200 Tasks\\c[0].",
+                "text": "Completa un \\c[3]total de 200 Tareas\\c[0]."
+        },
+        "database.json/achievements/quest-factions-VA-rookie/name": {
+                "orig": "VA ROOKIE",
+                "text": "NOVATO DE VA"
+        },
+        "database.json/achievements/quest-factions-VA-rookie/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the Venture Alliance [or sub name] in \\v[area.rookie-harbor.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la Alianza de Riesgo [o sub nombre] en \\v[area.rookie-harbor.name]."
+        },
+        "database.json/achievements/quest-factions-VA-bergen/name": {
+                "orig": "VA BERGEN",
+                "text": "Alianza de Riesgo: Bergen"
+        },
+        "database.json/achievements/quest-factions-VA-bergen/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the Venture Alliance [or sub name] in \\v[area.bergen.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la Alianza de Riesgo [o sub nombre] en \\v[area.bergen.name]."
+        },
+        "database.json/achievements/quest-factions-VA-maroon/name": {
+                "orig": "VA MAROON",
+                "text": "Alianza de Riesgo: Maroon"
+        },
+        "database.json/achievements/quest-factions-VA-maroon/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the Venture Alliance [or sub name] in \\v[area.heat-village.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la Alianza de Riesgo [o sub nombre] en \\v[area.heat-village.name]."
+        },
+        "database.json/achievements/quest-factions-VA-jungle/name": {
+                "orig": "VA MAROON",
+                "text": "Alianza de Riesgo: Maroon"
+        },
+        "database.json/achievements/quest-factions-VA-jungle/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the Venture Alliance [or sub name] in \\v[area.jungle-city.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la Alianza de Riesgo [o sub nombre] en \\v[area.jungle-city.name]."
+        },
+        "database.json/achievements/quest-factions-HPD-rookie/name": {
+                "orig": "HPD ROOKIE",
+                "text": "Novato de HPD"
+        },
+        "database.json/achievements/quest-factions-HPD-rookie/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the HPD [or sub name] in \\v[area.rookie-harbor.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la HPD [o sub nombre] en \\v[area.rookie-harbor.name]."
+        },
+        "database.json/achievements/quest-factions-HPD-bergen/name": {
+                "orig": "HPD BERGEN",
+                "text": "HPD BERGEN"
+        },
+        "database.json/achievements/quest-factions-HPD-bergen/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the HPD [or sub name] in \\v[area.bergen.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la HPD [o sub nombre] en \\v[area.bergen.name]."
+        },
+        "database.json/achievements/quest-factions-HPD-maroon/name": {
+                "orig": "HPD MAROON",
+                "text": "HPD MAROON"
+        },
+        "database.json/achievements/quest-factions-HPD-maroon/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the HPD [or sub name] in \\v[area.heat-village.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la HPD [o sub nombre] en \\v[area.heat-village.name]."
+        },
+        "database.json/achievements/quest-factions-HPD-jungle/name": {
+                "orig": "HPD JUNGLE",
+                "text": "HPD JUNGLE"
+        },
+        "database.json/achievements/quest-factions-HPD-jungle/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the HPD [or sub name] in \\v[area.jungle-city.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la HPD [o sub nombre] en \\v[area.jungle-city.name]."
+        },
+        "database.json/achievements/quest-factions-AHA-rookie/name": {
+                "orig": "AHA ROOKIE",
+                "text": "AHA ROOKIE"
+        },
+        "database.json/achievements/quest-factions-AHA-rookie/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the AHA [or sub name] in \\v[area.rookie-harbor.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la AHA [o sub nombre] en \\v[area.rookie-harbor.name]."
+        },
+        "database.json/achievements/quest-factions-AHA-bergen/name": {
+                "orig": "AHA BERGEN",
+                "text": "AHA BERGEN"
+        },
+        "database.json/achievements/quest-factions-AHA-bergen/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the AHA [or sub name] in \\v[area.bergen.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la AHA [o sub nombre] en \\v[area.bergen.name]."
+        },
+        "database.json/achievements/quest-factions-AHA-maroon/name": {
+                "orig": "AHA MAROON",
+                "text": "AHA MAROON"
+        },
+        "database.json/achievements/quest-factions-AHA-maroon/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the AHA [or sub name] in \\v[area.heat-village.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la AHA [o sub nombre] en \\v[area.heat-village.name]."
+        },
+        "database.json/achievements/quest-factions-AHA-jungle/name": {
+                "orig": "AHA JUNGLE",
+                "text": "AHA JUNGLE"
+        },
+        "database.json/achievements/quest-factions-AHA-jungle/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the AHA [or sub name] in \\v[area.jungle-city.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la AHA [o sub nombre] en \\v[area.jungle-city.name]."
+        },
+        "database.json/achievements/quest-factions-AOB-rookie/name": {
+                "orig": "AOB ROOKIE",
+                "text": "AOB ROOKIE"
+        },
+        "database.json/achievements/quest-factions-AOB-rookie/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the AOB [or sub name] in \\v[area.rookie-harbor.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la AOB [o sub nombre] en \\v[area.rookie-harbor.name]."
+        },
+        "database.json/achievements/quest-factions-AOB-bergen/name": {
+                "orig": "AOB BERGEN",
+                "text": "AOB BERGEN"
+        },
+        "database.json/achievements/quest-factions-AOB-bergen/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the AOB [or sub name] in \\v[area.bergen.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la AOB [o sub nombre] en \\v[area.bergen.name]."
+        },
+        "database.json/achievements/quest-factions-AOB-maroon/name": {
+                "orig": "AOB MAROON",
+                "text": "AOB MAROON"
+        },
+        "database.json/achievements/quest-factions-AOB-maroon/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the AOB [or sub name] in \\v[area.heat-village.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la AOB [o sub nombre] en \\v[area.heat-village.name]."
+        },
+        "database.json/achievements/quest-factions-AOB-jungle/name": {
+                "orig": "AOB JUNGLE",
+                "text": "AOB JUNGLE"
+        },
+        "database.json/achievements/quest-factions-AOB-jungle/description": {
+                "orig": "\\c[3]Finish all quests\\c[0] for the AOB [or sub name] in \\v[area.jungle-city.name].",
+                "text": "\\c[3]Termina todas las misiones \\c[0]para la AOB [o sub nombre] en \\v[area.jungle-city.name]."
+        },
+        "database.json/areas/arid-dng-1/name": {
+                "orig": "Vermillion Dungeon",
+                "text": "Mazmorra Bermellón"
+        },
+        "database.json/areas/arid-dng-1/description": {
+                "orig": "Your own personal dungeon in Vermillion Wasteland.",
+                "text": "Tu propia mazmorra personal en el Páramo Bermellón."
+        },
+        "database.json/areas/arid-dng-2/name": {
+                "orig": "Vermillion Tower",
+                "text": "Torre Bermellón"
+        },
+        "database.json/areas/arid-dng-2/description": {
+                "orig": "The final challenge put together by Gautham.",
+                "text": "El último desafío, diseñado por Gautahm."
+        },
+        "database.json/areas/arid/name": {
+                "orig": "Vermillion Wasteland",
+                "text": "Páramo Bermellón"
+        },
+        "database.json/areas/arid/shortName": {
+                "orig": "Ver. Wasteland",
+                "text": "Páramo Ber."
+        },
+        "database.json/areas/arid/description": {
+                "orig": "A deserted and gloomy area of unknown origin.",
+                "text": "Un área desierta y sombría de origen desconocido."
+        },
+        "database.json/areas/arid/landmarks/town/name": {
+                "orig": "Town Center",
+                "text": "Centro de la Ciudad"
+        },
+        "database.json/areas/arid/landmarks/town/description": {
+                "orig": "Center of the \"Town\".",
+                "text": "Centro del \"Pueblo\"."
+        },
+        "database.json/areas/autumn-area/name": {
+                "orig": "Autumn's Rise",
+                "text": "Amanecer del Otoño"
+        },
+        "database.json/areas/autumn-area/description": {
+                "orig": "A bright and lush area painted in the warm colors of autumn. ",
+                "text": "Un área brillante y exuberante, pintada en los cálidos colores del otoño."
+        },
+        "database.json/areas/autumn-area/landmarks/guilds/name": {
+                "orig": "Autumn Residences",
+                "text": "Residencias de Otoño"
+        },
+        "database.json/areas/autumn-area/landmarks/guilds/description": {
+                "orig": "The small guild village sometimes called \"Hidden Leaf\".",
+                "text": "La pequeña aldea del gremio, a veces llamada \"Hoja Oculta\"."
+        },
+        "database.json/areas/autumn-area/landmarks/observatory/name": {
+                "orig": "Old Observatory",
+                "text": "Viejo Observatorio"
+        },
+        "database.json/areas/autumn-area/landmarks/observatory/description": {
+                "orig": "An abandoned Observatory, now crawling with enemies.",
+                "text": "Un Observatorio abandonado, ahora repleto de enemigos."
+        },
+        "database.json/areas/autumn-area/landmarks/start/name": {
+                "orig": "Western Exit",
+                "text": "Salida Oeste"
+        },
+        "database.json/areas/autumn-area/landmarks/start/description": {
+                "orig": "Western Exit leading to Rookie Harbor.",
+                "text": "Salida Oeste dirigiendo al Puerto de los Novatos"
+        },
+        "database.json/areas/autumn-area/landmarks/end/name": {
+                "orig": "Northern Exit",
+                "text": "Salida Norte"
+        },
+        "database.json/areas/autumn-area/landmarks/end/description": {
+                "orig": "Exit to the rural Bergen Trail area.",
+                "text": "Salida Norte hacia el área rural del Sendero de Bergen."
+        },
+        "database.json/areas/autumn-area/landmarks/obelisk/name": {
+                "orig": "Old Obelisk",
+                "text": "Viejo Obelisco"
+        },
+        "database.json/areas/autumn-area/landmarks/obelisk/description": {
+                "orig": "A memorial of unknown purpose in the center of Autumn's Rise.",
+                "text": "Un monumento de propósito desconocido en el centro del Amanecer del Otoño."
+        },
+        "database.json/areas/autumn-fall/name": {
+                "orig": "Autumn's Fall",
+                "text": "Anochecer del Otoño"
+        },
+        "database.json/areas/autumn-fall/description": {
+                "orig": "Known for it's many ponds and ruins this area is the little brother of Autumn's Rise. ",
+                "text": "Conocido por sus numerosos lagos y ruinas, este área es el hermano pequeño del Amanecer del Otoño."
+        },
+        "database.json/areas/autumn-fall/landmarks/east/name": {
+                "orig": "Eastern Exit",
+                "text": "Salida Este"
+        },
+        "database.json/areas/autumn-fall/landmarks/east/description": {
+                "orig": "East Exit of Autumn's Fall leading to the Sapphire Ridge.",
+                "text": "Salida Este del Anochecer del Otoño, dirigiendo a la Cresta de Zafiro."
+        },
+        "database.json/areas/autumn-fall/landmarks/raid/name": {
+                "orig": "Para Island",
+                "text": "Isla Para"
+        },
+        "database.json/areas/autumn-fall/landmarks/raid/description": {
+                "orig": "Island of Raids.",
+                "text": "Isla de Raids."
+        },
+        "database.json/areas/autumn-fall/landmarks/autumn/name": {
+                "orig": "Ruined Village",
+                "text": "Aldea Arruinada"
+        },
+        "database.json/areas/autumn-fall/landmarks/autumn/description": {
+                "orig": "The remains of an ancient village serve as a second entrance into Autumn's Fall.",
+                "text": "Los restos de una vieja aldea, sirven como segunda entrada al Anochecer del Otoño."
+        },
+        "database.json/areas/autumn-fall/landmarks/exit/name": {
+                "orig": "Northern Exit",
+                "text": "Salida Norte"
+        },
+        "database.json/areas/autumn-fall/landmarks/exit/description": {
+                "orig": "North Exit of Autumn's Fall leading to the Gaia's Garden.",
+                "text": "Salida Norte del Anochecer del Otoño, dirigiendo al Jardín de Gaia."
+        },
+        "database.json/areas/autumn-fall/landmarks/start/name": {
+                "orig": "Southern Exit",
+                "text": "Salida Sur"
+        },
+        "database.json/areas/autumn-fall/landmarks/start/description": {
+                "orig": "South Exit of Autumn's Fall located near a ruined outpost of the Ancients.",
+                "text": "Salida Sur del Anochecer del Otoño, localizada cerca del puesto avanzado arruinado de los Ancianos."
+        },
+        "database.json/areas/beach/name": {
+                "orig": "Coral Coastline",
+                "text": "Costa de Coral"
+        },
+        "database.json/areas/beach/description": {
+                "orig": "A strange group of sandbanks in the middle of the ocean.",
+                "text": "Un extraño grupo de bancos de arena en el medio del océano."
+        },
+        "database.json/areas/bergen-trails/name": {
+                "orig": "Bergen Trail",
+                "text": "Sendero de Bergen"
+        },
+        "database.json/areas/bergen-trails/description": {
+                "orig": "A rural area leading up to the cold town of Bergen.",
+                "text": "Un área rural dirigiendo al frío pueblo de Bergen."
+        },
+        "database.json/areas/bergen-trails/landmarks/hermit/name": {
+                "orig": "Hermit's House",
+                "text": "Casa del Ermitaño"
+        },
+        "database.json/areas/bergen-trails/landmarks/hermit/description": {
+                "orig": "A lonesome house, commonly used as half-way break from the difficult climb.",
+                "text": "Una casa solitaria, usualmente utilizada como descanso a mitad de la dificultosa escalada."
+        },
+        "database.json/areas/bergen-trails/landmarks/end/name": {
+                "orig": "Outlook",
+                "text": "Panorama"
+        },
+        "database.json/areas/bergen-trails/landmarks/end/description": {
+                "orig": "This landmark is only a few steps away from Bergen Village! You can do it!",
+                "text": "¡Este punto de referencia está a sólo unos pasos de la Aldea de Bergen! ¡Puedes hacerlo!"
+        },
+        "database.json/areas/bergen-trails/landmarks/start/name": {
+                "orig": "Resting Spot",
+                "text": "Punto de Descanso"
+        },
+        "database.json/areas/bergen-trails/landmarks/start/description": {
+                "orig": "The base of \\v[area.bergen-trails.name]. Often used as a preparation spot before the climb.",
+                "text": "La base del \\v[area.bergen-trails.name]. Usualmente utilizada como un punto de preparación antes de la escalada."
+        },
+        "database.json/areas/bergen/name": {
+                "orig": "Bergen Village",
+                "text": "Aldea de Bergen"
+        },
+        "database.json/areas/bergen/description": {
+                "orig": "A sleepy village hidden in the snowy heights of Mount Berg.",
+                "text": "Una aldea soñolienta, oculta en las nevadas alturas del Monte Berg."
+        },
+        "database.json/areas/bergen/landmarks/north/name": {
+                "orig": "Ye Old Inn",
+                "text": "La Vieja Posada"
+        },
+        "database.json/areas/bergen/landmarks/north/description": {
+                "orig": "Once an Inn this landmark now serves as library and official bureau. ",
+                "text": "Anteriormente una Posada, este punto de referencia ahora sirve como libreria y oficina oficial."
+        },
+        "database.json/areas/bergen/landmarks/south/name": {
+                "orig": "South Checkpoint",
+                "text": "Puesto de Control Sur"
+        },
+        "database.json/areas/bergen/landmarks/south/description": {
+                "orig": "Checkpoint for tired travelers who just finished the climb on \\v[area.bergen-trails.name].",
+                "text": "Puesto de Control para viajeros cansados que acaban de terminar de trepar el \\v[area.bergen-trails.name]"
+        },
+        "database.json/areas/cargo-ship/name": {
+                "orig": "Cargo Ship",
+                "text": "Barco de Carga"
+        },
+        "database.json/areas/cargo-ship/description": {
+                "orig": "One of the many cargo ships belonging to the maintenance crew of CrossWorlds.",
+                "text": "Uno de los tantos barcos de carga pertenecientes al equipo de mantenimiento de CrossWorlds."
+        },
+        "database.json/areas/cargo-ship/landmarks/teleporter/name": {
+                "orig": "Cargo Hold",
+                "text": "Bodega de Carga"
+        },
+        "database.json/areas/cargo-ship/landmarks/teleporter/description": {
+                "orig": "At the Cargo Hold where Lea started her journey.",
+                "text": "En la Bodega de Carga, donde Lea empezó su aventura."
+        },
+        "database.json/areas/cold-dng/name": {
+                "orig": "Temple Mine",
+                "text": "Mina del Templo"
+        },
+        "database.json/areas/cold-dng/description": {
+                "orig": "A once busy Mine with an uncovered temple crawling with hostile robots.",
+                "text": "Originalmente una Mina muy activa con un templo sin descubrir repleto de robots hostiles."
+        },
+        "database.json/areas/evo-village/name": {
+                "orig": "Homestedt",
+                "text": "Homestedt"
+        },
+        "database.json/areas/evo-village/description": {
+                "orig": "The small settlement established as a home for Evotars.",
+                "text": "El pequeño asentamiento establecido como hogar para los Evotars."
+        },
+        "database.json/areas/evo-village/landmarks/center/name": {
+                "orig": "Plaza",
+                "text": "Plaza"
+        },
+        "database.json/areas/evo-village/landmarks/center/description": {
+                "orig": "This landmark sits right at the heart of \\v[area.evo-village.name].",
+                "text": "Este punto de referencia está al lado del corazón de \\v[area.evo-village.name]."
+        },
+        "database.json/areas/fallback/name": {
+                "orig": "Fallback",
+                "text": "Respaldo"
+        },
+        "database.json/areas/fallback/description": {
+                "orig": "This is where everything goes that is not wanted.",
+                "text": "Aquí es donde va todo lo desechado."
+        },
+        "database.json/areas/final-dng/name": {
+                "orig": "Ku'lero Temple",
+                "text": "Templo Ku'lero"
+        },
+        "database.json/areas/final-dng/description": {
+                "orig": "The last temple build by the Ancients meant to test the worth of all who enter.",
+                "text": "El último templo construído por los Ancianos para probar el valor de todo aquel que entre."
+        },
+        "database.json/areas/final-dng/landmarks/center/name": {
+                "orig": "Center",
+                "text": "Centro"
+        },
+        "database.json/areas/final-dng/landmarks/center/description": {
+                "orig": "Yo",
+                "text": "Yo"
+        },
+        "database.json/areas/forest/name": {
+                "orig": "Sapphire Ridge",
+                "text": "Cresta de Zafiro"
+        },
+        "database.json/areas/forest/description": {
+                "orig": "The tranquil ridge filled with bamboo structures and hidden paths.",
+                "text": "La tranquila cresta, repleta de estructuras de bamboo y caminos ocultos."
+        },
+        "database.json/areas/forest/landmarks/temple/name": {
+                "orig": "Ascension Temple",
+                "text": "Templo de Ascensión"
+        },
+        "database.json/areas/forest/landmarks/temple/description": {
+                "orig": "A mysterious temple said to be the final destination of the Track of the Ancients.",
+                "text": "Un misterioso templo rumoreado ser el destino final en el Camino de los Ancianos."
+        },
+        "database.json/areas/forest/landmarks/dojo/name": {
+                "orig": "Old Dojo",
+                "text": "Viejo Dojo"
+        },
+        "database.json/areas/forest/landmarks/dojo/description": {
+                "orig": "And old training ground build by early settlers.",
+                "text": "Un viejo campo de entrenamiento construído por los primeros colonos."
+        },
+        "database.json/areas/forest/landmarks/upper/name": {
+                "orig": "Carved Pathway",
+                "text": "Camino Tallado"
+        },
+        "database.json/areas/forest/landmarks/upper/description": {
+                "orig": "A rough path between caves leading to an old dojo.",
+                "text": "Un deteriorado camino entre las cuevas dirigiendo a un viejo dojo."
+        },
+        "database.json/areas/forest/landmarks/hostel/name": {
+                "orig": "The Cave Inn",
+                "text": "La Posada de la Cueva"
+        },
+        "database.json/areas/forest/landmarks/hostel/description": {
+                "orig": "An Inn designed after temples used to build centuries ago.",
+                "text": "Una Posada diseñada según los templos que se construyeron hace siglos."
+        },
+        "database.json/areas/forest/landmarks/west/name": {
+                "orig": "Western Exit",
+                "text": "Salida Oeste"
+        },
+        "database.json/areas/forest/landmarks/west/description": {
+                "orig": "West Exit of \\v[area.forest.name] leading to the \\v[area.autumn-fall.name].",
+                "text": "Salida Oeste de \\v[area.forest.name] dirigiendo al \\v[area.autumn-fall.name]."
+        },
+        "database.json/areas/heat-area/name": {
+                "orig": "Maroon Valley",
+                "text": "Valle Maroon"
+        },
+        "database.json/areas/heat-area/description": {
+                "orig": "A dusty and barren area where only the fittest survive.",
+                "text": "Un aŕea polvorienta y desierta donde sólo los más fuertes sobreviven."
+        },
+        "database.json/areas/heat-area/landmarks/balcony/name": {
+                "orig": "Faj'ro Balcony",
+                "text": "Balcón Faj'ro"
+        },
+        "database.json/areas/heat-area/landmarks/balcony/description": {
+                "orig": "The Balcony of Faj'ro Temple.",
+                "text": "El Balcón del Templo Faj'ro."
+        },
+        "database.json/areas/heat-area/landmarks/exit/name": {
+                "orig": "West Entrance",
+                "text": "Entrada Oeste"
+        },
+        "database.json/areas/heat-area/landmarks/exit/description": {
+                "orig": "The western entrance of \\v[area.heat-area.name] leading to \\v[area.heat-village.name].",
+                "text": "La entrada oeste al \\v[area.heat-area.name], dirigiendo a \\v[area.heat-village.name]."
+        },
+        "database.json/areas/heat-area/landmarks/dungeon/name": {
+                "orig": "Hourglass Pillar",
+                "text": "Pilar de Reloj de Arena"
+        },
+        "database.json/areas/heat-area/landmarks/dungeon/description": {
+                "orig": "A single pillar inside the Great Scar from which a temple of the Ancient can be seen.",
+                "text": "Un único pilar dentro de la Gran Cicatriz desde donde se puede ver un templo de los Ancianos."
+        },
+        "database.json/areas/heat-area/landmarks/middle/name": {
+                "orig": "Arcing Stones",
+                "text": "Piedras Arqueadas"
+        },
+        "database.json/areas/heat-area/landmarks/middle/description": {
+                "orig": "A landmark located close to the arcing stone structures of Maroon Valley.",
+                "text": "Un punto de referencia localizado cerca de las piedras arqueadas del Valle Maroon."
+        },
+        "database.json/areas/heat-area/landmarks/oasis/name": {
+                "orig": "Maroon Tree",
+                "text": "Árbol Maroon"
+        },
+        "database.json/areas/heat-area/landmarks/oasis/description": {
+                "orig": "A lush and vivid oasis crowned by a majestic maroon tree.",
+                "text": "Un oasis exuberante y vivo, coronado por el majestuoso Árbol Maroon."
+        },
+        "database.json/areas/heat-area/landmarks/entrance/name": {
+                "orig": "East Entrance",
+                "text": "Entrada Este"
+        },
+        "database.json/areas/heat-area/landmarks/entrance/description": {
+                "orig": "The eastern entrance of \\v[area.heat-area.name] leading to \\v[area.bergen-trails.name].",
+                "text": "La entrada este de \\v[area.heat-area.name] dirigiendo al \\v[area.bergen-trails.name]."
+        },
+        "database.json/areas/heat-dng/name": {
+                "orig": "Faj'ro Temple",
+                "text": "Templo Faj'ro"
+        },
+        "database.json/areas/heat-dng/description": {
+                "orig": "An ancient temple whose shape granted it the nickname \"Hourglass\".",
+                "text": "Un antiguo templo cuya forma le dio el apodo \"Reloj de Arena\"."
+        },
+        "database.json/areas/heat-village/name": {
+                "orig": "Ba'kii Kum",
+                "text": "Ba'kii Kum"
+        },
+        "database.json/areas/heat-village/description": {
+                "orig": "A quiet Shad village set in a small ravine in Maroon Valley.",
+                "text": "Una tranquila aldea Shad localizada en un pequeño barranco en el Valle Maroon."
+        },
+        "database.json/areas/heat-village/landmarks/market/name": {
+                "orig": "Plaza",
+                "text": "Plaza"
+        },
+        "database.json/areas/heat-village/landmarks/market/description": {
+                "orig": "Right in front of the largest Building in town and only a few steps a way from the market.",
+                "text": "Justo en frente del Edificio más grande en el pueblo, sólo a unos pasos del mercado."
+        },
+        "database.json/areas/hideout/name": {
+                "orig": "Old Hideout",
+                "text": "Viejo Escondite"
+        },
+        "database.json/areas/hideout/description": {
+                "orig": "An uncompleted part of CrossWorlds hidden inside \\v[area.forest.name].",
+                "text": "Una parte incompleta de CrossWorlds, escondido dentro de \\v[area.forest.name]."
+        },
+        "database.json/areas/jungle-city/name": {
+                "orig": "Basin Keep",
+                "text": "Basin Keep"
+        },
+        "database.json/areas/jungle-city/description": {
+                "orig": "A techno-castle built on an island inside \\c[3]Gaia's Garden\\c[0] where it always rains.",
+                "text": "Un castillo tecnológico construido en una isla dentro del \\c[3]Jardín de Gaia\\c[0] donde siempre llueve."
+        },
+        "database.json/areas/jungle-city/landmarks/center/name": {
+                "orig": "Rainy City Square",
+                "text": "Plaza de la Ciudad Lluviosa"
+        },
+        "database.json/areas/jungle-city/landmarks/center/description": {
+                "orig": "The rainy and shiny center of Basin Keep, home to many traders.",
+                "text": "El lluvioso y brillante centro de Basin Keep, hogar de muchos comerciantes."
+        },
+        "database.json/areas/jungle/name": {
+                "orig": "Gaia's Garden",
+                "text": "Jardín de Gaia"
+        },
+        "database.json/areas/jungle/description": {
+                "orig": "The great jungle of the north, home to the giant Tree known as \"Gaia\".",
+                "text": "La gran jungla del norte, hogar del gran Árbol conocido como \"Gaia\"."
+        },
+        "database.json/areas/jungle/landmarks/dungeon/name": {
+                "orig": "Rite of Passage",
+                "text": "Rito de Paso"
+        },
+        "database.json/areas/jungle/landmarks/dungeon/description": {
+                "orig": "A crossroad leading to the Zir'vitar Temple, So'najiz Temple and the Grand Krys'kajo.",
+                "text": "Un cruce conduciendo a los Templos Zir'vitar, So'najiz, y el Gran Krys'kajo."
+        },
+        "database.json/areas/jungle/landmarks/infested/name": {
+                "orig": "Infested Marshes",
+                "text": "Pantanos Infestados"
+        },
+        "database.json/areas/jungle/landmarks/infested/description": {
+                "orig": "These marshes have been infested by the corruption spreading from the north.",
+                "text": "Estos pantanos fueron infestados por la corrupción que se esparce del norte."
+        },
+        "database.json/areas/jungle/landmarks/end/name": {
+                "orig": "Peridot Approach",
+                "text": "Acceso Peridot"
+        },
+        "database.json/areas/jungle/landmarks/end/description": {
+                "orig": "This landmark links the two main paths to the Grand Krys'kajo.",
+                "text": "Este punto de referencia conecta los dos caminos principales al Gran Krys'kajo."
+        },
+        "database.json/areas/jungle/landmarks/clearing/name": {
+                "orig": "V'rda Vil",
+                "text": "V'rda Vil"
+        },
+        "database.json/areas/jungle/landmarks/clearing/description": {
+                "orig": "A small Shad settlement using trees as homes and bridges to connect them.",
+                "text": "Un pequeño asentamiento Shad que utiliza los árboles como hogares y puentes para conectarlos."
+        },
+        "database.json/areas/jungle/landmarks/grove/name": {
+                "orig": "Royal Grove",
+                "text": "Arboleda Real"
+        },
+        "database.json/areas/jungle/landmarks/grove/description": {
+                "orig": "A covert with a bright lake hidden in the north-west corner of \\v[area.jungle.name].",
+                "text": "Un refugio con un lago brillante escondido en la esquina noroeste del \\v[area.jungle.name]."
+        },
+        "database.json/areas/jungle/landmarks/entrance/name": {
+                "orig": "Southern Entrance",
+                "text": "Entrada Sur"
+        },
+        "database.json/areas/jungle/landmarks/entrance/description": {
+                "orig": "The entrance to \\v[area.jungle.name]. A popular place for traders.",
+                "text": "La entrada al \\v[area.jungle.name]. Un lugar popular para los comerciantes."
+        },
+        "database.json/areas/meta/name": {
+                "orig": "Meta",
+                "text": "Meta"
+        },
+        "database.json/areas/meta/description": {
+                "orig": "I'm so meta even this acronym.",
+                "text": "Soy tan meta incluso este acrónimo."
+        },
+        "database.json/areas/rhombus-dng/name": {
+                "orig": "Rhombus Dungeon",
+                "text": "Mazmorra Rhombus"
+        },
+        "database.json/areas/rhombus-dng/description": {
+                "orig": "The final tutorial dungeon teaching players the basics of CrossWorlds.",
+                "text": "El última mazmorra tutorial, enseñando a los jugadores lo básico de CrossWorlds."
+        },
+        "database.json/areas/rhombus-sqr/name": {
+                "orig": "Rhombus Square",
+                "text": "Rhombus Square"
+        },
+        "database.json/areas/rhombus-sqr/description": {
+                "orig": "The pulsating heart of CrossWorlds. Only accessible for advanced players.",
+                "text": "El pulsante corazón de CrossWorlds. Sólo accesible para jugadores avanzados."
+        },
+        "database.json/areas/rhombus-sqr/landmarks/crosscentralTop/name": {
+                "orig": "Cross Central Balcony",
+                "text": "Balcón de la Central Cross"
+        },
+        "database.json/areas/rhombus-sqr/landmarks/crosscentralTop/description": {
+                "orig": "The Balcony right above the main teleportation hub of CrossWorlds.",
+                "text": "El balcón justo encima del principal centro de teleportación de CrossWorlds."
+        },
+        "database.json/areas/rhombus-sqr/landmarks/shops/name": {
+                "orig": "Shopping District",
+                "text": "Distrito Comercial"
+        },
+        "database.json/areas/rhombus-sqr/landmarks/shops/description": {
+                "orig": "Both shops and cafes call this part of town their home.",
+                "text": "Ambos, tiendas y cafes, llaman a esta parte del pueblo su hogar."
+        },
+        "database.json/areas/rhombus-sqr/landmarks/resiSouth/name": {
+                "orig": "South Arch",
+                "text": "Arco Sur"
+        },
+        "database.json/areas/rhombus-sqr/landmarks/resiSouth/description": {
+                "orig": "This landmark is close to both the Arena and the Southern Residence District.",
+                "text": "Este punto de referencia está cerca de la Arena y del Distrito de Residencias del Sur."
+        },
+        "database.json/areas/rhombus-sqr/landmarks/crosscentralInner/name": {
+                "orig": "Cross Central",
+                "text": "Central Cross"
+        },
+        "database.json/areas/rhombus-sqr/landmarks/crosscentralInner/description": {
+                "orig": "The main teleportation hub of CrossWorlds and the central entrance to Rhombus Square.",
+                "text": "El principal centro de teleportación de CrossWorlds y la entrada central a Rhombus Square."
+        },
+        "database.json/areas/rookie-harbor/name": {
+                "orig": "Rookie Harbor",
+                "text": "Puerto de los Novatos"
+        },
+        "database.json/areas/rookie-harbor/description": {
+                "orig": "A bustling city positively bursting with life, start of many adventures for new players.",
+                "text": "Una bulliciosa ciudad, positivamente lleno de vida, el inicio de muchas aventuras para nuevos jugadores."
+        },
+        "database.json/areas/rookie-harbor/landmarks/harbor/name": {
+                "orig": "Harbor Teleporter",
+                "text": "Teleportador del Puerto"
+        },
+        "database.json/areas/rookie-harbor/landmarks/harbor/description": {
+                "orig": "The entrance to Rookie Harbor from Cross Central.",
+                "text": "La entrada al Puerto de los Novatos desde la Central Cross"
+        },
+        "database.json/areas/rookie-harbor/landmarks/center/name": {
+                "orig": "Rhombus Fountain",
+                "text": "Fuente Rhombus"
+        },
+        "database.json/areas/rookie-harbor/landmarks/center/description": {
+                "orig": "A beautiful fountain sitting in the center of the busy marketplace.",
+                "text": "Una hermosa fuente localizada en el centro del concurrido mercado."
+        },
+        "database.json/areas/shock-dng/name": {
+                "orig": "Zir'vitar Temple",
+                "text": "Templo Zar'vitar"
+        },
+        "database.json/areas/shock-dng/description": {
+                "orig": "An ancient shad temple, home to many shocking creatures.",
+                "text": "Un antiguo templo Shad, hogar de muchas criaturas electrificantes."
+        },
+        "database.json/areas/testing-grounds/name": {
+                "orig": "Testing Ground",
+                "text": "Campo de Pruebas"
+        },
+        "database.json/areas/testing-grounds/description": {
+                "orig": "Hey, how can ye read this? This is not part of the bloody playground, ye dobber!",
+                "text": "Ey, ¿cómo estás leyendo esto? ¡Esto no es parte del maldito campo de juego, tramposo!"
+        },
+        "database.json/areas/testing-grounds/landmarks/landmark_0/name": {
+                "orig": "Test Landmark",
+                "text": "Punto de Referencia de Prueba"
+        },
+        "database.json/areas/testing-grounds/landmarks/landmark_0/description": {
+                "orig": "Testing a landmark, is like testing a landmark. I have text.",
+                "text": "Propar un punto de referencia es como probar un punto de referencia. Tengo texto."
+        },
+        "database.json/areas/tree-dng/name": {
+                "orig": "Grand Krys'kajo",
+                "text": "Gran Krys'kajo"
+        },
+        "database.json/areas/tree-dng/description": {
+                "orig": "Overgrown by a gigantic tree, this temple is guarded by an ancient entity. ",
+                "text": "Cubierto por un árbol gigantesco, este templo está protegido por una antigua entidad."
+        },
+        "database.json/areas/wave-dng/name": {
+                "orig": "So'najiz Temple",
+                "text": "Templo So'najiz"
+        },
+        "database.json/areas/wave-dng/description": {
+                "orig": "An ancient underwater shad temple, home to many bouncing foes.",
+                "text": "Un antiguo templo Shad bajo el agua, hogar de muchos enemigos que rebotan."
+        },
+        "database.json/chapters/0/name": {
+                "orig": "Shizuka",
+                "text": "Shizuka"
+        },
+        "database.json/chapters/0/prefix": {
+                "orig": "Prologue",
+                "text": "Prólogo"
+        },
+        "database.json/chapters/1/name": {
+                "orig": "Awakening",
+                "text": "Despertar"
+        },
+        "database.json/chapters/2/name": {
+                "orig": "CrossWorlds",
+                "text": "CrossWorlds"
+        },
+        "database.json/chapters/3/name": {
+                "orig": "Into the World",
+                "text": "Hacia el Mundo"
+        },
+        "database.json/chapters/4/name": {
+                "orig": "Dungeons & Guilds",
+                "text": "Mazmorras y Gremios"
+        },
+        "database.json/chapters/5/name": {
+                "orig": "The Ancient Desert",
+                "text": "El Antiguo Desierto"
+        },
+        "database.json/chapters/6/name": {
+                "orig": "Raids and Ruins",
+                "text": "Raids y Ruinas"
+        },
+        "database.json/chapters/7/name": {
+                "orig": "Isolation",
+                "text": "Aislamiento"
+        },
+        "database.json/chapters/8/name": {
+                "orig": "Through the Jungle",
+                "text": "A Través de la Jungla"
+        },
+        "database.json/chapters/9/name": {
+                "orig": "Searching the Night",
+                "text": "Buscando la Noche"
+        },
+        "database.json/chapters/10/name": {
+                "orig": "The Final Raid",
+                "text": "El Último Raid"
+        },
+        "database.json/commonEvents/quest-sergey-npc_comment/event/1/message": {
+                "orig": "It seems like they still have not given those average quest NPCs more nuanced responses.",
+                "text": "Parece que aún no le han dado respuestas más complejas a esos NPCs."
+        },
+        "database.json/commonEvents/quest-sergey-npc_comment/event/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/quest-sergey-npc_comment/event/3/message": {
+                "orig": "Well, that is good news for us.",
+                "text": "Bueno, son buenas noticias para nosotros."
+        },
+        "database.json/commonEvents/quest-sergey-npc_comment/event/4/message": {
+                "orig": "Otherwise doing sidequests might be problematic with your limited means of communication.",
+                "text": "De otro modo hacer misiones secundarias puede que sea un problema con tus limitados medios de comunicación."
+        },
+        "database.json/commonEvents/quest-sergey-npc_comment/event/5/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/quest-sergey-npc_comment/event/6/message": {
+                "orig": "Yes, I am sorry.\\. I will continue working on it now.",
+                "text": "Si, perdón.\\. Seguiré trabajando en ello ahora."
+        },
+        "database.json/commonEvents/call-instance-comments/event/2/0_0/0/message": {
+                "orig": "Aw, an instance? I wanted to do the quest together with you...",
+                "text": "Aw, ¿una instancia? Quería hacer la misión contigo..."
+        },
+        "database.json/commonEvents/call-instance-comments/event/2/1_0/0/message": {
+                "orig": "Mon dieu, another instance. Will they let us do any quests together or what?",
+                "text": "Mon dieu, otra instancia. ¿Nos van a dejar hacer alguna misión juntas o qué?"
+        },
+        "database.json/commonEvents/call-instance-comments/event/2/2_0/0/message": {
+                "orig": "Ah, this quest also uses instances? Well, see you on the other side, Lea.",
+                "text": "Ah, ¿esta misión también usa instancias? Bueno, nos vemos del otro lado, Lea."
+        },
+        "database.json/commonEvents/call-instance-comments/event/2/3_0/0/message": {
+                "orig": "With all those instanced questrooms this moon must be almost entirely hollow.",
+                "text": "Con todas esas habitaciones instanciadas esta luna debe estar casi enteramente hueca."
+        },
+        "database.json/commonEvents/call-instance-comments/event/2/4_0/0/message": {
+                "orig": "Spheromancer Lea! This quest will make us prove our worth alone. Do not bring shame upon our noble class!",
+                "text": "¡Spheromancer Lea! Esta misión nos hará probar nuestro valor solos. ¡No le traigas vergüenza a nuestra noble clase!"
+        },
+        "database.json/commonEvents/call-instance-comments/event/2/5_0/0/message": {
+                "orig": "Another challenge forces these noble Spheromancers to act independently.",
+                "text": "Otro desafío que fuerza a estos nobles Spheromancers a actuar independientemente."
+        },
+        "database.json/commonEvents/call-instance-comments/event/2/6_0/0/message": {
+                "orig": "Mh, I am all alone here. I guess they want us to solve this quest on our own.",
+                "text": "Mh, estoy solo aquí. Supongo que nos quieren hacer resolver esta misión por nuestra cuenta."
+        },
+        "database.json/commonEvents/call-instance-comments/event/2/7_0/0/message": {
+                "orig": "More instances? Makes you wonder why they split you up so much in an MMO.",
+                "text": "¿Más instancias? Te hace pensar por qué nos dividen tanto en un MMO."
+        },
+        "database.json/commonEvents/call-test/event/1/thenStep/0/message": {
+                "orig": "Run #1!",
+                "text": "¡Intento #1!"
+        },
+        "database.json/commonEvents/call-test/event/2/thenStep/0/message": {
+                "orig": "Run #3!",
+                "text": "¡Intento #3!"
+        },
+        "database.json/commonEvents/call-test/event/3/thenStep/0/message": {
+                "orig": "Run #5!",
+                "text": "¡Intento #5!"
+        },
+        "database.json/commonEvents/call-arid-switch-search/event/0/thenStep/0/message": {
+                "orig": "Huh... I guess we have to reach those glowing spots, right?",
+                "text": "Mh... Supongo que tenemos que llegar a esos puntos brillantes, ¿no?"
+        },
+        "database.json/commonEvents/call-arid-switch-search/event/0/thenStep/1/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/call-arid-switch-search/event/1/thenStep/0/message": {
+                "orig": "More glowing spots... all over the place.",
+                "text": "Más puntos brillantes... por todos lados."
+        },
+        "database.json/commonEvents/call-arid-switch-search/event/1/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/tutorial-newgame/event/1/titleText": {
+                "orig": "Welcome to \\c[3]New Game Plus\\c[0]!",
+                "text": "¡Bienvenido a \\c[3]Nuevo Juego Plus\\c[0]!"
+        },
+        "database.json/commonEvents/tutorial-newgame/event/1/text": {
+                "orig": "\nStart a new adventure using your \\c[3]Trophy Points\\c[0] to unlock special modifiers to alter the game and create your very own unique experience!\n",
+                "text": "\n¡Empieza una nueva aventura utilizando tus \\c[3]Puntos de Trofeo\\c[0] para desbloquear modificadores espciales para alterar el juego y crear tu propia experiencia única!\n"
+        },
+        "database.json/commonEvents/tutorial-newgame/event/3/text": {
+                "orig": "Select an option to activate it. Groups with \\c[3]square checkboxes\\c[0] let you select \\c[3]multiple options\\c[0].",
+                "text": "Selecciona una opción para activarla. Los grupos con \\c[3]cajas cuadradas\\c[0] te dejan seleccionar \\c[3]múltiples opciones\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-newgame/event/5/text": {
+                "orig": "Groups with \\c[3]round checkboxes\\c[0] only allow for \\c[3]one option\\c[0] to be selected.",
+                "text": "Los grupos con \\c[3]cajas redondas\\c[0] sólo permiten que se seleccione \\c[3]una opción\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-newgame/event/7/text": {
+                "orig": "Each options costs \\c[3]Trophy Points\\c[0]. Unlock more trophies to select more options!",
+                "text": "Cada opción cuesta \\c[3]Puntos de Trofeo\\c[0]. ¡Desbloquea más trofeos para seleccionar más opciones!"
+        },
+        "database.json/commonEvents/tutorial-newgame/event/9/text": {
+                "orig": "Once you are all set, press \\i[help2] to start a new game! \n\nIf an option is selected that \\c[3]requires a save file\\c[0], you will be asked to \\c[3]select one before starting the game\\c[0].",
+                "text": "¡Una vez que esté todo listo, presiona \\i[help2] para empezar un nuevo juego!\n\nSi se selecciona una opción que \\c[3]requiere un archivo de guardado\\c[0], se te pedirá \\c[3]seleccionar uno antes de empezar el juego\\c[0]."
+        },
+        "database.json/commonEvents/tutorial-newgame/event/11/titleText": {
+                "orig": "\\c[1]Things that cannot be carried over\\c[0]",
+                "text": "\\c[1]Lo siguiente no se puede transferir\\c[0]"
+        },
+        "database.json/commonEvents/tutorial-newgame/event/11/text": {
+                "orig": "\n- Key Items\n- Contacts\n- Quest Progress\n- Statistics",
+                "text": "\n- Objetos Clave\n- Contactos\n- Progreso en las misiones\n- Estadísticas"
+        },
+        "database.json/commonEvents/facility-x-key/event/2/text": {
+                "orig": "\\c[2]Facility X Key partly decrypted\\c[0]!\nProgress of decryption: \\c[3]\\v[g.lab.decrypted] / 4\\c[0]",
+                "text": "¡\\c[2]La Llave de las Instalaciones X ha sido parcialmente desencriptada\\c[0]!\nProgreso de la desencripción: \\c[3]\\v[g.lab.decrypted] / 4\\c[0]"
+        },
+        "database.json/commonEvents/facility-x-key/event/3/thenStep/1/text": {
+                "orig": "\\c[2]Decryption Complete\\c[0]!\nKey can now be used to access \\c[3]Facility X\\c[0], located in \\c[3]Sapphire Ridge\\c[0]",
+                "text": "La llave ahora puede ser utilizada para acceder a las \\c[3]Instalaciones X\\c[0], localizadas en \\c[3]Sapphire Ridge\\c[0]"
+        },
+        "database.json/commonEvents/facility-x-key/event/3/thenStep/5/object": {
+                "orig": "\\v[item.541.name]",
+                "text": "\\v[item.541.name]"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/0/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/2/thenStep/0/message": {
+                "orig": "Hi.",
+                "text": "Hola."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/2/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/2/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/2/thenStep/3/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/2/thenStep/4/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/2/thenStep/5/message": {
+                "orig": "I understand.",
+                "text": "Entiendo."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/2/thenStep/7/message": {
+                "orig": "I accept the duel!!",
+                "text": "¡¡Acepto el duelo!!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/2/thenStep/8/message": {
+                "orig": "...?!",
+                "text": "¡¿...?!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/0/message": {
+                "orig": "Hi.",
+                "text": "Hola."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/3/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/4/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/5/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/6/message": {
+                "orig": "Hi?",
+                "text": "¿Hola?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/7/message": {
+                "orig": "Ah, my arch nemesis has returned!",
+                "text": "Ah, ¡mi archienemigo ha vuelto!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/8/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/9/message": {
+                "orig": "Say no more, I know that look, 'seen it a thousand times. ",
+                "text": "No digas más, conozco esa mirada, ya la he visto miles de veces."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/10/message": {
+                "orig": "And of course, I'll accept your challenge once more! ",
+                "text": "Y por supuesto, ¡aceptaré tu desafío una vez más!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/3/thenStep/11/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/0/message": {
+                "orig": "Hi!",
+                "text": "¡Hola!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/1/message": {
+                "orig": "Oh, it's you again...",
+                "text": "Oh, eres tú otra vez..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/2/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/3/message": {
+                "orig": "Yes, I know.\\. You want to duel.",
+                "text": "Si, lo sé.\\. Quieres un duelo."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/4/message": {
+                "orig": "Meh.\\. Not feeling it.",
+                "text": "Meh.\\. No estoy de humor."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/5/message": {
+                "orig": "Why?",
+                "text": "¿Por qué?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/6/message": {
+                "orig": "It's…\\. I don't know.\\. I mean, it was fun before. ",
+                "text": "Es…\\. No lo sé.\\. O sea, solía ser divertido."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/7/message": {
+                "orig": "We had a nice time, I mopped the floor with you and everyone was happy!",
+                "text": "Pasábamos un buen tiempo, ¡barría el piso contigo y todos estábamos felices!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/8/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/9/message": {
+                "orig": "What?\\. I am pretty sure that's exactly how it happened.",
+                "text": "¿Qué?\\. Estoy segura de que así sucedió exactamente."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/10/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/11/message": {
+                "orig": "Hm, must have been someone else, then.",
+                "text": "Hm, debe haber sido alguien más, entonces."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/12/message": {
+                "orig": "You all look the same to me, really.",
+                "text": "Todos son iguales para mí, la verdad."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/13/message": {
+                "orig": "All in fancy and colorful armor, hiding your true face. ",
+                "text": "Todos en lujosa y colorida armadura, escondiendo su verdadero rostro."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/14/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/15/message": {
+                "orig": "Alright, fine!\\. Just one more duel.",
+                "text": "Está bien, ¡de acuerdo!\\. Sólo un último duelo."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/16/message": {
+                "orig": "Let me look up my schedule, Bea.",
+                "text": "Déjame ver mi calendario, Bea."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/17/message": {
+                "orig": "Lea!",
+                "text": "¡Lea!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/18/message": {
+                "orig": "Sao!",
+                "text": "¡Sao!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/19/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/4/thenStep/20/message": {
+                "orig": "Yes, I have time.\\. Just meet me at…",
+                "text": "Si, tengo tiempo.\\. Sólo encuéntrame en…"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/0/message": {
+                "orig": "Hi.",
+                "text": "Hola."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/1/message": {
+                "orig": "Okay, real talk. ",
+                "text": "Okay, hablando en serio."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/2/message": {
+                "orig": "Why am I always the one who has to do all the talking?\\. Any hard feelings?",
+                "text": "¿Por qué soy siempre yo la que tiene que hablar todo el tiempo?\\. ¿Algún resentimiento?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/3/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/4/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/5/message": {
+                "orig": "What else then?\\. You can't talk?",
+                "text": "¿Entonces qué?\\. ¿No puedes hablar?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/6/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/7/message": {
+                "orig": "What.",
+                "text": "Qué."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/11/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/12/message": {
+                "orig": "Hey you!\\. What's up with that? ",
+                "text": "¡Ey tú!\\. ¿Qué pasa con eso?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/13/message": {
+                "orig": "Why'd you make her walk to me, acting like she could hold a conversation?",
+                "text": "¿Por qué la haces caminar hacia mí, actuando como si pudiera tener una conversación?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/15/message": {
+                "orig": "Lea?",
+                "text": "¿Lea?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/18/message": {
+                "orig": "I'm talking to \\c[1]you\\c[0]!",
+                "text": "¡Te estoy hablando a \\c[1]tí\\[0]!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/19/message": {
+                "orig": "\\c[1]You behind the screen\\c[0]!",
+                "text": "¡\\c[1]Tú, detrás de la pantalla\\c[0]!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/20/message": {
+                "orig": "Feeling safe there, don't you?\\. Thinking I can't possibly reach you.",
+                "text": "¿Te sientes seguro ahí, no?\\. Pensando que no te puedo alcanzar."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/21/message": {
+                "orig": "\\c[1]You thought wrong\\c[0].",
+                "text": "\\c[1]Creíste mal\\c[0]."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/22/message": {
+                "orig": "I have my ways.\\. Old, sneaky Ninja ways.\n",
+                "text": "Tengo mis métodos.\\. Viejos, métodos de un Ninja silencioso.\n"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/23/message": {
+                "orig": "One day, when you have forgotten all about me... ",
+                "text": "Un día, cuando te hayas olvidado todo de mí..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/24/message": {
+                "orig": "\\c[1]I will come for you.\\c[0]\n",
+                "text": "\\c[1]Iré a por tí.\\c[0]"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/25/message": {
+                "orig": "And then my revenge will be sweet!\\. Oh, so sweet!\\. All strawberries and cherries! ",
+                "text": "¡Y entonces mi venganza será deliciosa!\\. ¡Oh, tan deliciosa!\\. ¡Todo fresas y cerezas!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/29/message": {
+                "orig": "Hi?\\. Lea!",
+                "text": "¿Hola?\\. ¡Lea!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/31/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/32/message": {
+                "orig": "Yes, one moment.\\. The adults are talking. ",
+                "text": "Si, un momento.\\. Los adultos están hablando."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/37/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/38/message": {
+                "orig": "So...\\. It's clear you really want her to duel me.",
+                "text": "Asi que...\\. Es claro que relamente quieres que ella tenga un duelo conmigo."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/39/message": {
+                "orig": "Though we both know where this will end.\n",
+                "text": "Aunque ambos sabemos como acabará esto.\n"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/40/message": {
+                "orig": "You try your very best like no one ever did before and I still own you like the last few times.",
+                "text": "Intentas tu mejor esfuerzo como nadie lo hizo antes, y aún así te gano sin pestañear como las últimas veces."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/41/message": {
+                "orig": "But...\\. let's say,\\. purely hypothetical,\\. that you actually win this time.",
+                "text": "Pero...\\. digamos que,\\. hipotéticamente,\\. que esta vez ganas."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/42/message": {
+                "orig": "Maybe then I'll have a little something for you, the next time we meet after the fight.",
+                "text": "Quizá entonces tenga algo para tí, la próxima vez que nos veamos luego de la pelea."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/43/message": {
+                "orig": "That's right.\\. I just announced the teaser for the trailer of the reward.",
+                "text": "Oíste bien.\\. Acabo de anunciar un teaser para el trailer de la recompensa."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/44/message": {
+                "orig": "Like those big corporations do with their games.",
+                "text": "Como esas grandes corporaciones hacen con sus juegos."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/49/message": {
+                "orig": "Hi!\\. Lea!\\. Hi!\\. Why!\\. Lea!",
+                "text": "¡Hola!\\. ¡Lea!\\. ¡Hola!\\. ¡Por qué!\\. ¡Lea!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/50/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/52/message": {
+                "orig": "Yes, yes, the duel, fine!\\. I'll give you the scroll! ",
+                "text": "Si, si, el duelo, ¡de acuerdo!\\. ¡Te daré el pergamino!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/5/thenStep/53/message": {
+                "orig": "God, why are you talking so much anyway?\\. I thought you couldn't do that!",
+                "text": "Dios, ¿por qué hablas tanto de todos modos?\\. ¡Pensé que no podías hacer eso!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/0/message": {
+                "orig": "Hi.",
+                "text": "Hola."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/1/message": {
+                "orig": "Hm...",
+                "text": "Hm..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/2/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/3/message": {
+                "orig": "It seems our long journey together has finally come to an end.\n",
+                "text": "Parece que nuestra larga aventura juntas finalmente ha llegado a su fin.\n"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/4/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/5/message": {
+                "orig": "I knew, from the moment our eyes first met: All of this was destined to happen.",
+                "text": "Sabía, desde el momento en que nuestros ojos se encontraron por primera vez: Todo esto estaba destinado a pasar."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/6/message": {
+                "orig": "Like those old stories, where the hero fights the evil, the princess waits to be saved and the shopkeeper sells the equipment...",
+                "text": "Como esas viejas historias, donde el héroe pelea contra el mal, la princesa espera a ser salvada yel mercader vende el equipamiento..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/7/message": {
+                "orig": "... which is way too expensive and can only be bought after grinding for hours.",
+                "text": "... lo cual es demasiado caro y solo puede ser comprado luego de grindear por horas."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/8/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/9/message": {
+                "orig": "What is it?\\. I should I keep it short?",
+                "text": "¿Qué pasa?\\. ¿Debería ser breve?"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/10/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/11/message": {
+                "orig": "Fine!\\. I'll write the scroll with the location.\\. Meet me there!",
+                "text": "¡De acuerdo!\\. Escribiré el lugar en el pergamino.\\. ¡Encuéntrame ahí!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/12/message": {
+                "orig": "Prepare yourself, as will I! ",
+                "text": "Prepárate, ¡yo lo estaré!"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/13/message": {
+                "orig": "For this will be our final duel. ",
+                "text": "Ya que este será nuestro último duelo."
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/14/message": {
+                "orig": "I won't hold back anymore.\\. No more easy mode for you. \n",
+                "text": "No me contendré más.\\. Se acabó el modo fácil. \n"
+        },
+        "database.json/commonEvents/sao-duel-accept/event/6/thenStep/15/message": {
+                "orig": "From now on, it will be \\c[1]Lunatic Mode\\c[0].\\. I hope you can dodge!",
+                "text": "A partir de ahora, será \\c[1]Modo Lunático\\c[0].\\. ¡Espero que sepas esquivar!"
+        },
+        "database.json/commonEvents/sao-duel-accept-post/event/2/thenStep/0/message": {
+                "orig": "...\\. Why?",
+                "text": "...\\. ¿Por qué?"
+        },
+        "database.json/commonEvents/sao-duel-accept-post/event/3/thenStep/1/message": {
+                "orig": "BYE!!!",
+                "text": "¡¡¡ADIÓS!!!"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/2/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/4/thenStep/0/message": {
+                "orig": "Duel 1...",
+                "text": "Duelo 1..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/4/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/4/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/4/thenStep/4/message": {
+                "orig": "Go!!\\.",
+                "text": "¡¡Vamos!!\\."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/5/thenStep/0/message": {
+                "orig": "Duel 2...",
+                "text": "Duelo 2..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/5/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/5/thenStep/2/message": {
+                "orig": "It feels kind of nostalgic, don't you think? \n",
+                "text": "Se siente algo nostálgico, ¿no te parece? \n"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/5/thenStep/3/message": {
+                "orig": "As if we've been enemies forever, even though it's only been...\\. one battle.",
+                "text": "Como si hubiésemos sido enemigas por siempre, aunque haya sido sólo...\\. una batalla."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/5/thenStep/4/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/5/thenStep/5/message": {
+                "orig": "But enough talk...\\. Have at you!",
+                "text": "Pero suficiente charla...\\. ¡A pelear!"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/0/message": {
+                "orig": "Duel 3...",
+                "text": "Duelo 3..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/2/message": {
+                "orig": "Say, what are you fighting for?",
+                "text": "Dime, ¿para qué peleas?"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/3/message": {
+                "orig": "Why?",
+                "text": "¿Por qué?"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/4/message": {
+                "orig": "No...",
+                "text": "No..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/5/message": {
+                "orig": "\"Fighting for\" is like...\\. \"why are you fighting\"...\\. but deep!\n",
+                "text": "\"Para qué peleas\" es como...\\. \"por qué peleas\"...\\. ¡pero profundo!"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/6/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/7/message": {
+                "orig": "So what is it?\\. Certainly not the sweet, sweet loot and experience, right?",
+                "text": "¿Entonces qué?\\. Ciertamente no el dulce, dulce loot y experiencia, ¿no?"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/8/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/9/message": {
+                "orig": "No answer?",
+                "text": "¿Sin respuesta?"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/10/message": {
+                "orig": "Fine.\\. Maybe you'll have one after I've finished you yet again, Nea.",
+                "text": "Bien.\\. Quizá tengas una luego de que haya terminado contigo otra vez, Nea."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/6/thenStep/11/message": {
+                "orig": "Lea!\\. LEA!!",
+                "text": "¡Lea!\\. ¡¡LEA!!"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/7/thenStep/0/message": {
+                "orig": "Duel 4...",
+                "text": "Duelo 4..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/7/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/7/thenStep/2/message": {
+                "orig": "Okay, fine, let's get this over with.",
+                "text": "Okay, de acuerdo, acabemos con esto."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/7/thenStep/3/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/7/thenStep/4/message": {
+                "orig": "Say, what do you think about \\c[3]bombs\\c[0]?",
+                "text": "Dime, ¿qué piensas de las \\c[3]bombas\\c[0]?"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/7/thenStep/5/message": {
+                "orig": "Why?",
+                "text": "¿Por qué?"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/7/thenStep/6/message": {
+                "orig": "Ah, just asking for a friend.",
+                "text": "Ah, sólo pregunto por un amigo."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/7/thenStep/7/message": {
+                "orig": "Let's start!",
+                "text": "¡Empecemos!"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/0/message": {
+                "orig": "The final duel...",
+                "text": "El último duelo..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/1/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/3/message": {
+                "orig": "Lea...\\. I asked you before: What are you fighting for?",
+                "text": "Lea...\\. Te pregunté antes: ¿Para qué peleas?"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/4/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/5/message": {
+                "orig": "I would guess something noble or something personal.",
+                "text": "Creería que algo noble, o algo personal."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/6/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/7/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/8/message": {
+                "orig": "To me, it is something similar.",
+                "text": "Para mí, es algo similar."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/9/message": {
+                "orig": "And that's why I can't afford to lose.",
+                "text": "Y es por eso que no me puedo permitir perder."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/10/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/11/message": {
+                "orig": "Even though I know I'm not supposed to win, because...",
+                "text": "Aunque sé que no se supone que gane, porque..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/15/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/16/message": {
+                "orig": "\\c[1]...those guys...\\c[0]",
+                "text": "\\c[1]...esos tipos...\\c[0]"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/20/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/22/message": {
+                "orig": "...would throw a fit and get me nerfed.\n",
+                "text": "...tendrían un ataque de rabia y me nerfearían."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/23/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/24/message": {
+                "orig": "You learn to live with it, once you realize all around you is fake - including yourself.",
+                "text": "Aprendes a vivir con ello, una vez que te das cuenta que todo alrededor tuyo es falso - incluyéndote."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/25/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/26/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/27/message": {
+                "orig": "Oh...\\. you know what I'm talking about?\\. Didn't expect that.",
+                "text": "Oh...\\. ¿sabes de lo que hablo?\\. No me lo esperaba."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/28/message": {
+                "orig": "Maybe we are more alike than I thought at first.",
+                "text": "Quizá somos más parecidas de lo que creía."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/29/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/30/message": {
+                "orig": "I am rambling again.\\. The players want to have action.\\. So...\\. any last words?",
+                "text": "Estoy divagando otra vez.\\. Los jugadores quieren acción.\\. Asi que...\\. ¿alguna última palabra?"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/31/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/32/message": {
+                "orig": "\\c[1]Bye!\\c[0]",
+                "text": "\\c[1]¡Adiós!\\c[0]"
+        },
+        "database.json/commonEvents/sao-duel-pre-fight/event/8/thenStep/33/message": {
+                "orig": "He...\\. \\c[1]Bye then\\c[0]! ",
+                "text": "Je...\\. ¡\\c[1]Adiós entonces\\c[0]!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/2/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/3/thenStep/0/message": {
+                "orig": "This was merely practice.",
+                "text": "Esto sólo fue práctica."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/3/thenStep/1/message": {
+                "orig": "We shall meet again, in another town!",
+                "text": "Nos encontraremos de vuelta, ¡en otro pueblo!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/3/thenStep/2/message": {
+                "orig": "Until then, stranger!",
+                "text": "¡Hasta entonces, extraño!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/3/thenStep/4/message": {
+                "orig": "Lea!",
+                "text": "¡Lea!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/3/thenStep/5/message": {
+                "orig": "Yes, that's what I said.\n",
+                "text": "Si, eso dije.\n"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/4/thenStep/0/message": {
+                "orig": "Again...",
+                "text": "Otra vez..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/4/thenStep/2/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/4/thenStep/3/message": {
+                "orig": "I will remember this, Dea!\n",
+                "text": "¡Recordaré esto, Dea!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/4/thenStep/4/message": {
+                "orig": "Lea!",
+                "text": "¡Lea!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/4/thenStep/5/message": {
+                "orig": "Yes!",
+                "text": "¡Si!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/5/thenStep/0/message": {
+                "orig": "Ha!\\. I \\c[3]won again\\c[0]!",
+                "text": "¡Ja!\\. ¡\\c[3]Gané otra vez\\c[0]!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/5/thenStep/2/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/5/thenStep/3/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/5/thenStep/4/message": {
+                "orig": "Well, from my point of view, I definitely won...\\. experience.",
+                "text": "Bueno, desde mi punto de visto, definitivamente gané...\\. experiencia."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/5/thenStep/5/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/5/thenStep/6/message": {
+                "orig": "Man, you must be fun at parties.",
+                "text": "Uf, debes ser divertida en las fiestas."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/5/thenStep/7/message": {
+                "orig": "Anyways, see you in another town! ",
+                "text": "Como sea, ¡te veré en otro pueblo!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/5/thenStep/8/message": {
+                "orig": "Swoosh and away! ",
+                "text": "¡Nos vemos!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/0/message": {
+                "orig": "Hm.\\. This didn't turn out as expected. ",
+                "text": "Hm.\\. Esto no salió como esperaba."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/1/message": {
+                "orig": "Did I choose the wrong skills?\\. Should I have gone with the healing potion instead? ",
+                "text": "¿Elegí mal mis habilidades?\\. ¿Tendría que haber elegido la poción de curación en cambio?"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/2/message": {
+                "orig": "Or that fancy double attack?\\. Maybe I should have learned magic, like Van Daal. ",
+                "text": "¿O ese lujoso ataque doble?\\. Quizá debería haber aprendido magia, como Van Daal."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/4/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/5/message": {
+                "orig": "No, my choice was correct.\\. It's obviously the developer's fault! ",
+                "text": "No, mi elección fue correcta.\\. ¡Es obviamente la culpa del desarrollador!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/6/message": {
+                "orig": "They just nerfed my skills after all those people complained that I am unbeatable! ",
+                "text": "¡Nerfearon todas mis habilidades después de que todas esas personas se quejaran de que era invencible!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/7/message": {
+                "orig": "Yeah, that must be it!",
+                "text": "¡Si, eso debe ser!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/8/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/9/message": {
+                "orig": "Yes, Tia, I miss Maxim as well.",
+                "text": "Si, Tia, extraño a Maxim también."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/10/message": {
+                "orig": "Lea!!",
+                "text": "¡¡Lea!!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/15/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/16/message": {
+                "orig": "Okay, a deal is a deal. ",
+                "text": "Okay, un trato es un trato."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/17/message": {
+                "orig": "You only have to find me \\c[3]one more time\\c[0]. ",
+                "text": "Sólo me tienes que encontrar \\c[3]una vez más\\c[0]."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/18/message": {
+                "orig": "Look for the last town or village where we didn't meet yet.",
+                "text": "Busca en el último pueblo o aldea donde no nos hayamos encontrado aún."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/19/message": {
+                "orig": "Not that huge, shiny city in the ocean, though.\\. I don't like it there.",
+                "text": "No muy grande, una brillante ciudad en el océano, aunque.\\. No me gusta mucho."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/20/message": {
+                "orig": "Oh, and, also...",
+                "text": "Ah, y otra cosa..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/22/message": {
+                "orig": "\\c[1]Special message to the developer!\\c[0] ",
+                "text": "\\c[1]¡Mensaje especial al desarrollador!\\c[0]"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/23/message": {
+                "orig": "Don't think I will ignore you just because you nerfed me!\n",
+                "text": "¡No te creas que te voy a olvidar sólo porque me nerfeaste!\n"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/24/message": {
+                "orig": "Oh, no no! \n",
+                "text": "¡Oh, no no! \n"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/25/message": {
+                "orig": "I will learn from my good friend Animator vs. Animation and haunt you in your sleep until you buff me again! \n",
+                "text": "¡Aprendeŕe de mi buen amigo Animador vs. Animación y te perseguiré hasta en tus sueños hasta que me buffees de vuelta!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/29/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/30/message": {
+                "orig": "Wait... ",
+                "text": "Espera..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/31/message": {
+                "orig": "Why am I getting smaller?",
+                "text": "¿Por qué me estoy achicando?"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/32/message": {
+                "orig": "Stop that!",
+                "text": "¡Para!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/33/message": {
+                "orig": "Alright fine, you win this time!",
+                "text": "¡Esta bien, de acuerdo, tú ganas esta vez!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/35/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/6/thenStep/38/message": {
+                "orig": "And with that, ultimate secret ninja technique, away-swooshing-poof! ",
+                "text": "Y con eso, ¡super técnica de ninja secreto, adiós-swoosh-poof!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/0/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/1/message": {
+                "orig": "That... was a fine duel.",
+                "text": "Eso... fue un buen duelo."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/3/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/4/message": {
+                "orig": "Well...\\. I promised someone a reward. ",
+                "text": "Bueno...\\. Le prometí a alguien una recompensa."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/5/message": {
+                "orig": "May as well give it to you then.\\. I am sure you will find some use for it.",
+                "text": "Bien podría dártelo entonces.\\. Estoy segura de que le econtrarás un uso."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/6/message": {
+                "orig": "...!",
+                "text": "¡...!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/13/object": {
+                "orig": "\\v[item.607.name]",
+                "text": "\\v[item.607.name]"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/17/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/19/message": {
+                "orig": "Hey, say...",
+                "text": "Ey, dime..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/20/message": {
+                "orig": "You know that feeling of accomplishment when you finished a really tough task?",
+                "text": "¿Conoces ese sentimiento de gratificación cuando terminaste una tarea muy dura?"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/21/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/22/message": {
+                "orig": "Yeah, me neither.",
+                "text": "Si, yo tampoco."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/23/message": {
+                "orig": "...?",
+                "text": "¿...?"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/24/message": {
+                "orig": "Well then... ",
+                "text": "Bueno entonces..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/29/name": {
+                "orig": "Sao",
+                "text": "Sao"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/30/message": {
+                "orig": "Maybe we will see each other again someday. ",
+                "text": "Quizá nos veamos otra vez algún día."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/31/message": {
+                "orig": "You never know what the future has planned for you. ",
+                "text": "Nunca sabes lo que el futuro tiene planeado para tí."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/32/message": {
+                "orig": "Or for me. ",
+                "text": "O para mí."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/33/message": {
+                "orig": "Or for her. ",
+                "text": "O para ella."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/34/message": {
+                "orig": "Or for that NPC two maps down south that has been sitting there for hours...",
+                "text": "O para ese NPC dos mapas al sur que ha estado sentado por tres horas..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/35/message": {
+                "orig": "...because the developer thought \"Ho boy, that might be a good spot for an NPC!\".",
+                "text": "...porque el desarrollador pensó \"¡Uy, ese debe ser un buen lugar para un NPC!\"."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/36/message": {
+                "orig": "Isn't that right, dear developer?\\. While we're at it... ",
+                "text": "¿No es eso cierto, querido desarrollador?\\. Ya que estamos en ello..."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/37/message": {
+                "orig": "For you next game, try to give your protagonist some proper character.",
+                "text": "Para tu próximo juego, intenta darle a tu protagonista algo de personaje."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/38/message": {
+                "orig": "Like me!",
+                "text": "¡Como yo!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/39/message": {
+                "orig": "Really, I'm probably the best written character out there, no matter where I appear!",
+                "text": "En serio, probablemente sea el personaje mejor escrito, ¡no importa dónde aparezca!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/40/message": {
+                "orig": "Just a suggestion!",
+                "text": "¡Sólo una sugerencia!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/41/message": {
+                "orig": "I mean...\\. her?\\. Lea?\n",
+                "text": "Quiero decir...\\. ¿ella?\\. ¿Lea?\n"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/42/message": {
+                "orig": "I guess she's unique!\\. But...\\. she's just not me!\n",
+                "text": "¡Supongo que es única!\\. Pero...\\. ¡ella no es yo!\n"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/45/message": {
+                "orig": "\\c[1]Alright that's enough. You're out!\\c[0]",
+                "text": "\\c[1]Bien, ya es suficiente. ¡Estás fuera!\\c[0]"
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/46/message": {
+                "orig": "W...\\.",
+                "text": "Q...\\."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/56/message": {
+                "orig": "Guest characters.",
+                "text": "Personajes invitados."
+        },
+        "database.json/commonEvents/sao-duel-post-fight/event/7/thenStep/57/message": {
+                "orig": "For crying out loud.",
+                "text": "Por el amor de Dios."
+        },
+        "database.json/commonEvents/sao-duel-post-fight2/event/2/thenStep/0/message": {
+                "orig": "...Why?",
+                "text": "...¿Por qué?"
+        },
+        "database.json/commonEvents/sao-duel-post-fight2/event/3/thenStep/0/thenStep/0/message": {
+                "orig": "What.",
+                "text": "Qué."
+        },
+        "database.json/commonEvents/sao-duel-post-fight2/event/3/thenStep/0/elseStep/0/message": {
+                "orig": "How.",
+                "text": "¿Cómo?"
+        },
+        "database.json/commonEvents/sao-duel-post-fight2/event/4/thenStep/0/message": {
+                "orig": "...?!",
+                "text": "¡¿...?!"
+        },
+        "database.json/commonEvents/sao-duel-post-fight2/event/4/thenStep/1/message": {
+                "orig": "...How?",
+                "text": "...¿Cómo?"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/0/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/0/thenStep/1/message": {
+                "orig": "SACREBLEU!\\. Where did that enemy go?!",
+                "text": "¡SACREBLEU!\\. ¡¿Adónde fue ese enemigo?!"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/1/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/1/thenStep/1/message": {
+                "orig": "LEA?!\\. WHY DO YOU DO SO MUCH DAMAGE?!",
+                "text": "¡¿LEA?!\\. ¿!POR QUÉ HICISTE TANTO DAÑO?!"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/2/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/2/thenStep/1/message": {
+                "orig": "HEY!\\. I wanted to hit that enemy, too!",
+                "text": "¡EY!\\. ¡Yo también quería pergarle a ese enemigo!"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/3/thenStep/0/message": {
+                "orig": "\\c[1]Lea.\\c[0]",
+                "text": "\\c[1]Lea.\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/3/thenStep/1/message": {
+                "orig": "Seriously Lea, what is this...?\\. Are those, like, really powerful critical hits or something?",
+                "text": "En serio Lea, ¿qué es esto...?\\. Son esos, como, ¿golpes críticos muy poderosos o algo?"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/4/thenStep/0/message": {
+                "orig": "\\c[1]LEA!!\\c[0]",
+                "text": "\\c[1]¡¡LEA!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/4/thenStep/1/message": {
+                "orig": "Those can't be critical hits.\\. It happens \\c[1]every time\\c[0].",
+                "text": "Esos no pueden ser golpes críticos.\\. Pasa \\c[1]todo el tiempo\\c[0]."
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/5/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/5/thenStep/1/message": {
+                "orig": "Mon dieu...\\. leave me some enemies as well, okay?",
+                "text": "Mon dieu...\\. déjame algunos enemigos, ¿si?"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/6/thenStep/0/message": {
+                "orig": "\\c[1]Hi!!\\c[0]",
+                "text": "\\c[1]¡¡Hola!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/6/thenStep/1/message": {
+                "orig": "Non, non.\\. That's not fun.",
+                "text": "Non, non.\\. Eso no es divertido."
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/7/thenStep/0/message": {
+                "orig": "\\c[1]Lea~\\c[0]",
+                "text": "\\c[1]Lea~\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-emilie/event/7/thenStep/1/message": {
+                "orig": "Guess I gotta get used to my new party member and her one-hit kills-everything attack.",
+                "text": "Supongo que me tengo que acostumbrar a mi nueva compañera y sus ataques de muerte instantánea."
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/0/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/0/thenStep/1/message": {
+                "orig": "WHA-? WHAT WAS THAT?!",
+                "text": "¿QU-? ¡¿QUÉ FUE ESO?!"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/1/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/1/thenStep/1/message": {
+                "orig": "L-Lea?\\. Just how much \\c[1]attack\\c[0] do you have?\\. Gosh...",
+                "text": "¿L-Lea?\\. ¿Cuánto \\c[1]ataque\\c[0] tienes?\\. Dios mío..."
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/2/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/2/thenStep/1/message": {
+                "orig": "No...\\. You can't possibly do so much damage even with a maxed-out attack stat.",
+                "text": "No...\\. Es imposible que hagas tanto daño, incluso con tu estadística de ataque al máximo."
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/3/thenStep/0/message": {
+                "orig": "\\c[1]Bye.\\c[0]",
+                "text": "\\c[1]Adiós.\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/3/thenStep/1/message": {
+                "orig": "Lea, what is this?\\. Why do you do so much damage?\\. Can you tell me what it is?",
+                "text": "Lea, ¿qué es esto?\\. ¿Por qué haces tanto daño?\\. ¿Puedes decirme que es?"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/3/thenStep/2/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/3/thenStep/3/message": {
+                "orig": "You...\\. you can't?",
+                "text": "¿No...\\. puedes?"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/4/thenStep/0/message": {
+                "orig": "\\c[1]LEA!!\\c[0]",
+                "text": "\\c[1]¡¡LEA!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/4/thenStep/1/message": {
+                "orig": "Hm...\\. I suppose your high damage must be some kind of bug then?",
+                "text": "Hm...\\. ¿Supongo que el daño alto debe ser algún tipo de bug entonces?"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/4/thenStep/2/message": {
+                "orig": "[nods]",
+                "text": "[asiente]"
+        }
+}
