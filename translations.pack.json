@@ -1141,7 +1141,7 @@
         },
         "database.json/achievements/landmarks-autumn/description": {
                 "orig": "\\c[3]Find all Landmarks\\c[0] in Autumn's Rise, Rookie Harbor and Autumn's Fall.",
-                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en el Amanecer del Otoño, Puerto de los Novatos y el Anochecer del Otoño."
+                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en el Amanecer del Otoño, Rookie Harbor y el Anochecer del Otoño."
         },
         "database.json/achievements/landmarks-bergen/name": {
                 "orig": "Bergen Landmarks",
@@ -1169,11 +1169,11 @@
         },
         "database.json/achievements/landmarks-forest/name": {
                 "orig": "Sapphire Landmarks",
-                "text": "Referencias de Zafiro"
+                "text": "Referencias de Sapphire"
         },
         "database.json/achievements/landmarks-forest/description": {
                 "orig": "\\c[3]Find all Landmarks\\c[0] in Sapphire Ridge.",
-                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en Cresta de Zafiro."
+                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en Sapphire Ridge."
         },
         "database.json/achievements/landmarks-rhombus/name": {
                 "orig": "Rhombus Landmarks",
@@ -1249,11 +1249,11 @@
         },
         "database.json/achievements/chests-forest/name": {
                 "orig": "Sapphire Scavenger",
-                "text": "Carroñero de Zafiro"
+                "text": "Carroñero de Sapphire"
         },
         "database.json/achievements/chests-forest/description": {
                 "orig": "\\c[3]Find and open all Chests\\c[0] in Sapphire-Ridge.",
-                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en Cresta de Zafiro."
+                "text": "\\c[3]Encuentra y abre todos los Cofres\\c[0] en Sapphire Ridge."
         },
         "database.json/achievements/chests-rhombus/name": {
                 "orig": "Rhombus Scavenger",
@@ -1553,7 +1553,7 @@
         },
         "database.json/areas/autumn-area/landmarks/start/description": {
                 "orig": "Western Exit leading to Rookie Harbor.",
-                "text": "Salida Oeste dirigiendo al Puerto de los Novatos"
+                "text": "Salida Oeste dirigiendo a Rookie Harbor"
         },
         "database.json/areas/autumn-area/landmarks/end/name": {
                 "orig": "Northern Exit",
@@ -1585,7 +1585,7 @@
         },
         "database.json/areas/autumn-fall/landmarks/east/description": {
                 "orig": "East Exit of Autumn's Fall leading to the Sapphire Ridge.",
-                "text": "Salida Este del Anochecer del Otoño, dirigiendo a la Cresta de Zafiro."
+                "text": "Salida Este del Anochecer del Otoño, dirigiendo a Sapphire Ridge."
         },
         "database.json/areas/autumn-fall/landmarks/raid/name": {
                 "orig": "Para Island",
@@ -1749,7 +1749,7 @@
         },
         "database.json/areas/forest/name": {
                 "orig": "Sapphire Ridge",
-                "text": "Cresta de Zafiro"
+                "text": "Sapphire Ridge"
         },
         "database.json/areas/forest/description": {
                 "orig": "The tranquil ridge filled with bamboo structures and hidden paths.",
@@ -1969,7 +1969,7 @@
         },
         "database.json/areas/rhombus-dng/description": {
                 "orig": "The final tutorial dungeon teaching players the basics of CrossWorlds.",
-                "text": "El última mazmorra tutorial, enseñando a los jugadores lo básico de CrossWorlds."
+                "text": "La última mazmorra tutorial, enseñando a los jugadores lo básico de CrossWorlds."
         },
         "database.json/areas/rhombus-sqr/name": {
                 "orig": "Rhombus Square",
@@ -2013,7 +2013,7 @@
         },
         "database.json/areas/rookie-harbor/name": {
                 "orig": "Rookie Harbor",
-                "text": "Puerto de los Novatos"
+                "text": "Rookie Harbor"
         },
         "database.json/areas/rookie-harbor/description": {
                 "orig": "A bustling city positively bursting with life, start of many adventures for new players.",
@@ -2025,7 +2025,7 @@
         },
         "database.json/areas/rookie-harbor/landmarks/harbor/description": {
                 "orig": "The entrance to Rookie Harbor from Cross Central.",
-                "text": "La entrada al Puerto de los Novatos desde la Central Cross"
+                "text": "La entrada a Rookie Harbor desde la Central Cross"
         },
         "database.json/areas/rookie-harbor/landmarks/center/name": {
                 "orig": "Rhombus Fountain",
@@ -3310,5 +3310,369 @@
         "database.json/commonEvents/sergey-hax-ctron/event/4/thenStep/2/message": {
                 "orig": "[nods]",
                 "text": "[asiente]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/4/thenStep/3/message": {
+                "orig": "I see.\\. That's pretty...\\. convenient...",
+                "text": "Ya veo.\\. Eso es muy...\\. conveniente..."
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/5/thenStep/0/message": {
+                "orig": "\\c[1]Bye!!\\c[0]",
+                "text": "\\c[1]¡¡Adiós!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/5/thenStep/1/message": {
+                "orig": "And there goes another one, flying.",
+                "text": "Y ahí va otro más, volando."
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/5/thenStep/2/message": {
+                "orig": "Those enemies don't fly nearly as far when I hit them.\\. They must be reacting to your \\c[1]ridiculous damage\\c[0].\\. Neat detail.",
+                "text": "Esos enemigos no vuelan tan lejos ni de cerca cuando les pego yo.\\. Deben estar reaccionando a tu \\c[1]ridículo daño\\c[0].\\. Lindo detalle."
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/6/thenStep/0/message": {
+                "orig": "\\c[1]Bye bye!!\\c[0]",
+                "text": "\\c[1]¡¡Adiós adiós!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/6/thenStep/1/message": {
+                "orig": "Just imagine if those damage numbers stood for actual \\c[1]force\\c[0] applied...",
+                "text": "Tan sólo imagina si esos números de daño correspondieran a la \\c[1]fuerza\\c[0] aplicada..."
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/6/thenStep/2/message": {
+                "orig": "You probably could \\c[1]shoot through any kind of matter like butter\\c[0], if they were consistent with it.",
+                "text": "Probablemente pudieras \\c[1]disparar a través de cualquier tipo de materia como manteca\\c[0], si fueran consistentes con ello."
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/6/thenStep/3/message": {
+                "orig": "Good thing they aren't, I guess.",
+                "text": "Menos mal que no lo son, supongo."
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/7/thenStep/0/message": {
+                "orig": "\\c[1]Bye~\\c[0]",
+                "text": "\\c[1]Adiós~\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron/event/7/thenStep/1/message": {
+                "orig": "And another one gone...\\. Not much to do for me, I suppose.",
+                "text": "Y otro más que se va...\\. No me queda mucho para hacer, supongo."
+        },
+        "database.json/commonEvents/sergey-hax-ctron-emilie/event/0/thenStep/0/message": {
+                "orig": "\\c[1]Bye bye!!\\c[0]",
+                "text": "\\c[1]¡¡Adiós adiós!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-ctron-emilie/event/0/thenStep/1/message": {
+                "orig": "Lea sure does a lot of damage, right Emilie?",
+                "text": "¿No te parece que Lea está haciendo demasiado daño, Emilie?"
+        },
+        "database.json/commonEvents/sergey-hax-ctron-emilie/event/0/thenStep/2/message": {
+                "orig": "Oui...",
+                "text": "Oui..."
+        },
+        "database.json/commonEvents/sergey-hax-ctron-emilie/event/0/thenStep/3/message": {
+                "orig": "Makes you feel kind of...\\. irrelevant.",
+                "text": "Te hace sentir algo...\\. irrelevante."
+        },
+        "database.json/commonEvents/sergey-hax-ctron-emilie/event/0/thenStep/4/message": {
+                "orig": "You get used to it.",
+                "text": "Te acostumbras."
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/0/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/0/thenStep/1/message": {
+                "orig": "SPHEROMANCER LEA!\\. AGAIN WITH THE CHEATING?!",
+                "text": "¡SPHEROMANCER LEA!\\. ¡¿HACIENDO TRAMPA DE VUELTA?!"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/1/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/1/thenStep/1/message": {
+                "orig": "THIS IS RIDICULOUS!\\. DISGRACEFUL!",
+                "text": "¡ESTO ES RIDÍCULO!\\. ¡VERGONZOSO!"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/1/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/2/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/2/thenStep/1/message": {
+                "orig": "Seriously, fighting with you feels sort of pointless.",
+                "text": "En serio, pelear contigo se siente inútil."
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/3/thenStep/0/message": {
+                "orig": "\\c[1]Bye.\\c[0]",
+                "text": "\\c[1]Adiós.\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/3/thenStep/1/message": {
+                "orig": "Is there really no way to turn this off?",
+                "text": "¿En serio no hay forma de apagar esto?"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/3/thenStep/2/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/3/thenStep/3/message": {
+                "orig": "Bummer.",
+                "text": "Que pena."
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/4/thenStep/0/message": {
+                "orig": "\\c[1]LEA!!\\c[0]",
+                "text": "\\c[1]¡¡LEA!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/4/thenStep/1/message": {
+                "orig": "\"Look how sad she is.\"\n\"Don't you feel sorry for her?\"",
+                "text": "\"¿No sientes pena por ella?\""
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/4/thenStep/2/message": {
+                "orig": "I was caught up in the moment...",
+                "text": "Estaba distraído en el momento..."
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/5/thenStep/0/message": {
+                "orig": "\\c[1]Bye!!\\c[0]",
+                "text": "\\c[1]¡¡Adiós!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/5/thenStep/1/message": {
+                "orig": "Seems like combat is smooth sailing with her in the party.\\. More time to enjoy the landscape.",
+                "text": "Parece que el combate no es un problema con ella en el grupo.\\. Más tiempo para disfrutar de las vistas."
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/5/thenStep/2/message": {
+                "orig": "Why did I ever agree to this....",
+                "text": "Por qué asentí a esto..."
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/6/thenStep/0/message": {
+                "orig": "\\c[1]Bye bye!!\\c[0]",
+                "text": "\\c[1]¡¡Adiós adiós!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/6/thenStep/1/message": {
+                "orig": "Spheromancer Lea, would you please leave a few enemies for us as well?",
+                "text": "Spheromancer Lea, ¿podrías por favor dejar algunos enemigos para nosotros también?"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/6/thenStep/2/message": {
+                "orig": "...",
+                "text": "..."
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/7/thenStep/0/message": {
+                "orig": "\\c[1]Bye~\\c[0]",
+                "text": "\\c[1]Adiós~\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/7/thenStep/1/message": {
+                "orig": "Should have reported her...",
+                "text": "Debería haberla reportado..."
+        },
+        "database.json/commonEvents/sergey-hax-apollo/event/7/thenStep/2/message": {
+                "orig": "Come on, Polly.\\. Just enjoy the ride and watch the enemies fly.",
+                "text": "Vamos, Polly.\\. Simplemente disfruta del viaje y mira a los enemigos volar."
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/0/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/0/thenStep/1/message": {
+                "orig": "WHAT?!\\. WHAT JUST HAPPENED?!",
+                "text": "¡¿QUÉ?!\\. ¡¿QUÉ ACABA DE PASAR?!"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/1/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/1/thenStep/1/message": {
+                "orig": "LEA WHATS UP WITH YOUR DAMAGE?! THIS IS \\c[1]NOT NORMAL\\c[0]!",
+                "text": "¡¿LEA QUÉ PASA CON TU DAÑO?! ¡ESTO \\c[1]NO ES NORMAL\\c[0]!"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/2/thenStep/0/message": {
+                "orig": "\\c[1]...!!\\c[0]",
+                "text": "\\c[1]¡¡...!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/2/thenStep/1/message": {
+                "orig": "Meine Güte.\\. One-hit-kills all over the place...",
+                "text": "Meine Güte.\\. Un golpe, una muerte... por todos lados..."
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/3/thenStep/0/message": {
+                "orig": "\\c[1]Bye.\\c[0]",
+                "text": "\\c[1]Adiós.\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/3/thenStep/1/message": {
+                "orig": "Seriously Lea, what's up with your damage?\\. Is it because of this strange place?",
+                "text": "En serio Lea, ¿qué pasa con tu daño?\\. ¿Es por este lugar extraño?"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/3/thenStep/2/message": {
+                "orig": "[shakes head]",
+                "text": "[niega con la cabeza]"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/3/thenStep/3/message": {
+                "orig": "What?\\. So you're telling me you did this much damage grinding happily in the actual Playground?",
+                "text": "¿Qué?\\. ¿Entonces me dices que haces todo este daño gracias a grindear felizmente en el campo de juego?"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/4/thenStep/0/message": {
+                "orig": "\\c[1]LEA!!\\c[0]",
+                "text": "\\c[1]¡¡LEA!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/4/thenStep/1/thenStep/0/message": {
+                "orig": "And here I thought for a moment I'd be the one to carry you.",
+                "text": "Y yo que pensaba que tendría que ser el que te ayude."
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/4/thenStep/1/elseStep/0/message": {
+                "orig": "And here I thought we could fight together as equals or something.",
+                "text": "Y yo que pensaba que podríamos pelear juntos como iguales o algo."
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/5/thenStep/0/message": {
+                "orig": "\\c[1]Bye!!\\c[0]",
+                "text": "\\c[1]¡¡Adiós!!\\c[0]"
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/5/thenStep/1/message": {
+                "orig": "I always thought that CrossWorlds provided a surprisingly robust and bug-free gaming experience.",
+                "text": "Siempre pensé que CrossWorlds brindaba una experiencia sorprendéntemente robusta y libre de bugs."
+        },
+        "database.json/commonEvents/sergey-hax-schneider2/event/5/thenStep/2/message": {
+                "orig": "Yet here I am, stuck in a strange place I can't leave with a party member one-shotting everything.\\. Consider my immersion broken.",
+                "text": "Sin embargo aquí estoy, atrapado en un lugar extraño del que no puedo salir con una compañera que mata a todo instantánemanete. Mi inmersión se ha esfumado."
+        },
+        "database.json/commonEvents/emilie-frobbit/event/1/message": {
+                "orig": "Bunnies. We're currently fighting cute little bunnies.",
+                "text": "Conejitos. Estamos peleando contra tiernos y pequeños conejitos."
+        },
+        "database.json/commonEvents/emilie-hedgehag/event/1/message": {
+                "orig": "Let's see how those \\v[combat.name.hedgehog]s will fare!",
+                "text": "¡Veamos como esos \\v[combat.name.hedgehog]s pelean!"
+        },
+        "database.json/commonEvents/emilie-snowman/event/0/message": {
+                "orig": "A snowman? W-Why would it attack us?!",
+                "text": "¿Un muñeco de nieve? ¡¿P-Por qué nos atacaría?!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/1/thenStep/0/message": {
+                "orig": "NOOOO!! NOT THE BUGS! WHY WOULD YOU FIGHT THE BUGS, LEA?!",
+                "text": "¡¡NOOOO!! ¡NO LOS BICHOS! ¡¿POR QUÉ PELEARÍAS CONTRA LOS BICHOS, LEA?!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/1/thenStep/1/message": {
+                "orig": "WHY ARE YOU DOING THIS TO ME?!",
+                "text": "¡¿POR QUÉ ME HACES ESTO?!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/1/thenStep/2/message": {
+                "orig": "WHAT IS THIS? ARE THEY WALKING?!",
+                "text": "¿QUÉ ES ESTO? ¡¿ESTÁN CAMINANDO?!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/1/thenStep/3/message": {
+                "orig": "ARE THOSE SWORDS?! WHY DO THESE BUGS HAVE SWORDS?!",
+                "text": "¡¿SON ESAS ESPADAS?! ¡¿POR QUÉ ESTOS BICHOS TENDRÍAN ESPADAS?!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/1/thenStep/4/message": {
+                "orig": "I DON'T UNDERSTAND!",
+                "text": "¡NO ENTIENDO!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/1/thenStep/5/message": {
+                "orig": "LEA, PLEASE! MAKE THEM GO AWAY!!",
+                "text": "¡LEA, POR FAVOR! ¡¡HAZ QUE SE VAYAN!!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/2/thenStep/0/message": {
+                "orig": "NOOOO! NOT THE BUGS AGAIN!",
+                "text": "¡NOOOO! ¡NO LOS BICHOS OTRA VEZ!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/2/thenStep/1/message": {
+                "orig": "LEA I HATE THOSE THINGS, PLEASE!",
+                "text": "¡LEA ODIO ESAS COSAS, POR FAVOR!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/2/thenStep/2/message": {
+                "orig": "I THOUGHT I'D SEE THOSE THINGS IN THE JUNGLE. WHY ARE THEY HERE INSTEAD?",
+                "text": "PENSÉ QUE VERÍA ESAS COSAS EN LA JUNGLA. ¿POR QUÉ ESTÁN AQUÍ EN CAMBIO?"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/3/thenStep/0/message": {
+                "orig": "NOOO! STOP FIGHTING THE BUGS, PLEASE! LEA!",
+                "text": "¡NOOO! ¡DEJA DE PELEAR CONTRA LOS BICHOS, POR FAVOR! ¡LEA!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/3/thenStep/1/message": {
+                "orig": "THOSE THINGS ARE TOO CREEPY! AND FAST! AND JUMPY!",
+                "text": "¡ESAS COSAS DAN DEMASIADO MIEDO! ¡Y SON RÁPIDOS! ¡Y SALTARINES!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/4/thenStep/0/message": {
+                "orig": "NOO! WHY WON'T YOU STOP FIGHTING THE BUGS?!",
+                "text": "¡NOO! ¡¿POR QUÉ NO DEJAS DE PELEAR CONTRA LOS BICHOS?!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/5/thenStep/0/message": {
+                "orig": "NOOoooo..... Why....",
+                "text": "NOOoooo..... Por qué...."
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/6/thenStep/0/message": {
+                "orig": "Damn it, Lea. I can only handle so many bugs per day.",
+                "text": "Maldita sea, Lea. Sólo puedo tolerar una cantidad finita de bichos por día."
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/7/thenStep/0/message": {
+                "orig": "Lea, please... Again?",
+                "text": "Lea, por favor... ¿Otra vez?"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/8/thenStep/0/message": {
+                "orig": "Again with the bugs? Can't we fight something else?",
+                "text": "¿Otra vez con los bichos? ¿No podemos pelear contra otra cosa?"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/9/thenStep/0/message": {
+                "orig": "Alright, I get it! You like fighting those bugs!",
+                "text": "¡Bien, lo entiendo! ¡Te gusta pelear contra esos bichos!"
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/10/thenStep/0/message": {
+                "orig": "And bug therapy continues...",
+                "text": "Y la terapia de los bichos continúa..."
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/11/thenStep/0/message": {
+                "orig": "Here we go again...",
+                "text": "Aquí vamos otra vez..."
+        },
+        "database.json/commonEvents/emilie-samurai-bug/event/12/thenStep/0/message": {
+                "orig": "Actually... I think I'm truly starting to get used to those... things.",
+                "text": "De hecho... creo que en serio me estoy empezando a acostumbrar a esas... cosas."
+        },
+        "database.json/commonEvents/emilie-overpowered-active/event/0/0_0/0/message": {
+                "orig": "This enemy seems strong, better be careful!",
+                "text": "Este enemigo se ve poderoso, ¡tengamos cuidado!"
+        },
+        "database.json/commonEvents/emilie-overpowered-active/event/0/0_1/0/message": {
+                "orig": "You do like a challenge, don't you Lea?",
+                "text": "Te gusta un desafío, ¿no Lea?"
+        },
+        "database.json/commonEvents/emilie-overpowered-active/event/0/0_2/0/message": {
+                "orig": "We may want to level up a bit before taking this one on.",
+                "text": "Quizá sea mejor subir de nivel un poco antes de pelear contra este."
+        },
+        "database.json/commonEvents/emilie-overpowered-passive/event/0/0_0/0/message": {
+                "orig": "Mon dieu, it's strong and aggressive! I hate those!",
+                "text": "Mon dieu, ¡es fuerte y agresivo! ¡Odio esos!"
+        },
+        "database.json/commonEvents/emilie-overpowered-passive/event/0/0_1/0/message": {
+                "orig": "Lea, maybe we should, you know... \\c[3]run\\c[0]?!",
+                "text": "Lea, quizá deberíamos, ya sabes... ¡¿\\c[3]correr\\c[0]?!"
+        },
+        "database.json/commonEvents/emilie-passive/event/1/0_0/0/message": {
+                "orig": "Ugh...",
+                "text": "Ugh..."
+        },
+        "database.json/commonEvents/emilie-passive/event/1/0_1/0/message": {
+                "orig": "We didn't ask for this battle, or did we?",
+                "text": "No buscamos esta pelea, ¿no?"
+        },
+        "database.json/commonEvents/emilie-passive/event/1/0_2/0/message": {
+                "orig": "I guess someone needs a lesson here!",
+                "text": "¡Supongo que alguien necesita que se le enseñe una lección!"
+        },
+        "database.json/commonEvents/apollo-blobs/event/0/message": {
+                "orig": "We're sharing blows with the \\c[3]\\v[combat.name.jungle/blob]\\c[0]! Be aware of their team attacks!",
+                "text": "¡Estamos peleando contra el \\c[3]\\v[combat.name.jungle/blob]\\c[0]! ¡Ten cuidado de sus ataques de equipo!"
+        },
+        "database.json/commonEvents/apollo-plant/event/0/message": {
+                "orig": "The fearsome \\c[3]\\v[combat.name.jungle/plant]\\c[0] enters the battlefield! Careful, it can instantly switch locations!",
+                "text": "¡El temible \\c[3]\\v[combat.name.jungle/plant]\\c[0] entra al campo de batalla! ¡Cuidado! ¡Puede cambiar de posición instantáneamente!"
+        },
+        "database.json/commonEvents/apollo-sloth/event/0/message": {
+                "orig": "The mighty \\c[3]\\v[combat.name.jungle/sloth]\\c[0] approaches! Slow, but deadly!",
+                "text": "¡El poderoso \\c[3]\\v[combat.name.jungle/sloth]\\c[0] se aproxima! ¡Lento, pero mortal!"
+        },
+        "database.json/commonEvents/apollo-shokats/event/0/message": {
+                "orig": "The cunning \\c[3]\\v[combat.name.jungle/shockcat]\\c[0] attacks! Careful, close contact quickly leads to a shocking demise!",
+                "text": "¡El astuto \\c[3]\\v[combat.name.jungle/shockcat]\\c[0] ataca! ¡Cuidado! ¡El contacto rápidamente lleva a un electrificante fin!"
+        },
+        "database.json/commonEvents/apollo-parrot/event/0/message": {
+                "orig": "The unlawful \\c[3]\\v[combat.name.jungle/parrot]\\c[0] aims at us!\\. Agile and heavily armed!",
+                "text": "¡El ruin \\c[3]\\v[combat.name.jungle/parrot]\\c[0] apunta hacia nosotros!\\. ¡Ágil y fuertemente armado!"
+        },
+        "database.json/commonEvents/apollo-fish/event/0/message": {
+                "orig": "The atrocious \\c[3]\\v[combat.name.jungle/fish]\\c[0] is preparing to attack, shooting and screaming at their victim!",
+                "text": "¡El atróz \\c[3]\\v[combat.name.jungle/fish]\\c[0] se prepara para atacar, disparando y gritándole a su víctima!"
         }
 }
