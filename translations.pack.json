@@ -9938,5 +9938,9 @@
         "database.json/enemies/jungle.special.quest_td_blob_1/species": {
                 "orig": "Gelatin Mass ",
                 "text": "Masa Gelatinosa"
+        },
+        "database.json/enemies/jungle.special.quest_td_blob_1/descriptions/0/text": {
+                "orig": "A close relative to the regular \\c[3]\\v[combat.name.jungle/blob]\\c[0], this specimen prefers to live underground. Usually they have a close connection to intensive points of Ancient power that they are eager to protect.\nSince it is more prone to traverse on strict paths, one might think of it as very inflexible. It is, however, just as wobbly as its overworldly relative.",
+                "text": "Un pariente cercano del \\c[3]\\v[combat.name.jungle/blob]\\c[0] normal, este espécimen perfiere vivir bajo tierra. Usualmente tienen una conexión cercana a puntos intensivos de poder Antiguo que ansían proteger.\nYa que es más propenso a moverse por caminos estrictos, uno podría pensar que es muy inflexible. Sin embargo, es igual de gelatinoso que su pariente de la superficie."
         }
 }
