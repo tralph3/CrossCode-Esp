@@ -3969,7 +3969,7 @@
         },
         "database.json/commonEvents/emilie-hedgehog-end/event/0/elseStep/0/message": {
                 "orig": "And that was our first hedgehag. Simple enough!",
-                "text": "Y ese fue nuestro primer erizo. ¡Bastante fácil!"
+                "text": "Y ese fue nuestro primer erize. ¡Bastante fácil!"
         },
         "database.json/commonEvents/emilie-meerkats-end/event/0/thenStep/0/message": {
                 "orig": "Do you ever wonder what kind of music those things are listening to?",
@@ -4165,7 +4165,7 @@
         },
         "database.json/commonEvents/emilie-hedgehags2-end/event/0/thenStep/0/message": {
                 "orig": "The hedgehags have returned, sharper and edgier than ever!",
-                "text": "Los erizos han vuelto, ¡más peligrosos que nunca!"
+                "text": "Los erizes han vuelto, ¡más peligrosos que nunca!"
         },
         "database.json/commonEvents/emilie-volturbines/event/0/thenStep/0/message": {
                 "orig": "We finally got birds in CrossWorlds. Très bien.",
@@ -4229,7 +4229,7 @@
         },
         "database.json/commonEvents/ctron-meerkat-end/event/0/thenStep/0/message": {
                 "orig": "Have you ever seen one of these Hillkats digging...\\. over a \\c[3]laser bridge\\c[0]?\\. Yes, they do that.",
-                "text": "¿Alguna vez viste a uno de esos Hillkats excavando...\\. sobre un \\c[3]puente de luz\\c[0]?\\. Si, hacen eso."
+                "text": "¿Alguna vez viste a una de esas Colicatas excavando...\\. sobre un \\c[3]puente de luz\\c[0]?\\. Si, hacen eso."
         },
         "database.json/commonEvents/ctron-meerkat-end/event/0/thenStep/1/message": {
                 "orig": "This whole digging is really just simulated. They don't want to mess up the structure of the ground too much, obviously.",
@@ -4237,7 +4237,7 @@
         },
         "database.json/commonEvents/ctron-meerkat-end/event/0/thenStep/2/message": {
                 "orig": "Still, I wish they would have made them stop in front of the laser bridges.\\. It does break the illusion.",
-                "text": "Aún así, me gustaría que paren en frente de los puentes de luz.\\. Rompe la ilusión."
+                "text": "Aún así, me gustaría que pararan frente a los puentes de luz.\\. Rompe la ilusión."
         },
         "database.json/commonEvents/ctron-seahorses-end/event/0/thenStep/0/message": {
                 "orig": "Those seahorses... why would they do this?",
@@ -4245,7 +4245,7 @@
         },
         "database.json/commonEvents/ctron-seahorses-end/event/0/thenStep/1/message": {
                 "orig": "Taking a perfectly fine marine creature and...\\. crossing it with a fly?\\. Or a mosquito?\\. I don't know.",
-                "text": "Toman un criatura de mar que no tiene problemas y...\\. ¿lo cruzan con una mosca?\\. ¿O un mosquito?\\. No sé."
+                "text": "Toman un criatura de mar que está perfectamente bien y...\\. ¿lo cruzan con una mosca?\\. ¿O un mosquito?\\. No sé."
         },
         "database.json/commonEvents/ctron-seahorses-end/event/1/thenStep/0/message": {
                 "orig": "What are these seahorses shooting exactly anyway?\\. Water bubbles?",
@@ -9942,5 +9942,689 @@
         "database.json/enemies/jungle.special.quest_td_blob_1/descriptions/0/text": {
                 "orig": "A close relative to the regular \\c[3]\\v[combat.name.jungle/blob]\\c[0], this specimen prefers to live underground. Usually they have a close connection to intensive points of Ancient power that they are eager to protect.\nSince it is more prone to traverse on strict paths, one might think of it as very inflexible. It is, however, just as wobbly as its overworldly relative.",
                 "text": "Un pariente cercano del \\c[3]\\v[combat.name.jungle/blob]\\c[0] normal, este espécimen perfiere vivir bajo tierra. Usualmente tienen una conexión cercana a puntos intensivos de poder Antiguo que ansían proteger.\nYa que es más propenso a moverse por caminos estrictos, uno podría pensar que es muy inflexible. Sin embargo, es igual de gelatinoso que su pariente de la superficie."
+        },
+        "database.json/enemies/jungle.powerplant/name": {
+                "orig": "Powerplant",
+                "text": "Planta de Energía"
+        },
+        "database.json/enemies/jungle.powerplant/species": {
+                "orig": "Plant with mysterious Intentions",
+                "text": "Una Planta con intenciones mistoriosas."
+        },
+        "database.json/enemies/jungle.powerplant/descriptions/0/text": {
+                "orig": "Once bullied in tree school for being a flower this plant swore to get revenge on the trees by training every day to become the strongest plant the jungle has ever seen.  But time went on and it got a job at the local temple to test Seekers instead. \nNowadays it uses its strength to hurl itself onto Seekers or punches them with its bulky fists.",
+                "text": "Alguna vez acosada en el colegio de los árboles por ser una flor, esta planta juró vengarse de los árboles entrenando a diario hasta hacerse la planta más fuerte que la jungla jamás haya visto. Pero en cambio, pasó el tiempo y consiguió un trabajo en un templo de la localidad para probar a los Buscadores."
+        },
+        "database.json/enemies/jungle.special.powerplant-quest-1/name": {
+                "orig": "Buff Bloomy",
+                "text": "Buff Bloomy"
+        },
+        "database.json/enemies/jungle.special.powerplant-quest-1/species": {
+                "orig": "Floral Infector",
+                "text": "Infector Floral"
+        },
+        "database.json/enemies/jungle.special.powerplant-quest-1/descriptions/0/text": {
+                "orig": "A \\v[combat.name.jungle/powerplant] that seems to radiate an extraordinary excess of power, unusual even for its kind.\nInvestigation suggests that, in a desire to further improve the buffness of its well-toned roots, it turned to dangerous substances that were meant to power experimental generators. Its body and mind were not able to handle it, so it became a danger to itself and others.\nIt will serve as a reminder that improving one's body, no matter if root or flesh, should always be done responsibly!",
+                "text": "La investigación sugiere que, en busca de mejorar aún más sus musculosas raices, ingirió peligrosas sustancias diseñadas para alimentar generadores experimentales. Su cuerpo y su mente no fueron capaces de lidiar con ello, así que se convirtió en un peligro para si mismo y los demás.\nServirá como recuerdo que mejorar el cuerpo de uno, sin importar si su base es raices o carne, ¡siempre se debe hacer responsablemente!"
+        },
+        "database.json/enemies/jungle.ghost/name": {
+                "orig": "Ectovolt",
+                "text": "Ectovolt"
+        },
+        "database.json/enemies/jungle.ghost/species": {
+                "orig": "Phantastical Being",
+                "text": "Ser Fantasmático"
+        },
+        "database.json/enemies/jungle.ghost/descriptions/0/text": {
+                "orig": "Born from nightmares the \\v[combat.name.jungle/ghost] will use shock elemental attacks to quickly attack and dodge away, seemingly phasing through your attacks. After using its bolt attack it will cage itself in walls. Use compressed wave balls to stun it, which reveals the actual enemy: A cursed stone that feeds on the bad dreams of the Shad.",
+                "text": "Nacido de las pesadillas, el \\v[combat.name.jungle/ghost] utilizará ataques de Electro para atacar y esquivar rápidamente, dando la ilusión de que atraviesa tus ataques. Luego de su ataque de Rayo, se encerrará a si mismo en una celda de paredes. Utiliza bolas de Pulso comprimidas para aturdirlo, lo que revela el verdadero enemigo: Una piedra maldita que se alimenta de las pesadillas de los Shad."
+        },
+        "database.json/enemies/jungle.octopus/name": {
+                "orig": "Ocubepus",
+                "text": "Ocubepus"
+        },
+        "database.json/enemies/jungle.octopus/species": {
+                "orig": "Just a Cube",
+                "text": "Sólo un Cubo"
+        },
+        "database.json/enemies/jungle.octopus/descriptions/0/text": {
+                "orig": "This little cube shapes a mass of water into a body which roughly resembles an octopus. It enjoys long walks on the beach and spin-attacking its enemies and laughing about it. The only way to break its protective shell is using a magnet to disrupt the tension of the water surface. Science wins again!",
+                "text": "Este pequeño cubo forma una masa de agua a un cuerpo que vagamente representa a un pulpo. Le gustan las largas caminatas por la playa y utilizar ataques giratorios contra sus enemigos para reírse de ello. La única forma de romper su caparazón protector es utilizar un imán para romper la tensión superficial del agua. ¡La ciencia gana de nuevo!"
+        },
+        "database.json/enemies/jungle.shockboss/name": {
+                "orig": "Plasma Phantom",
+                "text": "Fantasma de Plasma"
+        },
+        "database.json/enemies/jungle.shockboss/species": {
+                "orig": "Phantastical Being",
+                "text": "Ser Fantasmático"
+        },
+        "database.json/enemies/jungle.shockboss/descriptions/0/text": {
+                "orig": "This cursed stone contains the soul of a once great Ancient. It mastered the shock element and can use it in all kinds of manners to disorient and overwhelm its enemies. Similar to the \\v[combat.name.jungle/ghost] it will cage itself to rain down lightning strikes upon its enemies. Use this window to shoot a compressed wave ball at it and break the curse!",
+                "text": "Esta piedra maldita contiene el alma de un gran Antiguo. Dominó el elemento Electro y lo puede utilizar en infinitas formas para desorientar y abrumar a sus enemigos. Similar al \\v[combat.name.jungle/ghost], se encerrará a si mismo para hacer caer una lluvia eléctrica sobre sus enemigos. ¡Aprovecha ese tiempo para dispararle una bola comprimida de Pulso y romper la maldición!"
+        },
+        "database.json/enemies/jungle.waveboss/name": {
+                "orig": "Sir Blobus Starnikus",
+                "text": "Sir Blobus Starnikus"
+        },
+        "database.json/enemies/jungle.waveboss/species": {
+                "orig": "Starfish",
+                "text": "Estrella de Mar"
+        },
+        "database.json/enemies/jungle.waveboss/descriptions/0/text": {
+                "orig": "This starfish is the leader of both the \\v[combat.name.jungle/blob] and the \\v[combat.name.jungle/blob-wave]. It can enter a strange synthesis with them to create a large mass that is almost impenetrable. Only by using compressed shock balls can the bond be broken.",
+                "text": "Esta estrella de mar es el líder del \\v[combat.name.jungle/blob] y el \\v[combat.name.jungle/blob-wave]. Puede entrar en una extraña síntesis con ellos para crear una gran masa que es casi impenetrable. La unión sólo puede romperse con bolas comprimidas de Electro."
+        },
+        "database.json/enemies/jungle.pumpkin/name": {
+                "orig": "Jack'On'Fire",
+                "text": "Calabaza en Llamas"
+        },
+        "database.json/enemies/jungle.pumpkin/species": {
+                "orig": "Fiery Enchanted Pumpkin",
+                "text": "Calabaza Llameante Encantada"
+        },
+        "database.json/enemies/jungle.pumpkin/descriptions/0/text": {
+                "orig": "When it's dark and spooky out in the night, the blazing pumpkin will come and eat you alive. \nOne wrong step, one loud noise, be afraid of the pumpkin in the night.",
+                "text": "Cuando la noche sea oscura y tenebrosa, esta llameante calabaza vendrá y te comerá vivo.\nUn paso en falso, un ruído fuerte, ten miedo de la calabaza de la noche."
+        },
+        "database.json/enemies/jungle.algorithm/name": {
+                "orig": "ExeRepair(error++);",
+                "text": "ReparaciónExe(error++);"
+        },
+        "database.json/enemies/jungle.algorithm/species": {
+                "orig": "Ancient Debugger",
+                "text": "Antiguo Depurador"
+        },
+        "database.json/enemies/jungle.algorithm/descriptions/0/text": {
+                "orig": "This strange device is a physical representation of the track's debugging process. Each node a step in the call stack. A malfunction made it hostile against everything but the true cause. It can spew flames, shoot bolts of lightning, shield other nodes or revive them depending on its element mode. It may also spawn \\c[3]\\v[combat.name.minibosses/shockcat-black]s\\c[0] which attack on sight. ",
+                "text": "Este extraño dispositivo es una representación física del proceso de depuración del Camino. Cada nodo es un paso en el \"call stack\". Un error lo hizo hostil hacia todo excepto una clásula Verdadera. Puede disparar llamas, disparar rayos eléctricos, proteger a otros nodos o revivirlos dependiendo de su modo elemental. También puede hacer aparecer \\c[3]\\v[combat.name.minibosses/shockcat-black]s\\c[0] que atacarán a primera vista."
+        },
+        "database.json/enemies/forest.bamboo-fountain/name": {
+                "orig": "Bamboo Fountain",
+                "text": "Fuente de Bamboo"
+        },
+        "database.json/enemies/forest.bamboo-fountain/species": {
+                "orig": "Fountain",
+                "text": "Fuente"
+        },
+        "database.json/enemies/forest.bamboo-fountain/descriptions/0/text": {
+                "orig": "Peace and Tranquility, my friend. The only way to defeat it is to sit and listen.",
+                "text": "Paz y Tranquilidad, amigo mío. La única forma de ganar es sentarse y escuchar."
+        },
+        "database.json/enemies/final.crystal-heat/name": {
+                "orig": "Heat Crystalid",
+                "text": "Cristalid de Fuego"
+        },
+        "database.json/enemies/final.crystal-heat/species": {
+                "orig": "Crystal",
+                "text": "Cristal"
+        },
+        "database.json/enemies/final.crystal-cold/name": {
+                "orig": "Cold Crystalid",
+                "text": "Cristalid de Hielo"
+        },
+        "database.json/enemies/final.crystal-cold/species": {
+                "orig": "Crystal",
+                "text": "Cristal"
+        },
+        "database.json/enemies/final.crystal-shock/name": {
+                "orig": "Shock Crystalid",
+                "text": "Cristalid de Electro"
+        },
+        "database.json/enemies/final.crystal-shock/species": {
+                "orig": "Crystal",
+                "text": "Cristal"
+        },
+        "database.json/enemies/final.crystal-wave/name": {
+                "orig": "Wave Crystalid",
+                "text": "Cristalid de Pulso"
+        },
+        "database.json/enemies/final.crystal-wave/species": {
+                "orig": "Crystal",
+                "text": "Cristal"
+        },
+        "database.json/enemies/guest.firespirit/name": {
+                "orig": "Mizree",
+                "text": "Mizree"
+        },
+        "database.json/enemies/guest.firespirit/species": {
+                "orig": "Burning Something",
+                "text": "Un Coso Llameante"
+        },
+        "database.json/enemies/arid.virus-neutral/name": {
+                "orig": "Neutral Virus",
+                "text": "Virus Neutral"
+        },
+        "database.json/enemies/arid.virus-neutral/species": {
+                "orig": "Unknown",
+                "text": "Desconocido"
+        },
+        "database.json/enemies/arid.virus-neutral/descriptions/0/text": {
+                "orig": "A strange being that roams the lands of \\c[3]\\v[area.arid.name]\\c[0]. It randomly jumps on prey and attacks them multiple times. \nLuckily their defense is rather low and they can be disposed of quickly with any attack. ",
+                "text": "Un extraño enemigo que vaga las tierras del \\c[3]\\v[area.arid.name]\\c[0]. Aleatoriamente salta a sus presas y las ataca múltiples veces.\nPor suerte su defensa es bastante baja y se lo puede eliminar con facilidad con cualquier ataque."
+        },
+        "database.json/enemies/arid.virus-heat/name": {
+                "orig": "Heat Virus",
+                "text": "Virus de Fuego"
+        },
+        "database.json/enemies/arid.virus-heat/species": {
+                "orig": "Unknown",
+                "text": "Desconocido"
+        },
+        "database.json/enemies/arid.virus-heat/descriptions/0/text": {
+                "orig": "A version of the \\v[combat.name.arid/virus-neutral] that uses Heat based attacks. It uses the neutral Viruses as pawns to attack its enemies. However this is also its weak spot. Once the neutral ones are stunned, push them into the Heat Virus to break their shield.",
+                "text": "Una versión del \\v[combat.name.arid/virus-neutral] que usa ataques de Fuego. Utiliza a los Virus Neutrales como peones para atacar a sus enemigos. Sin embargo, ese también es su punto débil. Una ve que los virus neutrales han sido aturdidos, empújalos al Virus de Fuego para romper su escudo."
+        },
+        "database.json/enemies/arid.virus-cold/name": {
+                "orig": "Cold Virus",
+                "text": "Virus de Hielo"
+        },
+        "database.json/enemies/arid.virus-cold/species": {
+                "orig": "Unknown",
+                "text": "Desconocido"
+        },
+        "database.json/enemies/arid.virus-cold/descriptions/0/text": {
+                "orig": "A version of the \\v[combat.name.arid/virus-neutral] that uses Cold based attacks. It uses the neutral Viruses as pawns to attack its enemies. However this is also its weak spot. Once the neutral ones are stunned, push them into the Cold Virus to break their shield.",
+                "text": "Una versión del \\v[combat.name.arid/virus-neutral] que usa ataques de Hielo. Utiliza a los Virus Neutrales como peones para atacar a sus enemigos. Sin embargo, ese también es su punto débil. Una ve que los virus neutrales han sido aturdidos, empújalos al Virus de Hielo para romper su escudo."
+        },
+        "database.json/enemies/arid.dice-mage/name": {
+                "orig": "Arengee",
+                "text": "Arengee"
+        },
+        "database.json/enemies/arid.dice-mage/species": {
+                "orig": "Dice",
+                "text": "Dado"
+        },
+        "database.json/enemies/arid.dice-mage/descriptions/0/text": {
+                "orig": "This dice is a sentient robot. The core processor being able to use all elements based on the number it rolls. It seems to take enjoyment in the game of chance, even if it means it will be left open for attacks.",
+                "text": "Este dado es un robót consciente. El procesador central es capaz de utilizar todos los elementos basado en el número que tira. Parece disfrutar el juego de azar, incluso si este le deja descubierto a ataques."
+        },
+        "database.json/enemies/guest.glitch-boss/name": {
+                "orig": "DON'T USE THIS",
+                "text": "NO USEN ESTO"
+        },
+        "database.json/enemies/guest.glitch-boss/species": {
+                "orig": "[Object]",
+                "text": "[Objeto]"
+        },
+        "database.json/enemies/guest.glitch-boss/descriptions/0/text": {
+                "orig": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        },
+        "database.json/enemies/boss.elephant-core/name": {
+                "orig": "boss.elephant-core",
+                "text": "boss.elephant-core"
+        },
+        "database.json/enemies/boss.elephant-core/species": {
+                "orig": "Core",
+                "text": "Núcleo"
+        },
+        "database.json/enemies/special.dummy/name": {
+                "orig": "special.dummy",
+                "text": "special.dummy"
+        },
+        "database.json/enemies/special.dummy/species": {
+                "orig": "Sandbag",
+                "text": "Bolsa de Arena"
+        },
+        "database.json/enemies/special.dummy/descriptions/0/text": {
+                "orig": "This training dummy is used for new players to test \\c[3]Combat Arts\\c[0] and other techniques without the fear of getting attacked.\n ",
+                "text": "Este muñeco de entrenamiento es utilizado por nuevos jugadores para probar las \\c[3]Artes de Combate\\c[0] entre otras técnicas sin miedo a ser atacados.\n"
+        },
+        "database.json/enemies/snowman-xmas/name": {
+                "orig": "Meister Karotto",
+                "text": "Meister Karotto"
+        },
+        "database.json/enemies/snowman-xmas/species": {
+                "orig": "Enchanted Snowman",
+                "text": "Muñeco de Nieve Encantado"
+        },
+        "database.json/enemies/greenlight/name": {
+                "orig": "The Green Light",
+                "text": "La Luz Verde"
+        },
+        "database.json/enemies/greenlight/species": {
+                "orig": "Machiene",
+                "text": "Máquine"
+        },
+        "database.json/enemies/baggy-kun/name": {
+                "orig": "Baggy",
+                "text": "Holgado"
+        },
+        "database.json/enemies/baggy-kun/species": {
+                "orig": "Sandbag",
+                "text": "Bolsa de Arena"
+        },
+        "database.json/enemies/baggy-kun/descriptions/0/text": {
+                "orig": "This training dummy is used for new players to test \\c[3]Combat Arts\\c[0] and other techniques without the fear of getting attacked.\n ",
+                "text": "Este muñeco de entrenamiento es utilizado por nuevos jugadores para probar las \\c[3]Artes de Combate\\c[0] entre otras técnicas sin miedo a ser atacados.\n"
+        },
+        "database.json/enemies/jungle.special.snowman-jungle-boss-scene/name": {
+                "orig": "Karotto Fruitseeker",
+                "text": "Buscafrutas Karotto"
+        },
+        "database.json/enemies/jungle.special.snowman-jungle-boss-scene/species": {
+                "orig": "Snowman Tourist",
+                "text": "Muñeco de Nieve Turista"
+        },
+        "database.json/enemies/jungle.special.snowman-jungle-boss-scene/descriptions/0/text": {
+                "orig": "The fruit-obsessed leader of a rogue group of \\c[3]\\v[combat.name.snowman]\\c[0] that aspired to make the warm lands of \\c[3]\\v[area.jungle.name]\\c[0] their home.\nTo that end it led robberies to steal large quantities of \\c[3]cooling devices\\c[0] which were supposed to slowly turn the Jungle into a climate more comfortable for Snowmen to live in.\nDespite its exceptional intelligence, it could not grasp the irony of that entire plan.",
+                "text": "El líder de un pícaro grupo de \\c[3]\\v[combat.name.snowman]\\c[0] obsesionado por las frutas que aspiró a hacer de las cálidas tierras del \\c[3]\\v[area.jungle.name]\\c[0] su hogar.\nPara conseguirlo, dirigió atracos con el fin de robar grandes cantidades de \\c[3]equipos de refrigeración\\c[0] que supuestamente convertirían lentamente la Jungla a un clima más cómodo para que los Muñecos de Nieve vivan.\nA pesar de su excepcional inteligencia, no pudo percibir la ironía del plan."
+        },
+        "database.json/enemies/jungle.special.iceWall/name": {
+                "orig": "Icewall",
+                "text": "Pared de Hielo"
+        },
+        "database.json/enemies/jungle.special.iceWall/species": {
+                "orig": "Shaped Frozen Water",
+                "text": "Agua Congelada Formada"
+        },
+        "database.json/enemies/baggy-kun-test/name": {
+                "orig": "baggy-kun-test",
+                "text": "baggy-kun-test"
+        },
+        "database.json/enemies/baggy-kun-test/species": {
+                "orig": "Sandbag",
+                "text": "Bolsa de Arena"
+        },
+        "database.json/enemies/baggy-kun-test/descriptions/0/text": {
+                "orig": "This training dummy is used for new players to test \\c[3]Combat Arts\\c[0] and other techniques without the fear of getting attacked.\n ",
+                "text": "Este muñeco de entrenamiento es utilizado por nuevos jugadores para probar las \\c[3]Artes de Combate\\c[0] entre otras técnicas sin miedo a ser atacados.\n"
+        },
+        "database.json/enemies/minibosses.snow-megatank-orb/name": {
+                "orig": "Snowtank Orb",
+                "text": "Orbe de Tanque de Nieve"
+        },
+        "database.json/enemies/minibosses.snow-megatank-orb/species": {
+                "orig": "Orb of Tank",
+                "text": "Orbe de Tanque"
+        },
+        "database.json/enemies/arid.laser-catcher/name": {
+                "orig": "arid.laser-catcher",
+                "text": "arid.laser-catcher"
+        },
+        "database.json/enemies/arid.laser-catcher/species": {
+                "orig": "en_US",
+                "text": "en_US"
+        },
+        "database.json/enemies/special.sergey-hax/name": {
+                "orig": "special.sergey-hax",
+                "text": "special.sergey-hax"
+        },
+        "database.json/enemies/special.sergey-hax/species": {
+                "orig": "en_US",
+                "text": "en_US"
+        },
+        "database.json/enemies/special.sergey-hax2/name": {
+                "orig": "special.sergey-hax2",
+                "text": "special.sergey-hax2"
+        },
+        "database.json/enemies/special.sergey-hax2/species": {
+                "orig": "en_US",
+                "text": "en_US"
+        },
+        "database.json/enemies/avatar.apollo/name": {
+                "orig": "Apollo",
+                "text": "Apollo"
+        },
+        "database.json/enemies/avatar.apollo/species": {
+                "orig": "Warrior of Justice",
+                "text": "Guerrero de la Justicia"
+        },
+        "database.json/enemies/avatar.apollo/descriptions/0/text": {
+                "orig": "A self proclaimed warrior of justice who accuses Lea of cheating and thus challenges her to a duel. He is quite the fighter and gets more vicious the more desperate his situation.",
+                "text": "Un autoproclamado guerrero de la justicia que acusa a Lea de haber hecho trampa y la desafía a un duelo. Es buen luchador, y se pone más vicioso mientras más desesperada sea su situación."
+        },
+        "database.json/enemies/avatar.apollo-2/name": {
+                "orig": "Apollo 2",
+                "text": "Apollo 2"
+        },
+        "database.json/enemies/avatar.apollo-2/species": {
+                "orig": "Warrior of Justice",
+                "text": "Guerrero de la Justicia"
+        },
+        "database.json/enemies/avatar.apollo-2/descriptions/0/text": {
+                "orig": "The self proclaimed warrior of justice returns and this time he has the heat element on his side! Just like last time he will get more creative with his attacks as you have more wins over him.",
+                "text": "¡El autoproclamado guerrero de la justicia ha vuelto, y esta vez tiene el Elemento de Fuego de su lado! Al igual que la última vez, se pondrá más creativo con sus ataques mientras más rondas ganadas le lleves."
+        },
+        "database.json/enemies/avatar.apollo-3/name": {
+                "orig": "Apollo 3",
+                "text": "Apollo 3"
+        },
+        "database.json/enemies/avatar.apollo-3/species": {
+                "orig": "Warrior of Justice",
+                "text": "Guerrero de la Justicia"
+        },
+        "database.json/enemies/avatar.apollo-3/descriptions/0/text": {
+                "orig": "Look who's back! Apollo wants to settle things and is ready to use both heat and cold against you to show you the \"true potential\" of a seeker. Just like you, he can use level 2 Combat Arts which can pack quite a punch and break your guard too if you're not careful.",
+                "text": "¡Mira quién ha vuelto! Apollo quiere terminar las cosas y está listo para usar tanto el Elemento de Fuego como el de Hielo contra tí para demostrar el \"verdadero potencial\" de un Buscador. Al igual que tú, puede usar Artes de Combate de Nivel 2 que pueden hacer bastante daño y romper tu guardia si no tienes cuidado."
+        },
+        "database.json/enemies/jungle.special.guard/name": {
+                "orig": "Jungle Guard",
+                "text": "Guardia de la Jungla"
+        },
+        "database.json/enemies/jungle.special.guard/species": {
+                "orig": "Underpayed Guard",
+                "text": "Guardia Mal Pagado"
+        },
+        "database.json/enemies/jungle.special.guard/descriptions/0/text": {
+                "orig": "A guard patrolling the route used by the \\c[3]Calzone Family\\c[0] to smuggle mushrooms from the infested area to \\c[3]Basin Keep\\c[0]. Their job is to walk the corridors of the cave system and check for any suspicious entities, all day.",
+                "text": "Un guardia que patrulla la ruta utilizada por la \\c[3]Familia Calzone\\c[0] para contrabandear hongos del área infestada a \\c[3]Basin Keep\\c[0]. Su trabajo es caminar por los pasillos del sistema de cuevas y estar al tanto de entidades sospechosas, todo el día."
+        },
+        "database.json/enemies/heat.special.guard-hostile-mustache/name": {
+                "orig": "Guard Billston",
+                "text": "Guardia Billston"
+        },
+        "database.json/enemies/heat.special.guard-hostile-mustache/species": {
+                "orig": "Human Guard",
+                "text": "Guardia Humano"
+        },
+        "database.json/enemies/heat.special.guard-hostile-mustache/descriptions/0/text": {
+                "orig": "A corrupt guard that holds no respect for the Shad that are native on Shadoon. Did formerly hold a respectable position in the \\c[3]Maroon Baki Guard\\c[0], before his crimes were uncovered.\n\nWhile his sense of justice is warped, he is still a very capable fighter. He wields the standard issue \\c[3]Laserlance\\c[0] of the guards with great skill and always carries a few of \\c[3]his favorite sandwiches\\c[0], in case the battle tires him.",
+                "text": "Un guardia corrupto que no tiene ningún tipo de respeto por los Shads nativos de Shadoon. Solía ocupar un cargo respetable en la \\c[3]Policía Baki de Maroon\\c[0], antes de que se descubran sus crímenes.\n\nAunque su sentido de la justicia está torcido, es aún un luchador muy capaz. Empuña la típica \\c[3]Lanza Láser\\c[0] de los guardias con gran habilidad y siempre lleva algunos de sus \\c[3]emparedados favoritos\\c[0] por si la batalla lo cansa."
+        },
+        "database.json/enemies/avatar.shizuka/name": {
+                "orig": "Shizuka",
+                "text": "Shizuka"
+        },
+        "database.json/enemies/avatar.shizuka/species": {
+                "orig": "Protective Sister",
+                "text": "Hermana Protectora"
+        },
+        "database.json/enemies/avatar.shizuka/descriptions/0/text": {
+                "orig": "It is Shizuka! And she is pissed.\nExpect her to use some of your favorite strategies against you!",
+                "text": "¡Es Shizuka! Y está enojada.\n¡Utilizará tus estrategias favoritas contra tí!"
+        },
+        "database.json/enemies/minibosses.henry/name": {
+                "orig": "Henry",
+                "text": "Henry"
+        },
+        "database.json/enemies/minibosses.henry/species": {
+                "orig": "Not really Human",
+                "text": "No es Humano realmente"
+        },
+        "database.json/enemies/minibosses.henry/descriptions/0/text": {
+                "orig": "A clever \"hacker\" that was able to manipulate CrossWorlds to do his bidding after many players helped him in collecting enough data. He is actually pretty weak and will use other enemies to attack.\nIn the end he was basically just a troll NPC meant to confuse players. Which worked out great!",
+                "text": "Un inteligente \"hacker\" que ha sido capaz de manipular CrossWorlds a su voluntad luego de que varios jugadores le ayudasen a recopilar la suficiente información. Es bastante débil fisicamente, y utilizará a otros enemigos para atacar.\nAl final resultó ser un NPC de broma para confundir a los jugadores. ¡Y salió perfecto!"
+        },
+        "database.json/enemies/avatar.lily/name": {
+                "orig": "Lily",
+                "text": "Lily"
+        },
+        "database.json/enemies/avatar.lily/species": {
+                "orig": "Warrior of Justice",
+                "text": "Guerrero de la Justicia"
+        },
+        "database.json/enemies/avatar.lily/descriptions/0/text": {
+                "orig": "Look who's back! Apollo wants to settle things and is ready to use both heat and cold against you to show you the \"true potential\" of a seeker. Just like you, he can use level 2 Combat Arts which can pack quite a punch and break your guard too if you're not careful.",
+                "text": "¡Mira quién ha vuelto! Apollo quiere terminar las cosas y está listo para usar tanto el Elemento de Fuego como el de Hielo contra tí para demostrar el \"verdadero potencial\" de un Buscador. Al igual que tú, puede usar Artes de Combate de Nivel 2 que pueden hacer bastante daño y romper tu guardia si no tienes cuidado."
+        },
+        "database.json/enemies/final.gynthar/name": {
+                "orig": "Gynthar",
+                "text": "Gynthar"
+        },
+        "database.json/enemies/final.gynthar/species": {
+                "orig": "Chill Dude",
+                "text": "Tipo Tranquilo"
+        },
+        "database.json/enemies/boss.designer-1/name": {
+                "orig": "???",
+                "text": "¿¿¿???"
+        },
+        "database.json/enemies/boss.designer-1/species": {
+                "orig": "???",
+                "text": "¿¿¿???"
+        },
+        "database.json/enemies/boss.designer-1/descriptions/0/text": {
+                "orig": "The information has been redacted.",
+                "text": "Esta información es confidencial."
+        },
+        "database.json/enemies/boss.designer-2/name": {
+                "orig": "Designer",
+                "text": "Diseñador"
+        },
+        "database.json/enemies/boss.designer-2/species": {
+                "orig": "???",
+                "text": "¿¿¿???"
+        },
+        "database.json/enemies/boss.designer-2/descriptions/0/text": {
+                "orig": "This information has been redacted.\n\n\"I only ever wanted to create. That was the one thing I loved. The one thing that kept me going. I even moved to this stupid moon. But he caged us and my designs were used for things I don't even want to think about anymore. It all seems too... distant.\nUntil she arrived and gave me one last chance to create the ultimate experience.\"",
+                "text": "Esta información es confidencial.\n\n\"Yo sólo quería crear. Eso fue lo único que amé. Lo único que me mantenía vivo. Hasta me mudé a esta estúpida luna. Pero el nos encerró, y mis diseños fueron utilizados para cosas de las que no quiero ni pensar. Todo parece muy... distante.\nHasta que ella llegó, y me dio una última chance de crear la Experiencia Última.\""
+        },
+        "database.json/enemies/navi-carla/name": {
+                "orig": "Carla Navigation Test",
+                "text": "Prueba de Navegación de Carla"
+        },
+        "database.json/enemies/navi-carla/species": {
+                "orig": "Human",
+                "text": "Humano"
+        },
+        "database.json/enemies/jungle.special.npc-escortee-greeny/name": {
+                "orig": "Linde",
+                "text": "Linde"
+        },
+        "database.json/enemies/jungle.special.npc-escortee-greeny/species": {
+                "orig": "Escortee",
+                "text": "Escoltado"
+        },
+        "database.json/enemies/jungle.special.npc-escortee-greeny/descriptions/0/text": {
+                "orig": "A person that wants to be escorted, to not get mugged.",
+                "text": "Una persona que quiere ser escoltada, no ser asaltada."
+        },
+        "database.json/enemies/captain/name": {
+                "orig": "Captain Jet",
+                "text": "Capitán Jet"
+        },
+        "database.json/enemies/captain/species": {
+                "orig": "Human",
+                "text": "Humano"
+        },
+        "database.json/enemies/player-copy/name": {
+                "orig": "player-copy",
+                "text": "player-copy"
+        },
+        "database.json/enemies/player-copy/species": {
+                "orig": "???",
+                "text": "¿¿¿???"
+        },
+        "database.json/enemies/jungle.special.hostage-1/name": {
+                "orig": "Hostage",
+                "text": "Rehén"
+        },
+        "database.json/enemies/jungle.special.hostage-1/species": {
+                "orig": "Hostage",
+                "text": "Rehén"
+        },
+        "database.json/enemies/jungle.special.hostage-1/descriptions/0/text": {
+                "orig": "A hostage. Not the best position to be in.",
+                "text": "Un rehén. No es la mejor situación en la que estar."
+        },
+        "database.json/enemies/guard-hostile-default/name": {
+                "orig": "Default Guard",
+                "text": "Guardia Predeterminado"
+        },
+        "database.json/enemies/guard-hostile-default/species": {
+                "orig": "Human Guard",
+                "text": "Guardia Humano"
+        },
+        "database.json/enemies/guard-hostile-default/descriptions/0/text": {
+                "orig": "An armed human, currently or formerly employed by one of the many city guards on Shadoon.\n\nWield a powerful type of weapon that is used by most guards, the Laserlance. Also usually carries a standard ration of Sandwiches to recover from tiresome battles.",
+                "text": "Un humano armado, actualmente o anteriormente empleado por una de las tantas centrales de policías en Shadoon.\n\nEmpuña un arma poderosa, utilizada por la mayoría de guardias, la Lanza Láser. Usualmente lleva una ración estándar de emparedados para las batallas agotadoras."
+        },
+        "database.json/enemies/arid.evotar/name": {
+                "orig": "arid.evotar",
+                "text": "arid.evotar"
+        },
+        "database.json/enemies/arid.evotar/species": {
+                "orig": "Evotar",
+                "text": "Evotar"
+        },
+        "database.json/enemies/avatar.wervyn/name": {
+                "orig": "Wervyn",
+                "text": "Wervyn"
+        },
+        "database.json/enemies/avatar.wervyn/species": {
+                "orig": "Human",
+                "text": "Humano"
+        },
+        "database.json/enemies/avatar.apollo-4/name": {
+                "orig": "Apollo",
+                "text": "Apollo"
+        },
+        "database.json/enemies/avatar.apollo-4/species": {
+                "orig": "Warrior of Justice",
+                "text": "Guerrero de la Justicia"
+        },
+        "database.json/enemies/avatar.apollo-4/descriptions/0/text": {
+                "orig": "Look who's back! Apollo wants to settle things and is ready to use both heat and cold against you to show you the \"true potential\" of a seeker. Just like you, he can use level 2 Combat Arts which can pack quite a punch and break your guard too if you're not careful.",
+                "text": "¡Mira quién ha vuelto! Apollo quiere terminar las cosas y está listo para usar tanto el Elemento de Fuego como el de Hielo contra tí para demostrar el \"verdadero potencial\" de un Buscador. Al igual que tú, puede usar Artes de Combate de Nivel 2 que pueden hacer bastante daño y romper tu guardia si no tienes cuidado."
+        },
+        "database.json/enemies/hedgehog/name": {
+                "orig": "Hedgehag",
+                "text": "Erize"
+        },
+        "database.json/enemies/hedgehog/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/hedgehog/descriptions/0/text": {
+                "orig": "This large hedgehog creature can usually be found in packs of up to 20. Normally it is peaceful but when provoked it will use its sharp needles to attack its predator. \nNo one really knows why it was named \\c[3]\\v[combat.name.hedgehog]\\c[0]. Some say it was a typo when the enemy was first named. Others say it stirs from its violent nature when provoked in packs. It's a mystery.",
+                "text": "Esta gran criatura de erizo se suele encontrar en grupos de hasta 20. Normalmente es pacífico, pero si es provocado utilizará sus afiladas garras para atacar a su depredador.\nNadie sabe por que fue llamado \\c[3]\\v[combat.name.hedgehog]\\c[0]. Algunos dicen que fue un error the tipografía cuando se le dio nombre por primera vez. Otros dicen que proviene de su violenta naturaleza cuando se los provoca en grupo. Es un misterio."
+        },
+        "database.json/enemies/hedgehog/descriptions/1/text": {
+                "orig": "According to some players defeating multiple \\v[combat.name.hedgehog]s in a certain area of \\c[3]\\v[area.autumn-area.name]\\c[0] will lead to a rare event. ",
+                "text": "Según algunos jugadores, derrotar a muchos \\v[combat.name.hedgehog]s en una cierta área de del \\c[3]\\v[area.autumn-area.name]\\c[0] provocará un evento poco común."
+        },
+        "database.json/enemies/hedgehog-alt/name": {
+                "orig": "Old Hedgehag",
+                "text": "Erize Viejo"
+        },
+        "database.json/enemies/hedgehog-alt/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/hedgehog-alt/descriptions/0/text": {
+                "orig": "When a \\v[combat.name.hedgehog] becomes old, its needles acquire a red tint which strongly resembles rust. Much like its younger self it only attacks when threatened.\nHowever years of experience made it much more resilient and taught it to use its spinning attack to jump on aggressors.",
+                "text": "Cuando un \\v[combat.name.hedgehog] se hace viejo, sus garras adquieren un tinte rojo muy parecido al del óxido. Al igual que los erizes más jóvenes, sólo ataca si se siente amenazado.\nSin embargo, los años de experiencia lo hicieron mucho más resistente y le enseñaron a utilizar un ataque giratorio para saltar a sus agresores."
+        },
+        "database.json/enemies/autumn-fall.hedgehog-fall/name": {
+                "orig": "Radical Hedgehag",
+                "text": "Erize Radical"
+        },
+        "database.json/enemies/autumn-fall.hedgehog-fall/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/autumn-fall.hedgehog-fall/descriptions/0/text": {
+                "orig": "This sub-species of the common \\v[combat.name.hedgehog] can only be found in \\c[3]\\v[area.autumn-fall.name]\\c[0]. Their needles are pitch black and the red patch on their back is meant to scare off potential predators since it looks like blood. \nDespite all this, these creatures are passive and only attack when attacked. They will use the same attacks \\v[combat.name.hedgehog] and \\v[combat.name.hedgehog-alt] use but will mix up the dash attack by attacking twice in a row.",
+                "text": "Esta sub-especie del \\v[combat.name.hedgehog] común sólo se encuentra en el \\c[3]\\v[area.autumn-fall.name]\\c[0]. Sus agujas son negras y el parche rojo en su espalda sirve para ahuyentar a los posibles depredadores, ya que asemeja la sangre.\nA pesar de todo, estas criaturas son pacíficas y sólo atacarán si son atacadas. Utilizarán los mismos ataques de los \\v[combat.name.hedgehog] y los \\v[combat.name.hedgehog-alt] pero alteran un poco el ataque giratorio al hacerlo dos veces seguidas."
+        },
+        "database.json/enemies/minibosses.blue-hedge/name": {
+                "orig": "Blue Hedgehag",
+                "text": "Erize Azul"
+        },
+        "database.json/enemies/minibosses.blue-hedge/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/minibosses.blue-hedge/descriptions/0/text": {
+                "orig": "This rare \\v[combat.name.hedgehog] can only be found under certain conditions and is commonly theorized to be the leader of its pack. It is feared for its speedy attacks and its blue color and red eyes make it even more menacing. Usually mistaken for a third eye, the object on its forehead is actually a gem. If someone is brave enough to face it and defeat it, it often leaves behind a golden ring of unknown origin.",
+                "text": "Este \\v[combat.name.hedgehog] raro sólo se encuentra bajo condiciones específicas y se le suele considerar como el líder de la manada. Se le teme por sus ataques rápidos y su color azul y ojos rojos lo hacen aún más intimidante. Usualmente confundido por un tercer ojo, el objeto en su frente es de hecho una gema. Si alguien es lo suficientemente valiente como para enfrentarlo y ganarle, dejará un anillo de oro de origen desconocido."
+        },
+        "database.json/enemies/hedgehog-fly/name": {
+                "orig": "Flying Hedgehag",
+                "text": "Erize Volador"
+        },
+        "database.json/enemies/hedgehog-fly/species": {
+                "orig": "Flying Mammal",
+                "text": "Mamífero Volador"
+        },
+        "database.json/enemies/hedgehog-fly/descriptions/0/text": {
+                "orig": "A Flying-type variant of the \\c[3]\\v[combat.name.hedgehog]\\c[0].",
+                "text": "Una variante voladora del \\c[3]\\v[combat.name.hedgehog]\\c[0]."
+        },
+        "database.json/enemies/meerkat/name": {
+                "orig": "Rockin' Hillkat",
+                "text": "Colicata Rockera"
+        },
+        "database.json/enemies/meerkat/species": {
+                "orig": "Headbanging Mammal",
+                "text": "Mamífero Rítmico"
+        },
+        "database.json/enemies/meerkat/descriptions/0/text": {
+                "orig": "This happy meerkat spends half of its life below ground where it listens to music on its headphones. It can burrow tunnels so fast that it can use them both to attack predators and escape from them. \nWhen threatened it will throw stones and use a fierce uppercut. Before doing so it will charge up for a short while. Use this window and stun it by throwing a charged ball at it.",
+                "text": "Esta feliz suricata pasa la mitad de su vida bajo tierra donde escucha música con sus auriculares. Puede excavar túneles con tal velocidad que los utiliza tanto para atacar depredadores como para escapar de ellos.\nCuando se siente amenazada, tirará piedras y utilizará un fiero gancho al mentón. Antes de hacerlo cargará el ataque por un momento. Aprovecha este tiempo para aturdirla con una bola cargada."
+        },
+        "database.json/enemies/meerkat-alt/name": {
+                "orig": "Flamin' Hillkat",
+                "text": "Colicata Llameante"
+        },
+        "database.json/enemies/meerkat-alt/species": {
+                "orig": "Headbanging Mammal",
+                "text": "Mamífero Rítmico"
+        },
+        "database.json/enemies/meerkat-alt/descriptions/0/text": {
+                "orig": "This sub-species of the \\v[combat.name.meerkat] wears red headphones instead of green ones. It also shows a more aggressive behavior towards aggressors  by throwing flaming stones at them instead of normal ones.\nContrary to popular belief the music it's listening to is smooth jazz.",
+                "text": "Esta sub-especie de la \\v[combat.name.meerkat] usa auriculares rojos, en vez de verdes. También tiene un comportamiento más agresivo a los agresores, ya que tira piedras en llamas en vez de piedras normales.\nContrario a la creencia popular, la música que escucha es jazz suave."
+        },
+        "database.json/enemies/autumn-fall.meerkat-fall/name": {
+                "orig": "Chillin' Hillkat",
+                "text": "Colicata Relajada"
+        },
+        "database.json/enemies/autumn-fall.meerkat-fall/species": {
+                "orig": "Headbanging Mammal",
+                "text": "Mamífero Rítmico"
+        },
+        "database.json/enemies/autumn-fall.meerkat-fall/descriptions/0/text": {
+                "orig": "This meerkat shows the same characteristics as normal ones. However it has gained the ability to surround stones in a thick layer of ice and throw them at aggressors. Those hurt like hell, so you better watch out.\nIts name is quite misleading, as the music its listening to has been found to be heavy metal.",
+                "text": "Esta suricata tiene las mismas características que las normales. Sin embargo, tiene la habilidad de envolver las piedras en una gruesa capa de hielo para tirarlas a los agresores. Esas duelen bastante, así que mejor ten cuidado."
+        },
+        "database.json/enemies/meerkat-special-command-1/name": {
+                "orig": "Hillkat Bandleader",
+                "text": "Colicata Líder"
+        },
+        "database.json/enemies/meerkat-special-command-1/species": {
+                "orig": "Headbanging Leader",
+                "text": "Líder Rítmico"
+        },
+        "database.json/enemies/meerkat-special-command-1/descriptions/0/text": {
+                "orig": "A \\c[3]Hillkat\\c[0] of unusual intelligence and charisma that was able to unite groups of lesser Hillkats for organized raids on humans.\nWhile it is already a threat by itself it will also call additional \\c[3]reinforcements\\c[0] when under attack.",
+                "text": "Una \\c[3]Colicata\\c[0] de inteligencia inusual y un carisma tal que fue capaz de unir grupos de Colicatas menores para organizar invasiones sobre humanos.\nAunque ya es una amenaza por si sola, también llamará \\c[3]refuerzos\\c[0] adicionales cuando se le ataque."
+        },
+        "database.json/enemies/buffalo/name": {
+                "orig": "Mad Bovine",
+                "text": "Bovino Loco"
+        },
+        "database.json/enemies/buffalo/species": {
+                "orig": "Buff Mammal",
+                "text": "Mamífero Morrudo"
+        },
+        "database.json/enemies/buffalo/descriptions/0/text": {
+                "orig": "This tanky buffalo creature looks like a mean meany but is actually a soft and fluffy fella. As long as you don't get on its wrong side. If you do you better get ready to feel the full wrath of its stomp and charge attacks. Its head is coated in a metal-like layer of skin that it uses to shield against attacks.\nYour only way out is to let it charge against a wall which will stun it for a short while, leaving it open for attacks from behind.",
+                "text": "Este gran búfalo parece un gran gruñón, pero es en realidad bastante suave y esponjoso. Mientras no te metas con el. Si lo haces, será mejor que te prepares para sentir toda la furia de sus pisadas y su brutal embestida. Su cabeza esta cubierta de una capa de piel similar al metal que usa como escudo frente a la mayoría de ataques.\nTu única salida es dejar que se choque contra una pared lo que lo aturdirá por un momento, dejándolo al descubierto para que lo ataques por atrás."
+        },
+        "database.json/enemies/buffalo-alt/name": {
+                "orig": "Red Eyed Bovine",
+                "text": "Bovino de Ojos Rojos"
+        },
+        "database.json/enemies/buffalo-alt/species": {
+                "orig": "Buff Mammal",
+                "text": "Mamífero Morrudo"
+        },
+        "database.json/enemies/buffalo-alt/descriptions/0/text": {
+                "orig": "Remember the \\v[combat.name.buffalo]? And how it is a fluffy fella? Well this one is too! Despite its unfavorable name.\nBut it gets every bit as angry when attacked and packs a much stronger punch.\nIt gains its dark color and red eyes by age. When a \\v[combat.name.buffalo] enters adulthood its color changes marking it as a potential mating partner.",
+                "text": "¿Recuerdas al \\v[combat.name.buffalo]? ¿Y que tan esponjoso era? ¡Bueno este también! A pesar de su desfavorable nombre.\nPero se pone igual de enojado cuando se le ataca y pega mucho más duro.\nTiene un color más oscuro y ojos rojos por la edad. Cuando un \\v[combat.name.buffalo] llega a la adultez, su color cambia marcándolo como pontecial pareja para aparearse."
+        },
+        "database.json/enemies/autumn-fall.buffalo-fall/name": {
+                "orig": "Ivory Bovine",
+                "text": "Bovino de Marfíl"
+        },
+        "database.json/enemies/autumn-fall.buffalo-fall/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/autumn-fall.buffalo-fall/descriptions/0/text": {
+                "orig": "The \\v[combat.name.autumn-fall/buffalo-fall] is the oldest of the bovines and gets its bright and blue colors once it reaches old age. This means it has become wise enough to rest and enjoy the rest of its life. It will spend most of its time away from its younger kind and eat grass. \nThis doesn't mean it is not strong however. It will attack even harder and emit strong shockwaves both when charging and stomping. Mindlessly rushing in will only get you hurt!",
+                "text": "El \\v[combat.name.autumn-fall/buffalo-fall] es el bovino más viejo y consigue sus brillantes y azules colores cuando llega a una avanzada edad. Esto significa que es lo suficientemente sabio como para descansar y disfrutar el resto de su vida. Pasará la mayor parte del tiempo lejos de los más jóvenes para comer pasto.\nAunque esto no quiere decir que no sea fuerte. ¡Atacar descerebradamente sólo será para peor!"
         }
 }
