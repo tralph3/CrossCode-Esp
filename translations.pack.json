@@ -3969,7 +3969,7 @@
         },
         "database.json/commonEvents/emilie-hedgehog-end/event/0/elseStep/0/message": {
                 "orig": "And that was our first hedgehag. Simple enough!",
-                "text": "Y ese fue nuestro primer erize. ¡Bastante fácil!"
+                "text": "Y ese fue nuestro primer arizo. ¡Bastante fácil!"
         },
         "database.json/commonEvents/emilie-meerkats-end/event/0/thenStep/0/message": {
                 "orig": "Do you ever wonder what kind of music those things are listening to?",
@@ -4165,7 +4165,7 @@
         },
         "database.json/commonEvents/emilie-hedgehags2-end/event/0/thenStep/0/message": {
                 "orig": "The hedgehags have returned, sharper and edgier than ever!",
-                "text": "Los erizes han vuelto, ¡más peligrosos que nunca!"
+                "text": "Los arizos han vuelto, ¡más peligrosos que nunca!"
         },
         "database.json/commonEvents/emilie-volturbines/event/0/thenStep/0/message": {
                 "orig": "We finally got birds in CrossWorlds. Très bien.",
@@ -10481,7 +10481,7 @@
         },
         "database.json/enemies/hedgehog/name": {
                 "orig": "Hedgehag",
-                "text": "Erize"
+                "text": "Arizo"
         },
         "database.json/enemies/hedgehog/species": {
                 "orig": "Mammal",
@@ -10497,7 +10497,7 @@
         },
         "database.json/enemies/hedgehog-alt/name": {
                 "orig": "Old Hedgehag",
-                "text": "Erize Viejo"
+                "text": "Arizo Viejo"
         },
         "database.json/enemies/hedgehog-alt/species": {
                 "orig": "Mammal",
@@ -10505,11 +10505,11 @@
         },
         "database.json/enemies/hedgehog-alt/descriptions/0/text": {
                 "orig": "When a \\v[combat.name.hedgehog] becomes old, its needles acquire a red tint which strongly resembles rust. Much like its younger self it only attacks when threatened.\nHowever years of experience made it much more resilient and taught it to use its spinning attack to jump on aggressors.",
-                "text": "Cuando un \\v[combat.name.hedgehog] se hace viejo, sus garras adquieren un tinte rojo muy parecido al del óxido. Al igual que los erizes más jóvenes, sólo ataca si se siente amenazado.\nSin embargo, los años de experiencia lo hicieron mucho más resistente y le enseñaron a utilizar un ataque giratorio para saltar a sus agresores."
+                "text": "Cuando un \\v[combat.name.hedgehog] se hace viejo, sus garras adquieren un tinte rojo muy parecido al del óxido. Al igual que los arizos más jóvenes, sólo ataca si se siente amenazado.\nSin embargo, los años de experiencia lo hicieron mucho más resistente y le enseñaron a utilizar un ataque giratorio para saltar a sus agresores."
         },
         "database.json/enemies/autumn-fall.hedgehog-fall/name": {
                 "orig": "Radical Hedgehag",
-                "text": "Erize Radical"
+                "text": "Arizo Radical"
         },
         "database.json/enemies/autumn-fall.hedgehog-fall/species": {
                 "orig": "Mammal",
@@ -10521,7 +10521,7 @@
         },
         "database.json/enemies/minibosses.blue-hedge/name": {
                 "orig": "Blue Hedgehag",
-                "text": "Erize Azul"
+                "text": "Arizo Azul"
         },
         "database.json/enemies/minibosses.blue-hedge/species": {
                 "orig": "Mammal",
@@ -10533,7 +10533,7 @@
         },
         "database.json/enemies/hedgehog-fly/name": {
                 "orig": "Flying Hedgehag",
-                "text": "Erize Volador"
+                "text": "Arizo Volador"
         },
         "database.json/enemies/hedgehog-fly/species": {
                 "orig": "Flying Mammal",
@@ -10626,5 +10626,181 @@
         "database.json/enemies/autumn-fall.buffalo-fall/descriptions/0/text": {
                 "orig": "The \\v[combat.name.autumn-fall/buffalo-fall] is the oldest of the bovines and gets its bright and blue colors once it reaches old age. This means it has become wise enough to rest and enjoy the rest of its life. It will spend most of its time away from its younger kind and eat grass. \nThis doesn't mean it is not strong however. It will attack even harder and emit strong shockwaves both when charging and stomping. Mindlessly rushing in will only get you hurt!",
                 "text": "El \\v[combat.name.autumn-fall/buffalo-fall] es el bovino más viejo y consigue sus brillantes y azules colores cuando llega a una avanzada edad. Esto significa que es lo suficientemente sabio como para descansar y disfrutar el resto de su vida. Pasará la mayor parte del tiempo lejos de los más jóvenes para comer pasto.\nAunque esto no quiere decir que no sea fuerte. ¡Atacar descerebradamente sólo será para peor!"
+        },
+        "database.json/enemies/autumn-fall.buffalo-fire-quest/name": {
+                "orig": "Blazehoof",
+                "text": "Bovino Llameante"
+        },
+        "database.json/enemies/autumn-fall.buffalo-fire-quest/species": {
+                "orig": "Fiery Mammal",
+                "text": "Mamífero en Llamas"
+        },
+        "database.json/enemies/autumn-fall.buffalo-fire-quest/descriptions/0/text": {
+                "orig": "Formerly a peaceful \\c[3]\\v[combat.name.autumn-fall/buffalo-fall]\\c[0], this proud animal has been afflicted with a painful sickness that turned it into a highly aggressive flaming beast. It did, however still have enough self-control to hide in a remote cave as to not bring any more destruction to its homeland.\nIts terrifying heat somehow even forms a protective barrier, so to defeat it one must face it with the power of \\c[3]Cold\\c[0] and extinguish its raging fire.",
+                "text": "Anteriormente un pacífico \\c[3]\\v[combat.name.autumn-fall/buffalo-fall]\\c[0], este oruglloso animal ha contraído una dolorosa enfermedad que lo convirtió en una bestia llameante altamente agresiva. Aún así, tuvo el suficiente autocontrol para esconderse en una cueva remota para no traer más destrucción a su hogar.\nSu terrorífico fuego puede formar una barrera protectora, y para derrotarlo uno debe utilizar el poder del \\c[3]Hielo\\c[0] y extinguir su rugiente fuego."
+        },
+        "database.json/enemies/jungle.special.quest_td_buffel_1/name": {
+                "orig": "Tunnel Teslabovine",
+                "text": "Bovinotesla de Túnel"
+        },
+        "database.json/enemies/jungle.special.quest_td_buffel_1/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/jungle.special.quest_td_buffel_1/descriptions/0/text": {
+                "orig": "A close relative to the regular \\c[3]Teslabovine\\c[0], this specimen prefers to live underground. Usually they have a close connection to intensive points of Ancient power that they are eager to protect.\nThough it is currently unknown what a \"regular Teslabovine\" is, it is assumed that these are somewhat similar to it. In any case, they follow strict paths at a relaxed pace but sometimes feel compelled to \\c[3]charge forward\\c[0]. These charges will incite a \\c[3]powerful bolt of lightning\\c[0] on their trampled path!",
+                "text": "Un pariente cercano del \\c[3]Bovinotesla\\c[0] normal, este espécimen prefiere vivir bajo tierra. Usualmente tienen una fuerte conexión con puntos intensivos de poder Antiguo que ansían proteger.\nAunque aún se desconoce lo que es un \"Bovinotesla normal\", se asume que son algo parecidos. De todos modos, pasean por estrictos caminos a un paso relajado, pero a veces tienen ganas de \\c[3]hacer una embestida\\c[0]. ¡Estas embestidas dejerán unos \\c[3]poderosos rayos de electricidad\\c[0] en su camino!"
+        },
+        "database.json/enemies/gray-frobbit/name": {
+                "orig": "Young Frobbit",
+                "text": "Ranejo Jóven"
+        },
+        "database.json/enemies/gray-frobbit/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/gray-frobbit/descriptions/0/text": {
+                "orig": "This weird mixture between frog and rabbit calls the lower parts of Mount Bergen its home. Its cute demeanor quickly turns to evil killer beast when attacked. It will jump around its aggressor and use its strong legs for attacks. Watch out for its fake-outs! It will pretend to charge at you only to jump behind you and give you a boot to the head.",
+                "text": "Esta extraña mezcla entre una rana y un conejo llama a las bajas tierras del Monte Bergen su hogar. Su tierno comportamiento rápidamente se transforma al de una bestia asesina cuando es atacado. Saltará alrededor de su agresor y usará sus fuertes piernas para atacar. ¡Ten cuidado con sus amagues! Pretenderá hacer una embestida sólo para saltar detrás de tí y pegarte en la nuca."
+        },
+        "database.json/enemies/frobbit/name": {
+                "orig": "White Frobbit",
+                "text": "Ranejo Blanco"
+        },
+        "database.json/enemies/frobbit/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/frobbit/descriptions/0/text": {
+                "orig": "This white counterpart to the \\v[combat.name.gray-frobbit] lives in the higher places of Mount. Bergen and is every bit as cute... and evil. \nHowever it is stronger and can quickly whittle you down when encountered in big packs.",
+                "text": "Esta variante blanca al \\v[combat.name.gray-frobbit] vive en las altas tierras del Monte Bergen, y es igual de tierno... y malvado.\nPor cierto, es más fuerte y puede rápidamente rebajarte cuando están en grandes grupos."
+        },
+        "database.json/enemies/cold.frobbit-quest-dirty/name": {
+                "orig": "Dirty Frobbit",
+                "text": "Ranejo Sucio"
+        },
+        "database.json/enemies/cold.frobbit-quest-dirty/species": {
+                "orig": "Dirty Mammal",
+                "text": "Mamífero Sucio"
+        },
+        "database.json/enemies/cold.frobbit-quest-dirty/descriptions/0/text": {
+                "orig": "A \\c[3]\\v[combat.name.frobbit]\\c[0] that got dirty by hopping around mining machines.\nThe thick filth has not only made its fur become \\c[3]almost impervious to damage\\c[0], it also enraged the usually peaceful animal to \\c[3]attack any human\\c[0] it sees.\nOnly a \\c[3]forced bath\\c[0] will clean up their fur and make them vulnerable again.",
+                "text": "Un \\c[3]\\v[combat.name.frobbit]\\c[0] que se ensució por saltar alrededor de las máquinas de minería.\nLa gruesa capa de mugre no sólo hizo que su pelaje se haga \\c[3]casi impermeable al daño\\c[0], también ha enojado a este usualemente pacífico animal lo suficiente como para que \\c[3]ataque a cualquier humano\\c[0] que vea.\nSólo un \\c[3]baño forzado\\c[0] limpiará su pelaje y los hará vulnerables otra vez."
+        },
+        "database.json/enemies/legend-frobbit/name": {
+                "orig": "Legendary Frobbit",
+                "text": "Ranejo Legendario"
+        },
+        "database.json/enemies/legend-frobbit/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/legend-frobbit/descriptions/0/text": {
+                "orig": "Despite its fancy name, this is just a normal \\c[3]\\v[combat.name.gray-frobbit]\\c[0].",
+                "text": "A pesar de su lujoso nombre, es tan solo un \\c[3]\\v[combat.name.gray-frobbit]\\c[0] normal."
+        },
+        "database.json/enemies/daft-frobbit/name": {
+                "orig": "Hologram Frobbit",
+                "text": "Ranejo Holograma"
+        },
+        "database.json/enemies/daft-frobbit/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/daft-frobbit/descriptions/0/text": {
+                "orig": "A mischievous variant of the common \\c[3]\\v[combat.name.gray-frobbit]\\c[0] created by the Ancients as part of a trial. It will jump around and make you chase it all around the area until finally engaging in combat. And boy does it pack a punch, combining both Heat and Cold for furious attacks.",
+                "text": "Una traviesa variante del \\c[3]\\v[combat.name.gray-frobbit]\\c[0] común, creado por los Antiguos como parte de una prueba. Saltará por todos lados y te hará perseguirlo por todo el área hasta que finalmente puedas enfrentarlo en combate. Y pega fuerte, combinando tanto el Hielo como el Fuego para hacer ataques furiosos."
+        },
+        "database.json/enemies/seahorse/name": {
+                "orig": "Seafly",
+                "text": "Seafly"
+        },
+        "database.json/enemies/seahorse/species": {
+                "orig": "Flying Seahorse",
+                "text": "Caballo de Mar Volador"
+        },
+        "database.json/enemies/seahorse/descriptions/0/text": {
+                "orig": "This seahorse has transcended its sea life and grew wings that allow it be part of the busy fauna of the land. It usually spends its day eating plants and flying around. \nWhen attacked it will use its unique mouth to shoot bubbles at its enemies that contain a light poison that can damage the skin on contact. Pushed against a wall it can also use a volley of such bubbles that make it hard to just dodge. Better shield up!",
+                "text": "Este caballo de mar ha trascendido su vida marina y le han crecido alas que le permiten ser parte de la viva fauna de la tierra. Se pasa el día comiendo plantas o volando alrededor.\nCuando se le ataca utilizará su boca para disparar burbujas a sus enemigos que contienen veneno de luz, dañando la piel en contacto. Cuando está acorralado tirará una avalancha de dichas burbujas lo que hace difícil esquivarlas. ¡Será mejor que las bloquees!"
+        },
+        "database.json/enemies/autumn-fall.seahorse-fall/name": {
+                "orig": "Fallfly",
+                "text": "Fallfly"
+        },
+        "database.json/enemies/autumn-fall.seahorse-fall/species": {
+                "orig": "Flying Seahorse",
+                "text": "Caballo de Mar Volador"
+        },
+        "database.json/enemies/autumn-fall.seahorse-fall/descriptions/0/text": {
+                "orig": "Other than its orange color this seahorse has the same behavior as the \\v[combat.name.seahorse]. Its bubble volley however is both faster and contains more bubbles, which can break shields if not careful.",
+                "text": "Además de su color naranja, este caballo de mar tiene el mismo comportamiento que el \\v[combat.name.seahorse]. Sin embargo, su avalancha de burbujas dispara más de ellas y son más rápidas, lo que puede romper tu escudo si no tienes cuidado."
+        },
+        "database.json/enemies/autumn-fall.seahorse-fall/descriptions/1/text": {
+                "orig": "It is said that they also mysteriously developed the ability to spit bursts of fire. This is rarely seen, though, as their respect for their environment forbids the use of this ability on the surface.",
+                "text": "Se dice que también han misteriosamente desarrollado la habilidad de escupir fuego. Es raro de ver, ya que su respeto por el medio ambiente les prohíbe usar esta habilidad en la superficie."
+        },
+        "database.json/enemies/penguin/name": {
+                "orig": "Pengpeng",
+                "text": "Pingping"
+        },
+        "database.json/enemies/penguin/species": {
+                "orig": "Bird",
+                "text": "Ave"
+        },
+        "database.json/enemies/penguin/descriptions/0/text": {
+                "orig": "A penguin on a mountain. How it made its way up here shall be forever unknown to mankind. It will throw snowballs at its enemies and slide at them. When pushed into the water they will jump out and attack with a fast divebomb, so watch out for your surroundings.",
+                "text": "Un pingüino en una montaña. Como ha llegado ahí le será siempre un misterio a la humanidad. Le tirará bolas de nieve a sus enemigos y se deslizará hacia ellos. Cuando se le empuje al agua saldrá saltando de ella y atacará con un rápido golpe al suelo, así que mantente alerta de tus alrededores."
+        },
+        "database.json/enemies/penguin/descriptions/1/text": {
+                "orig": "The \\v[combat.name.minibosses/penguin-rapper] can use various forms of beatbox to animate it to attack in formation with other members of its kind.",
+                "text": "El \\v[combat.name.minibosses/penguin-rapper] puede usar varias formas de beatbox para animarle a atacar en varias formaciones con otros miembros de su especie."
+        },
+        "database.json/enemies/minibosses.penguin-rapper/name": {
+                "orig": "Peng King Dakara",
+                "text": "Rey Ping Dakara"
+        },
+        "database.json/enemies/minibosses.penguin-rapper/species": {
+                "orig": "Best Bird",
+                "text": "El Mejor Ave"
+        },
+        "database.json/enemies/minibosses.penguin-rapper/descriptions/0/text": {
+                "orig": "A rare type of \\c[3]Pengpeng\\c[0] that set up a den deep in the mountains of \\c[3]Bergen Trail\\c[0]. When approached it immediately thinks that you want to steal its flow and jumps up to its \"stage\". It will summon Pengpengs and command them to do different attacks based on its temper. Anger it by defeating all Pengpengs to make it jump down.",
+                "text": "Un tipo raro de \\c[3]Pingping\\c[0] que ha establecido una guarida en lo profundo de las montañas del \\c[3]Sendero de Bergen\\c[0]. Cuando se le aproxima inmediatamente piensa que te quieres robar su \"flow\" y salta directamente a su escenario. Desde ahí, invocará a otros Pingpings y los guiará para hacer distintos ataques de acuerdo a su tempo. Hazlo enojar eliminando a sus Pingpings para hacerlo bajar."
+        },
+        "database.json/enemies/goat/name": {
+                "orig": "Horny Goat",
+                "text": "Cabra Cornuda"
+        },
+        "database.json/enemies/goat/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/goat/descriptions/0/text": {
+                "orig": "The horned goat likes to make fun of its attackers by pointing its butt at them which is plated in armor for some reason. Attacking it while it is doing so will result in a quick kick so keep your distance. \nSometimes it will actually throw its horns in a large curve. Use this to stun it and deal some good damage. And don't get distracted by its laughing. It's laughing with you, not about you!",
+                "text": "La cabra cornuda disfruta de burlarlse de sus atacantes mostrándoles su trasero cubierto en armadura, por algún motivo. Atacarla en esa posición resultará en una rápida patada con sus patas traseras, así que mantén la distancia.\nA veces revoleará sus cuernos como un búmerang. Utilízalos para aturdirla y hacerle una buena cantidad de daño. Y que no te distraiga su risa. ¡Se ríe contigo, no de tí!"
+        },
+        "database.json/enemies/goat-cave/name": {
+                "orig": "Horny Cavegoat",
+                "text": "Cabra Cornuda de Cueva"
+        },
+        "database.json/enemies/goat-cave/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/goat-cave/descriptions/0/text": {
+                "orig": "This much more powerful and intelligent variant of the \\c[3]\\v[combat.name.goat]\\c[0] has only been sighted very recently.\nReports suggest that it might not have developed naturally but was actually \\c[3]created by human influence\\c[0].\nIn any case it uses \\c[3]heat-based\\c[0] attacks and is even able to handle \\c[3]explosives\\c[0].",
+                "text": "Esta variante más poderosa e inteligente de la \\c[3]\\v[combat.name.goat]\\c[0] se ha descubierto hace poco.\nLos reportes sugieren que no se ha desarrollado naturalmente, sino que ha sido \\c[3]creada por influencia humana\\c[0].\nDe todos modos, usa ataques \\c[3]de fuego\\c[0] e incluso puede manejar \\c[3]explosivos\\c[0]."
+        },
+        "database.json/enemies/cold.goat-worker/name": {
+                "orig": "Goat Worker",
+                "text": "Cabra Trabajadora"
+        },
+        "database.json/enemies/cold.goat-worker/species": {
+                "orig": "Mammal",
+                "text": "Mamífero"
+        },
+        "database.json/enemies/cold.goat-worker/descriptions/0/text": {
+                "orig": "This much more powerful and intelligent variant of the \\c[3]\\v[combat.name.goat]\\c[0] has only been sighted very recently.\nReports suggest that it might not have developed naturally but was actually \\c[3]created by human influence\\c[0].\nIn any case it uses \\c[3]heat-based\\c[0] attacks and is even able to handle \\c[3]explosives\\c[0].",
+                "text": "Esta variante más poderosa e inteligente de la \\c[3]\\v[combat.name.goat]\\c[0] se ha descubierto hace poco.\nLos reportes sugieren que no se ha desarrollado naturalmente, sino que ha sido \\c[3]creada por influencia humana\\c[0].\nDe todos modos, usa ataques \\c[3]de fuego\\c[0] e incluso puede manejar \\c[3]explosivos\\c[0]."
         }
 }
