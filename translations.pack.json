@@ -1493,7 +1493,7 @@
         },
         "database.json/areas/arid-dng-1/description": {
                 "orig": "Your own personal dungeon in Vermillion Wasteland.",
-                "text": "Tu propia mazmorra personal en los Vertedero Vermillion."
+                "text": "Tu propia mazmorra personal en el Vertedero Vermillion."
         },
         "database.json/areas/arid-dng-2/name": {
                 "orig": "Vermillion Tower",
@@ -6561,7 +6561,7 @@
         },
         "database.json/commonEvents/apollo-contact/event/10/thenStep/1/message": {
                 "orig": "Spheromancer Lea! Let's make haste and enter Vermillion Wasteland as soon as possible! There is justice that needs serving!",
-                "text": "¡Spheromancer Lea! ¡Apurémonos y entremos a los Vertedero Vermillion tan pronto como sea posible! ¡Hay justicia que debe ser servida!"
+                "text": "¡Spheromancer Lea! ¡Apurémonos y entremos al Vertedero Vermillion tan pronto como sea posible! ¡Hay justicia que debe ser servida!"
         },
         "database.json/commonEvents/apollo-contact/event/11/thenStep/0/message": {
                 "orig": "Hi!",
@@ -6869,7 +6869,7 @@
         },
         "database.json/commonEvents/joern-contact/event/10/thenStep/1/message": {
                 "orig": "Let's storm Vermillion Wasteland already.",
-                "text": "Ataquemos los Vertedero Vermillion de una vez."
+                "text": "Ataquemos el Vertedero Vermillion de una vez."
         },
         "database.json/commonEvents/joern-contact/event/10/thenStep/2/message": {
                 "orig": "So I can still do my shopping afterwards.",
