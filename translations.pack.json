@@ -393,7 +393,7 @@
         },
         "database.json/achievements/low-health-wins/name": {
                 "orig": "True Survivor",
-                "text": "Verdadero Sobreviviente"
+                "text": "Verdadero Superviviente"
         },
         "database.json/achievements/low-health-wins/description": {
                 "orig": "Survive 50 fights with \\c[3]33% or less of your max health\\c[0]. ",
@@ -1149,7 +1149,7 @@
         },
         "database.json/achievements/landmarks-bergen/description": {
                 "orig": "\\c[3]Find all Landmarks\\c[0] in Bergen Trail and Bergen.",
-                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en el Sendero de Bergen y Bergen."
+                "text": "\\c[3]Encuentra todos los Puntos de Referencia\\c[0] en el Sendero de Bergen y en Bergen."
         },
         "database.json/achievements/landmarks-maroon/name": {
                 "orig": "Maroon Landmarks",
@@ -1265,7 +1265,7 @@
         },
         "database.json/achievements/chests-cold/name": {
                 "orig": "Temple Mine Scavenger",
-                "text": "Carroñero de la Mina del Templo"
+                "text": "Carroñero del Templo Mina"
         },
         "database.json/achievements/chests-cold/description": {
                 "orig": "\\c[3]Find and open all Chests\\c[0] in \\v[area.cold-dng.name].",
@@ -1493,7 +1493,7 @@
         },
         "database.json/areas/arid-dng-1/description": {
                 "orig": "Your own personal dungeon in Vermillion Wasteland.",
-                "text": "Tu propia mazmorra personal en los Desechos Vermillion."
+                "text": "Tu propia mazmorra personal en los Vertedero Vermillion."
         },
         "database.json/areas/arid-dng-2/name": {
                 "orig": "Vermillion Tower",
@@ -1505,7 +1505,7 @@
         },
         "database.json/areas/arid/name": {
                 "orig": "Vermillion Wasteland",
-                "text": "Desechos Vermillion"
+                "text": "Vertedero Vermillion"
         },
         "database.json/areas/arid/shortName": {
                 "orig": "Ver. Wasteland",
@@ -1701,7 +1701,7 @@
         },
         "database.json/areas/cold-dng/name": {
                 "orig": "Temple Mine",
-                "text": "Mina del Templo"
+                "text": "Templo Mina"
         },
         "database.json/areas/cold-dng/description": {
                 "orig": "A once busy Mine with an uncovered temple crawling with hostile robots.",
@@ -6561,7 +6561,7 @@
         },
         "database.json/commonEvents/apollo-contact/event/10/thenStep/1/message": {
                 "orig": "Spheromancer Lea! Let's make haste and enter Vermillion Wasteland as soon as possible! There is justice that needs serving!",
-                "text": "¡Spheromancer Lea! ¡Apurémonos y entremos a los Desechos Vermillion tan pronto como sea posible! ¡Hay justicia que debe ser servida!"
+                "text": "¡Spheromancer Lea! ¡Apurémonos y entremos a los Vertedero Vermillion tan pronto como sea posible! ¡Hay justicia que debe ser servida!"
         },
         "database.json/commonEvents/apollo-contact/event/11/thenStep/0/message": {
                 "orig": "Hi!",
@@ -6869,7 +6869,7 @@
         },
         "database.json/commonEvents/joern-contact/event/10/thenStep/1/message": {
                 "orig": "Let's storm Vermillion Wasteland already.",
-                "text": "Ataquemos los Desechos Vermillion de una vez."
+                "text": "Ataquemos los Vertedero Vermillion de una vez."
         },
         "database.json/commonEvents/joern-contact/event/10/thenStep/2/message": {
                 "orig": "So I can still do my shopping afterwards.",
@@ -7817,7 +7817,7 @@
         },
         "database.json/commonEvents/hlin-contact/event/25/thenStep/2/message": {
                 "orig": "It has been some time now. Then again, the Temple Mine is quite long.",
-                "text": "Ha pasado un tiempo ya. Aunque la verdad, la Mina del Templo es bastante larga."
+                "text": "Ha pasado un tiempo ya. Aunque la verdad, el Templo Mina es bastante largo."
         },
         "database.json/commonEvents/hlin-contact/event/25/thenStep/3/message": {
                 "orig": "...!",
@@ -9181,7 +9181,7 @@
         },
         "database.json/drops/Cold-Dng-1/subArea": {
                 "orig": "Commonly found all throughout the Temple Mine.",
-                "text": "Se encuentra comunmente alrededor de toda la Mina del Templo."
+                "text": "Se encuentra comunmente alrededor del Templo Mina."
         },
         "database.json/drops/Cold-Dng-2/name": {
                 "orig": "Beta Egg Pot",
@@ -9189,7 +9189,7 @@
         },
         "database.json/drops/Cold-Dng-2/subArea": {
                 "orig": "Commonly found all throughout the Temple Mine.",
-                "text": "Se encuentra comunmente alrededor de toda la Mina del Templo."
+                "text": "Se encuentra comunmente alrededor del Templo Mina."
         },
         "database.json/drops/Cold-Dng-3/name": {
                 "orig": "Gamma Egg Pot",
@@ -9197,7 +9197,7 @@
         },
         "database.json/drops/Cold-Dng-3/subArea": {
                 "orig": "Commonly found all throughout the Temple Mine.",
-                "text": "Se encuentra comunmente alrededor de toda la Mina del Templo."
+                "text": "Se encuentra comunmente alrededor del Templo Mina."
         },
         "database.json/drops/Cold-Dng-4/name": {
                 "orig": "Delta Egg Pot",
@@ -9205,7 +9205,7 @@
         },
         "database.json/drops/Cold-Dng-4/subArea": {
                 "orig": "Commonly found all throughout the Temple Mine.",
-                "text": "Se encuentra comunmente alrededor de toda la Mina del Templo."
+                "text": "Se encuentra comunmente alrededor del Templo Mina."
         },
         "database.json/drops/Cold-Dng-Special-1/name": {
                 "orig": "Omega Egg Pot A",
@@ -9213,7 +9213,7 @@
         },
         "database.json/drops/Cold-Dng-Special-1/subArea": {
                 "orig": "Rarely found all throughout the Temple Mine.",
-                "text": "Se encuentra raramente alrededor de toda la Mina del Templo."
+                "text": "Se encuentra raramente alrededor del Templo Mina."
         },
         "database.json/drops/Cold-Dng-Special-2/name": {
                 "orig": "Omega Egg Pot B",
@@ -9221,7 +9221,7 @@
         },
         "database.json/drops/Cold-Dng-Special-2/subArea": {
                 "orig": "Rarely found all throughout the Temple Mine.",
-                "text": "Se encuentra raramente alrededor de toda la Mina del Templo."
+                "text": "Se encuentra raramente alrededor del Templo Mina."
         },
         "database.json/drops/heat-common-cactus-1/name": {
                 "orig": "Alpha Dry Cactone",
