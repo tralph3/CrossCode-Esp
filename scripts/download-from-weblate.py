@@ -128,9 +128,10 @@ def main() -> None:
 
     components_to_fetch_list = list[ComponentMeta]()
     for remote_meta in remote_components_list:
-        local_meta = downloads_state[remote_meta.id]
+        local_meta = downloads_state.get(remote_meta.id)
         if (
-            remote_meta.modification_timestamp is None
+            local_meta is None
+            or remote_meta.modification_timestamp is None
             or local_meta.modification_timestamp is None
             or remote_meta.modification_timestamp > local_meta.modification_timestamp
         ):
