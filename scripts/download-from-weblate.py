@@ -3,9 +3,9 @@ import urllib.request
 import json
 from multiprocessing.pool import ThreadPool
 from pathlib import Path
-import typing
+from typing import NamedTuple, Optional, Any
 from abc import ABCMeta, abstractmethod
-from datetime import datetime
+from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 import io
 import subprocess
@@ -20,25 +20,26 @@ PROJECT_DIR = Path(__file__).parent.parent
 CROSSLOCALE_SCAN_FILE = PROJECT_DIR / "scan.json"
 LOCALIZE_ME_PACKS_DIR = PROJECT_DIR / "packs"
 LOCALIZE_ME_MAPPING_FILE = PROJECT_DIR / "packs-mapping.json"
-TMP_DIR = PROJECT_DIR / ".trpack-compiler"
-DOWNLOADS_DIR = TMP_DIR / "download"
-CROSSLOCALE_PROJECT_DIR = TMP_DIR / "project"
+COMPILER_WORK_DIR = PROJECT_DIR / ".trpack-compiler"
+DOWNLOADS_DIR = COMPILER_WORK_DIR / "download"
+DOWNLOADS_STATE_FILE = COMPILER_WORK_DIR / "downloads-state.json"
+# CROSSLOCALE_PROJECT_DIR = COMPILER_WORK_DIR / "project"
 NETWORK_TIMEOUT = 5
 NETWORK_THREADS = 10
 
-TMP_DIR.mkdir(exist_ok=True)
+COMPILER_WORK_DIR.mkdir(exist_ok=True)
 DOWNLOADS_DIR.mkdir(exist_ok=True)
-CROSSLOCALE_PROJECT_DIR.mkdir(exist_ok=True)
+# CROSSLOCALE_PROJECT_DIR.mkdir(exist_ok=True)
 
 
-class ComponentMeta(typing.NamedTuple):
-    slug: str
-    modification_timestamp: typing.Optional[datetime]
+class ComponentMeta(NamedTuple):
+    id: str
+    modification_timestamp: Optional[datetime]
 
 
 class ComponentDownloader(metaclass=ABCMeta):
     @abstractmethod
-    def fetch_list(self) -> typing.Iterable[ComponentMeta]:
+    def fetch_list(self) -> list[ComponentMeta]:
         raise NotImplementedError()
 
     @abstractmethod
@@ -49,7 +50,7 @@ class ComponentDownloader(metaclass=ABCMeta):
 class WeblateApiComponentDownloader(ComponentDownloader):
     HOST = "https://weblate.crosscode.ru"
 
-    def fetch_list(self) -> typing.Iterable[ComponentMeta]:
+    def fetch_list(self) -> list[ComponentMeta]:
         components = []
         next_api_url = f"{self.HOST}/api/projects/crosscode/components/"
         while next_api_url is not None:
@@ -61,19 +62,15 @@ class WeblateApiComponentDownloader(ComponentDownloader):
                 next_api_url = api_response["next"]
                 for component in api_response["results"]:
                     components.append(
-                        ComponentMeta(
-                            slug=component["slug"], modification_timestamp=None
-                        )
+                        ComponentMeta(id=component["slug"], modification_timestamp=None)
                     )
         return components
 
     def fetch_component(self, component: ComponentMeta) -> None:
-        download_url = (
-            f"{self.HOST}/download/crosscode/{component.slug}/{PROJECT_LOCALE}"
-        )
+        download_url = f"{self.HOST}/download/crosscode/{component.id}/{PROJECT_LOCALE}"
         print(f"fetching {download_url}")
         with urllib.request.urlopen(download_url, timeout=NETWORK_TIMEOUT) as response:
-            with open(DOWNLOADS_DIR / f"{component.slug}.po", "wb") as output_file:
+            with open(DOWNLOADS_DIR / f"{component.id}.po", "wb") as output_file:
                 while True:
                     buf = response.read(io.DEFAULT_BUFFER_SIZE)
                     if not buf:
@@ -84,7 +81,7 @@ class WeblateApiComponentDownloader(ComponentDownloader):
 class NginxApiComponentDownloader(ComponentDownloader):
     HOST = "https://stronghold.crosscode.ru"
 
-    def fetch_list(self) -> typing.Iterable[ComponentMeta]:
+    def fetch_list(self) -> list[ComponentMeta]:
         components = []
         api_url = f"{self.HOST}/__json__/~weblate/download/crosscode/{PROJECT_LOCALE}/components/"
         print(f"fetching {api_url}")
@@ -94,16 +91,16 @@ class NginxApiComponentDownloader(ComponentDownloader):
                     mtime = parsedate_to_datetime(file_meta["mtime"])
                     components.append(
                         ComponentMeta(
-                            slug=file_meta["name"][:-3], modification_timestamp=mtime
+                            id=file_meta["name"][:-3], modification_timestamp=mtime
                         )
                     )
         return components
 
     def fetch_component(self, component: ComponentMeta) -> None:
-        download_url = f"{self.HOST}/__json__/~weblate/download/crosscode/{PROJECT_LOCALE}/components/{component.slug}.po"
+        download_url = f"{self.HOST}/__json__/~weblate/download/crosscode/{PROJECT_LOCALE}/components/{component.id}.po"
         print(f"fetching {download_url}")
         with urllib.request.urlopen(download_url, timeout=NETWORK_TIMEOUT) as response:
-            with open(DOWNLOADS_DIR / f"{component.slug}.po", "wb") as output_file:
+            with open(DOWNLOADS_DIR / f"{component.id}.po", "wb") as output_file:
                 while True:
                     buf = response.read(io.DEFAULT_BUFFER_SIZE)
                     if not buf:
@@ -112,20 +109,49 @@ class NginxApiComponentDownloader(ComponentDownloader):
 
 
 def main() -> None:
+    print("==> reading the downloads state")
+    downloads_state = dict[str, ComponentMeta]()
+    try:
+        with open(DOWNLOADS_STATE_FILE, "r") as file:
+            downloads_state_json = json.load(file)
+            if downloads_state_json["version"] == 1:
+                for c_id, c_data in downloads_state_json["data"].items():
+                    downloads_state[c_id] = ComponentMeta(
+                        c_id, datetime.fromtimestamp(c_data["mtime"], timezone.utc)
+                    )
+    except FileNotFoundError:
+        pass
+
     downloader: ComponentDownloader = NginxApiComponentDownloader()
     print("==> downloading the list of components")
-    components_list = downloader.fetch_list()
+    remote_components_list = downloader.fetch_list()
+
+    components_to_fetch_list = list[ComponentMeta]()
+    for remote_meta in remote_components_list:
+        local_meta = downloads_state[remote_meta.id]
+        if (
+            remote_meta.modification_timestamp is None
+            or local_meta.modification_timestamp is None
+            or remote_meta.modification_timestamp > local_meta.modification_timestamp
+        ):
+            components_to_fetch_list.append(remote_meta)
 
     with ThreadPool(NETWORK_THREADS) as pool:
-        print("==> downloading the .po files from Weblate")
+        print(
+            "==> downloading {} component(s) from Weblate".format(
+                len(components_to_fetch_list)
+            )
+        )
 
         def callback(component: ComponentMeta) -> ComponentMeta:
             downloader.fetch_component(component)
             return component
 
-        for component in pool.imap_unordered(callback, components_list):
-            print(f"downloaded {component.slug}")
+        for component in pool.imap_unordered(callback, components_to_fetch_list):
+            print(f"downloaded {component.id}")
+            downloads_state[component.id] = component
 
+    print("==> starting the translation pack compiler")
     subprocess.run(
         [
             CROSSLOCALE_BIN,
@@ -145,6 +171,22 @@ def main() -> None:
         ],
         check=True,
     )
+
+    print("==> writing the downloads state")
+    with open(DOWNLOADS_STATE_FILE, "w") as file:
+        downloads_state_json: Any = {
+            "version": 1,
+            "data": {
+                component_meta.id: {
+                    "mtime": component_meta.modification_timestamp.timestamp(),
+                }
+                for component_meta in downloads_state.values()
+            },
+        }
+        json.dump(downloads_state_json, file, ensure_ascii=False, indent=2)
+        file.write("\n")
+
+    print("==> done!")
 
 
 if __name__ == "__main__":
