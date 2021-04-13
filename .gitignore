@@ -1,2 +1,7 @@
 *~
 /.trpack-compiler/
+/config.json
+/packs-mapping.json
+/packs/
+/scan.json
+/string_cache.json

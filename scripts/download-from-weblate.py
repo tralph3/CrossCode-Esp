@@ -8,11 +8,19 @@ from abc import ABCMeta, abstractmethod
 from datetime import datetime
 from email.utils import parsedate_to_datetime
 import io
+import subprocess
 
+PROJECT_ORIGINAL_LOCALE = "en_US"
+PROJECT_ORIGINAL_LOCALE_SHORT = "en"
 PROJECT_LOCALE = "es_ES"
 PROJECT_LOCALE_SHORT = "es"
+CROSSLOCALE_BIN = "crosslocale"
 
-TMP_DIR = Path(__file__).parent.parent / ".trpack-compiler"
+PROJECT_DIR = Path(__file__).parent.parent
+CROSSLOCALE_SCAN_FILE = PROJECT_DIR / "scan.json"
+LOCALIZE_ME_PACKS_DIR = PROJECT_DIR / "packs"
+LOCALIZE_ME_MAPPING_FILE = PROJECT_DIR / "packs-mapping.json"
+TMP_DIR = PROJECT_DIR / ".trpack-compiler"
 DOWNLOADS_DIR = TMP_DIR / "download"
 CROSSLOCALE_PROJECT_DIR = TMP_DIR / "project"
 NETWORK_TIMEOUT = 5
@@ -31,11 +39,11 @@ class ComponentMeta(typing.NamedTuple):
 class ComponentDownloader(metaclass=ABCMeta):
     @abstractmethod
     def fetch_list(self) -> typing.Iterable[ComponentMeta]:
-        pass
+        raise NotImplementedError()
 
     @abstractmethod
     def fetch_component(self, component: ComponentMeta):
-        pass
+        raise NotImplementedError()
 
 
 class WeblateApiComponentDownloader(ComponentDownloader):
@@ -116,7 +124,27 @@ def main() -> None:
             return component
 
         for component in pool.imap_unordered(callback, components_list):
-            print(f"downloaded {component}")
+            print(f"downloaded {component.slug}")
+
+    subprocess.run(
+        [
+            CROSSLOCALE_BIN,
+            "convert",
+            "--scan={}".format(CROSSLOCALE_SCAN_FILE),
+            "--format=po",
+            "--original-locale={}".format(PROJECT_ORIGINAL_LOCALE),
+            "--remove-untranslated",
+            "--compact",
+            "--output-format=lm-tr-pack",
+            "--output={}".format(LOCALIZE_ME_PACKS_DIR),
+            "--splitter=lm-file-tree",
+            "--mapping-lm-paths",
+            "--mapping-output={}".format(LOCALIZE_ME_MAPPING_FILE),
+            "--",
+            DOWNLOADS_DIR,
+        ],
+        check=True,
+    )
 
 
 if __name__ == "__main__":
