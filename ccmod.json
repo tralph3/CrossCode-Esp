@@ -1,0 +1,19 @@
+{
+  "id": "CrossCode-Esp",
+  "version": "0.0.0",
+  "license": "(MIT AND CC-BY-4.0)",
+  "description": "Spanish translation for CrossCode",
+  "homepage": "https://github.com/tralph3/CrossCode-Esp",
+  "postload": "src/postload.js",
+  "dependencies": {
+    "crosscode": "~1.4.1",
+    "localize-me": "^1.0.0",
+    "ultimate-localized-ui": "^1.0.0"
+  },
+  "assets": [
+    "media/font/es_ES/flag.png",
+    "media/font/hall-fetica-bold.png",
+    "media/font/hall-fetica-small.png",
+    "media/font/tiny.png"
+  ]
+}
