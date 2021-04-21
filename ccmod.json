@@ -12,8 +12,8 @@
   },
   "assets": [
     "media/font/es_ES/flag.png",
-    "media/font/hall-fetica-bold.png",
-    "media/font/hall-fetica-small.png",
-    "media/font/tiny.png"
+    "media/font/es_ES/hall-fetica-bold.png",
+    "media/font/es_ES/hall-fetica-small.png",
+    "media/font/es_ES/tiny.png"
   ]
 }
