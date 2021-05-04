@@ -1,6 +1,7 @@
 *~
 /.trpack-compiler/
 /config.json
+/dist/
 /packs-mapping.json
 /packs/
 /scan.json
