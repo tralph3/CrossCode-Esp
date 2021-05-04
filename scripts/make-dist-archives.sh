@@ -16,9 +16,10 @@ LOCALIZE_ME_DOWNLOAD_COMMIT="6a7ec30756a0b742661936ee809d7b5f93ff359a"
 LOCALIZE_ME_DIR="Localize-me-v1.x-${LOCALIZE_ME_DOWNLOAD_COMMIT}"
 LOCALIZE_ME_DOWNLOAD_FILE="${LOCALIZE_ME_DIR}.tar.gz"
 LOCALIZE_ME_DOWNLOAD_URL="https://github.com/L-Sherry/Localize-me/tarball/${LOCALIZE_ME_DOWNLOAD_COMMIT}"
-CCLOADER3_DIR="ccloader_3.0.0-alpha_package"
-CCLOADER3_DOWNLOAD_FILE="${CCLOADER3_DIR}.tar.gz"
-CCLOADER3_DOWNLOAD_URL="https://stronghold.crosscode.ru/~dmitmel/ccloader3/20210401155559/${CCLOADER3_DOWNLOAD_FILE}"
+CCLOADER3_DOWNLOAD_DATE="20210504225816"
+CCLOADER3_DIR="ccloader3-${CCLOADER3_DOWNLOAD_DATE}"
+CCLOADER3_DOWNLOAD_FILE="${CCLOADER3_DIR}.tgz"
+CCLOADER3_DOWNLOAD_URL="https://stronghold.crosscode.ru/~dmitmel/ccloader3/${CCLOADER3_DOWNLOAD_DATE}/ccloader_3.0.0-alpha_quick-install.tar.gz"
 ULTIMATE_UI_DIR="ultimate-localized-ui_v1.0.0"
 ULTIMATE_UI_DOWNLOAD_FILE="${ULTIMATE_UI_DIR}.tgz"
 ULTIMATE_UI_DOWNLOAD_URL="https://github.com/CCDirectLink/crosscode-ru/releases/download/v1.2.0/${ULTIMATE_UI_DOWNLOAD_FILE}"
@@ -63,7 +64,7 @@ download_file "$ULTIMATE_UI_DOWNLOAD_URL" "$ULTIMATE_UI_DOWNLOAD_FILE"
 make_tar() {
   local output="$1"
   log "making ${output}"
-  tar --create --gzip --file "$output" --numeric-owner --owner 0 --group 0 --files-from -
+  tar --create --gzip --file "$output" --dereference --numeric-owner --owner 0 --group 0 --files-from -
 }
 
 unpack_tar() {
@@ -93,7 +94,8 @@ ln_safe() {
   ln --symbolic --relative --force --no-target-directory -- "$@"
 }
 ln_safe "$PROJECT_DIR" "$mod_id"
-ln_safe "$CCLOADER3_DIR" "ccloader"
+ln_safe "${CCLOADER3_DIR}/package.json" "package.json"
+ln_safe "${CCLOADER3_DIR}/ccloader" "ccloader"
 mkdir -p -- "assets/mods"
 ln_safe "$LOCALIZE_ME_DIR" "assets/mods/Localize-me"
 ln_safe "$ULTIMATE_UI_DIR" "assets/mods/ultimate-localized-ui"
@@ -113,8 +115,12 @@ list_mod_files "${mod_id}/" "${mod_files[@]}" >main_package_file_list.txt
 make_tar "${mod_id}_v${mod_ver}.tgz" <main_package_file_list.txt
 make_zip "${mod_id}_v${mod_ver}.zip" <main_package_file_list.txt
 {
+  list_mod_files "" assets/mods/Localize-me/**/*
+  list_mod_files "" assets/mods/ultimate-localized-ui/**/*
   list_mod_files "assets/mods/${mod_id}/" "${mod_files[@]}"
-  list_mod_files "" assets/mods/{Localize-me,ultimate-localized-ui}/**/* ccloader/**/*
+  list_mod_files "" ccloader/**/* package.json
 } >quick_install_file_list.txt
 make_tar "${mod_id}_quick-install_v${mod_ver}.tgz" <quick_install_file_list.txt
 make_zip "${mod_id}_quick-install_v${mod_ver}.zip" <quick_install_file_list.txt
+
+log "==> done!"
