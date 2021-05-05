@@ -5,6 +5,7 @@
   "description": "Spanish translation for CrossCode",
   "homepage": "https://github.com/tralph3/CrossCode-Esp",
   "postload": "src/postload.js",
+  "prestart": "src/prestart.js",
   "dependencies": {
     "crosscode": "~1.4.1",
     "localize-me": "^1.0.0",
