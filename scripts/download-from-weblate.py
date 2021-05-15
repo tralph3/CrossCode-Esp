@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 import urllib.request
+from http.client import HTTPResponse
+from contextlib import contextmanager
+import gzip
 import json
 from multiprocessing.pool import ThreadPool
 from pathlib import Path
-from typing import NamedTuple, Optional, Any, List, Dict
+from typing import Generator, NamedTuple, Optional, Any, List, Dict, Tuple
 from abc import ABCMeta, abstractmethod
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 import io
 import subprocess
 import os
+import shutil
 
 
 PROJECT_ORIGINAL_LOCALE = "en_US"
@@ -28,6 +32,24 @@ DOWNLOADS_STATE_FILE = COMPILER_WORK_DIR / "downloads-state.json"
 CROSSLOCALE_SCAN_FILE = COMPILER_WORK_DIR / f"scan-{PROJECT_TARGET_GAME_VERSION}.json"
 NETWORK_TIMEOUT = 5
 NETWORK_THREADS = 10
+
+
+@contextmanager
+def http_request(url: str) -> Generator[Tuple[HTTPResponse, io.BufferedIOBase], None, None]:
+  print(f"fetching {url}")
+  req = urllib.request.Request(url)
+  req.add_header('Accept-Encoding', 'gzip')
+
+  with urllib.request.urlopen(req, timeout=NETWORK_TIMEOUT) as res:
+    assert isinstance(res, HTTPResponse)
+    reader: io.BufferedIOBase = res
+
+    # <https://github.com/kurtmckee/feedparser/blob/727ee7f08f77d8f0a0f085ec3dfbc58e09f69a4b/feedparser/http.py#L166-L188>
+    content_encoding = res.getheader('content-encoding')
+    if content_encoding == "gzip":
+      reader = gzip.GzipFile(fileobj=res)
+
+    yield res, reader
 
 
 class ComponentMeta(NamedTuple):
@@ -53,9 +75,8 @@ class WeblateApiComponentDownloader(ComponentDownloader):
     components: List[ComponentMeta] = []
     next_api_url = f"{self.HOST}/api/projects/crosscode/components/"
     while next_api_url is not None:
-      print(f"fetching {next_api_url}")
-      with urllib.request.urlopen(next_api_url, timeout=NETWORK_TIMEOUT) as response:
-        api_response = json.load(response)
+      with http_request(next_api_url) as (_response, response_reader):
+        api_response = json.load(response_reader)
         next_api_url = api_response["next"]
         for component in api_response["results"]:
           components.append(ComponentMeta(id=component["slug"], modification_timestamp=None))
@@ -63,14 +84,9 @@ class WeblateApiComponentDownloader(ComponentDownloader):
 
   def fetch_component(self, component: ComponentMeta) -> None:
     download_url = f"{self.HOST}/download/crosscode/{component.id}/{PROJECT_LOCALE}"
-    print(f"fetching {download_url}")
-    with urllib.request.urlopen(download_url, timeout=NETWORK_TIMEOUT) as response:
+    with http_request(download_url) as (_response, response_reader):
       with open(DOWNLOADS_DIR / f"{component.id}.po", "wb") as output_file:
-        while True:
-          buf = response.read(io.DEFAULT_BUFFER_SIZE)
-          if not buf:
-            break
-          output_file.write(buf)
+        shutil.copyfileobj(response_reader, output_file)
 
 
 class NginxApiComponentDownloader(ComponentDownloader):
@@ -79,9 +95,8 @@ class NginxApiComponentDownloader(ComponentDownloader):
   def fetch_list(self) -> List[ComponentMeta]:
     components: List[ComponentMeta] = []
     api_url = f"{self.HOST}/__json__/~weblate/download/crosscode/{PROJECT_LOCALE}/components/"
-    print(f"fetching {api_url}")
-    with urllib.request.urlopen(api_url, timeout=NETWORK_TIMEOUT) as response:
-      for file_meta in json.load(response):
+    with http_request(api_url) as (_response, response_reader):
+      for file_meta in json.load(response_reader):
         if file_meta["type"] == "file" and file_meta["name"].endswith(".po"):
           mtime = parsedate_to_datetime(file_meta["mtime"])
           components.append(ComponentMeta(id=file_meta["name"][:-3], modification_timestamp=mtime))
@@ -89,14 +104,9 @@ class NginxApiComponentDownloader(ComponentDownloader):
 
   def fetch_component(self, component: ComponentMeta) -> None:
     download_url = f"{self.HOST}/__json__/~weblate/download/crosscode/{PROJECT_LOCALE}/components/{component.id}.po"
-    print(f"fetching {download_url}")
-    with urllib.request.urlopen(download_url, timeout=NETWORK_TIMEOUT) as response:
+    with http_request(download_url) as (_response, response_reader):
       with open(DOWNLOADS_DIR / f"{component.id}.po", "wb") as output_file:
-        while True:
-          buf = response.read(io.DEFAULT_BUFFER_SIZE)
-          if not buf:
-            break
-          output_file.write(buf)
+        shutil.copyfileobj(response_reader, output_file)
 
 
 def main() -> None:
@@ -145,14 +155,9 @@ def main() -> None:
     print(f"==> downloading the scan database for v{PROJECT_TARGET_GAME_VERSION}")
 
     download_url = f"https://raw.githubusercontent.com/dmitmel/crosslocale-scans/main/scan-{PROJECT_TARGET_GAME_VERSION}.json"
-    print(f"fetching {download_url}")
-    with urllib.request.urlopen(download_url, timeout=NETWORK_TIMEOUT) as response:
+    with http_request(download_url) as (_response, response_reader):
       with open(CROSSLOCALE_SCAN_FILE, "wb") as output_file:
-        while True:
-          buf = response.read(io.DEFAULT_BUFFER_SIZE)
-          if not buf:
-            break
-          output_file.write(buf)
+        shutil.copyfileobj(response_reader, output_file)
 
   print("==> starting the translation pack compiler")
   crosslocale_bin = PROJECT_DIR / CROSSLOCALE_BIN_NAME
