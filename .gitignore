@@ -17,3 +17,6 @@
 
 ##### DISTRIBUTABLES #####
 /dist/
+
+##### GITHUB ACTIONS #####
+/crosslocale.src/

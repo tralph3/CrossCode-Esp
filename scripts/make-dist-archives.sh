@@ -101,7 +101,7 @@ ln_safe "$LOCALIZE_ME_DIR" "assets/mods/Localize-me"
 ln_safe "$ULTIMATE_UI_DIR" "assets/mods/ultimate-localized-ui"
 ln_safe "$PROJECT_DIR" "assets/mods/${mod_id}"
 
-log "==> making mod-only packages"
+log "==> making packages"
 list_mod_files() {
   local prefix="$1"
   shift
