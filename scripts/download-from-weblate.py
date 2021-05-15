@@ -150,10 +150,9 @@ def main() -> None:
   if not CROSSLOCALE_SCAN_FILE.exists():
     print(f"==> downloading the scan database for v{PROJECT_TARGET_GAME_VERSION}")
 
-    with urllib.request.urlopen(
-      f"https://raw.githubusercontent.com/dmitmel/crosslocale-scans/main/scan-{PROJECT_TARGET_GAME_VERSION}.json",
-      timeout=NETWORK_TIMEOUT,
-    ) as response:
+    download_url = f"https://raw.githubusercontent.com/dmitmel/crosslocale-scans/main/scan-{PROJECT_TARGET_GAME_VERSION}.json"
+    print(f"fetching {download_url}")
+    with urllib.request.urlopen(download_url, timeout=NETWORK_TIMEOUT) as response:
       with open(CROSSLOCALE_SCAN_FILE, "wb") as output_file:
         while True:
           buf = response.read(io.DEFAULT_BUFFER_SIZE)
