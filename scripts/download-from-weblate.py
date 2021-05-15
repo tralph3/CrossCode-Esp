@@ -3,7 +3,7 @@ import urllib.request
 import json
 from multiprocessing.pool import ThreadPool
 from pathlib import Path
-from typing import NamedTuple, Optional, Any
+from typing import NamedTuple, Optional, Any, List, Dict
 from abc import ABCMeta, abstractmethod
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -47,7 +47,7 @@ class ComponentMeta(NamedTuple):
 class ComponentDownloader(metaclass=ABCMeta):
 
   @abstractmethod
-  def fetch_list(self) -> list[ComponentMeta]:
+  def fetch_list(self) -> List[ComponentMeta]:
     raise NotImplementedError()
 
   @abstractmethod
@@ -58,8 +58,8 @@ class ComponentDownloader(metaclass=ABCMeta):
 class WeblateApiComponentDownloader(ComponentDownloader):
   HOST = "https://weblate.crosscode.ru"
 
-  def fetch_list(self) -> list[ComponentMeta]:
-    components = []
+  def fetch_list(self) -> List[ComponentMeta]:
+    components: List[ComponentMeta] = []
     next_api_url = f"{self.HOST}/api/projects/crosscode/components/"
     while next_api_url is not None:
       print(f"fetching {next_api_url}")
@@ -85,8 +85,8 @@ class WeblateApiComponentDownloader(ComponentDownloader):
 class NginxApiComponentDownloader(ComponentDownloader):
   HOST = "https://stronghold.crosscode.ru"
 
-  def fetch_list(self) -> list[ComponentMeta]:
-    components = []
+  def fetch_list(self) -> List[ComponentMeta]:
+    components: List[ComponentMeta] = []
     api_url = f"{self.HOST}/__json__/~weblate/download/crosscode/{PROJECT_LOCALE}/components/"
     print(f"fetching {api_url}")
     with urllib.request.urlopen(api_url, timeout=NETWORK_TIMEOUT) as response:
@@ -110,7 +110,7 @@ class NginxApiComponentDownloader(ComponentDownloader):
 
 def main() -> None:
   print("==> reading the downloads state")
-  downloads_state = dict[str, ComponentMeta]()
+  downloads_state: Dict[str, ComponentMeta] = {}
   try:
     with open(DOWNLOADS_STATE_FILE, "r") as file:
       downloads_state_json = json.load(file)
@@ -126,7 +126,7 @@ def main() -> None:
   print("==> downloading the list of components")
   remote_components_list = downloader.fetch_list()
 
-  components_to_fetch_list = list[ComponentMeta]()
+  components_to_fetch_list: List[ComponentMeta] = []
   for remote_meta in remote_components_list:
     local_meta = downloads_state.get(remote_meta.id)
     if (
