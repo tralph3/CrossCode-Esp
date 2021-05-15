@@ -16,14 +16,15 @@ PROJECT_ORIGINAL_LOCALE = "en_US"
 PROJECT_ORIGINAL_LOCALE_SHORT = "en"
 PROJECT_LOCALE = "es_ES"
 PROJECT_LOCALE_SHORT = "es"
+PROJECT_TARGET_GAME_VERSION = "1.4.1-2"
 
 PROJECT_DIR = Path(__file__).parent.parent
-CROSSLOCALE_SCAN_FILE = PROJECT_DIR / "scan.json"
 LOCALIZE_ME_PACKS_DIR = PROJECT_DIR / "packs"
 LOCALIZE_ME_MAPPING_FILE = PROJECT_DIR / "packs-mapping.json"
 COMPILER_WORK_DIR = PROJECT_DIR / ".trpack-compiler"
 DOWNLOADS_DIR = COMPILER_WORK_DIR / "download"
 DOWNLOADS_STATE_FILE = COMPILER_WORK_DIR / "downloads-state.json"
+CROSSLOCALE_SCAN_FILE = COMPILER_WORK_DIR / f"scan-{PROJECT_TARGET_GAME_VERSION}.json"
 # CROSSLOCALE_PROJECT_DIR = COMPILER_WORK_DIR / "project"
 NETWORK_TIMEOUT = 5
 NETWORK_THREADS = 10
@@ -136,7 +137,7 @@ def main() -> None:
       components_to_fetch_list.append(remote_meta)
 
   with ThreadPool(NETWORK_THREADS) as pool:
-    print("==> downloading {} component(s) from Weblate".format(len(components_to_fetch_list)))
+    print(f"==> downloading {len(components_to_fetch_list)} component(s) from Weblate")
 
     def callback(component: ComponentMeta) -> ComponentMeta:
       downloader.fetch_component(component)
@@ -146,21 +147,35 @@ def main() -> None:
       print(f"downloaded {component.id}")
       downloads_state[component.id] = component
 
+  if not CROSSLOCALE_SCAN_FILE.exists():
+    print(f"==> downloading the scan database for v{PROJECT_TARGET_GAME_VERSION}")
+
+    with urllib.request.urlopen(
+      f"https://raw.githubusercontent.com/dmitmel/crosslocale-scans/main/scan-{PROJECT_TARGET_GAME_VERSION}.json",
+      timeout=NETWORK_TIMEOUT,
+    ) as response:
+      with open(CROSSLOCALE_SCAN_FILE, "wb") as output_file:
+        while True:
+          buf = response.read(io.DEFAULT_BUFFER_SIZE)
+          if not buf:
+            break
+          output_file.write(buf)
+
   print("==> starting the translation pack compiler")
   subprocess.run(
     [
       crosslocale_bin,
       "convert",
-      "--scan={}".format(CROSSLOCALE_SCAN_FILE),
+      f"--scan={CROSSLOCALE_SCAN_FILE}",
       "--format=po",
-      "--original-locale={}".format(PROJECT_ORIGINAL_LOCALE),
+      f"--original-locale={PROJECT_ORIGINAL_LOCALE}",
       "--remove-untranslated",
       "--compact",
       "--output-format=lm-tr-pack",
-      "--output={}".format(LOCALIZE_ME_PACKS_DIR),
+      f"--output={LOCALIZE_ME_PACKS_DIR}",
       "--splitter=lm-file-tree",
       "--mapping-lm-paths",
-      "--mapping-output={}".format(LOCALIZE_ME_MAPPING_FILE),
+      f"--mapping-output={LOCALIZE_ME_MAPPING_FILE}",
       "--",
       DOWNLOADS_DIR,
     ],

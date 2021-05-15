@@ -14,7 +14,6 @@
 /crosslocale
 # Windows binary
 /crosslocale.exe
-/scan.json
 
 ##### DISTRIBUTABLES #####
 /dist/
