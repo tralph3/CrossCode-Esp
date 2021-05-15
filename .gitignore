@@ -1,8 +1,20 @@
-*~
-/.trpack-compiler/
-/config.json
-/dist/
+##### LOCALIZE ME #####
 /packs-mapping.json
 /packs/
-/scan.json
+
+##### LOCALIZE ME TOOLS #####
+/config.json
 /string_cache.json
+# Backup files, automatically written by LMT
+*~
+
+##### TRANSLATION PACK DOWNLOADER AND COMPILER #####
+/.trpack-compiler/
+# UNIX binary
+/crosslocale
+# Windows binary
+/crosslocale.exe
+/scan.json
+
+##### DISTRIBUTABLES #####
+/dist/

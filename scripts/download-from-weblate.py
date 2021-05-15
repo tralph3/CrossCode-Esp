@@ -9,13 +9,13 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 import io
 import subprocess
+import os
 
 
 PROJECT_ORIGINAL_LOCALE = "en_US"
 PROJECT_ORIGINAL_LOCALE_SHORT = "en"
 PROJECT_LOCALE = "es_ES"
 PROJECT_LOCALE_SHORT = "es"
-CROSSLOCALE_BIN = "crosslocale"
 
 PROJECT_DIR = Path(__file__).parent.parent
 CROSSLOCALE_SCAN_FILE = PROJECT_DIR / "scan.json"
@@ -31,6 +31,11 @@ NETWORK_THREADS = 10
 COMPILER_WORK_DIR.mkdir(exist_ok=True)
 DOWNLOADS_DIR.mkdir(exist_ok=True)
 # CROSSLOCALE_PROJECT_DIR.mkdir(exist_ok=True)
+
+crosslocale_bin = (PROJECT_DIR / "crosslocale").with_suffix(".exe" if os.name == "nt" else "")
+if not crosslocale_bin.exists():
+  # fall back to finding the binary in PATH
+  crosslocale_bin = "crosslocale"
 
 
 class ComponentMeta(NamedTuple):
@@ -144,7 +149,7 @@ def main() -> None:
   print("==> starting the translation pack compiler")
   subprocess.run(
     [
-      CROSSLOCALE_BIN,
+      crosslocale_bin,
       "convert",
       "--scan={}".format(CROSSLOCALE_SCAN_FILE),
       "--format=po",
