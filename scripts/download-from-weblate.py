@@ -18,6 +18,7 @@ PROJECT_LOCALE = "es_ES"
 PROJECT_LOCALE_SHORT = "es"
 PROJECT_TARGET_GAME_VERSION = "1.4.1-2"
 
+CROSSLOCALE_BIN_NAME = "crosslocale"
 PROJECT_DIR = Path(__file__).parent.parent
 LOCALIZE_ME_PACKS_DIR = PROJECT_DIR / "packs"
 LOCALIZE_ME_MAPPING_FILE = PROJECT_DIR / "packs-mapping.json"
@@ -25,18 +26,8 @@ COMPILER_WORK_DIR = PROJECT_DIR / ".trpack-compiler"
 DOWNLOADS_DIR = COMPILER_WORK_DIR / "download"
 DOWNLOADS_STATE_FILE = COMPILER_WORK_DIR / "downloads-state.json"
 CROSSLOCALE_SCAN_FILE = COMPILER_WORK_DIR / f"scan-{PROJECT_TARGET_GAME_VERSION}.json"
-# CROSSLOCALE_PROJECT_DIR = COMPILER_WORK_DIR / "project"
 NETWORK_TIMEOUT = 5
 NETWORK_THREADS = 10
-
-COMPILER_WORK_DIR.mkdir(exist_ok=True)
-DOWNLOADS_DIR.mkdir(exist_ok=True)
-# CROSSLOCALE_PROJECT_DIR.mkdir(exist_ok=True)
-
-crosslocale_bin = (PROJECT_DIR / "crosslocale").with_suffix(".exe" if os.name == "nt" else "")
-if not crosslocale_bin.exists():
-  # fall back to finding the binary in PATH
-  crosslocale_bin = "crosslocale"
 
 
 class ComponentMeta(NamedTuple):
@@ -109,6 +100,9 @@ class NginxApiComponentDownloader(ComponentDownloader):
 
 
 def main() -> None:
+  COMPILER_WORK_DIR.mkdir(exist_ok=True)
+  DOWNLOADS_DIR.mkdir(exist_ok=True)
+
   print("==> reading the downloads state")
   downloads_state: Dict[str, ComponentMeta] = {}
   try:
@@ -161,6 +155,12 @@ def main() -> None:
           output_file.write(buf)
 
   print("==> starting the translation pack compiler")
+  crosslocale_bin = PROJECT_DIR / CROSSLOCALE_BIN_NAME
+  if os.name == "nt":
+    crosslocale_bin = crosslocale_bin.with_suffix(".exe")
+  if not crosslocale_bin.exists():
+    # fall back to finding the binary in PATH
+    crosslocale_bin = CROSSLOCALE_BIN_NAME
   subprocess.run(
     [
       crosslocale_bin,
