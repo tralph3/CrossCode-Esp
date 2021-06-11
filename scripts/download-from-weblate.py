@@ -80,17 +80,20 @@ class WeblateApiComponentDownloader(ComponentDownloader):
         api_response = json.load(response_reader)
         next_api_url = api_response["next"]
         for stats_obj in api_response["results"]:
+          c_id = stats_obj["component"]
+          if c_id == "glossary":
+            continue
           mtime: Optional[datetime] = None
           mtime_str: Optional[str] = stats_obj["last_change"]
           if mtime_str is not None:
             mtime = datetime.fromisoformat(
               mtime_str[:-1] + "+00:00" if mtime_str.endswith("Z") else mtime_str
             )
-          components.append(ComponentMeta(id=stats_obj["component"], modification_timestamp=mtime))
+          components.append(ComponentMeta(id=c_id, modification_timestamp=mtime))
     return components
 
   def fetch_component(self, component: ComponentMeta) -> None:
-    download_url = f"{self.HOST}/download/crosscode/{component.id}/{PROJECT_LOCALE}"
+    download_url = f"{self.HOST}/download/crosscode/{component.id}/{PROJECT_LOCALE_WEBLATE}"
     with http_request(download_url) as (_, response_reader):
       with open(DOWNLOADS_DIR / f"{component.id}.po", "wb") as output_file:
         shutil.copyfileobj(response_reader, output_file)
