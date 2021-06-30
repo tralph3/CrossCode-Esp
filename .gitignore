@@ -8,6 +8,9 @@
 # Backup files, automatically written by LMT
 *~
 
+##### PYTHON SCRIPTS #####
+__pycache__/
+
 ##### TRANSLATION PACK DOWNLOADER AND COMPILER #####
 /.trpack-compiler/
 # UNIX binary

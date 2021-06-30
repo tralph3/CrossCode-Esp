@@ -48,16 +48,16 @@ jobs:
           echo "${PWD}/target/release" >>"$GITHUB_PATH"
 
       - name: download and compile the translations
-        run: scripts/download-from-weblate.py
+        run: scripts/download_from_weblate.py
 
       - name: make the distributable archives
-        run: scripts/make-dist-archives.sh
+        run: scripts/make_dist_archives.py
 
       - name: prepare the distributables for upload
         run: |
           pkgdir="${RUNNER_TEMP}/pkg"
           mkdir -pv "$pkgdir"
-          cp -av dist/CrossCode-Esp{,_quick-install}_v0.1.0.{zip,tgz} "$pkgdir"
+          cp -av dist/*.{zip,tgz} "$pkgdir"
 
       - name: upload the distributables
         uses: actions/upload-artifact@v1
