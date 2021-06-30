@@ -16,7 +16,7 @@ from types import TracebackType
 from typing import IO, Any, Callable, Generator, Optional, Protocol, Tuple, Type, Union
 from zipfile import ZipFile, ZipInfo
 
-StrPath = Union[str, os.PathLike[str]]
+StrPath = Union[str, "os.PathLike[str]"]
 
 
 @contextmanager
