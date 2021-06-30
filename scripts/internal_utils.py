@@ -92,7 +92,8 @@ class ArchiveAdapter(Protocol):
     path: str,
     archived_path: str,
     recursive: bool = True,
-    predicate: Optional[FileFilter] = None
+    predicate: Optional[FileFilter] = None,
+    mtime: Optional[int] = None,
   ) -> None:
     raise NotImplementedError()
 
@@ -106,7 +107,19 @@ class TarGzArchiveAdapter(ArchiveAdapter):
 
   @classmethod
   def create(cls, path: StrPath) -> "TarGzArchiveAdapter":
-    return cls(TarFile.open(path, "w:gz"))
+    # GzipFile has to be created manually if we want reproducibility...
+    # <https://bugs.python.org/issue31526>
+    fileobj = gzip.GzipFile(path, "wb", mtime=0)
+    try:
+      t: Any = TarFile(path, "w", fileobj, format=tarfile.GNU_FORMAT)
+      # This will close the underlying GzipFile to be closed when the TarFile is
+      # closed. The field name probably deciphers to "external file object".
+      t._extfileobj = False
+      return cls(t)
+    except BaseException:
+      # Safeguard, taken from the `TarFile.gzopen` function.
+      fileobj.close()
+      raise
 
   def __init__(self, inner: TarFile) -> None:
     self._inner = inner
@@ -162,19 +175,21 @@ class TarGzArchiveAdapter(ArchiveAdapter):
     path: str,
     archived_path: str,
     recursive: bool = True,
-    predicate: Optional[ArchiveAdapter.FileFilter] = None
+    predicate: Optional[ArchiveAdapter.FileFilter] = None,
+    mtime: Optional[int] = None,
   ) -> None:
     return self._inner.add(
       path,
       arcname=archived_path,
       recursive=recursive,
-      filter=lambda info: self._reset_tarinfo(info, predicate),
+      filter=lambda info: self._reset_tarinfo(info, predicate, mtime),
     )
 
   def _reset_tarinfo(
     self,
     info: TarInfo,
     predicate: Optional[ArchiveAdapter.FileFilter],
+    mtime: Optional[int],
   ) -> Optional[TarInfo]:
     if predicate is not None and not predicate(info.name):
       return None
@@ -185,6 +200,10 @@ class TarGzArchiveAdapter(ArchiveAdapter):
     info.uname = ""
     info.gid = 0
     info.gname = ""
+
+    if mtime is not None:
+      info.mtime = mtime
+
     return info
 
 
@@ -228,7 +247,7 @@ class ZipArchiveAdapter(ArchiveAdapter):
     return self._add_entry(name, external_attr, mtime, b"")
 
   def _add_entry(self, name: str, external_attr: int, mtime: int, data: Union[bytes, str]) -> None:
-    info = ZipInfo(name, time.localtime(mtime)[:6])
+    info = ZipInfo(name, self._prepare_zipinfo_date_time(mtime))
     info.external_attr = external_attr
     self._set_zipinfo_compression(info)
     self._inner.writestr(info, data)
@@ -238,11 +257,14 @@ class ZipArchiveAdapter(ArchiveAdapter):
     path: str,
     archived_path: str,
     recursive: bool = True,
-    predicate: Optional[ArchiveAdapter.FileFilter] = None
+    predicate: Optional[ArchiveAdapter.FileFilter] = None,
+    mtime: Optional[float] = None,
   ) -> None:
-    inner_any: Any = self._inner
-    info = ZipInfo.from_file(path, archived_path, strict_timestamps=inner_any._strict_timestamps)
+    info = ZipInfo.from_file(path, archived_path, strict_timestamps=False)
     self._set_zipinfo_compression(info)
+    if mtime is None:
+      mtime = os.stat(path).st_mtime
+    info.date_time = self._prepare_zipinfo_date_time(mtime)
 
     if predicate is not None and not predicate(info.filename):
       return
@@ -266,3 +288,24 @@ class ZipArchiveAdapter(ArchiveAdapter):
     zipinfo_any: Any = zipinfo
     zipinfo_any.compress_type = inner_any.compression
     zipinfo_any._compresslevel = inner_any.compresslevel
+
+  def _prepare_zipinfo_date_time(self, timestamp: float) -> Tuple[int, int, int, int, int, int]:
+    # Apparently, the `ZipInfo.from_file` function of the standard library uses
+    # `time.localtime` by default, thus making the archive not reproducible if
+    # the system timezone is changed.
+    date_time: Tuple[int, ...] = time.gmtime(timestamp)[0:6]
+
+    # The following code was copied from the `zipfile` module due to the lack
+    # of a better option.
+    inner_any: Any = self._inner
+    strict_timestamps: bool = inner_any._strict_timestamps
+    if not strict_timestamps:
+      if date_time[0] < 1980:
+        date_time = (1980, 1, 1, 0, 0, 0)
+      elif date_time[0] > 2107:
+        date_time = (2107, 12, 31, 23, 59, 59)
+
+    if date_time[0] < 1980:
+      raise ValueError("ZIP does not support timestamps before 1980")
+
+    return date_time

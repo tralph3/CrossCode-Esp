@@ -3,6 +3,7 @@
 import glob
 import json
 import shutil
+import subprocess
 import urllib.parse
 from pathlib import Path
 from tarfile import TarFile
@@ -69,6 +70,14 @@ def main() -> None:
   # account when sorting.
   mod_files.sort()
 
+  commiter_time = int(
+    subprocess.run(
+      ["git", "log", "--max-count=1", "--date=unix", "--pretty=format:%cd"],
+      check=True,
+      stdout=subprocess.PIPE,
+    ).stdout
+  )
+
   print("==> making packages")
 
   all_archive_adapters: List[Type[internal_utils.ArchiveAdapter]] = [
@@ -84,6 +93,7 @@ def main() -> None:
           str(PROJECT_DIR / file),
           str(archived_prefix / file),
           recursive=False,
+          mtime=commiter_time,
         )
 
     def archive_add_dependency(
