@@ -7,7 +7,7 @@
   "postload": "src/postload.js",
   "prestart": "src/prestart.js",
   "dependencies": {
-    "crosscode": "~1.4.1",
+    "crosscode": "~1.4.2",
     "localize-me": "^1.0.0",
     "ultimate-localized-ui": "^1.0.0"
   },
