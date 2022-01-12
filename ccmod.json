@@ -4,6 +4,9 @@
   "license": "(MIT AND CC-BY-4.0)",
   "description": "Spanish translation for CrossCode",
   "homepage": "https://github.com/tralph3/CrossCode-Esp",
+  "icons": {
+    "24": "icon24.png"
+  },
   "postload": "src/postload.js",
   "prestart": "src/prestart.js",
   "dependencies": {
