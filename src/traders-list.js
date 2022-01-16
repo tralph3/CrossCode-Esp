@@ -1,4 +1,4 @@
-// Taken from <https://github.com/CCDirectLink/crosscode-ru/blob/5cab767ad7bc6ba75efd541ba6839f6801f04dce/src/traders-list.ts>
+// <https://github.com/CCDirectLink/crosscode-ru/blob/5cab767ad7bc6ba75efd541ba6839f6801f04dce/src/traders-list.ts>
 
 sc.esp.addLocaleSpecificPatch(() => {
   function patchTraderLocation(location) {
