@@ -1,8 +1,6 @@
 // Taken from <https://github.com/CCDirectLink/crosscode-ru/blob/5cab767ad7bc6ba75efd541ba6839f6801f04dce/src/traders-list.ts>
 
-localizeMe.register_locale_chosen(() => {
-  if (ig.currentLang !== 'es_ES') return;
-
+sc.esp.addLocaleSpecificPatch(() => {
   function patchTraderLocation(location) {
     location.textBlock.linePadding = -3;
   }
