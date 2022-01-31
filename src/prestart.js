@@ -5,3 +5,5 @@ import './tab-buttons.js';
 import './quest-dialog.js';
 import './quest-hub.js';
 import './equipment-menu.js';
+import './shop-menu.js';
+import './status-menu.js';
