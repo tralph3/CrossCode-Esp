@@ -3,6 +3,8 @@ import json
 import os
 import shutil
 import subprocess
+import traceback
+import urllib.error
 from abc import abstractmethod
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime as parse_rfc2822_date
@@ -168,10 +170,21 @@ def main() -> None:
   if not CROSSLOCALE_SCAN_FILE.exists():
     print(f"==> downloading the scan database for v{PROJECT_TARGET_GAME_VERSION}")
 
-    download_url = f"https://raw.githubusercontent.com/dmitmel/crosslocale-scans/main/scan-{PROJECT_TARGET_GAME_VERSION}.json"
-    with internal_utils.http_request(download_url, timeout=NETWORK_TIMEOUT) as (_, reader):
-      with open(CROSSLOCALE_SCAN_FILE, "wb") as output_file:
-        shutil.copyfileobj(reader, output_file)
+    download_urls = [
+      "https://raw.githubusercontent.com/dmitmel/crosscode-localization-data/main/scan.json",
+      f"https://raw.githubusercontent.com/dmitmel/crosslocale-scans/main/scan-{PROJECT_TARGET_GAME_VERSION}.json"
+    ]
+    for i, download_url in enumerate(download_urls):
+      try:
+        with internal_utils.http_request(download_url, timeout=NETWORK_TIMEOUT) as (_, reader):
+          with open(CROSSLOCALE_SCAN_FILE, "wb") as output_file:
+            shutil.copyfileobj(reader, output_file)
+        break
+      except urllib.error.HTTPError:
+        if i < len(download_url) - 1:
+          traceback.print_exc()
+        else:
+          raise
 
   print("==> starting the translation pack compiler")
   crosslocale_bin = PROJECT_DIR / CROSSLOCALE_BIN_NAME
