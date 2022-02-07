@@ -7,3 +7,4 @@ import './quest-hub.js';
 import './equipment-menu.js';
 import './shop-menu.js';
 import './status-menu.js';
+import './quick-menu.js';
