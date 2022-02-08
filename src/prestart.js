@@ -7,6 +7,7 @@ import './quest-hub.js';
 import './equipment-menu.js';
 import './shop-menu.js';
 import './status-menu.js';
+import './saves-menu.js';
 
 sc.esp.addLocaleSpecificPatch(() => {
   sc.QuickBorderArrowLevelBox.prototype.renderLevelLabelAsTextBlock = true;
