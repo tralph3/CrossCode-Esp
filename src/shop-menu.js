@@ -7,4 +7,11 @@ sc.esp.addLocaleSpecificPatch(() => {
       this.pageView.hook.pos.x -= ADDITIONAL_WIDTH / 2;
     },
   });
+
+  sc.ShopCart.inject({
+    init(...args) {
+      this.parent(...args);
+      this.checkout.setWidth(this.hook.size.x - this.checkout.hook.pos.x * 2 - 1);
+    },
+  });
 });
