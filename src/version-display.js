@@ -1,28 +1,29 @@
-// <https://github.com/CCDirectLink/crosscode-ru/blob/af5403b4fd0be67225a6fe0c3e3bb0b62dfa7c1e/src/version-display.ts>
+// <https://github.com/CCDirectLink/crosscode-ru/blob/66fcae728384072e7657c214988257071657d86a/src/version-display.ts>
 
-function attachVersionText(prevVersionGui) {
-  let version = modloader.loadedMods.get('CrossCode-Esp').version;
-  let newVersionGui = new sc.TextGui(`Esp v${version}`, {
-    font: sc.fontsystem.tinyFont,
-  });
-  newVersionGui.setAlign(prevVersionGui.hook.align.x, prevVersionGui.hook.align.y);
-  newVersionGui.setPos(0, prevVersionGui.hook.size.y);
-  prevVersionGui.addChildGui(newVersionGui);
-  return newVersionGui;
+const VERSION_TEXT_STR = `Esp v${modloader.loadedMods.get('CrossCode-Esp').version}`;
+
+function attachVersionTextGui(self) {
+  if (self.modVersionGuis == null) {
+    self.modVersionGuis = [self.ccloaderVersionGui];
+  }
+  let prevGui = self.modVersionGuis.last();
+  let newGui = new sc.TextGui(VERSION_TEXT_STR, { font: sc.fontsystem.tinyFont });
+  newGui.setAlign(prevGui.hook.align.x, prevGui.hook.align.y);
+  newGui.setPos(prevGui.hook.pos.x, prevGui.hook.pos.y + prevGui.hook.size.y);
+  self.versionGui.addChildGui(newGui);
+  self.modVersionGuis.push(newGui);
 }
 
 sc.TitleScreenGui.inject({
-  crosscodeEspVersionGui: null,
   init(...args) {
     this.parent(...args);
-    this.crosscodeEspVersionGui = attachVersionText(this.ccloaderVersionGui);
+    attachVersionTextGui(this);
   },
 });
 
 sc.PauseScreenGui.inject({
-  crosscodeEspVersionGui: null,
   init(...args) {
     this.parent(...args);
-    this.crosscodeEspVersionGui = attachVersionText(this.ccloaderVersionGui);
+    attachVersionTextGui(this);
   },
 });
