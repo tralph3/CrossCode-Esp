@@ -49,7 +49,7 @@ class ComponentDownloader(Protocol):
 
 
 class WeblateApiComponentDownloader(ComponentDownloader):
-  HOST = "https://weblate.crosscode.ru"
+  HOST = "https://weblate.openkrosskod.org"
 
   def fetch_list(self) -> List[ComponentMeta]:
     components: List[ComponentMeta] = []
@@ -79,7 +79,7 @@ class WeblateApiComponentDownloader(ComponentDownloader):
 
 
 class NginxApiComponentDownloader(ComponentDownloader):
-  HOST = "https://stronghold.crosscode.ru"
+  HOST = "https://stronghold.openkrosskod.org"
 
   def fetch_list(self) -> List[ComponentMeta]:
     components: List[ComponentMeta] = []

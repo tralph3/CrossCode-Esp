@@ -44,7 +44,7 @@ def main() -> None:
   )
 
   ccloader_file = download_dependency(
-    f"https://stronghold.crosscode.ru/~dmitmel/ccloader3/{CCLOADER3_DOWNLOAD_DATE}/ccloader_3.0.0-alpha_quick-install.tar.gz",
+    f"https://stronghold.openkrosskod.org/~dmitmel/ccloader3/{CCLOADER3_DOWNLOAD_DATE}/ccloader_3.0.0-alpha_quick-install.tar.gz",
     filename=f"ccloader-{CCLOADER3_DOWNLOAD_DATE}.tgz",
   )
 
