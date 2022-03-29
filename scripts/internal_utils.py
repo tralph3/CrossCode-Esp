@@ -13,7 +13,7 @@ from contextlib import contextmanager
 from http.client import HTTPResponse
 from tarfile import TarFile, TarInfo
 from types import TracebackType
-from typing import IO, Any, Callable, Generator, Optional, Protocol, Tuple, Type, Union
+from typing import IO, Any, Callable, ClassVar, Generator, Optional, Protocol, Tuple, Type, Union
 from zipfile import ZipFile, ZipInfo
 
 StrPath = Union[str, "os.PathLike[str]"]
@@ -54,7 +54,7 @@ class ArchiveAdapter(Protocol):
 
   FileFilter = Callable[[str], bool]
 
-  DEFAULT_EXTENSION: str
+  DEFAULT_EXTENSION: ClassVar[str]
 
   @classmethod
   @abstractmethod
