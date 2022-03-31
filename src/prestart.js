@@ -12,11 +12,24 @@ sc.esp.addLocaleSpecificPatch(() => {
   sc.QuickBorderArrowLevelBox.prototype.UI2_DRAW_LEVEL_LABEL_AS_TEXT_BLOCK = true;
   sc.SocialEntryButton.prototype.UI2_DRAW_STATUS_AS_TEXT_BLOCK = true;
 
-  sc.ArenaCupList.prototype.UI2_INCREASE_TAB_BUTTON_WIDTH = 135;
-  sc.BotanicsListBox.prototype.UI2_INCREASE_TAB_BUTTON_WIDTH = 160;
-  sc.OptionsTabBox.prototype.UI2_INCREASE_TAB_BUTTON_WIDTH = 105;
-  sc.QuestHubList.prototype.UI2_INCREASE_TAB_BUTTON_WIDTH = 105;
-  sc.QuestListBox.prototype.UI2_INCREASE_TAB_BUTTON_WIDTH = 100;
-  sc.SocialList.prototype.UI2_INCREASE_TAB_BUTTON_WIDTH = 95;
-  sc.TradersListBox.prototype.UI2_INCREASE_TAB_BUTTON_WIDTH = 200;
+  function tabBtnsCfg(clazz, opts = {}) {
+    clazz.prototype.UI2_TAB_BTN_AUTO_WIDTH = true;
+    let { min = 0, padding = 16 } = opts;
+    clazz.prototype.UI2_TAB_BTN_AUTO_WIDTH_MIN = min;
+    clazz.prototype.UI2_TAB_BTN_AUTO_WIDTH_PADDING = padding;
+  }
+
+  // tabBtnsCfg(sc.ItemTabbedBox);
+  tabBtnsCfg(sc.OptionsTabBox);
+  tabBtnsCfg(sc.QuestListBox);
+  tabBtnsCfg(sc.QuestHubList);
+  tabBtnsCfg(sc.EnemyListBox);
+  tabBtnsCfg(sc.LoreListBoxNew, { padding: 22 });
+  tabBtnsCfg(sc.StatsListBox);
+  tabBtnsCfg(sc.TrophyList);
+  tabBtnsCfg(sc.SocialList);
+  tabBtnsCfg(sc.TradersListBox);
+  tabBtnsCfg(sc.BotanicsListBox);
+  // tabBtnsCfg(sc.ArenaRoundList);
+  tabBtnsCfg(sc.ArenaCupList);
 });
