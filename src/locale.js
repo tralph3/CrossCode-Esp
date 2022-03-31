@@ -93,11 +93,3 @@ localizeMe.add_locale(sc.esp.TRANSLATION_LOCALE, {
     return canvas;
   },
 });
-
-sc.esp.addLocaleSpecificPatch = function (callback) {
-  localizeMe.register_locale_chosen(() => {
-    if (ig.currentLang === sc.esp.TRANSLATION_LOCALE) {
-      callback();
-    }
-  });
-};
