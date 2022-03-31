@@ -10,6 +10,6 @@ import './saves-menu.js';
 import './hud.js';
 
 sc.esp.addLocaleSpecificPatch(() => {
-  sc.QuickBorderArrowLevelBox.prototype.renderLevelLabelAsTextBlock = true;
-  sc.SocialEntryButton.prototype.renderStatusAsTextBlock = true;
+  sc.QuickBorderArrowLevelBox.prototype.UI2_DRAW_LEVEL_LABEL_AS_TEXT_BLOCK = true;
+  sc.SocialEntryButton.prototype.UI2_DRAW_STATUS_AS_TEXT_BLOCK = true;
 });
