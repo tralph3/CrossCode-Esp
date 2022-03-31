@@ -1,5 +1,4 @@
 import './version-display.js';
-import './traders-list.js';
 import './level-up.js';
 import './quest-hub.js';
 import './equipment-menu.js';
@@ -32,4 +31,7 @@ sc.esp.addLocaleSpecificPatch(() => {
   tabBtnsCfg(sc.BotanicsListBox);
   // tabBtnsCfg(sc.ArenaRoundList);
   tabBtnsCfg(sc.ArenaCupList);
+
+  sc.TradeButtonBox.prototype.UI2_SPLIT_LOCATION_INTO_TWO_LINES = true;
+  sc.TradersListBox.prototype.UI2_ADDITIONAL_WIDTH = 64;
 });
