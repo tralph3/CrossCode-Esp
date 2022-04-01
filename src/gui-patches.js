@@ -33,17 +33,18 @@ localizeMe.register_locale_chosen(() => {
     patchedGfx: new ig.Image('media/gui/status-gui.es_ES.png'),
 
     updateDrawables(renderer) {
-      renderer.addGfx(this.patchedGfx, 9, 0, 0, 0, 97, 20);
       renderer.addTransform().setTranslate(-7, 0);
-      let oldAddGfx = renderer.addGfx;
+      let { addGfx } = renderer;
       try {
-        // skip the first call to addGfx
-        renderer.addGfx = (_gfx, _posX, _posY, _srcX, _srcY, _sizeX, _sizeY) => {
-          renderer.addGfx = oldAddGfx;
+        renderer.addGfx = (gfx, posX, posY, srcX, srcY, sizeX, sizeY, flipX, flipY) => {
+          if (gfx === this.gfx && srcX === 0 && srcY === 192 && sizeX === 112 && sizeY === 20) {
+            return addGfx.call(renderer, this.patchedGfx, 16, 0, 0, 0, 97, 20);
+          }
+          return addGfx.call(renderer, gfx, posX, posY, srcX, srcY, sizeX, sizeY, flipX, flipY);
         };
         this.parent(renderer);
       } finally {
-        renderer.addGfx = oldAddGfx;
+        renderer.addGfx = addGfx;
       }
       renderer.undoTransform();
     },
