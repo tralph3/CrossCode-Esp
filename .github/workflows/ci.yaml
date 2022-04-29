@@ -2,7 +2,6 @@ name: Manual Build
 on: [workflow_dispatch]
 
 env:
-  CARGO_TERM_COLOR: always
   FORCE_COLOR: true
 
 jobs:
@@ -14,53 +13,28 @@ jobs:
       - name: download this project
         uses: actions/checkout@v2
 
-      - name: download dmitmel/crosscode-localization-engine
+      - name: install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '>=3.7'
+
+      - name: download crosslocale-mod-tools
         uses: actions/checkout@v2
         with:
           repository: dmitmel/crosscode-localization-engine
-          path: crosslocale.src
+          path: crosscode-localization-engine
 
-      - name: rust-toolchain file hack to avoid downloading the toolchain twice
-        run: |
-          ln -srfT crosslocale.src/rust-toolchain rust-toolchain
-
-      - name: install the Rust toolchain for building CrossLocalE
-        id: install_rust
-        uses: actions-rs/toolchain@v1
-
-      - name: setup cache for Rust
-        uses: actions/cache@v2
-        with:
-          path: |
-            ~/.cargo/registry
-            ~/.cargo/git
-            crosslocale.src/target
-          key: |
-            r1/${{ github.workflow }}/${{ runner.os }}/rust/${{ steps.install_rust.outputs.rustc_hash }}/${{ hashFiles('crosslocale.src/**/Cargo.lock') }}
-          restore-keys: |
-            r1/${{ github.workflow }}/${{ runner.os }}/rust/${{ steps.install_rust.outputs.rustc_hash }}/
-            r1/${{ github.workflow }}/${{ runner.os }}/rust/
-
-      - name: build CrossLocalE
-        working-directory: crosslocale.src
-        run: |
-          cargo build --release
-          echo "${PWD}/target/release" >>"$GITHUB_PATH"
+      - name: install crosslocale-mod-tools
+        run: cd crosscode-localization-engine/mod-tools && ./setup.py develop
 
       - name: download and compile the translations
-        run: scripts/download_from_weblate.py
+        run: crosslocale-mod-tools --no-progress-bars download
 
       - name: make the distributable archives
-        run: scripts/make_dist_archives.py
-
-      - name: prepare the distributables for upload
-        run: |
-          pkgdir="${RUNNER_TEMP}/pkg"
-          mkdir -pv "$pkgdir"
-          cp -av dist/*.{zip,tgz} "$pkgdir"
+        run: crosslocale-mod-tools --no-progress-bars make-dist
 
       - name: upload the distributables
         uses: actions/upload-artifact@v1
         with:
           name: dist
-          path: ${{ runner.temp }}/pkg
+          path: crosslocale-work/dist

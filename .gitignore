@@ -8,18 +8,8 @@
 # Backup files, automatically written by LMT
 *~
 
-##### PYTHON SCRIPTS #####
+##### CROSSLOCALE MOD TOOLS #####
+/crosscode-localization-engine/
+/crosslocale-work/
+/crosslocale-mod-tools.local.ini
 __pycache__/
-
-##### TRANSLATION PACK DOWNLOADER AND COMPILER #####
-/.trpack-compiler/
-# UNIX binary
-/crosslocale
-# Windows binary
-/crosslocale.exe
-
-##### DISTRIBUTABLES #####
-/dist/
-
-##### GITHUB ACTIONS #####
-/crosslocale.src/

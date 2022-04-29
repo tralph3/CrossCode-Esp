@@ -1,8 +1,0 @@
-{
-  "executionEnvironments": [
-    {
-      "root": "scripts",
-      "extraPaths": ["scripts"]
-    }
-  ]
-}
