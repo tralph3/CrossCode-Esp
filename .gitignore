@@ -10,6 +10,7 @@
 
 ##### CROSSLOCALE MOD TOOLS #####
 /crosscode-localization-engine/
+/crosscode-localization-data/
 /crosslocale-work/
 /crosslocale-mod-tools.local.ini
 __pycache__/
