@@ -115,4 +115,14 @@ localizeMe.register_locale_chosen(() => {
       renderer.addGfx(this.patchedGfx, 7, 0, 1, 28, 12, 7);
     },
   });
+
+  sc.QuestDetailsView.inject({
+    init(...args) {
+      this.parent(...args);
+      this.locationArea.tickerHook.maxWidth =
+        this.lines[0].hook.pos.x + this.lines[0].hook.size.x - this.locationArea.hook.pos.x;
+      this.locationMap.tickerHook.maxWidth =
+        this.lines[0].hook.pos.x + this.lines[0].hook.size.x - this.locationMap.hook.pos.x;
+    },
+  });
 });
