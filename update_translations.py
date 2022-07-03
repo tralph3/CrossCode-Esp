@@ -6,6 +6,6 @@ import sys
 project_dir = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, os.path.join(project_dir, "crosscode-localization-engine", "mod-tools", "src"))
 
-import crosslocale.mod_tools
-
-crosslocale.mod_tools.main([f"--project={project_dir}", "download"])
+if __name__ == "__main__":
+  from crosslocale.mod_tools import main
+  main([f"--project={project_dir}", "download"])
