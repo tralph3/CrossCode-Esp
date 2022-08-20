@@ -125,4 +125,12 @@ localizeMe.register_locale_chosen(() => {
         this.lines[0].hook.pos.x + this.lines[0].hook.size.x - this.locationMap.hook.pos.x;
     },
   });
+
+  sc.CircuitInfoBox.inject({
+    init(...args) {
+      this.parent(...args);
+      this.special.setPos(this.header.hook.pos.x, this.header.hook.pos.y);
+      this.special.setAlign(ig.GUI_ALIGN.X_LEFT, ig.GUI_ALIGN.Y_BOTTOM);
+    },
+  });
 });
